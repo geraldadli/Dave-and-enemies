@@ -1,0 +1,227 @@
+{
+  "asset_id": "mus_ending",
+  "duration_seconds": 10,
+  "loop": false,
+  "tempo": "Free timing against storyboard seconds",
+  "tuning": "A4=440 Hz; C4=MIDI 60",
+  "pitch_collection": [
+    "C",
+    "Db",
+    "E",
+    "F",
+    "G",
+    "Ab",
+    "B"
+  ],
+  "seed": 100631,
+  "markers": [
+    [
+      0,
+      "Threshold: C-Db-E-G exploration motif"
+    ],
+    [
+      2,
+      "Sparse C-G support beneath Dave's final line through second 5"
+    ],
+    [
+      6,
+      "To Be Continued title: F-E-Db-C answer"
+    ],
+    [
+      8,
+      "Open fifth decays to silence by second 10"
+    ]
+  ],
+  "end_fade_from_seconds": 8,
+  "events": [
+    {
+      "instrument": "pad",
+      "start_seconds": 0,
+      "note": 48,
+      "gate_seconds": 4.8,
+      "velocity": 0.026213631520174585,
+      "pan": -0.2985165154879014,
+      "seed": 1751393008
+    },
+    {
+      "instrument": "pad",
+      "start_seconds": 0,
+      "note": 55,
+      "gate_seconds": 4.8,
+      "velocity": 0.01772280408495135,
+      "pan": 0.2779287452011627,
+      "seed": 200802417
+    },
+    {
+      "instrument": "doum",
+      "start_seconds": 0,
+      "note": null,
+      "gate_seconds": 0.3,
+      "velocity": 0.022166727201002132,
+      "pan": -0.0821637021453496,
+      "seed": 2007835816
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 0,
+      "note": 60,
+      "gate_seconds": 0.35,
+      "velocity": 0.08334334693000664,
+      "pan": -0.15956146285966827,
+      "seed": 1591117253
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 0.45,
+      "note": 61,
+      "gate_seconds": 0.2,
+      "velocity": 0.08614319958439313,
+      "pan": -0.1824335180007852,
+      "seed": 1453373985
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 0.7,
+      "note": 64,
+      "gate_seconds": 0.28,
+      "velocity": 0.08544833719004528,
+      "pan": -0.16171865075999367,
+      "seed": 350242536
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 1.1,
+      "note": 67,
+      "gate_seconds": 0.45,
+      "velocity": 0.08367354494201594,
+      "pan": -0.1867959119056802,
+      "seed": 1925892134
+    },
+    {
+      "instrument": "flute",
+      "start_seconds": 0,
+      "note": 60,
+      "gate_seconds": 0.35,
+      "velocity": 0.04841615364444517,
+      "pan": 0.14285054866498964,
+      "seed": 2053848918
+    },
+    {
+      "instrument": "flute",
+      "start_seconds": 0.45,
+      "note": 61,
+      "gate_seconds": 0.2,
+      "velocity": 0.04712788857429668,
+      "pan": 0.16786219783875778,
+      "seed": 934733970
+    },
+    {
+      "instrument": "flute",
+      "start_seconds": 0.7,
+      "note": 64,
+      "gate_seconds": 0.28,
+      "velocity": 0.04871014799881153,
+      "pan": 0.16102247024538108,
+      "seed": 1050039505
+    },
+    {
+      "instrument": "flute",
+      "start_seconds": 1.1,
+      "note": 67,
+      "gate_seconds": 0.45,
+      "velocity": 0.04818427937642234,
+      "pan": 0.1477801562584772,
+      "seed": 701730036
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 6,
+      "note": 65,
+      "gate_seconds": 0.3,
+      "velocity": 0.07854821876240314,
+      "pan": -0.13517472288067733,
+      "seed": 417623544
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 6.4,
+      "note": 64,
+      "gate_seconds": 0.3,
+      "velocity": 0.08184576872706431,
+      "pan": -0.1060263132592393,
+      "seed": 44720413
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 6.8,
+      "note": 61,
+      "gate_seconds": 0.3,
+      "velocity": 0.08218922846044406,
+      "pan": -0.10630728420907191,
+      "seed": 239481947
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 7.2,
+      "note": 60,
+      "gate_seconds": 0.7,
+      "velocity": 0.08180143059008786,
+      "pan": -0.1390089409652344,
+      "seed": 1368066569
+    },
+    {
+      "instrument": "flute",
+      "start_seconds": 6,
+      "note": 65,
+      "gate_seconds": 0.3,
+      "velocity": 0.050748507818660415,
+      "pan": 0.1399634851541849,
+      "seed": 1451509980
+    },
+    {
+      "instrument": "flute",
+      "start_seconds": 6.4,
+      "note": 64,
+      "gate_seconds": 0.3,
+      "velocity": 0.05304516899277081,
+      "pan": 0.12950741466380453,
+      "seed": 1693331244
+    },
+    {
+      "instrument": "flute",
+      "start_seconds": 6.8,
+      "note": 61,
+      "gate_seconds": 0.3,
+      "velocity": 0.05108204596525997,
+      "pan": 0.11330895262006863,
+      "seed": 1081302615
+    },
+    {
+      "instrument": "flute",
+      "start_seconds": 7.2,
+      "note": 60,
+      "gate_seconds": 0.7,
+      "velocity": 0.053461530423355316,
+      "pan": 0.12727845305610574,
+      "seed": 900774583
+    },
+    {
+      "instrument": "pad",
+      "start_seconds": 7.5,
+      "note": 48,
+      "gate_seconds": 2.5,
+      "velocity": 0.02776681894889477,
+      "pan": -0.2724519319220317,
+      "seed": 1009627885
+    },
+    {
+      "instrument": "pad",
+      "start_seconds": 7.5,
+      "note": 55,
+      "gate_seconds": 2.5,
+      "velocity": 0.019511376641372168,
+      "pan": 0.27193855437557557,
+      "seed": 1599802962
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_skeleton_warrior_death",
+  "purpose": "Skeleton warrior breaks down",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.85,
+  "actual_duration_seconds": 0.85,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_skeleton_warrior_death_1.wav",
+      "path": "audio/sfx/snd_skeleton_warrior_death_1.wav",
+      "sha256": "bb92ff018be5271c34a0be427bfbb29e80482d0f70bfecbc982ff46b36eec03e",
+      "bytes": 75014,
+      "frames": 37485,
+      "duration_seconds": 0.85,
+      "seed": 2412791811,
+      "measurements": {
+        "sample_peak_dbfs": -7.00471,
+        "oversampled_peak_dbfs_4x": -6.98479,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -24.89829,
+        "dc_offset": 6.838672969187675e-08,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 0.884
+      }
+    },
+    {
+      "file": "snd_skeleton_warrior_death_2.wav",
+      "path": "audio/sfx/snd_skeleton_warrior_death_2.wav",
+      "sha256": "685cf2d59166618bb802e79955708d0000c0762b7db86597ecaeb2876cb5ceea",
+      "bytes": 75014,
+      "frames": 37485,
+      "duration_seconds": 0.85,
+      "seed": 3019111818,
+      "measurements": {
+        "sample_peak_dbfs": -6.77791,
+        "oversampled_peak_dbfs_4x": -6.77239,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -24.89828,
+        "dc_offset": 7.327149609843937e-08,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 0.975
+      }
+    },
+    {
+      "file": "snd_skeleton_warrior_death_3.wav",
+      "path": "audio/sfx/snd_skeleton_warrior_death_3.wav",
+      "sha256": "ba63de3070e304923fee338f4df526e0e1007a021f9009dd1e70ebc99399e44e",
+      "bytes": 75014,
+      "frames": 37485,
+      "duration_seconds": 0.85,
+      "seed": 910229659,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.97954,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -24.89828,
+        "dc_offset": -1.196767769607843e-07,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 1.066
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_skeleton_warrior_death: Skeleton warrior breaks down. Create a descending small pile of dry wooden and ceramic bone-like pieces with one damped weapon clink into sand. No glass, gore, voice or huge crash. Deliver 3 separate distinct takes, each 0.85 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 1e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

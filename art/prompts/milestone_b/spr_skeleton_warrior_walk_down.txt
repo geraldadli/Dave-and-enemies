@@ -1,0 +1,27 @@
+Use case: identity-preserve.
+
+Asset ID: spr_skeleton_warrior_walk_down. Purpose: skeleton warrior walk. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach art/reference/template_sprite_inspection.png as the authoritative style/density reference. Match the supplied Hero's Trail template reference: elevated top-down three-quarter orthographic adventure view, smooth antialiased illustrated cartoon game art, dark charcoal outlines about 1-2 native pixels wide, broad soft cel shading, light from upper left, restrained highlights and slate or warm brown shadows. Human-sized humanoids have compact chibi proportions with heads about 35-40 percent of body height; creatures keep the specific anatomy described below. These are 64-pixel tiles with roughly 78-pixel-tall human bodies. Preserve native visual density; no coarse pixel grid, realistic rendering, anime redesign, isometric diamond grid, noisy microtexture, text, watermark, labels or checkerboard painted into pixels.
+
+Production gate: run the animation request only after this character base and this facing pass native-size identity, perspective and alignment inspection. If that gate is pending, make only the neutral base/facing reference first, then stop before animation.
+
+Attach the established skeleton_warrior base model as the identity reference. If it has not been established, generate only its neutral base first and stop before animation. Do not invent a new design for each state.
+
+Subject: A dry ivory skeleton warrior, hollow charcoal sockets, clear ribcage, worn ochre shoulder guards, brown waist cloth, a short straight iron sword in anatomical right hand and a small worn round shield on the left forearm. Use the sword option consistently, not an interchangeable spear. Body height 76-80 pixels.
+
+Direction: Face screen down toward the camera; elevated view, visible shoulder tops, feet on the fixed ground line.
+
+Final target: 128x128 native pixels PER FRAME; All frames fixed 128x128 canvas, no trimming; origin (64, 112). Anchor is the feet or ground point; no baked ground shadow.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate ONLY this one asset/action/direction as 8 chronological frames in one horizontal row, equally sized cells, left to right, no labels or visible grid lines. Planned final strip is 1024x128, or individual fixed 128x128 frames. A generator may produce a larger source; exact grid and dimensions must be checked and exported afterward. No other characters, actions or directions.
+
+Pose plan, zero-based indices: f0 passing; f1 approach; f2 first CONTACT; f3 push; f4 passing opposite; f5 approach; f6 opposite CONTACT; f7 push into f0. Preserve weapon silhouette and head scale.
+
+Playback specification: 16 fps; loop. 8 frames from A6 family coverage; 16 fps and contacts f2/f6 proposed.
+
+Transparent outer canvas, no ground plane or baked ground shadow. Preserve solid interiors, clean straight alpha and no clipped silhouette. Source artwork is not an engine-ready export until measured and inspected.
+
+Inspection before acceptance: Inspect all frames over the same body/ground overlay; no head-size or anatomy drift. Weapon hand, garment layers, palette and upper-left highlights remain fixed. Read the silhouette at native size on pale sand and dark ruins. Check chronological pose order, contact/release frames and last-to-first transition if looping. No weapon, cape, ear or effect clipped at a canvas edge.

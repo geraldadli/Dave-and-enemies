@@ -1,0 +1,15 @@
+{
+  "read_date": "2026-10-31",
+  "source_documents": [
+    {
+      "path": "docs/PROJECT_CONTRACT.md",
+      "sha256": "1914c92aa8454e422e61fd0e0ee553df50213e9484e9055f4ea0b477a5261591"
+    },
+    {
+      "path": "docs/ASSET_REQUESTS.md",
+      "sha256": "822719304766b32eda66172eb158d9a023039b11a716a6bdf3dc4cdc654b4070"
+    }
+  ],
+  "original_brief_chat": "Create Dave’s action game prompt",
+  "original_brief_thread_id": "01a19086-ad27-7ba2-b483-5f550e9c8e07"
+}

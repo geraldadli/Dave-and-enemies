@@ -1,0 +1,27 @@
+Use case: identity-preserve.
+
+Asset ID: spr_dave_walk_side. Purpose: dave walk. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach art/reference/template_sprite_inspection.png as the authoritative style/density reference. Match the supplied Hero's Trail template reference: elevated top-down three-quarter orthographic adventure view, smooth antialiased illustrated cartoon game art, dark charcoal outlines about 1-2 native pixels wide, broad soft cel shading, light from upper left, restrained highlights and slate or warm brown shadows. Human-sized humanoids have compact chibi proportions with heads about 35-40 percent of body height; creatures keep the specific anatomy described below. These are 64-pixel tiles with roughly 78-pixel-tall human bodies. Preserve native visual density; no coarse pixel grid, realistic rendering, anime redesign, isometric diamond grid, noisy microtexture, text, watermark, labels or checkerboard painted into pixels.
+
+Production gate: run the animation request only after this character base and this facing pass native-size identity, perspective and alignment inspection. If that gate is pending, make only the neutral base/facing reference first, then stop before animation.
+
+Subject: Dave's established identity is v002. Use its cleaned master art/source/dave/down_batch_v001/dave_base_down_v002_clean_v001.png, with native registration art/exports/dave/down_v001/dave_base_down_reference/dave_base_down_reference_00.png; attach these together with art/reference/template_sprite_inspection.png. Preserve his swept long golden-brown hair to the shoulder blades, warm friendly resolute face, shining cool silver rounded paladin armor, ivory layered tabard, warm brown undergarments, brown belt and boots, deep red cape attached by two small brass shoulder clasps, and straight steel sword with brass crossguard and brown grip in his ANATOMICAL RIGHT hand. No shield. Keep the face, head-to-body ratio, shoulders, blade length, costume layers, cape attachment and upper-left light consistent. Body height 76-80 native pixels. For down view the sword hand is on image left; derive other facings by anatomy, never swap the weapon to the other hand.
+
+Direction: Face screen right; retain visible top surfaces and readable overlapping forms, not a flat side-scroller camera.
+
+Final target: 96x96 native pixels PER FRAME; All frames fixed 96x96 canvas, no trimming; origin (48, 88). Anchor is the feet or ground point; no baked ground shadow.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate ONLY this one asset/action/direction as 10 chronological frames in one horizontal row, equally sized cells, left to right, no labels or visible grid lines. Planned final strip is 960x96, or individual fixed 96x96 frames. A generator may produce a larger source; exact grid and dimensions must be checked and exported afterward. No other characters, actions or directions.
+
+Pose plan, zero-based indices: f0 passing into first stride; f1 approach; f2 first foot CONTACT; f3 load; f4 push; f5 opposite passing; f6 approach; f7 opposite foot CONTACT; f8 load; f9 push returning to f0. Ground anchor fixed, body bob <=2 native pixels; cape and hair lag the torso by one pose.
+
+Playback specification: 20 fps; loop. contract.
+
+Additional constraints: Contacts are zero-based frame indices 2 and 7. Keep both soles aligned to the ground plane; do not duplicate f0 as an extra end frame.
+
+Transparent outer canvas, no ground plane or baked ground shadow. Preserve solid interiors, clean straight alpha and no clipped silhouette. Source artwork is not an engine-ready export until measured and inspected.
+
+Inspection before acceptance: Inspect all frames over the same body/ground overlay; no head-size or anatomy drift. Weapon hand, garment layers, palette and upper-left highlights remain fixed. Read the silhouette at native size on pale sand and dark ruins. Check chronological pose order, contact/release frames and last-to-first transition if looping. No weapon, cape, ear or effect clipped at a canvas edge.

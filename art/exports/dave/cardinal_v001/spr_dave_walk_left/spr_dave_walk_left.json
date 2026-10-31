@@ -1,0 +1,492 @@
+{
+  "source": "art/source/dave/cardinal_batch_v001/spr_dave_walk_left_source_v001.png",
+  "reference": "art/source/dave/cardinal_batch_v001/dave_base_left_source_v001.png",
+  "canvas_px": [
+    96,
+    96
+  ],
+  "origin_px": [
+    48,
+    88
+  ],
+  "direction": "left",
+  "world_facing": "west/left",
+  "world_direction_index": 4,
+  "scale": 0.2245,
+  "source_frames": [
+    {
+      "component_label": 1,
+      "box": [
+        29,
+        23,
+        413,
+        377
+      ],
+      "anchor": [
+        202.9543429844098,
+        351
+      ],
+      "scale": 0.2245
+    },
+    {
+      "component_label": 2,
+      "box": [
+        415,
+        24,
+        806,
+        374
+      ],
+      "anchor": [
+        207.45434298440978,
+        350
+      ],
+      "scale": 0.2245
+    },
+    {
+      "component_label": 3,
+      "box": [
+        806,
+        25,
+        1194,
+        377
+      ],
+      "anchor": [
+        198.45434298440978,
+        349
+      ],
+      "scale": 0.2245
+    },
+    {
+      "component_label": 4,
+      "box": [
+        1193,
+        25,
+        1583,
+        378
+      ],
+      "anchor": [
+        200.45434298440978,
+        349
+      ],
+      "scale": 0.2245
+    },
+    {
+      "component_label": 5,
+      "box": [
+        1581,
+        25,
+        1964,
+        379
+      ],
+      "anchor": [
+        193.45434298440978,
+        349
+      ],
+      "scale": 0.2245
+    },
+    {
+      "component_label": 6,
+      "box": [
+        15,
+        407,
+        407,
+        761
+      ],
+      "anchor": [
+        206.4543429844098,
+        351
+      ],
+      "scale": 0.2245
+    },
+    {
+      "component_label": 7,
+      "box": [
+        405,
+        409,
+        796,
+        758
+      ],
+      "anchor": [
+        195.45434298440978,
+        349
+      ],
+      "scale": 0.2245
+    },
+    {
+      "component_label": 8,
+      "box": [
+        795,
+        409,
+        1185,
+        755
+      ],
+      "anchor": [
+        202.45434298440978,
+        349
+      ],
+      "scale": 0.2245
+    },
+    {
+      "component_label": 9,
+      "box": [
+        1183,
+        409,
+        1581,
+        754
+      ],
+      "anchor": [
+        188.45434298440978,
+        349
+      ],
+      "scale": 0.2245
+    },
+    {
+      "component_label": 10,
+      "box": [
+        1582,
+        409,
+        1968,
+        765
+      ],
+      "anchor": [
+        211.45434298440978,
+        349
+      ],
+      "scale": 0.2245
+    }
+  ],
+  "fps": 20,
+  "loop": "loop",
+  "foot_contacts": [
+    2,
+    7
+  ],
+  "review_durations_ms": [
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50
+  ],
+  "handedness": "far anatomical-right arm holds sword, near left hand remains empty in all10 frames",
+  "allow_image_xscale_mirror": false,
+  "naming_status": "new stable authored-left ID requested by user; Claude registration pending",
+  "notes": "Independent left-facing art, screen-space upper-left light. Uniform scale; hip-relative roots with common1px native left clearance offset, not frame-by-frame cropping.",
+  "asset_id": "spr_dave_walk_left",
+  "source_sha256": "d1022950e34c4433479a164a1fa28864843bb464d796383f06bcf75a8acf03ef",
+  "frame_count": 10,
+  "delivery": "individual PNG frames and horizontal strip; 8-bit RGBA sRGB straight alpha",
+  "source_frames_are_measured": true,
+  "inspection": {
+    "frames": [
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          3,
+          10,
+          88,
+          88
+        ],
+        "solid_bounds": [
+          4,
+          10,
+          87,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 6105,
+        "opaque_pixels": 2489,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_walk_left_source_v001.png"
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          2,
+          10,
+          89,
+          88
+        ],
+        "solid_bounds": [
+          3,
+          11,
+          88,
+          87
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5955,
+        "opaque_pixels": 2513,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_walk_left_source_v001.png"
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          4,
+          10,
+          90,
+          88
+        ],
+        "solid_bounds": [
+          5,
+          11,
+          89,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5862,
+        "opaque_pixels": 2570,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_walk_left_source_v001.png"
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          4,
+          10,
+          90,
+          88
+        ],
+        "solid_bounds": [
+          5,
+          11,
+          89,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5962,
+        "opaque_pixels": 2569,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_walk_left_source_v001.png"
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          6,
+          10,
+          90,
+          88
+        ],
+        "solid_bounds": [
+          6,
+          11,
+          89,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 6057,
+        "opaque_pixels": 2453,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_walk_left_source_v001.png"
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          2,
+          10,
+          89,
+          88
+        ],
+        "solid_bounds": [
+          3,
+          10,
+          89,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5975,
+        "opaque_pixels": 2459,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_walk_left_source_v001.png"
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          5,
+          10,
+          91,
+          88
+        ],
+        "solid_bounds": [
+          5,
+          11,
+          91,
+          87
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5996,
+        "opaque_pixels": 2404,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_walk_left_source_v001.png"
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          3,
+          11,
+          90,
+          87
+        ],
+        "solid_bounds": [
+          4,
+          11,
+          89,
+          86
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5865,
+        "opaque_pixels": 2528,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_walk_left_source_v001.png"
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          7,
+          10,
+          94,
+          87
+        ],
+        "solid_bounds": [
+          7,
+          11,
+          94,
+          86
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5988,
+        "opaque_pixels": 2407,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_walk_left_source_v001.png"
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          2,
+          10,
+          87,
+          89
+        ],
+        "solid_bounds": [
+          2,
+          11,
+          86,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5939,
+        "opaque_pixels": 2485,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_walk_left_source_v001.png"
+      }
+    ],
+    "mechanical_checks_passed": true,
+    "visual_checks": {
+      "identity": "native frames and source atlas inspected for v002 hair, silver armor, ivory/brown garments, red cape and upper-left light",
+      "handedness": "Anatomical right far shoulder/arm holds sword; near foreground left arm remains empty. Independent drawing, no whole-sprite mirror.",
+      "registration": "fixed untrimmed canvases/origins, measured source roots and common uniform scales; no anatomical part warping",
+      "phase_plan": "contacts f2/f7; cloth and heels partly occlude leg identity; check planted-foot sliding in moving engine preview",
+      "alpha": "reviewed over white, black, sand and dark ruins; source RGB under alpha0 cleared on export",
+      "adjacent_premultiplied_rgba_MAD": [
+        20.84,
+        18.729,
+        14.77,
+        17.072,
+        23.986,
+        22.675,
+        22.718,
+        28.648,
+        30.807,
+        24.755
+      ],
+      "loop_boundary": {
+        "f9_to_f0_MAD": 24.755,
+        "largest_internal_MAD": 30.807,
+        "ratio": 0.804,
+        "interpretation": "diagnostic only; no perfect seamless-loop certification"
+      },
+      "remaining_polish": "minor generated outline/hair/cape variation and stride smoothing may need retouch after native-speed review",
+      "engine_preview_checked": false
+    },
+    "engine_preview_checked": false,
+    "native_png_and_strip_checks_passed": true
+  },
+  "verified_engine_ready": false,
+  "status": "native_export_inspected_pending_Claude_engine_acceptance",
+  "generation_tool": "built-in image_gen.imagegen"
+}

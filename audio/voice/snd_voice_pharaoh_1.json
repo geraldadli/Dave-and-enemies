@@ -1,0 +1,44 @@
+{
+  "asset_id": "snd_voice_pharaoh_1",
+  "purpose": "Pharaoh dialogue blip take 1",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.09,
+  "actual_duration_seconds": 0.09,
+  "variation_count": 1,
+  "files": [
+    {
+      "file": "snd_voice_pharaoh_1.wav",
+      "path": "audio/voice/snd_voice_pharaoh_1.wav",
+      "sha256": "a75cfe43e718cf90adf4f61e2cbf9377268e75a01fcc86989b004a8fecab6b4b",
+      "bytes": 7982,
+      "frames": 3969,
+      "duration_seconds": 0.09,
+      "seed": 3531932782,
+      "measurements": {
+        "sample_peak_dbfs": -9.00039,
+        "oversampled_peak_dbfs_4x": -8.99486,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -19.39455,
+        "dc_offset": 0.0,
+        "onset_ms_at_minus60_relative": 0.34,
+        "trailing_ms_below_minus60_relative": 0.363
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_voice_pharaoh_1: Pharaoh dialogue blip take 1. Record an original performer or use original formant synthesis for an ancient undead ruler: low, dry and resonant, intelligible as a character presence on small speakers. Create one low closed-mouth resonant pulse with a dry papery edge; keep useful harmonics above the fundamental rather than relying on sub-bass. No sentence, word, chant, long growl, spooky reverb or imitation of Undertale recordings. Match the other three Pharaoh takes in level and register; allow runtime +/-6% pitch variation. Deliver 1 distinct take, each 0.09 seconds long including decay. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 0.0,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

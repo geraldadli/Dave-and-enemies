@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_bandit_caster_death",
+  "purpose": "Bandit caster defeated",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.95,
+  "actual_duration_seconds": 0.95,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_bandit_caster_death_1.wav",
+      "path": "audio/sfx/snd_bandit_caster_death_1.wav",
+      "sha256": "478fc0bb40297dcb8312177d3f0ca4809d49651359b98e0e440f8b2c2033df46",
+      "bytes": 83834,
+      "frames": 41895,
+      "duration_seconds": 0.95,
+      "seed": 3734010460,
+      "measurements": {
+        "sample_peak_dbfs": -6.08232,
+        "oversampled_peak_dbfs_4x": -6.07679,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -22.35916,
+        "dc_offset": 2.1124472266976966e-08,
+        "onset_ms_at_minus60_relative": 0.408,
+        "trailing_ms_below_minus60_relative": 0.862
+      }
+    },
+    {
+      "file": "snd_bandit_caster_death_2.wav",
+      "path": "audio/sfx/snd_bandit_caster_death_2.wav",
+      "sha256": "79909bdfaa814b956824d3f572e9ed6133bba584b74c671906b0299e518b5fde",
+      "bytes": 83834,
+      "frames": 41895,
+      "duration_seconds": 0.95,
+      "seed": 2535281838,
+      "measurements": {
+        "sample_peak_dbfs": -6.42315,
+        "oversampled_peak_dbfs_4x": -6.36717,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -22.35917,
+        "dc_offset": 2.913720312686478e-08,
+        "onset_ms_at_minus60_relative": 0.363,
+        "trailing_ms_below_minus60_relative": 0.794
+      }
+    },
+    {
+      "file": "snd_bandit_caster_death_3.wav",
+      "path": "audio/sfx/snd_bandit_caster_death_3.wav",
+      "sha256": "66964a4a6830d0f0f18aa5bb612eb1d6251e58a8afeba5865c73296f8fde3aa4",
+      "bytes": 83834,
+      "frames": 41895,
+      "duration_seconds": 0.95,
+      "seed": 510884982,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.9928,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -22.35916,
+        "dc_offset": 1.0926451172574294e-08,
+        "onset_ms_at_minus60_relative": 0.499,
+        "trailing_ms_below_minus60_relative": 0.93
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_bandit_caster_death: Bandit caster defeated. Record a robe collapsing into sand, a dry staff knock and an original small nonverbal breath. Add a very brief soft loss-of-charge fizz at the end, not an explosion. Deliver 3 separate distinct takes, each 0.95 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 1e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

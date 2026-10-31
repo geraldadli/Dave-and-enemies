@@ -1,0 +1,23 @@
+{
+  "sc_desert_frontier": {
+    "walkable_cells": 6578,
+    "decorations": 7,
+    "solid_props": 4,
+    "chests": 8,
+    "enemy_spawns": 6
+  },
+  "sc_caravan_basin": {
+    "walkable_cells": 8327,
+    "decorations": 6,
+    "solid_props": 6,
+    "chests": 8,
+    "enemy_spawns": 11
+  },
+  "sc_royal_expanse": {
+    "walkable_cells": 10034,
+    "decorations": 10,
+    "solid_props": 3,
+    "chests": 6,
+    "enemy_spawns": 9
+  }
+}

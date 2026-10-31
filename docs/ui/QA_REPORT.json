@@ -1,0 +1,235 @@
+{
+  "scope": "Static design checks only. No engine compilation, runtime input, save I/O, or gameplay checks performed.",
+  "bounds_checked": 93,
+  "bounds_failures": [],
+  "text_fit_checks": 113,
+  "text_fit_failures": [],
+  "contrast_ratios": {
+    "text_on_ink": 14.6,
+    "text_on_raised": 12.18,
+    "text_on_well": 15.5,
+    "muted_on_ink": 9.66,
+    "muted_on_raised": 8.06,
+    "muted_on_well": 10.26,
+    "disabled_on_ink": 6.27,
+    "disabled_on_raised": 5.23,
+    "disabled_on_well": 6.66,
+    "gold_on_ink": 10.36,
+    "gold_on_raised": 8.64,
+    "gold_on_well": 11.0,
+    "error_on_ink": 9.53,
+    "error_on_raised": 7.95,
+    "error_on_well": 10.12,
+    "success_on_ink": 10.41,
+    "success_on_raised": 8.69,
+    "success_on_well": 11.05,
+    "ink_on_sand": 9.31
+  },
+  "minimum_text_contrast": 5.23,
+  "storage_count": 32,
+  "main_count": 8,
+  "total_item_entries": 40,
+  "save_slots": 3,
+  "dialogue_wrapping_pages": {
+    "Step aside.": [
+      [
+        "Step aside."
+      ]
+    ],
+    "You shall not pass. This desert will be your grave.": [
+      [
+        "You shall not pass. This desert will be your grave."
+      ]
+    ],
+    "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW": [
+      [
+        "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+        "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
+      ],
+      [
+        "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+        "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
+      ]
+    ]
+  },
+  "mockup_count": 14,
+  "mockup_sizes": [
+    "(1280, 720)"
+  ],
+  "prototype_assets": [
+    {
+      "file": "spr_ui_button_00.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "f8c1fc319f13e6f62d456c9399d690765e71d987dfbd37c0d1f7615ec87340e8"
+    },
+    {
+      "file": "spr_ui_button_01.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "6789a9b366b571e35d00be1cd33f6d1756cbb437138d972dee3a4264ffa830bc"
+    },
+    {
+      "file": "spr_ui_button_02.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "f38f626be8346ef3b7f02a6d0bf700050a93aa2a217bc6c8cab563585a569c60"
+    },
+    {
+      "file": "spr_ui_hp_fill.png",
+      "size": [
+        320,
+        32
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "f273cc306944a84ec085e4f3357da04630fc107fb02cf7cc12f92170c886aacc"
+    },
+    {
+      "file": "spr_ui_hp_frame.png",
+      "size": [
+        320,
+        32
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "00e78ba5637875bb04cb67e81551913038b3c72c26a8562148c2f585e57e94e2"
+    },
+    {
+      "file": "spr_ui_panel.png",
+      "size": [
+        96,
+        96
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "6c2ae2fb237da6a45a519138cc2ec3147d040aa24cf5d88a1b0596f92d4717b7"
+    },
+    {
+      "file": "spr_ui_save_card_00.png",
+      "size": [
+        760,
+        120
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "135280eec4c3c6f4fe91773d2a26ecf89cce00e9408600c5ca0d8dee60280401"
+    },
+    {
+      "file": "spr_ui_save_card_01.png",
+      "size": [
+        760,
+        120
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "49279bb538f5f285f86b4adb7f81a4fee25e31381253b2eae67c087ee2bc8bbb"
+    },
+    {
+      "file": "spr_ui_save_card_02.png",
+      "size": [
+        760,
+        120
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "6f840ebd611589172c3bc3cd56f61eab95c2d14f362a718aa11f67f6ea1be00e"
+    },
+    {
+      "file": "spr_ui_save_card_empty_00.png",
+      "size": [
+        760,
+        120
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "d657ccae85d744c60f030f40db67f02566faa316aa51c6229cd2bee937755b5a"
+    },
+    {
+      "file": "spr_ui_save_card_empty_01.png",
+      "size": [
+        760,
+        120
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "49279bb538f5f285f86b4adb7f81a4fee25e31381253b2eae67c087ee2bc8bbb"
+    },
+    {
+      "file": "spr_ui_save_card_empty_02.png",
+      "size": [
+        760,
+        120
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "6f840ebd611589172c3bc3cd56f61eab95c2d14f362a718aa11f67f6ea1be00e"
+    },
+    {
+      "file": "spr_ui_slot.png",
+      "size": [
+        72,
+        72
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "e36af76550e9e070a22dfbf959df611e03f04629d36c9097c92bae2e959aaa17"
+    },
+    {
+      "file": "spr_ui_slot_selected.png",
+      "size": [
+        72,
+        72
+      ],
+      "mode": "RGBA",
+      "srgb": true,
+      "sha256": "3462c4c884b42d726ba1337705f0c6f946c454c0b3a4a0564a2fde61952df465"
+    }
+  ],
+  "scaled_reference_sizes": {
+    "1600x900": [
+      1600,
+      900
+    ],
+    "1920x1080": [
+      1920,
+      1080
+    ],
+    "2560x1440": [
+      2560,
+      1440
+    ],
+    "3440x1440": {
+      "content": [
+        2560,
+        1440
+      ],
+      "offset": [
+        440,
+        0
+      ]
+    },
+    "1280x800": {
+      "content": [
+        1280,
+        720
+      ],
+      "offset": [
+        0,
+        40
+      ]
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-31",
+  "scope": "art-only native export validation and visual frame inspection, no GameMaker execution",
+  "new_animation_frames": 54,
+  "new_facing_references": 3,
+  "native_animation_assets": 6,
+  "errors": [],
+  "assets": [
+    {
+      "asset_id": "spr_dave_walk_side",
+      "frames": 10,
+      "canvas_px": [
+        96,
+        96
+      ],
+      "origin_px": [
+        48,
+        88
+      ],
+      "strip_px": [
+        960,
+        96
+      ],
+      "local_errors": [],
+      "visual_inspection": {
+        "identity": "native frames and source atlas inspected for v002 hair, silver armor, ivory/brown garments, red cape and upper-left light",
+        "handedness": "Anatomical right near arm holds sword; far left hand empty; right-arm crossing during attack inspected.",
+        "registration": "fixed untrimmed canvases/origins, measured source roots and common uniform scales; no anatomical part warping",
+        "phase_plan": "contacts f2/f7; cloth and heels partly occlude leg identity; check planted-foot sliding in moving engine preview",
+        "alpha": "reviewed over white, black, sand and dark ruins; source RGB under alpha0 cleared on export",
+        "adjacent_premultiplied_rgba_MAD": [
+          9.696,
+          11.662,
+          9.448,
+          14.918,
+          20.846,
+          16.194,
+          16.808,
+          8.101,
+          20.885,
+          17.226
+        ],
+        "loop_boundary": {
+          "f9_to_f0_MAD": 17.226,
+          "largest_internal_MAD": 20.885,
+          "ratio": 0.825,
+          "interpretation": "diagnostic only; no perfect seamless-loop certification"
+        },
+        "remaining_polish": "minor generated outline/hair/cape variation and stride smoothing may need retouch after native-speed review",
+        "engine_preview_checked": false
+      }
+    },
+    {
+      "asset_id": "spr_dave_attack_side",
+      "frames": 8,
+      "canvas_px": [
+        128,
+        128
+      ],
+      "origin_px": [
+        64,
+        112
+      ],
+      "strip_px": [
+        1024,
+        128
+      ],
+      "local_errors": [],
+      "visual_inspection": {
+        "identity": "native frames and source atlas inspected for v002 hair, silver armor, ivory/brown garments, red cape and upper-left light",
+        "handedness": "Anatomical right near arm holds sword; far left hand empty; right-arm crossing during attack inspected.",
+        "registration": "fixed untrimmed canvases/origins, measured source roots and common uniform scales; no anatomical part warping",
+        "phase_plan": "f0-1 anticipation; f2-4 active; f3 contact; f5-7 recovery; final pose returns to native facing base",
+        "alpha": "reviewed over white, black, sand and dark ruins; source RGB under alpha0 cleared on export",
+        "adjacent_premultiplied_rgba_MAD": [
+          15.322,
+          16.736,
+          11.254,
+          14.515,
+          14.812,
+          14.529,
+          11.722,
+          17.466
+        ],
+        "loop_boundary": "not a loop; native base used for f7",
+        "remaining_polish": "minor generated outline/hair/cape variation and stride smoothing may need retouch after native-speed review",
+        "engine_preview_checked": false
+      }
+    },
+    {
+      "asset_id": "spr_dave_walk_left",
+      "frames": 10,
+      "canvas_px": [
+        96,
+        96
+      ],
+      "origin_px": [
+        48,
+        88
+      ],
+      "strip_px": [
+        960,
+        96
+      ],
+      "local_errors": [],
+      "visual_inspection": {
+        "identity": "native frames and source atlas inspected for v002 hair, silver armor, ivory/brown garments, red cape and upper-left light",
+        "handedness": "Anatomical right far shoulder/arm holds sword; near foreground left arm remains empty. Independent drawing, no whole-sprite mirror.",
+        "registration": "fixed untrimmed canvases/origins, measured source roots and common uniform scales; no anatomical part warping",
+        "phase_plan": "contacts f2/f7; cloth and heels partly occlude leg identity; check planted-foot sliding in moving engine preview",
+        "alpha": "reviewed over white, black, sand and dark ruins; source RGB under alpha0 cleared on export",
+        "adjacent_premultiplied_rgba_MAD": [
+          20.84,
+          18.729,
+          14.77,
+          17.072,
+          23.986,
+          22.675,
+          22.718,
+          28.648,
+          30.807,
+          24.755
+        ],
+        "loop_boundary": {
+          "f9_to_f0_MAD": 24.755,
+          "largest_internal_MAD": 30.807,
+          "ratio": 0.804,
+          "interpretation": "diagnostic only; no perfect seamless-loop certification"
+        },
+        "remaining_polish": "minor generated outline/hair/cape variation and stride smoothing may need retouch after native-speed review",
+        "engine_preview_checked": false
+      }
+    },
+    {
+      "asset_id": "spr_dave_attack_left",
+      "frames": 8,
+      "canvas_px": [
+        128,
+        128
+      ],
+      "origin_px": [
+        64,
+        112
+      ],
+      "strip_px": [
+        1024,
+        128
+      ],
+      "local_errors": [],
+      "visual_inspection": {
+        "identity": "native frames and source atlas inspected for v002 hair, silver armor, ivory/brown garments, red cape and upper-left light",
+        "handedness": "Anatomical right far shoulder/arm holds sword; near foreground left arm remains empty. Independent drawing, no whole-sprite mirror.",
+        "registration": "fixed untrimmed canvases/origins, measured source roots and common uniform scales; no anatomical part warping",
+        "phase_plan": "f0-1 anticipation; f2-4 active; f3 contact; f5-7 recovery; final pose returns to native facing base",
+        "alpha": "reviewed over white, black, sand and dark ruins; source RGB under alpha0 cleared on export",
+        "adjacent_premultiplied_rgba_MAD": [
+          14.017,
+          18.813,
+          13.771,
+          16.447,
+          17.024,
+          7.998,
+          13.219,
+          12.375
+        ],
+        "loop_boundary": "not a loop; native base used for f7",
+        "remaining_polish": "minor generated outline/hair/cape variation and stride smoothing may need retouch after native-speed review",
+        "engine_preview_checked": false
+      }
+    },
+    {
+      "asset_id": "spr_dave_walk_up",
+      "frames": 10,
+      "canvas_px": [
+        96,
+        96
+      ],
+      "origin_px": [
+        48,
+        88
+      ],
+      "strip_px": [
+        960,
+        96
+      ],
+      "local_errors": [],
+      "visual_inspection": {
+        "identity": "native frames and source atlas inspected for v002 hair, silver armor, ivory/brown garments, red cape and upper-left light",
+        "handedness": "Image-right right arm is weapon arm; image-left left glove empty. Back view throughout. Hair overlays upper cape, both attachments remain under hair.",
+        "registration": "fixed untrimmed canvases/origins, measured source roots and common uniform scales; no anatomical part warping",
+        "phase_plan": "contacts f2/f7; cloth and heels partly occlude leg identity; check planted-foot sliding in moving engine preview",
+        "alpha": "reviewed over white, black, sand and dark ruins; source RGB under alpha0 cleared on export",
+        "adjacent_premultiplied_rgba_MAD": [
+          11.065,
+          8.141,
+          7.695,
+          9.457,
+          13.2,
+          5.55,
+          8.838,
+          8.222,
+          11.645,
+          9.552
+        ],
+        "loop_boundary": {
+          "f9_to_f0_MAD": 9.552,
+          "largest_internal_MAD": 13.2,
+          "ratio": 0.724,
+          "interpretation": "diagnostic only; no perfect seamless-loop certification"
+        },
+        "remaining_polish": "minor generated outline/hair/cape variation and stride smoothing may need retouch after native-speed review",
+        "engine_preview_checked": false
+      }
+    },
+    {
+      "asset_id": "spr_dave_attack_up",
+      "frames": 8,
+      "canvas_px": [
+        128,
+        128
+      ],
+      "origin_px": [
+        64,
+        112
+      ],
+      "strip_px": [
+        1024,
+        128
+      ],
+      "local_errors": [],
+      "visual_inspection": {
+        "identity": "native frames and source atlas inspected for v002 hair, silver armor, ivory/brown garments, red cape and upper-left light",
+        "handedness": "Image-right right arm is weapon arm; image-left left glove empty. Back view throughout. Right arm crosses north/front behind hair in f4; empty left arm remains low, weapon arm partly occluded.",
+        "registration": "fixed untrimmed canvases/origins, measured source roots and common uniform scales; no anatomical part warping",
+        "phase_plan": "f0-1 anticipation; f2-4 active; f3 contact; f5-7 recovery; final pose returns to native facing base",
+        "alpha": "reviewed over white, black, sand and dark ruins; source RGB under alpha0 cleared on export",
+        "adjacent_premultiplied_rgba_MAD": [
+          10.28,
+          6.458,
+          8.378,
+          8.523,
+          8.194,
+          12.087,
+          9.876,
+          7.513
+        ],
+        "loop_boundary": "not a loop; native base used for f7",
+        "remaining_polish": "minor generated outline/hair/cape variation and stride smoothing may need retouch after native-speed review",
+        "engine_preview_checked": false
+      }
+    }
+  ],
+  "verified_engine_ready": false,
+  "generation": "built-in image_gen.imagegen, one character/action/direction per job",
+  "remaining_engine_work": [
+    "register authored left IDs and direction4 mapping without whole-sprite mirror",
+    "preview20fps gait/footstep events and transition alignment",
+    "use450ms exact attack ticks and active range2-4",
+    "assess stride and loop/outline smoothing at native motion speed"
+  ]
+}

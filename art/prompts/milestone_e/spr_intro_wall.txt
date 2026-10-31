@@ -1,0 +1,21 @@
+Use case: stylized-concept.
+
+Asset ID: spr_intro_wall. Purpose: Breached Holy City wall. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach art/reference/template_sprite_inspection.png as the authoritative style/density reference. Match the supplied Hero's Trail template reference: elevated top-down three-quarter orthographic adventure view, smooth antialiased illustrated cartoon game art, dark charcoal outlines about 1-2 native pixels wide, broad soft cel shading, light from upper left, restrained highlights and slate or warm brown shadows. Human-sized humanoids have compact chibi proportions with heads about 35-40 percent of body height; creatures keep the specific anatomy described below. These are 64-pixel tiles with roughly 78-pixel-tall human bodies. Preserve native visual density; no coarse pixel grid, realistic rendering, anime redesign, isometric diamond grid, noisy microtexture, text, watermark, labels or checkerboard painted into pixels.
+
+Subject: A wide breached pale stone Holy City defensive wall, broad fractured blocks, warm sand dust, approx 400px breach spanning local x=760..1160, ruined banner attachment, same illustrated masonry as desert ruins, upper-left light. No characters, text, visible Grail or living person.
+
+Direction: Use the exact single orientation described; do not generate additional views.
+
+Final target: 1920x640 native pixels PER FRAME; All frames fixed 1920x640 canvas, no trimming; origin (0, 0). Keep placement fixed between frames.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate one static asset only, no contact sheet or alternative views.
+
+Playback/state selection: static. contract.
+
+Additional constraints: Transparent sky/breach areas where appropriate for layered compositing. Stage top-left (0,0), noncolliding backdrop for the 1920x1080 intro stage; Dave is staged separately at ground (1040,790). Maintain elevated adventure camera and native-scale pans.
+
+Inspection before acceptance: Verify 1920x640 and breach x=760..1160. Test 1280x720 camera crops and parallax seams. No invented story details or recovered Grail.

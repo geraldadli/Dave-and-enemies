@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_bandit_move",
+  "purpose": "Bandit running contact",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.16,
+  "actual_duration_seconds": 0.16,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_bandit_move_1.wav",
+      "path": "audio/sfx/snd_bandit_move_1.wav",
+      "sha256": "9ddac7580245075bf13883a732eab225435763121a5bb84383e196d67739667c",
+      "bytes": 14156,
+      "frames": 7056,
+      "duration_seconds": 0.16,
+      "seed": 526545292,
+      "measurements": {
+        "sample_peak_dbfs": -9.48588,
+        "oversampled_peak_dbfs_4x": -9.42867,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -27.00363,
+        "dc_offset": -2.378779474029195e-07,
+        "onset_ms_at_minus60_relative": 0.363,
+        "trailing_ms_below_minus60_relative": 0.862
+      }
+    },
+    {
+      "file": "snd_bandit_move_2.wav",
+      "path": "audio/sfx/snd_bandit_move_2.wav",
+      "sha256": "e2c4ffdbe536ece059c2c90ada745eba9d6db67ed8337cdabafa8e58df8ada0e",
+      "bytes": 14156,
+      "frames": 7056,
+      "duration_seconds": 0.16,
+      "seed": 805229720,
+      "measurements": {
+        "sample_peak_dbfs": -8.99965,
+        "oversampled_peak_dbfs_4x": -8.71601,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -27.00358,
+        "dc_offset": 2.5950321534863945e-08,
+        "onset_ms_at_minus60_relative": 0.295,
+        "trailing_ms_below_minus60_relative": 1.02
+      }
+    },
+    {
+      "file": "snd_bandit_move_3.wav",
+      "path": "audio/sfx/snd_bandit_move_3.wav",
+      "sha256": "a343a351893538dd0853f20cc2e1a6d2a4dcf8f7ae688ae0a9398784d49dfd13",
+      "bytes": 14156,
+      "frames": 7056,
+      "duration_seconds": 0.16,
+      "seed": 1226392155,
+      "measurements": {
+        "sample_peak_dbfs": -9.19914,
+        "oversampled_peak_dbfs_4x": -9.01134,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -27.00363,
+        "dc_offset": 4.6278073403840705e-07,
+        "onset_ms_at_minus60_relative": 0.34,
+        "trailing_ms_below_minus60_relative": 0.703
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_bandit_move: Bandit running contact. Record a light sandal jab in dry sand with a short cloth belt flick. One quick foot contact, agile and softer than Dave's armoured step; no vocal. Deliver 3 separate distinct takes, each 0.16 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 5e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_sword_swing",
+  "purpose": "Dave sword swing through air",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.28,
+  "actual_duration_seconds": 0.28,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_sword_swing_1.wav",
+      "path": "audio/sfx/snd_sword_swing_1.wav",
+      "sha256": "662c340b771962933097a872dc31e6ed1487cf56b086f1a312f4378380cd54db",
+      "bytes": 24740,
+      "frames": 12348,
+      "duration_seconds": 0.28,
+      "seed": 1394328597,
+      "measurements": {
+        "sample_peak_dbfs": -6.4376,
+        "oversampled_peak_dbfs_4x": -6.37179,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.855,
+        "dc_offset": 6.920085742630386e-08,
+        "onset_ms_at_minus60_relative": 0.658,
+        "trailing_ms_below_minus60_relative": 1.587
+      }
+    },
+    {
+      "file": "snd_sword_swing_2.wav",
+      "path": "audio/sfx/snd_sword_swing_2.wav",
+      "sha256": "1233f1c559f30dd8af95d97d06a8e803f33ce1f73f68126f3ce0465714515d6b",
+      "bytes": 24740,
+      "frames": 12348,
+      "duration_seconds": 0.28,
+      "seed": 4069835774,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.84072,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.85502,
+        "dc_offset": 1.7547360275955621e-07,
+        "onset_ms_at_minus60_relative": 0.476,
+        "trailing_ms_below_minus60_relative": 1.451
+      }
+    },
+    {
+      "file": "snd_sword_swing_3.wav",
+      "path": "audio/sfx/snd_sword_swing_3.wav",
+      "sha256": "59334556805cd6fe5e5a511b8e10cabd2102f1a789e5629e0834ad611ac1d39e",
+      "bytes": 24740,
+      "frames": 12348,
+      "duration_seconds": 0.28,
+      "seed": 2462659151,
+      "measurements": {
+        "sample_peak_dbfs": -6.88735,
+        "oversampled_peak_dbfs_4x": -6.72884,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.855,
+        "dc_offset": 1.8535943953474248e-07,
+        "onset_ms_at_minus60_relative": 0.59,
+        "trailing_ms_below_minus60_relative": 1.224
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_sword_swing: Dave sword swing through air. Record or synthesize a compact steel blade air-cut with a small leather grip creak, a rounded fast whoosh and clean falling air tail. Keep it light enough for repeated attacks, without contact, magical sparkle or enemy voice. Deliver 3 separate distinct takes, each 0.28 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 2e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

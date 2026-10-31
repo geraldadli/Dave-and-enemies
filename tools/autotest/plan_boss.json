@@ -1,0 +1,15 @@
+{"steps": [
+ {"wait": 20}, {"press": "confirm"}, {"until_room": "rm_intro", "max": 200}, {"wait": 30},
+ {"hold": "pause", "ticks": 50}, {"until_room": "rm_sc_desert_frontier", "max": 300}, {"wait": 30},
+ {"warp": {"room": "rm_sc_royal_expanse", "cell": [122, 36], "facing": "up"}}, {"wait": 50},
+ {"hold": "up", "ticks": 150}, {"wait": 230},
+ {"press": "confirm"}, {"wait": 60}, {"press": "confirm"}, {"wait": 30}, {"press": "confirm"}, {"wait": 90}, {"press": "confirm"}, {"wait": 60},
+ {"log": "combat start"},
+ {"hold": "right", "ticks": 60}, {"wait": 120}, {"shot": "w01"}, {"enemies": true},
+ {"hold": "up", "ticks": 40}, {"wait": 150}, {"shot": "w02"}, {"enemies": true}, {"log": "t5"},
+ {"hold": "left", "ticks": 60}, {"wait": 150}, {"shot": "w03"}, {"enemies": true}, {"log": "t8"},
+ {"hold": "right", "ticks": 80}, {"wait": 150}, {"shot": "w04"}, {"enemies": true}, {"log": "t11"},
+ {"wait": 180}, {"shot": "w05"}, {"enemies": true}, {"log": "t14"},
+ {"wait": 180}, {"shot": "w06"}, {"enemies": true}, {"log": "t17"},
+ {"quit": true}
+]}

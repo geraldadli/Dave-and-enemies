@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><style>@font-face{font-family:NotoUI;src:url(../fonts/NotoSans-Regular.ttf)}@font-face{font-family:NotoUI;src:url(../fonts/NotoSans-Bold.ttf);font-weight:700}text{font-family:NotoUI,"Noto Sans",sans-serif}</style></defs>
+<rect x="0" y="0" width="1280" height="720" rx="0" fill="#171B27" stroke="none" stroke-width="1"/>
+<text x="48" y="79.0" font-size="46" font-weight="700" text-anchor="start" fill="#F6EBDD">One component language</text>
+<text x="48" y="128.0" font-size="23" font-weight="400" text-anchor="start" fill="#B9C3D3">72 px slots / 48 px icons / 18 px keycaps and quantities</text>
+<rect x="48" y="176" width="72" height="72" rx="8" fill="#101521" stroke="#747F95" stroke-width="2"/>
+<rect x="78.0" y="185.0" width="12.0" height="10.0" rx="3.0" fill="#BEA27A" stroke="#101521" stroke-width="2.0"/>
+<rect x="76.0" y="194.0" width="16.0" height="9.0" rx="3.0" fill="#DBD2BF" stroke="#101521" stroke-width="2.0"/>
+<rect x="70.0" y="201.0" width="28.0" height="28.0" rx="3.0" fill="#C14F5C" stroke="#101521" stroke-width="2.0"/>
+<rect x="75.0" y="205.0" width="5.0" height="14.0" rx="3.0" fill="#F4B3A2" stroke="none" stroke-width="2.0"/>
+<rect x="89.0" y="223" width="27.0" height="23" rx="3" fill="#171B27" stroke="none" stroke-width="1"/>
+<text x="112" y="242.0" font-size="18" font-weight="400" text-anchor="end" fill="#F6EBDD">×5</text>
+<text x="48" y="283.0" font-size="18" font-weight="400" text-anchor="start" fill="#B9C3D3">Normal</text>
+<rect x="248" y="176" width="72" height="72" rx="8" fill="#242A39" stroke="#747F95" stroke-width="2"/>
+<rect x="278.0" y="185.0" width="12.0" height="10.0" rx="3.0" fill="#BEA27A" stroke="#101521" stroke-width="2.0"/>
+<rect x="276.0" y="194.0" width="16.0" height="9.0" rx="3.0" fill="#DBD2BF" stroke="#101521" stroke-width="2.0"/>
+<rect x="270.0" y="201.0" width="28.0" height="28.0" rx="3.0" fill="#C14F5C" stroke="#101521" stroke-width="2.0"/>
+<rect x="275.0" y="205.0" width="5.0" height="14.0" rx="3.0" fill="#F4B3A2" stroke="none" stroke-width="2.0"/>
+<rect x="289.0" y="223" width="27.0" height="23" rx="3" fill="#171B27" stroke="none" stroke-width="1"/>
+<text x="312" y="242.0" font-size="18" font-weight="400" text-anchor="end" fill="#F6EBDD">×5</text>
+<text x="248" y="283.0" font-size="18" font-weight="400" text-anchor="start" fill="#B9C3D3">Hover</text>
+<rect x="448" y="176" width="72" height="72" rx="8" fill="#101521" stroke="#747F95" stroke-width="2"/>
+<rect x="478.0" y="185.0" width="12.0" height="10.0" rx="3.0" fill="#BEA27A" stroke="#101521" stroke-width="2.0"/>
+<rect x="476.0" y="194.0" width="16.0" height="9.0" rx="3.0" fill="#DBD2BF" stroke="#101521" stroke-width="2.0"/>
+<rect x="470.0" y="201.0" width="28.0" height="28.0" rx="3.0" fill="#C14F5C" stroke="#101521" stroke-width="2.0"/>
+<rect x="475.0" y="205.0" width="5.0" height="14.0" rx="3.0" fill="#F4B3A2" stroke="none" stroke-width="2.0"/>
+<rect x="489.0" y="223" width="27.0" height="23" rx="3" fill="#171B27" stroke="none" stroke-width="1"/>
+<text x="512" y="242.0" font-size="18" font-weight="400" text-anchor="end" fill="#F6EBDD">×5</text>
+<rect x="449" y="177" width="70" height="70" rx="8" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="458,176 448,176 448,186" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="510,176 520,176 520,186" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="458,248 448,248 448,238" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="510,248 520,248 520,238" fill="none" stroke="#EAC477" stroke-width="3"/>
+<rect x="474" y="243" width="20" height="3" rx="0" fill="#EAC477" stroke="none" stroke-width="1"/>
+<text x="448" y="283.0" font-size="18" font-weight="400" text-anchor="start" fill="#B9C3D3">Selected</text>
+<rect x="648" y="176" width="72" height="72" rx="8" fill="#101521" stroke="#747F95" stroke-width="2"/>
+<rect x="678.0" y="185.0" width="12.0" height="10.0" rx="3.0" fill="#BEA27A" stroke="#101521" stroke-width="2.0"/>
+<rect x="676.0" y="194.0" width="16.0" height="9.0" rx="3.0" fill="#DBD2BF" stroke="#101521" stroke-width="2.0"/>
+<rect x="670.0" y="201.0" width="28.0" height="28.0" rx="3.0" fill="#C14F5C" stroke="#101521" stroke-width="2.0"/>
+<rect x="675.0" y="205.0" width="5.0" height="14.0" rx="3.0" fill="#F4B3A2" stroke="none" stroke-width="2.0"/>
+<rect x="689.0" y="223" width="27.0" height="23" rx="3" fill="#171B27" stroke="none" stroke-width="1"/>
+<text x="712" y="242.0" font-size="18" font-weight="400" text-anchor="end" fill="#F6EBDD">×5</text>
+<rect x="649" y="177" width="70" height="70" rx="8" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="658,176 648,176 648,186" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="710,176 720,176 720,186" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="658,248 648,248 648,238" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="710,248 720,248 720,238" fill="none" stroke="#EAC477" stroke-width="3"/>
+<text x="648" y="283.0" font-size="18" font-weight="400" text-anchor="start" fill="#B9C3D3">Keyboard focus</text>
+<rect x="848" y="176" width="72" height="72" rx="8" fill="#101521" stroke="#747F95" stroke-width="2"/>
+<rect x="878.0" y="185.0" width="12.0" height="10.0" rx="3.0" fill="#BEA27A" stroke="#101521" stroke-width="2.0"/>
+<rect x="876.0" y="194.0" width="16.0" height="9.0" rx="3.0" fill="#DBD2BF" stroke="#101521" stroke-width="2.0"/>
+<rect x="870.0" y="201.0" width="28.0" height="28.0" rx="3.0" fill="#C14F5C" stroke="#101521" stroke-width="2.0"/>
+<rect x="875.0" y="205.0" width="5.0" height="14.0" rx="3.0" fill="#F4B3A2" stroke="none" stroke-width="2.0"/>
+<rect x="889.0" y="223" width="27.0" height="23" rx="3" fill="#171B27" stroke="none" stroke-width="1"/>
+<text x="912" y="242.0" font-size="18" font-weight="400" text-anchor="end" fill="#F6EBDD">×5</text>
+<polyline points="856,181 862,181" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="868,181 874,181" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="880,181 886,181" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="892,181 898,181" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="904,181 910,181" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="856,240 862,240" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="868,240 874,240" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="880,240 886,240" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="892,240 898,240" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="904,240 910,240" fill="none" stroke="#EAC477" stroke-width="2"/>
+<text x="848" y="283.0" font-size="18" font-weight="400" text-anchor="start" fill="#B9C3D3">Move source</text>
+<rect x="1048" y="176" width="72" height="72" rx="8" fill="#101521" stroke="#747F95" stroke-width="2"/>
+<rect x="1078.0" y="185.0" width="12.0" height="10.0" rx="3.0" fill="#BEA27A" stroke="#101521" stroke-width="2.0"/>
+<rect x="1076.0" y="194.0" width="16.0" height="9.0" rx="3.0" fill="#DBD2BF" stroke="#101521" stroke-width="2.0"/>
+<rect x="1070.0" y="201.0" width="28.0" height="28.0" rx="3.0" fill="#C14F5C" stroke="#101521" stroke-width="2.0"/>
+<rect x="1075.0" y="205.0" width="5.0" height="14.0" rx="3.0" fill="#F4B3A2" stroke="none" stroke-width="2.0"/>
+<rect x="1089.0" y="223" width="27.0" height="23" rx="3" fill="#171B27" stroke="none" stroke-width="1"/>
+<text x="1112" y="242.0" font-size="18" font-weight="400" text-anchor="end" fill="#F6EBDD">×5</text>
+<rect x="1049" y="177" width="70" height="70" rx="8" fill="none" stroke="#FFAC9F" stroke-width="2"/>
+<polyline points="1058,176 1048,176 1048,186" fill="none" stroke="#FFAC9F" stroke-width="3"/>
+<polyline points="1110,176 1120,176 1120,186" fill="none" stroke="#FFAC9F" stroke-width="3"/>
+<polyline points="1058,248 1048,248 1048,238" fill="none" stroke="#FFAC9F" stroke-width="3"/>
+<polyline points="1110,248 1120,248 1120,238" fill="none" stroke="#FFAC9F" stroke-width="3"/>
+<text x="1048" y="283.0" font-size="18" font-weight="400" text-anchor="start" fill="#B9C3D3">Invalid target</text>
+<rect x="48" y="336" width="72" height="72" rx="8" fill="#101521" stroke="#747F95" stroke-width="2"/>
+<polyline points="78,372 90,372" fill="none" stroke="#566176" stroke-width="2"/>
+<rect x="51" y="338" width="22" height="24" rx="3" fill="#171B27" stroke="none" stroke-width="1"/>
+<text x="55" y="357.0" font-size="18" font-weight="400" text-anchor="start" fill="#F6EBDD">8</text>
+<text x="144" y="376.0" font-size="23" font-weight="400" text-anchor="start" fill="#F6EBDD">Empty / retains the same hit area</text>
+<rect x="48" y="432" width="72" height="72" rx="8" fill="#101521" stroke="#747F95" stroke-width="2"/>
+<polygon points="86.0,443.0 95.0,444.0 82.0,471.0 76.0,467.0" fill="#DCE4ED" stroke="#101521" stroke-width="2.0"/>
+<polygon points="68.0,467.0 73.0,463.0 89.0,473.0 86.0,477.0" fill="#EAC477" stroke="#101521" stroke-width="2.0"/>
+<polygon points="73.0,471.0 79.0,475.0 72.0,486.0 66.0,483.0" fill="#7D5949" stroke="#101521" stroke-width="2.0"/>
+<rect x="95" y="434" width="22" height="24" rx="3" fill="#171B27" stroke="none" stroke-width="1"/>
+<text x="106" y="453.0" font-size="18" font-weight="400" text-anchor="middle" fill="#EAC477">E</text>
+<text x="144" y="472.0" font-size="23" font-weight="400" text-anchor="start" fill="#F6EBDD">Equipped / references one of the 40 storage entries</text>
+<rect x="48" y="568" width="216" height="48" rx="8" fill="#171B27" stroke="#747F95" stroke-width="2"/>
+<text x="156.0" y="601.0" font-size="23" font-weight="400" text-anchor="middle" fill="#F6EBDD">Normal</text>
+<rect x="288" y="568" width="216" height="48" rx="8" fill="#242A39" stroke="#EAC477" stroke-width="2"/>
+<rect x="289" y="569" width="214" height="46" rx="8" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="298,568 288,568 288,578" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="494,568 504,568 504,578" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="298,616 288,616 288,606" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="494,616 504,616 504,606" fill="none" stroke="#EAC477" stroke-width="3"/>
+<text x="396.0" y="601.0" font-size="23" font-weight="400" text-anchor="middle" fill="#F6EBDD">Focused</text>
+<rect x="528" y="568" width="216" height="48" rx="8" fill="#242A39" stroke="#747F95" stroke-width="2"/>
+<text x="636.0" y="602.0" font-size="23" font-weight="400" text-anchor="middle" fill="#F6EBDD">Pressed</text>
+<rect x="768" y="568" width="216" height="48" rx="8" fill="#171B27" stroke="#747F95" stroke-width="2"/>
+<text x="876.0" y="601.0" font-size="23" font-weight="400" text-anchor="middle" fill="#929DAF">Disabled</text>
+<polyline points="780,610 796,610" fill="none" stroke="#929DAF" stroke-width="2"/>
+<text x="48" y="667.0" font-size="18" font-weight="400" text-anchor="start" fill="#929DAF">Disabled controls keep a readable label and a reason; they never activate.</text>
+</svg>

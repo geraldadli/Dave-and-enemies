@@ -1,0 +1,425 @@
+{
+  "source": "art/source/dave/cardinal_batch_v001/spr_dave_attack_left_source_v002.png",
+  "reference": "art/source/dave/cardinal_batch_v001/dave_base_left_source_v001.png",
+  "canvas_px": [
+    128,
+    128
+  ],
+  "origin_px": [
+    64,
+    112
+  ],
+  "direction": "left",
+  "world_facing": "west/left",
+  "world_direction_index": 4,
+  "scale": 0.207,
+  "source_frames": [
+    {
+      "component_label": 2,
+      "box": [
+        7,
+        111,
+        415,
+        498
+      ],
+      "anchor": [
+        194,
+        382
+      ],
+      "scale": 0.207
+    },
+    {
+      "component_label": 1,
+      "box": [
+        404,
+        37,
+        783,
+        498
+      ],
+      "anchor": [
+        171,
+        456
+      ],
+      "scale": 0.207
+    },
+    {
+      "component_label": 3,
+      "box": [
+        757,
+        124,
+        1150,
+        497
+      ],
+      "anchor": [
+        206,
+        369
+      ],
+      "scale": 0.207
+    },
+    {
+      "component_label": 4,
+      "box": [
+        1111,
+        136,
+        1534,
+        498
+      ],
+      "anchor": [
+        258,
+        357
+      ],
+      "scale": 0.207
+    },
+    {
+      "component_label": 8,
+      "box": [
+        3,
+        591,
+        399,
+        957
+      ],
+      "anchor": [
+        186.5,
+        361
+      ],
+      "scale": 0.207
+    },
+    {
+      "component_label": 6,
+      "box": [
+        372,
+        588,
+        776,
+        977
+      ],
+      "anchor": [
+        204.5,
+        384
+      ],
+      "scale": 0.207
+    },
+    {
+      "component_label": 7,
+      "box": [
+        751,
+        588,
+        1161,
+        977
+      ],
+      "anchor": [
+        206,
+        384
+      ],
+      "scale": 0.207
+    },
+    {
+      "component_label": 1,
+      "box": [
+        116,
+        152,
+        1144,
+        1096
+      ],
+      "anchor": [
+        496,
+        939
+      ],
+      "scale": 0.0835117773019272,
+      "source": "art/source/dave/cardinal_batch_v001/dave_base_left_source_v001.png"
+    }
+  ],
+  "fps": null,
+  "loop": "once",
+  "game_ticks_per_frame": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4
+  ],
+  "pose_ranges": {
+    "anticipation": [
+      0,
+      1
+    ],
+    "active": [
+      2,
+      4
+    ],
+    "recovery": [
+      5,
+      7
+    ]
+  },
+  "contact_pose": 3,
+  "duration_game_ticks": 27,
+  "duration_ms": 450,
+  "review_durations_ms": [
+    50,
+    50,
+    50,
+    50,
+    50,
+    70,
+    60,
+    70
+  ],
+  "handedness": "far anatomical-right shoulder/arm holds sword through contact and follow-through; near left hand empty",
+  "allow_image_xscale_mirror": false,
+  "naming_status": "new authored-left stable ID requested by user; registration with Claude pending",
+  "notes": "V2 corrects follow-through blade to down-left. Source RGB contained backdrop colour under alpha0; actual connected silhouettes extracted by alpha, hidden RGB cleared. Each planted source ground point measured; common source scale. Final recovery uses native left base translated(+16,+24).",
+  "asset_id": "spr_dave_attack_left",
+  "source_sha256": "f7ba9cf3481f5938bdd860519c4f6d8a1d3efcbffd86ce871ac6ec498bae47a1",
+  "frame_count": 8,
+  "delivery": "individual PNG frames and horizontal strip; 8-bit RGBA sRGB straight alpha",
+  "source_frames_are_measured": true,
+  "inspection": {
+    "frames": [
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          25,
+          34,
+          108,
+          112
+        ],
+        "solid_bounds": [
+          25,
+          34,
+          107,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 12838,
+        "opaque_pixels": 3008,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_attack_left_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          29,
+          18,
+          107,
+          112
+        ],
+        "solid_bounds": [
+          30,
+          19,
+          106,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 12811,
+        "opaque_pixels": 3061,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_attack_left_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          22,
+          36,
+          102,
+          112
+        ],
+        "solid_bounds": [
+          22,
+          37,
+          102,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 13129,
+        "opaque_pixels": 2742,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_attack_left_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          12,
+          38,
+          98,
+          113
+        ],
+        "solid_bounds": [
+          12,
+          39,
+          97,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 13205,
+        "opaque_pixels": 2653,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_attack_left_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          26,
+          38,
+          107,
+          113
+        ],
+        "solid_bounds": [
+          27,
+          38,
+          106,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 12918,
+        "opaque_pixels": 2952,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_attack_left_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          23,
+          33,
+          105,
+          113
+        ],
+        "solid_bounds": [
+          23,
+          34,
+          104,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 12839,
+        "opaque_pixels": 2997,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_attack_left_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          22,
+          33,
+          106,
+          113
+        ],
+        "solid_bounds": [
+          22,
+          34,
+          105,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 12742,
+        "opaque_pixels": 3110,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/spr_dave_attack_left_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          23,
+          34,
+          108,
+          112
+        ],
+        "solid_bounds": [
+          23,
+          34,
+          108,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 12998,
+        "opaque_pixels": 3095,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/dave_base_left_source_v001.png"
+      }
+    ],
+    "mechanical_checks_passed": true,
+    "visual_checks": {
+      "identity": "native frames and source atlas inspected for v002 hair, silver armor, ivory/brown garments, red cape and upper-left light",
+      "handedness": "Anatomical right far shoulder/arm holds sword; near foreground left arm remains empty. Independent drawing, no whole-sprite mirror.",
+      "registration": "fixed untrimmed canvases/origins, measured source roots and common uniform scales; no anatomical part warping",
+      "phase_plan": "f0-1 anticipation; f2-4 active; f3 contact; f5-7 recovery; final pose returns to native facing base",
+      "alpha": "reviewed over white, black, sand and dark ruins; source RGB under alpha0 cleared on export",
+      "adjacent_premultiplied_rgba_MAD": [
+        14.017,
+        18.813,
+        13.771,
+        16.447,
+        17.024,
+        7.998,
+        13.219,
+        12.375
+      ],
+      "loop_boundary": "not a loop; native base used for f7",
+      "remaining_polish": "minor generated outline/hair/cape variation and stride smoothing may need retouch after native-speed review",
+      "engine_preview_checked": false
+    },
+    "engine_preview_checked": false,
+    "native_png_and_strip_checks_passed": true
+  },
+  "verified_engine_ready": false,
+  "status": "native_export_inspected_pending_Claude_engine_acceptance",
+  "generation_tool": "built-in image_gen.imagegen"
+}

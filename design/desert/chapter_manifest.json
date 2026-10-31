@@ -1,0 +1,235 @@
+{
+  "design_version": "desert_v1",
+  "status": "SUPERSEDED reference only; do not import",
+  "scope": {
+    "main_rooms": 18,
+    "optional_rooms": 6,
+    "total_rooms": 24,
+    "ffv_region": null,
+    "ffv_version": null,
+    "room_count_status": "Provisional project scope; never a verified Final Fantasy V room count."
+  },
+  "main_route": [
+    "rm_d01_arrival",
+    "rm_d02_dune_trail",
+    "rm_d03_canyon_approach",
+    "rm_d04_split_cliffs",
+    "rm_d05_dry_wash",
+    "rm_d06_oasis_refuge",
+    "rm_d07_ruined_caravan",
+    "rm_d08_cactus_flats",
+    "rm_d09_bonefield",
+    "rm_d10_broken_bridge",
+    "rm_d11_forgotten_ruins",
+    "rm_d12_great_desert_stairs",
+    "rm_d13_windblown_plateau",
+    "rm_d14_royal_causeway",
+    "rm_d15_tomb_approach",
+    "rm_d16_pharaohs_gate",
+    "rm_d17_pharaohs_courtyard",
+    "rm_d18_dungeon_threshold"
+  ],
+  "optional_attachments": [
+    {
+      "parent": "rm_d03_canyon_approach",
+      "optional": "rm_o1_sunken_lookout"
+    },
+    {
+      "parent": "rm_d06_oasis_refuge",
+      "optional": "rm_o2_hidden_spring"
+    },
+    {
+      "parent": "rm_d08_cactus_flats",
+      "optional": "rm_o3_bandit_cache"
+    },
+    {
+      "parent": "rm_d10_broken_bridge",
+      "optional": "rm_o4_buried_cistern"
+    },
+    {
+      "parent": "rm_d13_windblown_plateau",
+      "optional": "rm_o5_echo_grotto"
+    },
+    {
+      "parent": "rm_d15_tomb_approach",
+      "optional": "rm_o6_memorial_vault"
+    }
+  ],
+  "batches": [
+    {
+      "batch": 1,
+      "rooms": [
+        "rm_d01_arrival",
+        "rm_d02_dune_trail",
+        "rm_d03_canyon_approach",
+        "rm_o1_sunken_lookout"
+      ]
+    },
+    {
+      "batch": 2,
+      "rooms": [
+        "rm_d04_split_cliffs",
+        "rm_d05_dry_wash",
+        "rm_d06_oasis_refuge",
+        "rm_o2_hidden_spring"
+      ]
+    },
+    {
+      "batch": 3,
+      "rooms": [
+        "rm_d07_ruined_caravan",
+        "rm_d08_cactus_flats",
+        "rm_d09_bonefield",
+        "rm_o3_bandit_cache"
+      ]
+    },
+    {
+      "batch": 4,
+      "rooms": [
+        "rm_d10_broken_bridge",
+        "rm_d11_forgotten_ruins",
+        "rm_d12_great_desert_stairs",
+        "rm_o4_buried_cistern"
+      ]
+    },
+    {
+      "batch": 5,
+      "rooms": [
+        "rm_d13_windblown_plateau",
+        "rm_d14_royal_causeway",
+        "rm_d15_tomb_approach",
+        "rm_o5_echo_grotto"
+      ]
+    },
+    {
+      "batch": 6,
+      "rooms": [
+        "rm_d16_pharaohs_gate",
+        "rm_d17_pharaohs_courtyard",
+        "rm_d18_dungeon_threshold",
+        "rm_o6_memorial_vault"
+      ]
+    }
+  ],
+  "coordinates": {
+    "tile_pixels": 64,
+    "cell": "[column,row], 0-based, x east/right, y south/down",
+    "cell_origin": "Character feet or prop base at [64*column+32,64*row+32] pixels",
+    "rect": "[x_min,y_min,x_max,y_max], inclusive",
+    "span": "rows or cols inclusive",
+    "facing": "0 E, 1 NE, 2 N, 3 NW, 4 W, 5 SW, 6 S, 7 SE",
+    "arrival": "Two cell indices inside border: W x2, E width-3, N y2, S height-3; midpoint of opening.",
+    "north_south_exit_format": "cols replaces rows; proposed extension because contract shows E/W rows only. Sidecar resolves exact border cells and arrivals."
+  },
+  "terrain": {
+    "walkable": ".,;_^=|",
+    "blocked": "#M~Cx",
+    "water": "All water blocks; no swimming or currents.",
+    "elevation": "Discrete presentation zones connected by authored stairs/ramps. No jumps, falls, upper-floor overlap or free cliff crossing.",
+    "bridge": "Bridge cells replace underlying water/chasm collision; broken x never walkable."
+  },
+  "separation": {
+    "room_json": "Exact contract top-level fields and object keys; no decoration props in objects.",
+    "gameplay_specs": "Design-only sidecar: arrivals, footprints, encounters, triggers, states, assets; Claude implements their semantics.",
+    "decorations": "Noncolliding placements only; never infer solids from sprite alpha or artwork. Tall solid props appear only in room objects + footprint specs.",
+    "no_project_edits": "No .yy, .yyp, GameMaker object, runtime data registry or existing contract changed."
+  },
+  "movement_rules": {
+    "main_route_min_clear_width_cells": 3,
+    "standard_combat_min_rect": [
+      7,
+      7
+    ],
+    "transition_opening_min_width": 3,
+    "transition": "Trigger on deliberate outward crossing at border, never merely occupying a destination arrival. Lock damage/movement during load; discard incoming projectiles; debounce until player leaves destination entry corridor and releases outward intent. Spawn facing inward.",
+    "protection": "No enemy, summon, projectile, loot drop, solid prop or storm occlusion in arrival reserves; enemy feet and solid prop bases >=2 cells from any border opening. Enemies leash to authored pads; attacks cannot enter transition corridors or bridge/stair landings.",
+    "checkpoints": "All three are peaceful; save snapshots include inventory, XP, defeated spawn IDs, opened/part-claimed chests, pending unique reward, boss flags and world seed. Death rolls back the entire snapshot together; do not mix current chest flags with old inventory."
+  },
+  "procedural": {
+    "runtime_geometry": false,
+    "seed": "Persist a world_seed for cosmetic variation. Fixed room/prop/chest/enemy coordinates never reroll.",
+    "allowed": "Seeded sand material variants, irregular visual blend edges within the same logical tile, pebbles/flat grass decals in declared cosmetic zones, bounded wind particles and tumbleweeds moving E to W.",
+    "fixed": "Graph, dimensions, terrain blockers, openings, arrivals, solid prop bases, stairs/bridges, encounter IDs and initial cells, chest loot and IDs, landmarks, checkpoint cells, boss gate/threshold geometry and committed thunder targets.",
+    "decoration_zones": "Only empty . or ; cells >=2 cells from gameplay objects, stairs, bridges, arrival reserves and paths; reject art that hides silhouettes/telegraphs. Authored landmarks never randomize.",
+    "tumbleweeds": "Noncolliding, at most 2 per outdoor room and 12 ambient particles per emitter as an initial budget; no spawns over combat pads/reserves; lifetime <=10 s; room-exit cleanup. No tumbleweeds in refuges, caves, gate, boss or threshold.",
+    "weather": "No gameplay effect on speed, accuracy or collision; readability first. Stable cosmetic seed, bounded time-varying particles; their exact transient phase need not persist."
+  },
+  "persistence": {
+    "ordinary_enemies": "Each sidecar ordinary encounter enemy has a stable spawn ID, matched to its contract object by enemy type and initial cell. Defeated spawns remain defeated across visits and saved snapshots. No farming by transition. Reset only by restoring an earlier snapshot/new game. Pharaoh is excluded from ordinary defeated-spawn storage; his boss flag is authoritative.",
+    "chests": "Persist opened, remaining item counts and pending overflow by stable chest ID; an empty graphic alone is not authoritative.",
+    "boss": "Persist boss_pharaoh_defeated + pending/claimed u1 together. Active encounter/projectiles are transient and reset to idle on death/load of an undefeated checkpoint. Saved defeated state skips intro and recreates the cleared arena.",
+    "initial": "Initial fallback snapshot at D01 [3,11] facing E before first manual save.",
+    "healing_spring": "Repeatable E interaction, no loot/XP/save; cosmetic animation transient.",
+    "threshold": "Persist chapter_desert_complete; a completed saved state must still allow the ending UI to be replayed."
+  },
+  "external_states": {
+    "intro": {
+      "room": "rm_intro",
+      "to": "rm_d01_arrival",
+      "arrival_cell": [
+        3,
+        11
+      ]
+    },
+    "ending": {
+      "from_room": "rm_d18_dungeon_threshold",
+      "to": "rm_ending",
+      "trigger_rect": [
+        30,
+        4,
+        31,
+        4
+      ],
+      "text": "To Be Continued",
+      "requires": "boss_pharaoh_defeated",
+      "dungeon_interior": false
+    }
+  },
+  "sources": [
+    {
+      "kind": "original_brief",
+      "title": "Create Dave’s action game prompt",
+      "thread_id": "01a19086-ad27-7ba2-b483-5f550e9c8e07",
+      "note": "Read original user brief and expanded route; current user's explicit route confirmation is authoritative."
+    },
+    {
+      "kind": "contract",
+      "path": "docs/PROJECT_CONTRACT.md",
+      "sections": "2, 6-11"
+    },
+    {
+      "kind": "asset_requests",
+      "path": "docs/ASSET_REQUESTS.md",
+      "sections": "A, B, C, D, F"
+    },
+    {
+      "kind": "template",
+      "path": "notes/Template_Readme/Template_Readme.txt"
+    },
+    {
+      "kind": "template",
+      "path": "art/reference/template_sprite_inspection.png"
+    },
+    {
+      "kind": "template",
+      "path": "art/reference/template_inventory.json"
+    },
+    {
+      "kind": "template",
+      "path": "rooms/rm_level_1/rm_level_1.yy",
+      "note": "Checked layers and collision objects; original maps are not copied."
+    },
+    {
+      "kind": "reference",
+      "url": "https://cour89.com/ff5/maps/pyramid.php",
+      "note": "Version-scoped GBA/mobile guide: visible rewards off the main route, multiple doors, stairs, loops. Inspiration only, not the selected region."
+    },
+    {
+      "kind": "reference",
+      "url": "https://cour89.com/ff5/maps/quicksand_desert.php",
+      "note": "Version-scoped guide distinguishes the shifting-sands route and lack of chests; do not claim its treasure pattern or room count as this chapter's source."
+    }
+  ],
+  "import_allowed": false,
+  "superseded_by": "scene_manifest.json"
+}

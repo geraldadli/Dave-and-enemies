@@ -1,0 +1,29 @@
+Use case: identity-preserve.
+
+Asset ID: spr_undead_rise. Purpose: undead rise. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach art/reference/template_sprite_inspection.png as the authoritative style/density reference. Match the supplied Hero's Trail template reference: elevated top-down three-quarter orthographic adventure view, smooth antialiased illustrated cartoon game art, dark charcoal outlines about 1-2 native pixels wide, broad soft cel shading, light from upper left, restrained highlights and slate or warm brown shadows. Human-sized humanoids have compact chibi proportions with heads about 35-40 percent of body height; creatures keep the specific anatomy described below. These are 64-pixel tiles with roughly 78-pixel-tall human bodies. Preserve native visual density; no coarse pixel grid, realistic rendering, anime redesign, isometric diamond grid, noisy microtexture, text, watermark, labels or checkerboard painted into pixels.
+
+Production gate: run the animation request only after this character base and this facing pass native-size identity, perspective and alignment inspection. If that gate is pending, make only the neutral base/facing reference first, then stop before animation.
+
+Attach the established undead base model as the identity reference. If it has not been established, generate only its neutral base first and stop before animation. Do not invent a new design for each state.
+
+Subject: A slow desiccated human undead with dusty olive-grey skin, hollow dark eyes, torn muted ochre wrappings and brown ragged garments. Heavy reaching arms, stooped readable silhouette, no sword, no fresh gore. Body height 76-80 pixels. Keep its silhouette distinct from the clean exposed skeleton families.
+
+Direction: Face down toward the camera; do not generate additional directions.
+
+Final target: 128x128 native pixels PER FRAME; All frames fixed 128x128 canvas, no trimming; origin (64, 112). Anchor is the feet or ground point; no baked ground shadow.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate ONLY this one asset/action/direction as 10 chronological frames in one horizontal row, equally sized cells, left to right, no labels or visible grid lines. Planned final strip is 1280x128, or individual fixed 128x128 frames. A generator may produce a larger source; exact grid and dimensions must be checked and exported afterward. No other characters, actions or directions.
+
+Pose plan, zero-based indices: f0 concealed below sand; f1-2 cloth and hand protrude; f3-5 shoulders and skull lift; f6-7 knees plant; f8 weight transfer; f9 baseline standing silhouette. Keep the same ground point.
+
+Playback specification: 12 fps; once. 10 frames from A6; 12 fps proposed.
+
+Additional constraints: Only the undead body and attached loose sand; separate summoning cracks and sand-burst FX are supplied for the boss milestone.
+
+Transparent outer canvas, no ground plane or baked ground shadow. Preserve solid interiors, clean straight alpha and no clipped silhouette. Source artwork is not an engine-ready export until measured and inspected.
+
+Inspection before acceptance: Inspect all frames over the same body/ground overlay; no head-size or anatomy drift. Weapon hand, garment layers, palette and upper-left highlights remain fixed. Read the silhouette at native size on pale sand and dark ruins. Check chronological pose order, contact/release frames and last-to-first transition if looping. No weapon, cape, ear or effect clipped at a canvas edge.

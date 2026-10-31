@@ -1,0 +1,22 @@
+{"steps": [
+ {"wait": 20}, {"press": "confirm"}, {"until_room": "rm_intro", "max": 200}, {"wait": 30},
+ {"hold": "pause", "ticks": 50}, {"until_room": "rm_sc_desert_frontier", "max": 300}, {"wait": 30},
+ {"warp": {"room": "rm_sc_desert_frontier", "cell": [116, 40], "facing": "side"}}, {"wait": 50},
+ {"hold": "right", "ticks": 400}, {"until_room": "rm_sc_caravan_basin", "max": 450}, {"wait": 40}, {"shot": "v01_basin_arrival"}, {"log": "pass to basin"},
+ {"hold": "left", "ticks": 60}, {"wait": 70}, {"log": "pressed back toward west exit inside corridor"},
+ {"hp": 1}, {"warp": {"room": "rm_sc_caravan_basin", "cell": [17, 39], "facing": "side"}}, {"wait": 40}, {"hp": 1},
+ {"until_mode": 3, "max": 900}, {"wait": 60}, {"log": "game over"},
+ {"press": "confirm"}, {"until_room": "rm_sc_desert_frontier", "max": 200}, {"wait": 30}, {"log": "restored (no save: initial snapshot)"},
+ {"warp": {"room": "rm_sc_royal_expanse", "cell": [122, 36], "facing": "up"}}, {"wait": 50}, {"log": "at final star"},
+ {"hold": "up", "ticks": 150}, {"wait": 100}, {"log": "boss entering"}, {"shot": "v02_boss_entering"}, {"wait": 120}, {"shot": "v03_boss_dialogue"}, {"log": "boss dialogue"},
+ {"press": "confirm"}, {"wait": 60}, {"press": "confirm"}, {"wait": 30}, {"shot": "v04_pharaoh_line"}, {"press": "confirm"}, {"wait": 90}, {"press": "confirm"}, {"wait": 30},
+ {"log": "boss combat"}, {"wait": 150}, {"shot": "v05_boss_combat"}, {"wait": 240}, {"enemies": true}, {"shot": "v06_boss_attack"}, {"log": "boss mid"},
+ {"wait": 300}, {"enemies": true}, {"shot": "v07_boss_later"}, {"log": "boss later"},
+ {"kill_boss": true}, {"wait": 150}, {"shot": "v08_defeat"}, {"log": "defeat 2.5s"}, {"wait": 360}, {"log": "defeat done"}, {"flags": true}, {"shot": "v09_cleared"},
+ {"warp": {"room": "rm_sc_royal_expanse", "cell": [134, 19], "facing": "down"}}, {"wait": 60}, {"inv": true}, {"flags": true}, {"log": "after reward"},
+ {"warp": {"room": "rm_sc_royal_expanse", "cell": [153, 14], "facing": "up"}}, {"wait": 50},
+ {"hold": "up", "ticks": 60}, {"wait": 200}, {"shot": "v10_ending_line"}, {"log": "ending seq"},
+ {"until_mode": 4, "max": 900}, {"wait": 320}, {"shot": "v11_tbc"}, {"log": "to be continued"}, {"flags": true},
+ {"press": "confirm"}, {"until_room": "rm_menu", "max": 200}, {"wait": 30}, {"log": "back at menu"},
+ {"quit": true}
+]}

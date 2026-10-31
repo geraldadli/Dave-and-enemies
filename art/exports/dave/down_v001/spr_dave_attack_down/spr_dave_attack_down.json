@@ -1,0 +1,417 @@
+{
+  "source": "art/source/dave/down_batch_v001/spr_dave_attack_down_source_v002.png",
+  "reference": "art/source/dave/down_batch_v001/dave_base_down_v002_clean_v001.png",
+  "canvas_px": [
+    128,
+    128
+  ],
+  "origin_px": [
+    64,
+    112
+  ],
+  "direction": "down",
+  "scale": 0.254,
+  "source_frames": [
+    {
+      "component_label": 3,
+      "box": [
+        35,
+        110,
+        413,
+        427
+      ],
+      "anchor": [
+        214,
+        311
+      ],
+      "scale": 0.254
+    },
+    {
+      "component_label": 1,
+      "box": [
+        453,
+        46,
+        853,
+        428
+      ],
+      "anchor": [
+        226.5,
+        375
+      ],
+      "scale": 0.254
+    },
+    {
+      "component_label": 4,
+      "box": [
+        965,
+        112,
+        1281,
+        433
+      ],
+      "anchor": [
+        162,
+        309
+      ],
+      "scale": 0.254
+    },
+    {
+      "component_label": 2,
+      "box": [
+        1390,
+        108,
+        1709,
+        427
+      ],
+      "anchor": [
+        160,
+        313
+      ],
+      "scale": 0.254
+    },
+    {
+      "component_label": 7,
+      "box": [
+        77,
+        511,
+        419,
+        837
+      ],
+      "anchor": [
+        163,
+        317
+      ],
+      "scale": 0.254
+    },
+    {
+      "component_label": 5,
+      "box": [
+        535,
+        510,
+        848,
+        836
+      ],
+      "anchor": [
+        153,
+        318
+      ],
+      "scale": 0.254
+    },
+    {
+      "component_label": 6,
+      "box": [
+        924,
+        510,
+        1292,
+        835
+      ],
+      "anchor": [
+        209,
+        318
+      ],
+      "scale": 0.254
+    },
+    {
+      "source": "art/source/dave/down_batch_v001/dave_base_down_v002_clean_v001.png",
+      "box": [
+        0,
+        0,
+        1278,
+        1230
+      ],
+      "anchor": [
+        668,
+        1053
+      ],
+      "scale": 0.08803611738148984
+    }
+  ],
+  "fps": null,
+  "loop": "once",
+  "game_ticks_per_frame": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4
+  ],
+  "pose_ranges": {
+    "anticipation": [
+      0,
+      1
+    ],
+    "active": [
+      2,
+      4
+    ],
+    "recovery": [
+      5,
+      7
+    ]
+  },
+  "contact_pose": 3,
+  "duration_game_ticks": 27,
+  "duration_ms": 450,
+  "review_durations_ms": [
+    50,
+    50,
+    50,
+    50,
+    50,
+    70,
+    60,
+    70
+  ],
+  "notes": "Corrected source v002 reduces blade-size drift and changes f2 to a descending cut. f7 uses the checked native-base source as the settled recovery pose, preserving its exact idle-aligned body. Source body roots measured from planted boot pairs. Uniform .254 source scale for f0-f6; base source registration translated +16,+24 for f7. GIF timing quantizes recovery to70/60/70ms; engine must use exact ticks in sidecar.",
+  "asset_id": "spr_dave_attack_down",
+  "source_sha256": "ace0e70f1d462a08ce4c09410a07c391b0f678ca2f1d6851c5831548730f3f87",
+  "frame_count": 8,
+  "delivery": "individual PNG frames and horizontal strip; 8-bit RGBA sRGB straight alpha",
+  "source_frames_are_measured": true,
+  "inspection": {
+    "frames": [
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          10,
+          34,
+          105,
+          113
+        ],
+        "solid_bounds": [
+          11,
+          34,
+          104,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 12044,
+        "opaque_pixels": 3806,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/down_batch_v001/spr_dave_attack_down_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          7,
+          18,
+          108,
+          113
+        ],
+        "solid_bounds": [
+          8,
+          18,
+          107,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 11732,
+        "opaque_pixels": 3945,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/down_batch_v001/spr_dave_attack_down_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          23,
+          34,
+          102,
+          114
+        ],
+        "solid_bounds": [
+          24,
+          35,
+          102,
+          114
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 12194,
+        "opaque_pixels": 3644,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/down_batch_v001/spr_dave_attack_down_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          24,
+          34,
+          104,
+          113
+        ],
+        "solid_bounds": [
+          25,
+          34,
+          103,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 12239,
+        "opaque_pixels": 3603,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/down_batch_v001/spr_dave_attack_down_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          23,
+          32,
+          109,
+          114
+        ],
+        "solid_bounds": [
+          24,
+          33,
+          108,
+          113
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 11855,
+        "opaque_pixels": 3879,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/down_batch_v001/spr_dave_attack_down_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          26,
+          32,
+          104,
+          114
+        ],
+        "solid_bounds": [
+          26,
+          32,
+          103,
+          113
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 12116,
+        "opaque_pixels": 3653,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/down_batch_v001/spr_dave_attack_down_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          12,
+          32,
+          104,
+          113
+        ],
+        "solid_bounds": [
+          12,
+          32,
+          103,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 12006,
+        "opaque_pixels": 3763,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/down_batch_v001/spr_dave_attack_down_source_v002.png"
+      },
+      {
+        "canvas_px": [
+          128,
+          128
+        ],
+        "alpha_bounds": [
+          19,
+          34,
+          101,
+          112
+        ],
+        "solid_bounds": [
+          20,
+          34,
+          101,
+          112
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 12591,
+        "opaque_pixels": 3588,
+        "cleanup": {
+          "discarded_nonzero_pixels": 1417,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/down_batch_v001/dave_base_down_v002_clean_v001.png"
+      }
+    ],
+    "mechanical_checks_passed": true,
+    "visual_checks": {
+      "identity_and_right_hand": "all native frames and painted sources inspected; sword anatomical right throughout",
+      "costume": "silver plate, ivory tabard, golden-brown hair, brown garments, two shoulder cape attachments retained; normal occlusion during attacks",
+      "lighting": "upper-left highlight convention preserved; no mirrored figures",
+      "ground": "fixed native origin and canvases; locomotion knee/foot projection varies through stride",
+      "adjacent_premultiplied_rgba_mean_absolute_difference": [
+        19.056,
+        20.705,
+        13.085,
+        15.43,
+        14.487,
+        16.93,
+        17.506,
+        16.385
+      ],
+      "loop_seam": "not a loop; f7 returns to exact checked base registration",
+      "remaining_engine_check": "Claude: preview native speed, transition alignment, footstep events and active hitbox timing in GameMaker",
+      "poses": "f0-1 anticipation, f2-4 active, f3 contact, f5-7 recovery; shortened inconsistent blades; final pose reuses base"
+    },
+    "engine_preview_checked": false,
+    "native_png_and_strip_checks_passed": true
+  },
+  "verified_engine_ready": false,
+  "status": "native_export_inspected_pending_Claude_engine_acceptance"
+}

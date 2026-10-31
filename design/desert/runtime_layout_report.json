@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "captured_views": 11,
+  "route_checks": {
+    "palm_passed": [
+      97,
+      32
+    ],
+    "bridge_crossed": [
+      93,
+      46
+    ],
+    "catwalk_crossed": [
+      67,
+      60
+    ],
+    "stairs_crossed": [
+      128,
+      27
+    ]
+  },
+  "player_occlusion": "palm_occlusion.png and sundial_occlusion.png visually inspected",
+  "user_saves_written": false,
+  "fatal_runtime_errors": 0,
+  "audio_warnings": [
+    "Warning! - gml_Script_aud_update(-1) : Error: Index did not map to an existing sound instance"
+  ],
+  "note": "One audio service warning occurred during scene warps; no rendering or movement errors. Audio service was outside this layout change."
+}

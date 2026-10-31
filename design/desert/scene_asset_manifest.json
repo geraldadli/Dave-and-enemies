@@ -1,0 +1,1620 @@
+{
+  "note": "Required or inherited shared asset families, not an import-completion claim. Exact prop and animation aliases require Claude's mapping. See original ASSET_REQUESTS for art contracts.",
+  "assets": [
+    {
+      "asset_id": "mus_desert",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "mus_ending",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "mus_pharaoh",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_arrow_hit",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "snd_bat_screech",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_boss_death",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_boss_hurt",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_boss_summon",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_bow_release",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "snd_cast_charge",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_checkpoint",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_chest_open",
+      "status": "existing_template_resource",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_disintegrate",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_gate_slam",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_laser_charge",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_laser_fire",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_magic_hit",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_magic_travel",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_pickup",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_save",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_snake_hiss",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_snake_lunge",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_step_sand",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_sword_hit",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_sword_swing",
+      "status": "existing_template_resource",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_thunder_strike",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_thunder_warn",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_undead_rise",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_wind_loop",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_worm_bite",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_worm_emerge",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "snd_worm_rumble",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_arrow",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_attack_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_attack_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_attack_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_caster_attack_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_caster_attack_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_caster_attack_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_caster_defeat",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_caster_hurt_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_caster_idle_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_caster_walk_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_caster_walk_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_caster_walk_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_defeat",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_hurt_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_idle_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_walk_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_walk_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bandit_walk_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bat_defeat",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bat_dive",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bat_fly",
+      "status": "existing_template_resource",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_boulder",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier"
+      ]
+    },
+    {
+      "asset_id": "spr_bush",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_bush_dead",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_cactus_small",
+      "status": "proposed_prop_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_cactus_tall",
+      "status": "proposed_prop_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_checkpoint_star",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_chest_desert",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_column_broken",
+      "status": "planned_or_proposed_requires_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_column_fallen",
+      "status": "planned_or_proposed_requires_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_column_whole",
+      "status": "planned_or_proposed_requires_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_attack_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_attack_down_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_attack_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_attack_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_attack_up_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_idle_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_idle_down_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_idle_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_idle_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_idle_up_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_walk_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_walk_down_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_walk_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_walk_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dave_walk_up_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_door_sealed",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_dungeon_entrance",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_ending_bg",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_fx_arrow_hit",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_fx_hit",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_fx_laser_charge",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_fx_magic_hit",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_fx_magic_launch",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_fx_sand_burst",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_fx_slash",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_fx_sparkle",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_fx_thunder_impact",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_gate_arena",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_healing_spring",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier"
+      ]
+    },
+    {
+      "asset_id": "spr_icon_ancient_coin",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_icon_bandit_scimitar",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_icon_desert_rose",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_icon_gold_coins",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_icon_golden_scarab",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_icon_iron_tunic",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_icon_paladin_mail",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_icon_pharaoh_ankh",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_icon_potion_greater",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_icon_potion_health",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_icon_sunsteel_blade",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_icon_wanderer_tunic",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier"
+      ]
+    },
+    {
+      "asset_id": "spr_laser_aim",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_laser_beam",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_lightning_bolt",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_loose_rocks",
+      "status": "planned_or_proposed_requires_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_magic_orb",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_mask_bat",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_mask_dave",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_mask_medium",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_mask_pharaoh",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_mask_python",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_mask_sandworm",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_obelisk",
+      "status": "proposed_prop_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_palm",
+      "status": "proposed_prop_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_pebbles",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_pharaoh_death",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_pharaoh_hurt",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_pharaoh_idle",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_pharaoh_laser_charge",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_pharaoh_laser_fire",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_pharaoh_statue",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_pharaoh_summon",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_pharaoh_teleport_in",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_pharaoh_teleport_out",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_pharaoh_thunder_cast",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_portrait_dave",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_portrait_pharaoh",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_python_coil",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_python_defeat",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_python_hurt",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_python_lunge_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_python_lunge_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_python_lunge_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_python_slither_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_python_slither_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_python_slither_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_rock_small",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_ruin_block",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_sandworm_attack",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_sandworm_burrow",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_sandworm_defeat",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_sandworm_emerge",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_sandworm_hurt",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_sandworm_idle_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_sandworm_mound",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_archer_attack_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_archer_attack_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_archer_attack_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_archer_defeat",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_archer_hurt_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_archer_idle_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_archer_walk_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_archer_walk_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_archer_walk_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_warrior_attack_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_warrior_attack_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_warrior_attack_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_warrior_defeat",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_warrior_hurt_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_warrior_idle_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_warrior_walk_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_warrior_walk_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_skeleton_warrior_walk_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_skull",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_summon_crack",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_supply_barrel",
+      "status": "planned_or_proposed_requires_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_thunder_exclaim",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_thunder_marker",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_tree_dead",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_tree_desert",
+      "status": "proposed_exact_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier"
+      ]
+    },
+    {
+      "asset_id": "spr_tumbleweed",
+      "status": "proposed_prop_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_undead_attack_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_undead_attack_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_undead_attack_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_undead_defeat",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_undead_hurt_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_undead_idle_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_undead_rise",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_undead_walk_down",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_undead_walk_side",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_undead_walk_up",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "spr_wagon_wreck",
+      "status": "proposed_prop_id_requires_Claude_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "spr_water_barrel",
+      "status": "planned_or_proposed_requires_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "tex_chasm_void",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "tex_chasm_wall",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "tex_cliff_face",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "tex_grass",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "tex_masonry_face",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "tex_masonry_top",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "tex_paving",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "tex_rock_top",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "tex_sand_dark",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "tex_sand_light",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "tex_water",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "tex_wet_sand",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin"
+      ]
+    },
+    {
+      "asset_id": "ts_bridge",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    },
+    {
+      "asset_id": "ts_stairs",
+      "status": "planned_contract_family_exact_suffix_may_need_mapping",
+      "scenes": [
+        "sc_desert_frontier",
+        "sc_caravan_basin",
+        "sc_royal_expanse"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "asset_id": "mus_gameover",
+  "purpose": "Player death screen musical sting",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "file": "mus_gameover.wav",
+  "sha256": "96f2c387a157e73d014f7fc000ae15bd7899d1f8da04bfc0561c8e9abc884846",
+  "bytes": 793844,
+  "channels": 2,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 4.5,
+  "frames": 198450,
+  "loop": false,
+  "loop_start": null,
+  "loop_end": null,
+  "generation": "Original seeded Python composition, additive instrument synthesis and linear room/delay rendering; no samples, vocals, dialogue, weather or battle SFX.",
+  "source": "tools/render_chapter_cues.py",
+  "source_sha256": "a9dbeb326b1e70022eadd218346d54efedaf68364299f82f8885f9acfb2fce24",
+  "instrument_source": "tools/render_chapter_music.py",
+  "seed": 450631,
+  "score_file": "mus_gameover.score.json",
+  "event_count": 7,
+  "markers": [
+    [
+      0,
+      "Sparse low C beneath Dave's separate death sound"
+    ],
+    [
+      0.15,
+      "Regretful descending G-E-Db plucks"
+    ],
+    [
+      2,
+      "Short breathy C-G decay, permitting a hopeful retry"
+    ]
+  ],
+  "soft_peak_shaping_passes": 0,
+  "measurements": {
+    "integrated_lufs": -16.0,
+    "true_peak_dbtp": -3.87,
+    "loudness_range_lu": 3.0,
+    "meter": "FFmpeg loudnorm input measurements (EBU R128/BS.1770)",
+    "sample_peak_dbfs": -3.8981803007027436,
+    "dc_offset_per_channel": [
+      -7.07386542579995e-09,
+      -6.151187326782565e-10
+    ],
+    "last_100ms_rms_dbfs": -61.78642826298801,
+    "first_100ms_rms_dbfs": -27.266016422689123,
+    "final_sample_abs_max": 0.0,
+    "terminal_quantized_silence_ms": 10.566893424036282,
+    "stereo_correlation": 0.9216630530895995,
+    "non_looping_tail": {
+      "fade_from_seconds": 3.3,
+      "all_decay_inside_file": true,
+      "no_wrapped_reverb_or_echo": true,
+      "natural_end_check": "PASS"
+    }
+  },
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset mus_gameover: Player death screen musical sting. Compose a 4.5-second restrained failure sting: three descending soft plucked tones G4-E4-Db4 over low C, then a short breathy C-G decay. Use no grand orchestral hit, mocking gesture, spoken voice or loop. Leave the first 100 ms sparse for Dave's death sound. Sound regretful but allow a hopeful retry. Deliver 1 distinct take, each 4.5 seconds long including decay. This is a complete non-looping score cue; keep its natural ending within the file and do not append another cue or silent padding. No vocals, speech, lyrics, quoted melodies, stock tracks, combat effects or weather baked into the music. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, stereo, peak no higher than -1 dBFS. Master to -16 LUFS integrated, tolerance +/-1 LU; retain transient headroom. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "trigger": "On Game Over state entry, about 250 ms after Dave's death cue, once for that death.",
+  "stop": "Natural end; on retry/load/menu selection fade out over 150 ms before any new scene score.",
+  "playback_gain_baked_in": false,
+  "auditory_review": "Pending human listening review; objective audio checks passed.",
+  "game_integration": "Not imported; Claude owns playback, fades, mixing and triggers."
+}

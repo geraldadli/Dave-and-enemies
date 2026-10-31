@@ -1,0 +1,82 @@
+{
+  "source": "art/source/dave/down_batch_v001/dave_base_down_v002_clean_v001.png",
+  "reference": "art/source/dave/dave_base_down_v002.png",
+  "canvas_px": [
+    96,
+    96
+  ],
+  "origin_px": [
+    48,
+    88
+  ],
+  "direction": "down",
+  "scale": 0.08803611738148984,
+  "source_frames": [
+    {
+      "box": [
+        0,
+        0,
+        1278,
+        1230
+      ],
+      "anchor": [
+        668,
+        1053
+      ]
+    }
+  ],
+  "fps": null,
+  "loop": "static",
+  "review_durations_ms": [
+    1000
+  ],
+  "notes": "Native base reference derived from Dave v002 cleanup. Crown y=167, ground y=1053; uniform scale=78/886. Not a new GameMaker resource ID.",
+  "asset_id": "dave_base_down_reference",
+  "source_sha256": "09ca3802280c2afa45b059a66a88452ca6cb0e13e9e0263eb98100322e807d8f",
+  "frame_count": 1,
+  "delivery": "individual PNG frames and horizontal strip; 8-bit RGBA sRGB straight alpha",
+  "source_frames_are_measured": true,
+  "inspection": {
+    "frames": [
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          3,
+          10,
+          85,
+          88
+        ],
+        "solid_bounds": [
+          4,
+          10,
+          85,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5423,
+        "opaque_pixels": 3586,
+        "cleanup": {
+          "discarded_nonzero_pixels": 1417,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        }
+      }
+    ],
+    "mechanical_checks_passed": true,
+    "visual_checks": {
+      "identity": "v002 appearance retained; cleanup inspected",
+      "handedness": "right, viewer left",
+      "body_height_px": 78,
+      "ground_origin_px": [
+        48,
+        88
+      ]
+    },
+    "engine_preview_checked": false
+  },
+  "verified_engine_ready": false,
+  "status": "native_reference_accepted_for_this_art_batch"
+}

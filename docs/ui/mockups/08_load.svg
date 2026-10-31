@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><style>@font-face{font-family:NotoUI;src:url(../fonts/NotoSans-Regular.ttf)}@font-face{font-family:NotoUI;src:url(../fonts/NotoSans-Bold.ttf);font-weight:700}text{font-family:NotoUI,"Noto Sans",sans-serif}</style></defs>
+<rect x="0" y="0" width="1280" height="720" rx="0" fill="#171B27" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="1280" height="720" rx="0" fill="#D8BB87" stroke="none" stroke-width="1"/>
+<polygon points="0,464 310,366 622,396 924,254 1280,310 1280,442 920,402 644,526 310,502 0,602" fill="#B79567" stroke="none" stroke-width="1"/>
+<polygon points="0,0 1280,0 1280,130 1140,112 1080,192 936,156 844,112 730,140 624,112 480,164 296,100 156,144 0,112" fill="#82695D" stroke="none" stroke-width="1"/>
+<polygon points="0,0 1280,0 1280,82 1120,66 1050,140 928,112 830,60 730,92 620,64 480,112 296,48 144,92 0,64" fill="#A1886B" stroke="none" stroke-width="1"/>
+<rect x="918" y="110" width="68" height="158" rx="5" fill="#9F8A72" stroke="#82695D" stroke-width="3"/>
+<polyline points="920,130 984,130" fill="none" stroke="#82695D" stroke-width="2"/>
+<polyline points="920,162 984,162" fill="none" stroke="#82695D" stroke-width="2"/>
+<polyline points="920,194 984,194" fill="none" stroke="#82695D" stroke-width="2"/>
+<polyline points="920,226 984,226" fill="none" stroke="#82695D" stroke-width="2"/>
+<polyline points="920,258 984,258" fill="none" stroke="#82695D" stroke-width="2"/>
+<rect x="1100" y="110" width="68" height="158" rx="5" fill="#9F8A72" stroke="#82695D" stroke-width="3"/>
+<polyline points="1102,130 1166,130" fill="none" stroke="#82695D" stroke-width="2"/>
+<polyline points="1102,162 1166,162" fill="none" stroke="#82695D" stroke-width="2"/>
+<polyline points="1102,194 1166,194" fill="none" stroke="#82695D" stroke-width="2"/>
+<polyline points="1102,226 1166,226" fill="none" stroke="#82695D" stroke-width="2"/>
+<polyline points="1102,258 1166,258" fill="none" stroke="#82695D" stroke-width="2"/>
+<rect x="904" y="88" width="280" height="48" rx="4" fill="#AD967B" stroke="#82695D" stroke-width="3"/>
+<ellipse cx="148.0" cy="255.0" rx="28.0" ry="11.0" fill="#B49A74" stroke="none" stroke-width="1"/>
+<polygon points="124,256 132,238 160,230 172,252" fill="#9F8970" stroke="#82695D" stroke-width="2"/>
+<ellipse cx="218.0" cy="563.0" rx="28.0" ry="11.0" fill="#B49A74" stroke="none" stroke-width="1"/>
+<polygon points="194,564 202,546 230,538 242,560" fill="#9F8970" stroke="#82695D" stroke-width="2"/>
+<ellipse cx="816.0" cy="577.0" rx="28.0" ry="11.0" fill="#B49A74" stroke="none" stroke-width="1"/>
+<polygon points="792,578 800,560 828,552 840,574" fill="#9F8970" stroke="#82695D" stroke-width="2"/>
+<ellipse cx="1168.0" cy="391.0" rx="28.0" ry="11.0" fill="#B49A74" stroke="none" stroke-width="1"/>
+<polygon points="1144,392 1152,374 1180,366 1192,388" fill="#9F8970" stroke="#82695D" stroke-width="2"/>
+<ellipse cx="460.0" cy="221.0" rx="28.0" ry="11.0" fill="#B49A74" stroke="none" stroke-width="1"/>
+<polygon points="436,222 444,204 472,196 484,218" fill="#9F8970" stroke="#82695D" stroke-width="2"/>
+<rect x="184" y="190" width="18" height="76" rx="8" fill="#70846A" stroke="#101521" stroke-width="2"/>
+<polyline points="186,228 170,228 170,208" fill="none" stroke="#536C55" stroke-width="10"/>
+<rect x="762" y="210" width="18" height="76" rx="8" fill="#70846A" stroke="#101521" stroke-width="2"/>
+<polyline points="764,248 748,248 748,228" fill="none" stroke="#536C55" stroke-width="10"/>
+<rect x="1120" y="546" width="18" height="76" rx="8" fill="#70846A" stroke="#101521" stroke-width="2"/>
+<polyline points="1122,584 1106,584 1106,564" fill="none" stroke="#536C55" stroke-width="10"/>
+<polyline points="60,140 70,138" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="257,271 267,269" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="454,402 464,400" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="651,533 661,531" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="848,216 858,214" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="1045,347 1055,345" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="82,478 92,476" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="279,161 289,159" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="476,292 486,290" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="673,423 683,421" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="870,554 880,552" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="1067,237 1077,235" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="104,368 114,366" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="301,499 311,497" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="498,182 508,180" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="695,313 705,311" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="892,444 902,442" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="1089,575 1099,573" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="126,258 136,256" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="323,389 333,387" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="520,520 530,518" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="717,203 727,201" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="914,334 924,332" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="1111,465 1121,463" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="148,148 158,146" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="345,279 355,277" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="542,410 552,408" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="739,541 749,539" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="936,224 946,222" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="1133,355 1143,353" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="170,486 180,484" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="367,169 377,167" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="564,300 574,298" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="761,431 771,429" fill="none" stroke="#C3A576" stroke-width="2"/>
+<polyline points="958,562 968,560" fill="none" stroke="#C3A576" stroke-width="2"/>
+<ellipse cx="621.0" cy="427.0" rx="35.0" ry="11.0" fill="#9C835F" stroke="none" stroke-width="1"/>
+<polygon points="606,356 634,356 646,418 594,418" fill="#9F3E48" stroke="#101521" stroke-width="2"/>
+<ellipse cx="620.0" cy="349.0" rx="17.0" ry="21.0" fill="#BD9258" stroke="#101521" stroke-width="2"/>
+<rect x="603" y="370" width="34" height="37" rx="7" fill="#D2D8DF" stroke="#101521" stroke-width="2"/>
+<polyline points="610,407 608,423" fill="none" stroke="#101521" stroke-width="9"/>
+<polyline points="630,407 632,423" fill="none" stroke="#101521" stroke-width="9"/>
+<polyline points="642,386 671,357" fill="none" stroke="#E8E9E5" stroke-width="7"/>
+<rect width="1280" height="720" fill="#171B27" opacity="0.65"/>
+<rect x="211" y="77" width="864" height="600" rx="12" fill="#101521" stroke="none" stroke-width="1"/>
+<rect x="208" y="72" width="864" height="600" rx="12" fill="#171B27" stroke="#747F95" stroke-width="2"/>
+<polyline points="224,74 1056,74" fill="none" stroke="#9098A6" stroke-width="1"/>
+<polyline points="223,81 217,81 217,87" fill="none" stroke="#EAC477" stroke-width="1"/>
+<polyline points="1057,81 1063,81 1063,87" fill="none" stroke="#EAC477" stroke-width="1"/>
+<polyline points="223,663 217,663 217,657" fill="none" stroke="#EAC477" stroke-width="1"/>
+<polyline points="1057,663 1063,663 1063,657" fill="none" stroke="#EAC477" stroke-width="1"/>
+<text x="232" y="143.0" font-size="46" font-weight="700" text-anchor="start" fill="#F6EBDD">Load Game</text>
+<rect x="752" y="112" width="132" height="36" rx="8" fill="#171B27" stroke="#747F95" stroke-width="2"/>
+<text x="818.0" y="137.0" font-size="18" font-weight="400" text-anchor="middle" fill="#929DAF">Save</text>
+<polyline points="764,142 780,142" fill="none" stroke="#929DAF" stroke-width="2"/>
+<rect x="896" y="112" width="132" height="36" rx="8" fill="#171B27" stroke="#EAC477" stroke-width="2"/>
+<rect x="952.0" y="144" width="20" height="3" rx="0" fill="#EAC477" stroke="none" stroke-width="1"/>
+<text x="962.0" y="137.0" font-size="18" font-weight="400" text-anchor="middle" fill="#F6EBDD">Load</text>
+<rect x="260" y="192" width="760" height="120" rx="12" fill="#242A39" stroke="#EAC477" stroke-width="2"/>
+<rect x="261" y="193" width="758" height="118" rx="8" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="270,192 260,192 260,202" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="1010,192 1020,192 1020,202" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="270,312 260,312 260,302" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="1010,312 1020,312 1020,302" fill="none" stroke="#EAC477" stroke-width="3"/>
+<text x="284" y="238.75" font-size="28" font-weight="700" text-anchor="start" fill="#F6EBDD">1</text>
+<text x="332" y="232.0" font-size="23" font-weight="400" text-anchor="start" fill="#F6EBDD">Pharaoh’s Gate</text>
+<text x="332" y="267.0" font-size="18" font-weight="400" text-anchor="start" fill="#B9C3D3">Level 6 / 01:42:18 / 31 Oct 2026 13:05</text>
+<text x="332" y="299.0" font-size="18" font-weight="400" text-anchor="start" fill="#EAC477">Selected</text>
+<rect x="260" y="320" width="760" height="120" rx="12" fill="#101521" stroke="#747F95" stroke-width="2"/>
+<text x="284" y="366.75" font-size="28" font-weight="700" text-anchor="start" fill="#F6EBDD">2</text>
+<text x="332" y="360.0" font-size="23" font-weight="400" text-anchor="start" fill="#F6EBDD">Oasis Refuge</text>
+<text x="332" y="395.0" font-size="18" font-weight="400" text-anchor="start" fill="#B9C3D3">Level 3 / 00:38:04 / 31 Oct 2026 11:58</text>
+<text x="332" y="427.0" font-size="18" font-weight="400" text-anchor="start" fill="#929DAF"></text>
+<rect x="260" y="448" width="760" height="120" rx="12" fill="#101521" stroke="#747F95" stroke-width="2"/>
+<text x="284" y="494.75" font-size="28" font-weight="700" text-anchor="start" fill="#F6EBDD">3</text>
+<text x="332" y="488.0" font-size="23" font-weight="400" text-anchor="start" fill="#929DAF">Empty slot</text>
+<text x="332" y="523.0" font-size="18" font-weight="400" text-anchor="start" fill="#B9C3D3">No saved journey</text>
+<text x="332" y="555.0" font-size="18" font-weight="400" text-anchor="start" fill="#929DAF">Unavailable in Load mode</text>
+<text x="232" y="603.0" font-size="18" font-weight="400" text-anchor="start" fill="#B9C3D3">Select a journey to load.</text>
+<rect x="232" y="608" width="160" height="40" rx="8" fill="#171B27" stroke="#747F95" stroke-width="2"/>
+<text x="312.0" y="637.0" font-size="23" font-weight="400" text-anchor="middle" fill="#F6EBDD">Back</text>
+<rect x="888" y="608" width="160" height="40" rx="8" fill="#171B27" stroke="#747F95" stroke-width="2"/>
+<text x="968.0" y="637.0" font-size="23" font-weight="400" text-anchor="middle" fill="#F6EBDD">Load</text>
+</svg>

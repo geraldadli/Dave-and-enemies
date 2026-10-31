@@ -1,0 +1,365 @@
+{
+  "source": "art/source/dave/down_batch_v001/spr_dave_idle_down_source_v001.png",
+  "reference": "art/source/dave/down_batch_v001/dave_base_down_v002_clean_v001.png",
+  "canvas_px": [
+    96,
+    96
+  ],
+  "origin_px": [
+    48,
+    88
+  ],
+  "direction": "down",
+  "scale": 0.221,
+  "source_frames": [
+    {
+      "box": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "anchor": [
+        213,
+        405
+      ]
+    },
+    {
+      "box": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "anchor": [
+        213,
+        405
+      ]
+    },
+    {
+      "box": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "anchor": [
+        213,
+        405
+      ]
+    },
+    {
+      "box": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "anchor": [
+        213,
+        405
+      ]
+    },
+    {
+      "box": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "anchor": [
+        213,
+        406
+      ]
+    },
+    {
+      "box": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "anchor": [
+        213,
+        406
+      ]
+    },
+    {
+      "box": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "anchor": [
+        213,
+        406
+      ]
+    },
+    {
+      "box": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "anchor": [
+        213,
+        406
+      ]
+    }
+  ],
+  "fps": 10,
+  "loop": "loop",
+  "review_durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "notes": "Verified 4x2 source layout, row-major ordering. One uniform scale for all frames; fixed source registration x=213. Source soles y405/406 after row crop. Logical ground origin is stable, visual boot midpoint lies ~1px to its right. No per-frame silhouette scaling.",
+  "asset_id": "spr_dave_idle_down",
+  "source_sha256": "44dda3f5e634c8f8fc1c43f4046a813254c77cbbcf585079b36a0f99eac3a2f5",
+  "frame_count": 8,
+  "delivery": "individual PNG frames and horizontal strip; 8-bit RGBA sRGB straight alpha",
+  "source_frames_are_measured": true,
+  "inspection": {
+    "frames": [
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          1,
+          11,
+          88,
+          88
+        ],
+        "solid_bounds": [
+          2,
+          12,
+          87,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5466,
+        "opaque_pixels": 3238,
+        "cleanup": {
+          "discarded_nonzero_pixels": 2463,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        }
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          2,
+          10,
+          91,
+          88
+        ],
+        "solid_bounds": [
+          2,
+          11,
+          90,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5334,
+        "opaque_pixels": 3360,
+        "cleanup": {
+          "discarded_nonzero_pixels": 2358,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        }
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          1,
+          10,
+          93,
+          89
+        ],
+        "solid_bounds": [
+          2,
+          10,
+          92,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5281,
+        "opaque_pixels": 3377,
+        "cleanup": {
+          "discarded_nonzero_pixels": 2455,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        }
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          1,
+          10,
+          94,
+          89
+        ],
+        "solid_bounds": [
+          2,
+          10,
+          93,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5226,
+        "opaque_pixels": 3388,
+        "cleanup": {
+          "discarded_nonzero_pixels": 1753,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        }
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          2,
+          8,
+          93,
+          89
+        ],
+        "solid_bounds": [
+          2,
+          9,
+          92,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5162,
+        "opaque_pixels": 3422,
+        "cleanup": {
+          "discarded_nonzero_pixels": 1591,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        }
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          1,
+          10,
+          94,
+          89
+        ],
+        "solid_bounds": [
+          2,
+          11,
+          93,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5219,
+        "opaque_pixels": 3448,
+        "cleanup": {
+          "discarded_nonzero_pixels": 1861,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        }
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          1,
+          10,
+          94,
+          89
+        ],
+        "solid_bounds": [
+          2,
+          11,
+          93,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5238,
+        "opaque_pixels": 3388,
+        "cleanup": {
+          "discarded_nonzero_pixels": 2246,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        }
+      },
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          2,
+          11,
+          91,
+          89
+        ],
+        "solid_bounds": [
+          3,
+          11,
+          90,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5307,
+        "opaque_pixels": 3346,
+        "cleanup": {
+          "discarded_nonzero_pixels": 1765,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        }
+      }
+    ],
+    "mechanical_checks_passed": true,
+    "visual_checks": {
+      "identity_and_right_hand": "all native frames and painted sources inspected; sword anatomical right throughout",
+      "costume": "silver plate, ivory tabard, golden-brown hair, brown garments, two shoulder cape attachments retained; normal occlusion during attacks",
+      "lighting": "upper-left highlight convention preserved; no mirrored figures",
+      "ground": "fixed native origin and canvases; locomotion knee/foot projection varies through stride",
+      "adjacent_premultiplied_rgba_mean_absolute_difference": [
+        12.794,
+        9.412,
+        4.789,
+        14.801,
+        12.498,
+        5.792,
+        4.82,
+        16.523
+      ],
+      "loop_seam": "f7/f0 subtle silhouette settling remains; seam difference 16.523 versus largest internal 14.801",
+      "remaining_engine_check": "Claude: preview native speed, transition alignment, footstep events and active hitbox timing in GameMaker"
+    },
+    "engine_preview_checked": false,
+    "native_png_and_strip_checks_passed": true
+  },
+  "verified_engine_ready": false,
+  "status": "native_export_inspected_pending_Claude_engine_acceptance"
+}

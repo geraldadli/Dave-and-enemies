@@ -1,0 +1,138 @@
+{
+  "asset_count": 208,
+  "prompt_count": 210,
+  "milestone_a_assets": 39,
+  "milestone_a_prompts": 41,
+  "checked_ui_frames": 14,
+  "engine_ready_assets": 0,
+  "errors": [],
+  "ui_static_metadata": [
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_hp_frame.png",
+      "size": [
+        320,
+        32
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_hp_fill.png",
+      "size": [
+        320,
+        32
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_slot.png",
+      "size": [
+        72,
+        72
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_slot_selected.png",
+      "size": [
+        72,
+        72
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_panel.png",
+      "size": [
+        96,
+        96
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_save_card_00.png",
+      "size": [
+        760,
+        120
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_save_card_01.png",
+      "size": [
+        760,
+        120
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_save_card_02.png",
+      "size": [
+        760,
+        120
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_save_card_empty_00.png",
+      "size": [
+        760,
+        120
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_save_card_empty_01.png",
+      "size": [
+        760,
+        120
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_save_card_empty_02.png",
+      "size": [
+        760,
+        120
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_button_00.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_button_01.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    },
+    {
+      "file": "art/reference/ui_handoff/assets/spr_ui_button_02.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "srgb_chunk": true
+    }
+  ],
+  "scope": "Handoff integrity and existing UI PNG metadata only; no animation, tiling, grid or engine acceptance certified."
+}

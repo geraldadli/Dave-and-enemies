@@ -1,0 +1,23 @@
+Use case: stylized-concept.
+
+Asset ID: ts_stairs. Purpose: Six-cell wide stairs source sheet. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach art/reference/template_sprite_inspection.png as the authoritative style/density reference. Match the supplied Hero's Trail template reference: elevated top-down three-quarter orthographic adventure view, smooth antialiased illustrated cartoon game art, dark charcoal outlines about 1-2 native pixels wide, broad soft cel shading, light from upper left, restrained highlights and slate or warm brown shadows. Human-sized humanoids have compact chibi proportions with heads about 35-40 percent of body height; creatures keep the specific anatomy described below. These are 64-pixel tiles with roughly 78-pixel-tall human bodies. Preserve native visual density; no coarse pixel grid, realistic rendering, anime redesign, isometric diamond grid, noisy microtexture, text, watermark, labels or checkerboard painted into pixels.
+
+Subject: Wide worn pale ochre stone stairs, elevated adventure view, three 64px cells wide and two cells tall. Broad risers with top-left highlights and darker front faces, no rails.
+
+Direction: Use the exact single orientation described; do not generate additional views.
+
+Final target: 192x128 native pixels PER FRAME; All frames fixed 192x128 canvas, no trimming; origin (0, 0). Keep placement fixed between frames.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate one static asset only, no contact sheet or alternative views.
+
+Playback/state selection: static. contract.
+
+Additional constraints: EXACT SOURCE GRID: row 0 left_top, mid_top, right_top; row 1 left_bottom, mid_bottom, right_bottom. Middle column must repeat horizontally without discontinuity. No padding between source cells. All six source cells contain artwork; engine needs a separately reserved empty tile index 0, not deletion of left_top.
+
+Transparent outer canvas, no ground plane or baked ground shadow. Preserve solid interiors, clean straight alpha and no clipped silhouette. Source artwork is not an engine-ready export until measured and inspected.
+
+Inspection before acceptance: Verify 192x128, six exact 64px cells, no grid lines in artwork. Join left + three mid + right columns and inspect riser continuity. Ground entrances clear, step height and highlights match. Confirm engine repacking reserves empty tile zero without losing a stair cell.

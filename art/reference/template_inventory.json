@@ -1,0 +1,1222 @@
+[
+  {
+    "resource": "spr_baddie_attack_down",
+    "canvas": [
+      200,
+      200
+    ],
+    "origin": [
+      100,
+      100
+    ],
+    "frames": 14,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_baddie_attack_down\\9ccf278a-6ec6-47c9-92cb-35e728c1222b.png",
+    "first_frame_alpha_bounds": [
+      69,
+      60,
+      131,
+      139
+    ]
+  },
+  {
+    "resource": "spr_baddie_attack_side",
+    "canvas": [
+      200,
+      200
+    ],
+    "origin": [
+      100,
+      100
+    ],
+    "frames": 14,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_baddie_attack_side\\9d1d39bb-f4f4-46fb-b718-331bd87fb7e4.png",
+    "first_frame_alpha_bounds": [
+      66,
+      59,
+      133,
+      140
+    ]
+  },
+  {
+    "resource": "spr_baddie_attack_up",
+    "canvas": [
+      200,
+      200
+    ],
+    "origin": [
+      100,
+      100
+    ],
+    "frames": 14,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_baddie_attack_up\\63070e08-ba9b-48cb-8423-16968234856b.png",
+    "first_frame_alpha_bounds": [
+      64,
+      50,
+      124,
+      131
+    ]
+  },
+  {
+    "resource": "spr_baddie_defeat",
+    "canvas": [
+      100,
+      100
+    ],
+    "origin": [
+      50,
+      50
+    ],
+    "frames": 1,
+    "metadata_fps": 20.0,
+    "first_frame": "sprites\\spr_baddie_defeat\\42f6a01a-20a8-4a7a-98ba-8eb9e0924572.png",
+    "first_frame_alpha_bounds": [
+      23,
+      10,
+      85,
+      91
+    ]
+  },
+  {
+    "resource": "spr_baddie_idle",
+    "canvas": [
+      73,
+      81
+    ],
+    "origin": [
+      36,
+      40
+    ],
+    "frames": 13,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_baddie_idle\\0d52187f-4ece-4c2a-91b8-064fdc9ddc97.png",
+    "first_frame_alpha_bounds": [
+      4,
+      0,
+      71,
+      81
+    ]
+  },
+  {
+    "resource": "spr_baddie_walk_down",
+    "canvas": [
+      64,
+      84
+    ],
+    "origin": [
+      32,
+      42
+    ],
+    "frames": 10,
+    "metadata_fps": 20.0,
+    "first_frame": "sprites\\spr_baddie_walk_down\\546544cb-97f8-49af-bea9-1b2c75816db9.png",
+    "first_frame_alpha_bounds": [
+      0,
+      1,
+      61,
+      81
+    ]
+  },
+  {
+    "resource": "spr_baddie_walk_side",
+    "canvas": [
+      71,
+      81
+    ],
+    "origin": [
+      35,
+      40
+    ],
+    "frames": 10,
+    "metadata_fps": 20.0,
+    "first_frame": "sprites\\spr_baddie_walk_side\\a1740adf-d67d-4127-aefe-26bd9301b9d1.png",
+    "first_frame_alpha_bounds": [
+      2,
+      0,
+      69,
+      81
+    ]
+  },
+  {
+    "resource": "spr_baddie_walk_up",
+    "canvas": [
+      60,
+      88
+    ],
+    "origin": [
+      30,
+      44
+    ],
+    "frames": 10,
+    "metadata_fps": 20.0,
+    "first_frame": "sprites\\spr_baddie_walk_up\\61ebfa17-d123-4a58-aa3f-3c35635484d4.png",
+    "first_frame_alpha_bounds": [
+      0,
+      1,
+      59,
+      81
+    ]
+  },
+  {
+    "resource": "spr_barrel_big",
+    "canvas": [
+      47,
+      78
+    ],
+    "origin": [
+      23,
+      39
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_barrel_big\\8b6b1b01-4cee-4c15-bdc9-dff1db523851.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      47,
+      78
+    ]
+  },
+  {
+    "resource": "spr_barrel_small",
+    "canvas": [
+      35,
+      58
+    ],
+    "origin": [
+      17,
+      29
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_barrel_small\\1966a26a-ddf3-480d-9d35-e1a9f7d9e009.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      35,
+      58
+    ]
+  },
+  {
+    "resource": "spr_bat_fly",
+    "canvas": [
+      200,
+      200
+    ],
+    "origin": [
+      100,
+      100
+    ],
+    "frames": 12,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_bat_fly\\d0858b8c-3f5a-487f-b5c1-5ff9d7bacaed.png",
+    "first_frame_alpha_bounds": [
+      64,
+      81,
+      134,
+      123
+    ]
+  },
+  {
+    "resource": "spr_bat_projectile",
+    "canvas": [
+      37,
+      14
+    ],
+    "origin": [
+      18,
+      7
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_bat_projectile\\b40f916a-5005-49a6-9282-2cfb188f2355.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      37,
+      14
+    ]
+  },
+  {
+    "resource": "spr_bat_projectile_splatter",
+    "canvas": [
+      100,
+      100
+    ],
+    "origin": [
+      50,
+      50
+    ],
+    "frames": 10,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_bat_projectile_splatter\\8309b7bf-8720-4b9f-bc53-79507a6cde5c.png",
+    "first_frame_alpha_bounds": [
+      6,
+      8,
+      93,
+      92
+    ]
+  },
+  {
+    "resource": "spr_black_background",
+    "canvas": [
+      64,
+      64
+    ],
+    "origin": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_black_background\\6ee02296-a81b-4165-8735-fbd277b1c95a.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      64,
+      64
+    ]
+  },
+  {
+    "resource": "spr_bones_pile_0",
+    "canvas": [
+      59,
+      52
+    ],
+    "origin": [
+      29,
+      26
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_bones_pile_0\\c5b261a3-e461-4623-b785-46fc6f8af5fa.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      59,
+      52
+    ]
+  },
+  {
+    "resource": "spr_bones_pile_1",
+    "canvas": [
+      61,
+      50
+    ],
+    "origin": [
+      30,
+      25
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_bones_pile_1\\0e601eb2-4d8b-4f97-bedc-56f0bb8d8375.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      61,
+      50
+    ]
+  },
+  {
+    "resource": "spr_button",
+    "canvas": [
+      365,
+      120
+    ],
+    "origin": [
+      182,
+      60
+    ],
+    "frames": 3,
+    "metadata_fps": 0.0,
+    "first_frame": "sprites\\spr_button\\f95328ac-f666-4f2d-ac3e-7b8f3ecb204b.png",
+    "first_frame_alpha_bounds": [
+      0,
+      1,
+      365,
+      120
+    ]
+  },
+  {
+    "resource": "spr_chest",
+    "canvas": [
+      32,
+      45
+    ],
+    "origin": [
+      16,
+      31
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_chest\\9a47c858-a260-4427-86dd-1c56da71ad6b.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      32,
+      45
+    ]
+  },
+  {
+    "resource": "spr_chest_open",
+    "canvas": [
+      32,
+      70
+    ],
+    "origin": [
+      16,
+      56
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_chest_open\\bafb7c6b-66d5-4ca2-a455-e3d2816480ea.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      32,
+      70
+    ]
+  },
+  {
+    "resource": "spr_coin",
+    "canvas": [
+      34,
+      34
+    ],
+    "origin": [
+      17,
+      17
+    ],
+    "frames": 8,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_coin\\627b2ecf-a6c5-4579-91c1-69e1df175772.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      34,
+      34
+    ]
+  },
+  {
+    "resource": "spr_editor_sound_loop",
+    "canvas": [
+      64,
+      70
+    ],
+    "origin": [
+      32,
+      35
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_editor_sound_loop\\c0b37832-becf-4dcb-80fc-8b347ca420a5.png",
+    "first_frame_alpha_bounds": [
+      13,
+      0,
+      49,
+      70
+    ]
+  },
+  {
+    "resource": "spr_editor_wall",
+    "canvas": [
+      64,
+      64
+    ],
+    "origin": [
+      32,
+      32
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_editor_wall\\9d9c747d-150f-41a7-98ec-6bc20bd49be9.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      64,
+      64
+    ]
+  },
+  {
+    "resource": "spr_energy_shield",
+    "canvas": [
+      92,
+      93
+    ],
+    "origin": [
+      46,
+      46
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_energy_shield\\90e5287f-34a6-4a92-b4c7-47431f094e76.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      92,
+      93
+    ]
+  },
+  {
+    "resource": "spr_entrance",
+    "canvas": [
+      127,
+      213
+    ],
+    "origin": [
+      0,
+      3
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_entrance\\7bab488a-42b4-4f55-a6e6-f613af7fcf30.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      127,
+      213
+    ]
+  },
+  {
+    "resource": "spr_entrance_particle",
+    "canvas": [
+      33,
+      33
+    ],
+    "origin": [
+      16,
+      16
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_entrance_particle\\5355f9b6-b902-4ba7-ad22-4cb2c61da10d.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      33,
+      33
+    ]
+  },
+  {
+    "resource": "spr_gate_gold_1",
+    "canvas": [
+      64,
+      116
+    ],
+    "origin": [
+      32,
+      58
+    ],
+    "frames": 7,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_gate_gold_1\\e09ad63d-b484-4e0a-a2cb-80bb11448fb9.png",
+    "first_frame_alpha_bounds": [
+      1,
+      44,
+      64,
+      115
+    ]
+  },
+  {
+    "resource": "spr_gate_gold_2",
+    "canvas": [
+      34,
+      189
+    ],
+    "origin": [
+      17,
+      94
+    ],
+    "frames": 10,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_gate_gold_2\\3e408803-60bd-4d3b-b090-7eaa8dd129eb.png",
+    "first_frame_alpha_bounds": [
+      1,
+      60,
+      34,
+      188
+    ]
+  },
+  {
+    "resource": "spr_gate_iron_1",
+    "canvas": [
+      64,
+      141
+    ],
+    "origin": [
+      32,
+      70
+    ],
+    "frames": 10,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_gate_iron_1\\c466e809-3dd9-4894-97c1-68e896b8d7e7.png",
+    "first_frame_alpha_bounds": [
+      1,
+      60,
+      64,
+      140
+    ]
+  },
+  {
+    "resource": "spr_gate_iron_2",
+    "canvas": [
+      30,
+      189
+    ],
+    "origin": [
+      15,
+      94
+    ],
+    "frames": 10,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_gate_iron_2\\a3befc59-9fc7-4c82-b518-e59ce9a919bd.png",
+    "first_frame_alpha_bounds": [
+      1,
+      60,
+      30,
+      188
+    ]
+  },
+  {
+    "resource": "spr_gate_wood_1",
+    "canvas": [
+      64,
+      109
+    ],
+    "origin": [
+      32,
+      54
+    ],
+    "frames": 7,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_gate_wood_1\\8fb21eae-4123-4cc3-bf89-190966620ada.png",
+    "first_frame_alpha_bounds": [
+      1,
+      43,
+      64,
+      107
+    ]
+  },
+  {
+    "resource": "spr_gate_wood_2",
+    "canvas": [
+      30,
+      189
+    ],
+    "origin": [
+      15,
+      94
+    ],
+    "frames": 10,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_gate_wood_2\\e526cf94-cba5-4709-bf0b-8373afea2265.png",
+    "first_frame_alpha_bounds": [
+      0,
+      60,
+      30,
+      188
+    ]
+  },
+  {
+    "resource": "spr_heart_pickup",
+    "canvas": [
+      40,
+      37
+    ],
+    "origin": [
+      20,
+      18
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_heart_pickup\\42918238-e4f0-4498-8d91-d5311cfe06dd.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      40,
+      37
+    ]
+  },
+  {
+    "resource": "spr_help_close",
+    "canvas": [
+      133,
+      132
+    ],
+    "origin": [
+      66,
+      66
+    ],
+    "frames": 3,
+    "metadata_fps": 0.0,
+    "first_frame": "sprites\\spr_help_close\\b60232ce-7bcc-4dc4-940c-ff6966e0d826.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      133,
+      132
+    ]
+  },
+  {
+    "resource": "spr_help_window",
+    "canvas": [
+      616,
+      548
+    ],
+    "origin": [
+      308,
+      274
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_help_window\\6bffb075-dfc1-4907-9cd9-1a67e53f5d93.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      616,
+      548
+    ]
+  },
+  {
+    "resource": "spr_hud_coin",
+    "canvas": [
+      54,
+      54
+    ],
+    "origin": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_hud_coin\\5f5b6da5-ef50-496e-b6c3-74720693bb2f.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      54,
+      54
+    ]
+  },
+  {
+    "resource": "spr_hud_heart",
+    "canvas": [
+      60,
+      56
+    ],
+    "origin": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_hud_heart\\bd66ed55-bcd8-4e32-bf34-61fc10dac793.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      60,
+      55
+    ]
+  },
+  {
+    "resource": "spr_hud_shield",
+    "canvas": [
+      44,
+      55
+    ],
+    "origin": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_hud_shield\\33087008-35a2-4d01-adf2-ef9a9d8d4197.png",
+    "first_frame_alpha_bounds": [
+      1,
+      0,
+      44,
+      55
+    ]
+  },
+  {
+    "resource": "spr_key",
+    "canvas": [
+      43,
+      28
+    ],
+    "origin": [
+      21,
+      14
+    ],
+    "frames": 1,
+    "metadata_fps": 10.0,
+    "first_frame": "sprites\\spr_key\\2e1a04df-40aa-4298-9a41-af11f4d8f6a4.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      43,
+      28
+    ]
+  },
+  {
+    "resource": "spr_lever",
+    "canvas": [
+      38,
+      50
+    ],
+    "origin": [
+      19,
+      25
+    ],
+    "frames": 2,
+    "metadata_fps": 0.0,
+    "first_frame": "sprites\\spr_lever\\0c1a9108-7b91-43ee-998a-fd7b3b199f9d.png",
+    "first_frame_alpha_bounds": [
+      0,
+      4,
+      37,
+      50
+    ]
+  },
+  {
+    "resource": "spr_logo",
+    "canvas": [
+      418,
+      384
+    ],
+    "origin": [
+      209,
+      192
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_logo\\2831597e-d667-4153-854a-096ea4f543e8.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      418,
+      384
+    ]
+  },
+  {
+    "resource": "spr_logo_white",
+    "canvas": [
+      418,
+      384
+    ],
+    "origin": [
+      209,
+      192
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_logo_white\\f46726ed-953a-47e1-b581-14ebacc9fbae.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      418,
+      383
+    ]
+  },
+  {
+    "resource": "spr_loose_rocks",
+    "canvas": [
+      30,
+      28
+    ],
+    "origin": [
+      15,
+      14
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_loose_rocks\\af8e51fb-e86f-4cca-bca9-b51a42996f7f.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      30,
+      28
+    ]
+  },
+  {
+    "resource": "spr_menu_background",
+    "canvas": [
+      1280,
+      720
+    ],
+    "origin": [
+      640,
+      360
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_menu_background\\f4e38974-4cd1-4542-9899-0a69e998e688.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      1280,
+      720
+    ]
+  },
+  {
+    "resource": "spr_next_level",
+    "canvas": [
+      64,
+      64
+    ],
+    "origin": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_next_level\\7843b734-3482-4cca-8378-439b6d5c2558.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      64,
+      64
+    ]
+  },
+  {
+    "resource": "spr_pillar_fallen",
+    "canvas": [
+      49,
+      91
+    ],
+    "origin": [
+      24,
+      45
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_pillar_fallen\\ab9fd372-6dd3-413d-b44a-23ed31779b00.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      49,
+      91
+    ]
+  },
+  {
+    "resource": "spr_pillar_half",
+    "canvas": [
+      40,
+      81
+    ],
+    "origin": [
+      20,
+      40
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_pillar_half\\365b28a9-b73c-4604-ad84-fb7b274fa3ea.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      40,
+      81
+    ]
+  },
+  {
+    "resource": "spr_pillar_whole",
+    "canvas": [
+      40,
+      103
+    ],
+    "origin": [
+      20,
+      51
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_pillar_whole\\f7aa6979-2838-4eeb-85a9-0c0a461c6b78.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      40,
+      103
+    ]
+  },
+  {
+    "resource": "spr_player_defeated",
+    "canvas": [
+      100,
+      100
+    ],
+    "origin": [
+      50,
+      50
+    ],
+    "frames": 2,
+    "metadata_fps": 4.0,
+    "first_frame": "sprites\\spr_player_defeated\\c7c9f541-a53f-4e77-ad3e-15a13c240118.png",
+    "first_frame_alpha_bounds": [
+      14,
+      17,
+      82,
+      91
+    ]
+  },
+  {
+    "resource": "spr_player_idle",
+    "canvas": [
+      60,
+      77
+    ],
+    "origin": [
+      30,
+      38
+    ],
+    "frames": 12,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_player_idle\\e3e92c3f-5f2d-49ba-80ba-03642db101ab.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      60,
+      77
+    ]
+  },
+  {
+    "resource": "spr_player_walk_down",
+    "canvas": [
+      58,
+      74
+    ],
+    "origin": [
+      29,
+      37
+    ],
+    "frames": 10,
+    "metadata_fps": 20.0,
+    "first_frame": "sprites\\spr_player_walk_down\\d2a4871d-ada5-4ba5-a593-99928df2e35b.png",
+    "first_frame_alpha_bounds": [
+      0,
+      1,
+      58,
+      74
+    ]
+  },
+  {
+    "resource": "spr_player_walk_side",
+    "canvas": [
+      60,
+      78
+    ],
+    "origin": [
+      30,
+      39
+    ],
+    "frames": 10,
+    "metadata_fps": 20.0,
+    "first_frame": "sprites\\spr_player_walk_side\\aba65e9c-40b6-43e7-9e60-a20898c96030.png",
+    "first_frame_alpha_bounds": [
+      2,
+      0,
+      58,
+      78
+    ]
+  },
+  {
+    "resource": "spr_player_walk_up",
+    "canvas": [
+      63,
+      74
+    ],
+    "origin": [
+      31,
+      37
+    ],
+    "frames": 10,
+    "metadata_fps": 20.0,
+    "first_frame": "sprites\\spr_player_walk_up\\e16f9836-72a6-443e-9e90-9f87ad63f5fd.png",
+    "first_frame_alpha_bounds": [
+      0,
+      1,
+      61,
+      74
+    ]
+  },
+  {
+    "resource": "spr_powerup_invinc",
+    "canvas": [
+      45,
+      53
+    ],
+    "origin": [
+      22,
+      26
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_powerup_invinc\\5dccf023-4117-4b38-8b2e-f56d9e96228f.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      44,
+      53
+    ]
+  },
+  {
+    "resource": "spr_powerup_speed",
+    "canvas": [
+      45,
+      53
+    ],
+    "origin": [
+      22,
+      26
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_powerup_speed\\d9db5ffe-9c18-419b-9b9a-74b3929819bf.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      45,
+      53
+    ]
+  },
+  {
+    "resource": "spr_sword_attack",
+    "canvas": [
+      91,
+      64
+    ],
+    "origin": [
+      -7,
+      32
+    ],
+    "frames": 4,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_sword_attack\\b1da30c7-20b1-4d5e-8224-92462e40f510.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      41,
+      5
+    ]
+  },
+  {
+    "resource": "spr_tileset_animations",
+    "canvas": [
+      1024,
+      1024
+    ],
+    "origin": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_tileset_animations\\071e2771-f13f-4bb1-9a5b-c28f0f782f80.png",
+    "first_frame_alpha_bounds": [
+      0,
+      64,
+      1024,
+      704
+    ]
+  },
+  {
+    "resource": "spr_tileset_floor",
+    "canvas": [
+      512,
+      512
+    ],
+    "origin": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_tileset_floor\\e5019898-4976-4c4b-a0c5-cfddafb22275.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      512,
+      192
+    ]
+  },
+  {
+    "resource": "spr_tileset_walls",
+    "canvas": [
+      512,
+      704
+    ],
+    "origin": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_tileset_walls\\fad0a432-b26b-4bec-a617-388c750070d1.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      512,
+      704
+    ]
+  },
+  {
+    "resource": "spr_torch_glow",
+    "canvas": [
+      201,
+      201
+    ],
+    "origin": [
+      100,
+      100
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_torch_glow\\64a780fd-faa4-4c11-96f6-c595322ed1cb.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      201,
+      201
+    ]
+  },
+  {
+    "resource": "spr_torch_off",
+    "canvas": [
+      22,
+      41
+    ],
+    "origin": [
+      11,
+      20
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_torch_off\\1525bb2d-0522-4fed-932d-e5fb505915f9.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      22,
+      41
+    ]
+  },
+  {
+    "resource": "spr_white_square",
+    "canvas": [
+      64,
+      64
+    ],
+    "origin": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "metadata_fps": 30.0,
+    "first_frame": "sprites\\spr_white_square\\4696e214-dd74-47ca-a3a8-5e073ef24f40.png",
+    "first_frame_alpha_bounds": [
+      0,
+      0,
+      64,
+      64
+    ]
+  }
+]

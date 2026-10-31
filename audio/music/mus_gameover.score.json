@@ -1,0 +1,97 @@
+{
+  "asset_id": "mus_gameover",
+  "duration_seconds": 4.5,
+  "loop": false,
+  "tempo": "Free timing against storyboard seconds",
+  "tuning": "A4=440 Hz; C4=MIDI 60",
+  "pitch_collection": [
+    "C",
+    "Db",
+    "E",
+    "F",
+    "G",
+    "Ab",
+    "B"
+  ],
+  "seed": 450631,
+  "markers": [
+    [
+      0,
+      "Sparse low C beneath Dave's separate death sound"
+    ],
+    [
+      0.15,
+      "Regretful descending G-E-Db plucks"
+    ],
+    [
+      2,
+      "Short breathy C-G decay, permitting a hopeful retry"
+    ]
+  ],
+  "end_fade_from_seconds": 3.3,
+  "events": [
+    {
+      "instrument": "pad",
+      "start_seconds": 0,
+      "note": 48,
+      "gate_seconds": 2.1,
+      "velocity": 0.01784287674633113,
+      "pan": -0.16460730131426118,
+      "seed": 1068831629
+    },
+    {
+      "instrument": "oud",
+      "start_seconds": 0,
+      "note": 36,
+      "gate_seconds": 0.3,
+      "velocity": 0.01738161772634602,
+      "pan": -0.03709981831414293,
+      "seed": 1474326671
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 0.15,
+      "note": 67,
+      "gate_seconds": 0.42,
+      "velocity": 0.0832839991581448,
+      "pan": -0.10170227408962253,
+      "seed": 90041044
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 0.75,
+      "note": 64,
+      "gate_seconds": 0.42,
+      "velocity": 0.08410780223365281,
+      "pan": -0.1223352157914845,
+      "seed": 1224878314
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 1.35,
+      "note": 61,
+      "gate_seconds": 0.52,
+      "velocity": 0.08444769301383333,
+      "pan": -0.1041544416097059,
+      "seed": 843318992
+    },
+    {
+      "instrument": "flute",
+      "start_seconds": 2,
+      "note": 60,
+      "gate_seconds": 2.4,
+      "velocity": 0.03642126891693704,
+      "pan": 0.16574492146994135,
+      "seed": 997201454
+    },
+    {
+      "instrument": "flute",
+      "start_seconds": 2.045,
+      "note": 67,
+      "gate_seconds": 2.4,
+      "velocity": 0.03683996383490053,
+      "pan": 0.16498493079063975,
+      "seed": 1526668799
+    }
+  ]
+}

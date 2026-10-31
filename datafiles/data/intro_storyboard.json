@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "scene_id": "intro",
+  "room_id": "rm_intro",
+  "fps": 60,
+  "duration_s": 54,
+  "completion_event": "intro_complete",
+  "coordinates": {
+    "stage_size_px": [
+      1920,
+      1080
+    ],
+    "view_size_px": [
+      1280,
+      720
+    ],
+    "dave_initial_ground_px": [
+      1040,
+      790
+    ],
+    "wall_top_left_px": [
+      0,
+      0
+    ],
+    "wall_size_px": [
+      1920,
+      640
+    ],
+    "breach_x_px": [
+      760,
+      1160
+    ],
+    "wind_direction": "east_to_west",
+    "camera_points_are": "view centres",
+    "zoom_1_means": "native pixels; never magnify art"
+  },
+  "playback": {
+    "default_mode": "timed",
+    "manual_reading_mode_allowed": true,
+    "advance_action": "cutscene_advance",
+    "skip_action": "cutscene_skip",
+    "skip_hold_s": 0.6
+  },
+  "shots": [
+    {
+      "id": "intro_shot_010",
+      "start_s": 0,
+      "duration_s": 6,
+      "transition_in": "fade_from_black_1s",
+      "camera": {
+        "coordinate_space": "intro_stage",
+        "from_px": [
+          640,
+          500
+        ],
+        "to_px": [
+          760,
+          540
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1,
+        "ease": "smoothstep"
+      },
+      "character_poses": "Dave stands alone before the breached wall, sword lowered, head bowed; no other figure moves.",
+      "environment_motion": "Thin sand ribbons drift right to left. A torn banner pulls west; dust slips from masonry.",
+      "text_cues": [
+        {
+          "line_id": "intro_010",
+          "offset_s": 1,
+          "duration_s": 4.5
+        }
+      ],
+      "audio_cues": [
+        {
+          "offset_s": 0,
+          "asset_id": "snd_wind_loop",
+          "action": "fade_in_loop",
+          "fade_s": 1.5
+        },
+        {
+          "offset_s": 0,
+          "asset_id": "mus_intro",
+          "action": "start_non_loop"
+        },
+        {
+          "offset_s": 1.5,
+          "asset_id": "snd_intro_banner",
+          "action": "play_once_optional"
+        }
+      ]
+    },
+    {
+      "id": "intro_shot_020",
+      "start_s": 6,
+      "duration_s": 7,
+      "transition_in": "cut",
+      "camera": {
+        "coordinate_space": "intro_stage",
+        "from_px": [
+          760,
+          540
+        ],
+        "to_px": [
+          900,
+          620
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1,
+        "ease": "smoothstep"
+      },
+      "character_poses": "Pass three motionless fallen comrades in the foreground; Dave remains the only standing figure behind them.",
+      "environment_motion": "A veil of sand passes over still cloaks and broken spears; no gore, twitching or ghost imagery.",
+      "text_cues": [
+        {
+          "line_id": "intro_020",
+          "offset_s": 0.5,
+          "duration_s": 6
+        }
+      ],
+      "audio_cues": [
+        {
+          "offset_s": 0,
+          "asset_id": "mus_intro",
+          "action": "score_direction",
+          "note": "Low sustained strings; leave space around the narrator blips."
+        }
+      ]
+    },
+    {
+      "id": "intro_shot_030",
+      "start_s": 13,
+      "duration_s": 7,
+      "transition_in": "cut",
+      "camera": {
+        "coordinate_space": "intro_stage",
+        "from_px": [
+          900,
+          620
+        ],
+        "to_px": [
+          1040,
+          600
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1,
+        "ease": "smoothstep"
+      },
+      "character_poses": "Dave remains still beneath the gap in the fortification. Hold the empty breach as the theft is named.",
+      "environment_motion": "Sand streams through the breach toward screen left; one loose pebble settles.",
+      "text_cues": [
+        {
+          "line_id": "intro_030",
+          "offset_s": 0.5,
+          "duration_s": 6
+        }
+      ],
+      "audio_cues": [
+        {
+          "offset_s": 0,
+          "asset_id": "mus_intro",
+          "action": "score_direction",
+          "note": "Thin out the melody; the absence of the Grail is carried by the text, with no flashback."
+        },
+        {
+          "offset_s": 1,
+          "asset_id": "snd_intro_grit",
+          "action": "play_once_optional"
+        }
+      ]
+    },
+    {
+      "id": "intro_shot_040",
+      "start_s": 20,
+      "duration_s": 7,
+      "transition_in": "cut",
+      "camera": {
+        "coordinate_space": "intro_stage",
+        "from_px": [
+          1040,
+          600
+        ],
+        "to_px": [
+          1040,
+          650
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1,
+        "ease": "smoothstep"
+      },
+      "character_poses": "Dave bows his head toward his fallen comrades. His sword stays lowered; his free hand closes slowly.",
+      "environment_motion": "Cape and golden-brown hair pull west; the bodies and their weapons remain still.",
+      "text_cues": [
+        {
+          "line_id": "intro_040",
+          "offset_s": 0.5,
+          "duration_s": 6
+        }
+      ],
+      "audio_cues": [
+        {
+          "offset_s": 0,
+          "asset_id": "mus_intro",
+          "action": "score_direction",
+          "note": "A quiet, spare phrase; no sobbing or spoken voice."
+        }
+      ]
+    },
+    {
+      "id": "intro_shot_050",
+      "start_s": 27,
+      "duration_s": 8,
+      "transition_in": "cut",
+      "camera": {
+        "coordinate_space": "intro_stage",
+        "from_px": [
+          1040,
+          650
+        ],
+        "to_px": [
+          1040,
+          650
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1,
+        "ease": "smoothstep"
+      },
+      "character_poses": "Dave raises his head. His free hand rests against his breastplate; posture straightens without raising the sword.",
+      "environment_motion": "Wind continues at the same direction and restrained density.",
+      "text_cues": [
+        {
+          "line_id": "intro_050",
+          "offset_s": 0.5,
+          "duration_s": 7
+        }
+      ],
+      "audio_cues": [
+        {
+          "offset_s": 0,
+          "asset_id": "mus_intro",
+          "action": "score_direction",
+          "note": "Introduce the adventure motif softly beneath the vow."
+        }
+      ]
+    },
+    {
+      "id": "intro_shot_060",
+      "start_s": 35,
+      "duration_s": 8,
+      "transition_in": "cut",
+      "camera": {
+        "coordinate_space": "intro_stage",
+        "from_px": [
+          1040,
+          650
+        ],
+        "to_px": [
+          1100,
+          650
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1,
+        "ease": "smoothstep"
+      },
+      "character_poses": "Hold Dave's steady vow pose. His gaze shifts toward the eastern route at the line's end.",
+      "environment_motion": "The torn banner strains west; drifting sand leaves the eastward path readable.",
+      "text_cues": [
+        {
+          "line_id": "intro_060",
+          "offset_s": 0.5,
+          "duration_s": 7
+        }
+      ],
+      "audio_cues": [
+        {
+          "offset_s": 0,
+          "asset_id": "mus_intro",
+          "action": "score_direction",
+          "note": "Broaden the motif with restrained resolve; avoid a victory cadence."
+        }
+      ]
+    },
+    {
+      "id": "intro_shot_070",
+      "start_s": 43,
+      "duration_s": 6,
+      "transition_in": "cut",
+      "camera": {
+        "coordinate_space": "intro_stage",
+        "from_px": [
+          1100,
+          650
+        ],
+        "to_px": [
+          1220,
+          650
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1,
+        "ease": "smoothstep"
+      },
+      "character_poses": "Dave turns down to down_side to side over 0.5 s, then walks east from ground (1040,790) to (1232,790).",
+      "environment_motion": "Cape trails left; dust lifts gently behind his feet. Fallen comrades stay behind.",
+      "text_cues": [
+        {
+          "line_id": "intro_070",
+          "offset_s": 0.5,
+          "duration_s": 5
+        }
+      ],
+      "audio_cues": [
+        {
+          "offset_s": 0,
+          "asset_id": "mus_intro",
+          "action": "score_direction",
+          "note": "Begin a measured forward pulse."
+        },
+        {
+          "offset_s": 0.5,
+          "asset_id": "snd_step_sand",
+          "action": "animation_step_events",
+          "until_offset_s": 6,
+          "note": "Use actual walk contacts, not an extra independent footstep loop."
+        }
+      ]
+    },
+    {
+      "id": "intro_shot_080",
+      "start_s": 49,
+      "duration_s": 5,
+      "transition_in": "cut_then_fade_to_black_at_local_4s",
+      "camera": {
+        "coordinate_space": "intro_stage",
+        "from_px": [
+          1220,
+          650
+        ],
+        "to_px": [
+          1280,
+          650
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1,
+        "ease": "smoothstep"
+      },
+      "character_poses": "Track Dave continuing east to ground (1536,790); keep the broken city behind him. Cut before any gameplay movement.",
+      "environment_motion": "Foreground sand crosses left; the path ahead remains open.",
+      "text_cues": [],
+      "audio_cues": [
+        {
+          "offset_s": 0,
+          "asset_id": "snd_step_sand",
+          "action": "animation_step_events",
+          "until_offset_s": 4
+        },
+        {
+          "offset_s": 3,
+          "asset_id": "mus_intro",
+          "action": "fade_out",
+          "fade_s": 2
+        },
+        {
+          "offset_s": 4,
+          "asset_id": "snd_wind_loop",
+          "action": "transfer_to_exploration_or_fade",
+          "fade_s": 1
+        }
+      ]
+    }
+  ]
+}
+

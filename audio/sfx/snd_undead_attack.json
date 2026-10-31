@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_undead_attack",
+  "purpose": "Undead melee windup",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.55,
+  "actual_duration_seconds": 0.55,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_undead_attack_1.wav",
+      "path": "audio/sfx/snd_undead_attack_1.wav",
+      "sha256": "dc68ffa78a0cf85ab7e433d5e8400562d21b2b1518e372f1864e44463a5d9bd8",
+      "bytes": 48554,
+      "frames": 24255,
+      "duration_seconds": 0.55,
+      "seed": 2306553045,
+      "measurements": {
+        "sample_peak_dbfs": -6.26959,
+        "oversampled_peak_dbfs_4x": -6.20771,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.33539,
+        "dc_offset": -4.152051445578231e-08,
+        "onset_ms_at_minus60_relative": 0.34,
+        "trailing_ms_below_minus60_relative": 0.522
+      }
+    },
+    {
+      "file": "snd_undead_attack_2.wav",
+      "path": "audio/sfx/snd_undead_attack_2.wav",
+      "sha256": "7017eaa0a50b9ff037fc98fcb65c8d3c2615513a1800a0b0b55f9fd483859265",
+      "bytes": 48554,
+      "frames": 24255,
+      "duration_seconds": 0.55,
+      "seed": 34250768,
+      "measurements": {
+        "sample_peak_dbfs": -6.1876,
+        "oversampled_peak_dbfs_4x": -6.05803,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.33542,
+        "dc_offset": 1.4595089929911358e-07,
+        "onset_ms_at_minus60_relative": 0.385,
+        "trailing_ms_below_minus60_relative": 0.884
+      }
+    },
+    {
+      "file": "snd_undead_attack_3.wav",
+      "path": "audio/sfx/snd_undead_attack_3.wav",
+      "sha256": "7c18786de09a3c5b0e7b9fee4f71971ef0e04fe479a3b0138b1ec2dc0a238f35",
+      "bytes": 48554,
+      "frames": 24255,
+      "duration_seconds": 0.55,
+      "seed": 1464395247,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.96914,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.3354,
+        "dc_offset": 5.913527816429602e-08,
+        "onset_ms_at_minus60_relative": 0.363,
+        "trailing_ms_below_minus60_relative": 0.884
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_undead_attack: Undead melee windup. Create a slow dry joint creak with cloth strain and a low closed-mouth breath scrape. Build to a short sandy hand sweep; no impact or words. The first 80 ms should identify a nearby attack. Deliver 3 separate distinct takes, each 0.55 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 3e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

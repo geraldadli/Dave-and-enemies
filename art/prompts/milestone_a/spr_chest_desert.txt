@@ -1,0 +1,25 @@
+Use case: stylized-concept.
+
+Asset ID: spr_chest_desert. Purpose: Treasure chest states. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach art/reference/template_sprite_inspection.png as the authoritative style/density reference. Match the supplied Hero's Trail template reference: elevated top-down three-quarter orthographic adventure view, smooth antialiased illustrated cartoon game art, dark charcoal outlines about 1-2 native pixels wide, broad soft cel shading, light from upper left, restrained highlights and slate or warm brown shadows. Human-sized humanoids have compact chibi proportions with heads about 35-40 percent of body height; creatures keep the specific anatomy described below. These are 64-pixel tiles with roughly 78-pixel-tall human bodies. Preserve native visual density; no coarse pixel grid, realistic rendering, anime redesign, isometric diamond grid, noisy microtexture, text, watermark, labels or checkerboard painted into pixels.
+
+Subject: A squat desert treasure chest, warm weathered golden-brown planks, cool iron edge bands and a simple centred latch. Visible lid top and front in the template elevated camera, no elaborate emblem.
+
+Direction: Use the exact single orientation described; do not generate additional views.
+
+Final target: 64x64 native pixels PER FRAME; All frames fixed 64x64 canvas, no trimming; origin (32, 56). Keep placement fixed between frames.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate ONLY this one asset/action/direction as 6 chronological frames in one horizontal row, equally sized cells, left to right, no labels or visible grid lines. Planned final strip is 384x64, or individual fixed 64x64 frames. A generator may produce a larger source; exact grid and dimensions must be checked and exported afterward. No other characters, actions or directions.
+
+Pose plan, zero-based indices: f0 closed; f1 latch releases and lid cracks; f2 half open; f3 approaching full lift; f4 opening settles; f5 fully open and held. Base and hinge remain registered.
+
+Playback/state selection: state_driven. states and counts from A7; opening proposed at 12 fps for four frames.
+
+Collision footprint reference (not painted into art): 48x20 pixels at the base.
+
+Transparent outer canvas, no ground plane or baked ground shadow. Preserve solid interiors, clean straight alpha and no clipped silhouette. Source artwork is not an engine-ready export until measured and inspected.
+
+Inspection before acceptance: All six frames use the same base and hinge location. Footprint 48x20 is centred on (32,56). Open lid fits inside 64x64 without shrinking the chest. Closed/open are holds; opening is a four-frame one-shot.

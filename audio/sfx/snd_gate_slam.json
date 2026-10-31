@@ -1,0 +1,62 @@
+{
+  "asset_id": "snd_gate_slam",
+  "purpose": "Arena gate closes behind Dave",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.9,
+  "actual_duration_seconds": 0.9,
+  "variation_count": 2,
+  "files": [
+    {
+      "file": "snd_gate_slam_1.wav",
+      "path": "audio/sfx/snd_gate_slam_1.wav",
+      "sha256": "affa33b4c93f5eb8eb2860ac7bacf83e3079faf5c999a42931a97e8ac634b063",
+      "bytes": 79424,
+      "frames": 39690,
+      "duration_seconds": 0.9,
+      "seed": 2872240202,
+      "measurements": {
+        "sample_peak_dbfs": -6.18004,
+        "oversampled_peak_dbfs_4x": -6.17451,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -22.79916,
+        "dc_offset": 5.997407643613e-08,
+        "onset_ms_at_minus60_relative": 0.34,
+        "trailing_ms_below_minus60_relative": 0.884
+      }
+    },
+    {
+      "file": "snd_gate_slam_2.wav",
+      "path": "audio/sfx/snd_gate_slam_2.wav",
+      "sha256": "7bfe2082dfb4f69a7842b28861bbb6f41e49a79ac1a7c60f1dacd4bb73660a57",
+      "bytes": 79424,
+      "frames": 39690,
+      "duration_seconds": 0.9,
+      "seed": 1767061782,
+      "measurements": {
+        "sample_peak_dbfs": -6.00048,
+        "oversampled_peak_dbfs_4x": -5.9842,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -22.79914,
+        "dc_offset": -7.688984158478206e-10,
+        "onset_ms_at_minus60_relative": 0.295,
+        "trailing_ms_below_minus60_relative": 0.839
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_gate_slam: Arena gate closes behind Dave. Create a short dry iron-and-stone gate slide ending in one solid damped slam and sandy rattle. Clear enclosure without a startling cinematic peak. No crowd, voice or music. Deliver 2 separate distinct takes, each 0.9 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 2e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

@@ -1,0 +1,10 @@
+{
+  "archive": "art/exports/dave/dave_down_v001.zip",
+  "archive_files": 69,
+  "archive_bytes": 14863280,
+  "archive_sha256": "57a1ea1fc2c2e3907e5756e48ccb3faa0ac1923233be5adcb68eab11626a8088",
+  "zip_crc_check_passed": true,
+  "manifest_native_deliveries": 3,
+  "new_doc_links_and_delivery_paths_checked": true,
+  "errors": []
+}

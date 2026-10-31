@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_boss_hurt",
+  "purpose": "Pharaoh reacts to confirmed damage",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.35,
+  "actual_duration_seconds": 0.35,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_boss_hurt_1.wav",
+      "path": "audio/sfx/snd_boss_hurt_1.wav",
+      "sha256": "173db1f08d85b026462457b034aa1a2c8da8a8e0017cce9a6b8f1819355d4ce2",
+      "bytes": 30914,
+      "frames": 15435,
+      "duration_seconds": 0.35,
+      "seed": 4177916384,
+      "measurements": {
+        "sample_peak_dbfs": -6.21195,
+        "oversampled_peak_dbfs_4x": -6.2018,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -17.6181,
+        "dc_offset": -5.140635123096858e-08,
+        "onset_ms_at_minus60_relative": 0.34,
+        "trailing_ms_below_minus60_relative": 0.272
+      }
+    },
+    {
+      "file": "snd_boss_hurt_2.wav",
+      "path": "audio/sfx/snd_boss_hurt_2.wav",
+      "sha256": "ffcb86b9a29220d8270f78aaec79e92f670f38c5924b15fd9787532190710524",
+      "bytes": 30914,
+      "frames": 15435,
+      "duration_seconds": 0.35,
+      "seed": 3105571583,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.99047,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -17.6181,
+        "dc_offset": 1.008355351068999e-07,
+        "onset_ms_at_minus60_relative": 0.363,
+        "trailing_ms_below_minus60_relative": 0.385
+      }
+    },
+    {
+      "file": "snd_boss_hurt_3.wav",
+      "path": "audio/sfx/snd_boss_hurt_3.wav",
+      "sha256": "97a5b4252b8a79dfa0dd386cf5e2ba4d254130cb551ae1a1a4c1341accc61139",
+      "bytes": 30914,
+      "frames": 15435,
+      "duration_seconds": 0.35,
+      "seed": 289237395,
+      "measurements": {
+        "sample_peak_dbfs": -6.27177,
+        "oversampled_peak_dbfs_4x": -6.26625,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -17.61811,
+        "dc_offset": -4.152051445578231e-08,
+        "onset_ms_at_minus60_relative": 0.363,
+        "trailing_ms_below_minus60_relative": 0.317
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_boss_hurt: Pharaoh reacts to confirmed damage. Create an original low dry closed-mouth resonant grunt with a tiny crumbling-stone edge. One brief nonverbal reaction, less voice-like than dialogue and without words, scream or weapon hit. Deliver 3 separate distinct takes, each 0.35 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 1e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

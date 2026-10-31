@@ -1,0 +1,23 @@
+Use case: stylized-concept.
+
+Asset ID: spr_icon_iron_tunic. Purpose: Inventory item icon: iron_tunic. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach art/reference/template_sprite_inspection.png as the authoritative style/density reference. Match the supplied Hero's Trail template reference: elevated top-down three-quarter orthographic adventure view, smooth antialiased illustrated cartoon game art, dark charcoal outlines about 1-2 native pixels wide, broad soft cel shading, light from upper left, restrained highlights and slate or warm brown shadows. Human-sized humanoids have compact chibi proportions with heads about 35-40 percent of body height; creatures keep the specific anatomy described below. These are 64-pixel tiles with roughly 78-pixel-tall human bodies. Preserve native visual density; no coarse pixel grid, realistic rendering, anime redesign, isometric diamond grid, noisy microtexture, text, watermark, labels or checkerboard painted into pixels.
+
+Subject: One compact cool iron plated tunic with brown underlayer, clear shoulder openings and waist, no body.
+
+Direction: Use the exact single orientation described; do not generate additional views.
+
+Final target: 64x64 native pixels PER FRAME; All frames fixed 64x64 canvas, no trimming; origin (0, 0). Keep placement fixed between frames.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate one static asset only, no contact sheet or alternative views.
+
+Playback/state selection: static. contract.
+
+Additional constraints: Single inventory item, readable at 48 pixels, full silhouette contained inside x=3..60 and y=3..60. Natural glass translucency is allowed, but no opaque rectangle.
+
+Transparent outer canvas, no ground plane or baked ground shadow. Preserve solid interiors, clean straight alpha and no clipped silhouette. Source artwork is not an engine-ready export until measured and inspected.
+
+Inspection before acceptance: At least 3 pixels of fully transparent padding on every side. Centred visual mass; readable at 48x48. No title, frame, cast shadow or white matte. Weapon/costume silhouette matches its character reference.

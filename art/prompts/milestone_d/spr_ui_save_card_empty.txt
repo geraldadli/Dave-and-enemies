@@ -1,0 +1,21 @@
+Use case: stylized-concept.
+
+Asset ID: spr_ui_save_card_empty. Purpose: Save/load/menu UI. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach this component from art/reference/ui_handoff/assets/ as the authoritative geometry and palette reference. The prototype is already supplied; reuse it for the current milestone. This optional generation prompt is for later approved art polish only. Preserve the existing dark ink/cool grey/gold hierarchy. This is flat screen-space UI, no world camera foreshortening.
+
+Subject: Reuse the supplied empty-save card matching spr_ui_save_card exactly, quieter cool grey border and empty central text area; no text or icon.
+
+Direction: Use the exact single orientation described; do not generate additional views.
+
+Final target: 760x120 native pixels PER FRAME; All frames fixed 760x120 canvas, no trimming; origin (0, 0). Keep placement fixed between frames.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Deliver 3 discrete registered UI states as separate images or one horizontal row of 3 equal cells. These are state-selected images, not a loop. f0 normal; f1 clear warm gold hover rim; f2 darker inset centre and 1px depressed bevel, same outer dimensions.
+
+Playback/state selection: state_driven. contract.
+
+Additional constraints: Screen-space GUI. Three discrete states, not an automatically playing animation. Match the existing UI handoff palette and preserve gold hover/focus and pressed inset states.
+
+Inspection before acceptance: All states register at the same corners. Button 16px nine-slice borders survive stretching. No baked text; keep text areas calm and clear.

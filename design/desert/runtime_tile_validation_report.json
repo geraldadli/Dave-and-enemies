@@ -1,0 +1,110 @@
+{
+  "status": "pass",
+  "errors": [],
+  "tilesets": {
+    "ts_d_bridge": {
+      "status": "pass",
+      "columns": 5,
+      "tiles": 25,
+      "compiled_pixels": [
+        340,
+        340
+      ],
+      "expected_pixels": [
+        340,
+        340
+      ]
+    },
+    "ts_d_chasm": {
+      "status": "pass",
+      "columns": 4,
+      "tiles": 16,
+      "compiled_pixels": [
+        272,
+        272
+      ],
+      "expected_pixels": [
+        272,
+        272
+      ]
+    },
+    "ts_d_grass": {
+      "status": "pass",
+      "columns": 9,
+      "tiles": 81,
+      "compiled_pixels": [
+        612,
+        612
+      ],
+      "expected_pixels": [
+        612,
+        612
+      ]
+    },
+    "ts_d_path": {
+      "status": "pass",
+      "columns": 21,
+      "tiles": 441,
+      "compiled_pixels": [
+        1428,
+        1428
+      ],
+      "expected_pixels": [
+        1428,
+        1428
+      ]
+    },
+    "ts_d_paving": {
+      "status": "pass",
+      "columns": 21,
+      "tiles": 441,
+      "compiled_pixels": [
+        1428,
+        1428
+      ],
+      "expected_pixels": [
+        1428,
+        1428
+      ]
+    },
+    "ts_d_sand": {
+      "status": "pass",
+      "columns": 5,
+      "tiles": 25,
+      "compiled_pixels": [
+        340,
+        340
+      ],
+      "expected_pixels": [
+        340,
+        340
+      ]
+    },
+    "ts_d_walls": {
+      "status": "pass",
+      "columns": 18,
+      "tiles": 324,
+      "compiled_pixels": [
+        1224,
+        1224
+      ],
+      "expected_pixels": [
+        1224,
+        1224
+      ]
+    },
+    "ts_d_water": {
+      "status": "pass",
+      "columns": 9,
+      "tiles": 81,
+      "compiled_pixels": [
+        612,
+        612
+      ],
+      "expected_pixels": [
+        612,
+        612
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "source": "art/source/dave/cardinal_batch_v001/dave_base_up_source_v001.png",
+  "reference": "art/source/dave/down_batch_v001/dave_base_down_v002_clean_v001.png",
+  "canvas_px": [
+    96,
+    96
+  ],
+  "origin_px": [
+    48,
+    88
+  ],
+  "direction": "up",
+  "world_facing": "north/up",
+  "world_direction_index": 2,
+  "scale": 0.08315565031982942,
+  "source_frames": [
+    {
+      "component_label": 1,
+      "box": [
+        276,
+        146,
+        1109,
+        1094
+      ],
+      "anchor": [
+        345.5,
+        943
+      ],
+      "scale": 0.08315565031982942
+    }
+  ],
+  "fps": null,
+  "loop": "static",
+  "review_durations_ms": [
+    1000
+  ],
+  "handedness": "image-right anatomical-right hand sword; image-left hand empty",
+  "notes": "Rear hair overlays upper cape; front shoulder clasps naturally occluded. No face visible.78px standing body.",
+  "asset_id": "dave_base_up_reference",
+  "source_sha256": "44f1310d072cca18f709763348e1a52268339cd71862ebc861fc38c5ff0d3e1b",
+  "frame_count": 1,
+  "delivery": "individual PNG frames and horizontal strip; 8-bit RGBA sRGB straight alpha",
+  "source_frames_are_measured": true,
+  "inspection": {
+    "frames": [
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          19,
+          10,
+          88,
+          88
+        ],
+        "solid_bounds": [
+          20,
+          10,
+          88,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 6064,
+        "opaque_pixels": 2903,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/dave_base_up_source_v001.png"
+      }
+    ],
+    "mechanical_checks_passed": true,
+    "visual_checks": {
+      "body_height_px": 78,
+      "appearance_and_hand": "Image-right right arm is weapon arm; image-left left glove empty. Back view throughout. Hair overlays upper cape, both attachments remain under hair.",
+      "engine_preview_checked": false
+    },
+    "engine_preview_checked": false
+  },
+  "verified_engine_ready": false,
+  "status": "native_facing_reference_accepted_for_this_art_batch"
+}

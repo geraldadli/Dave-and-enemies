@@ -1,0 +1,83 @@
+{
+  "source": "art/source/dave/cardinal_batch_v001/dave_base_side_source_v001.png",
+  "reference": "art/source/dave/down_batch_v001/dave_base_down_v002_clean_v001.png",
+  "canvas_px": [
+    96,
+    96
+  ],
+  "origin_px": [
+    48,
+    88
+  ],
+  "direction": "side",
+  "world_facing": "east/right",
+  "scale": 0.08315565031982942,
+  "source_frames": [
+    {
+      "component_label": 1,
+      "box": [
+        192,
+        145,
+        995,
+        1093
+      ],
+      "anchor": [
+        523,
+        943
+      ],
+      "scale": 0.08315565031982942
+    }
+  ],
+  "fps": null,
+  "loop": "static",
+  "review_durations_ms": [
+    1000
+  ],
+  "handedness": "anatomical right near arm holds sword; far left hand empty",
+  "notes": "Authored right-facing elevated three-quarter base derived from v002. Crown150, near boot sole1088, body78px; all source pixels remain archived.",
+  "asset_id": "dave_base_side_reference",
+  "source_sha256": "53207de98ce6e691f5e65a16b4ebd15d070fcce93935502548cde6260199d0e7",
+  "frame_count": 1,
+  "delivery": "individual PNG frames and horizontal strip; 8-bit RGBA sRGB straight alpha",
+  "source_frames_are_measured": true,
+  "inspection": {
+    "frames": [
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          5,
+          10,
+          71,
+          88
+        ],
+        "solid_bounds": [
+          5,
+          10,
+          71,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5915,
+        "opaque_pixels": 3083,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/dave_base_side_source_v001.png"
+      }
+    ],
+    "mechanical_checks_passed": true,
+    "visual_checks": {
+      "body_height_px": 78,
+      "appearance_and_hand": "Anatomical right near arm holds sword; far left hand empty; right-arm crossing during attack inspected.",
+      "engine_preview_checked": false
+    },
+    "engine_preview_checked": false
+  },
+  "verified_engine_ready": false,
+  "status": "native_facing_reference_accepted_for_this_art_batch"
+}

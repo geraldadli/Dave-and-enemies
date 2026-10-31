@@ -1,0 +1,42 @@
+{
+  "status": "art_handoff_mapping_only_not_runtime_data",
+  "user_direction": "Author left/right/up walks and attacks while preserving anatomical right-hand sword",
+  "engine_integration_owner": "Claude",
+  "left_sprite_registration_pending": true,
+  "directions": {
+    "0": {
+      "facing": "east/right",
+      "walk": "spr_dave_walk_side",
+      "attack": "spr_dave_attack_side",
+      "image_xscale": 1,
+      "right_hand": "near arm"
+    },
+    "2": {
+      "facing": "north/up",
+      "walk": "spr_dave_walk_up",
+      "attack": "spr_dave_attack_up",
+      "image_xscale": 1,
+      "right_hand": "image-right; crosses north/front behind hair during follow-through"
+    },
+    "4": {
+      "facing": "west/left",
+      "walk": "spr_dave_walk_left",
+      "attack": "spr_dave_attack_left",
+      "image_xscale": 1,
+      "right_hand": "far arm; near left arm empty",
+      "independently_authored": true
+    },
+    "6": {
+      "facing": "south/down",
+      "walk": "spr_dave_walk_down",
+      "attack": "spr_dave_attack_down",
+      "image_xscale": 1,
+      "right_hand": "image-left",
+      "delivery": "previous down_v001 batch, not duplicated in this focused package"
+    }
+  },
+  "diagonals": "not produced in this continuation; down_side/up_side and their handed left counterparts remain separate work",
+  "walk": {"canvas_px": [96, 96], "origin_px": [48, 88], "frames": 10, "fps": 20, "loop": true, "step_frames": [2, 7]},
+  "attack": {"canvas_px": [128, 128], "origin_px": [64, 112], "frames": 8, "game_ticks_per_frame": [3, 3, 3, 3, 3, 4, 4, 4], "active_range_inclusive": [2, 4], "contact_pose": 3, "loop": false},
+  "verified_engine_ready": false
+}

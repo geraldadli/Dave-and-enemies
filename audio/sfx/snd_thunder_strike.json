@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_thunder_strike",
+  "purpose": "Thunder barrage impact",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 1.1,
+  "actual_duration_seconds": 1.1,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_thunder_strike_1.wav",
+      "path": "audio/sfx/snd_thunder_strike_1.wav",
+      "sha256": "dfe2a40d2c054b1fe65a5eb9d7f6d6b0ef99b6293c46bb66d5d6933b7fb70c10",
+      "bytes": 97064,
+      "frames": 48510,
+      "duration_seconds": 1.1,
+      "seed": 881658521,
+      "measurements": {
+        "sample_peak_dbfs": -2.99999,
+        "oversampled_peak_dbfs_4x": -2.99446,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -24.44442,
+        "dc_offset": 1.8243862412389197e-08,
+        "onset_ms_at_minus60_relative": 0.227,
+        "trailing_ms_below_minus60_relative": 1.406
+      }
+    },
+    {
+      "file": "snd_thunder_strike_2.wav",
+      "path": "audio/sfx/snd_thunder_strike_2.wav",
+      "sha256": "e73bfae97cf1de937ac0a996e1919ee46fc18ca544992b10fd8d6d2c0a0fb0cf",
+      "bytes": 97064,
+      "frames": 48510,
+      "duration_seconds": 1.1,
+      "seed": 920415037,
+      "measurements": {
+        "sample_peak_dbfs": -3.74916,
+        "oversampled_peak_dbfs_4x": -3.74363,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -24.44442,
+        "dc_offset": -2.893854037827252e-08,
+        "onset_ms_at_minus60_relative": 0.295,
+        "trailing_ms_below_minus60_relative": 1.587
+      }
+    },
+    {
+      "file": "snd_thunder_strike_3.wav",
+      "path": "audio/sfx/snd_thunder_strike_3.wav",
+      "sha256": "4f21b2403b129033ddcffec0c8495bca637ab674c33c2c76af15535c71834515",
+      "bytes": 97064,
+      "frames": 48510,
+      "duration_seconds": 1.1,
+      "seed": 3033618063,
+      "measurements": {
+        "sample_peak_dbfs": -5.54858,
+        "oversampled_peak_dbfs_4x": -5.42216,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -24.44442,
+        "dc_offset": 7.863733798443619e-08,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 1.723
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_thunder_strike: Thunder barrage impact. Synthesize a compact lightning crack over a rounded low-mid boom with dry sandy reflections. Keep the crack controlled, no startling ultra-loud spike or long storm recording. Readable on small speakers with little sub-bass dependency. Deliver 3 separate distinct takes, each 1.1 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 0.0,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

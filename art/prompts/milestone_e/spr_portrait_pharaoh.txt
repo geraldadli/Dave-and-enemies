@@ -1,0 +1,21 @@
+Use case: stylized-concept.
+
+Asset ID: spr_portrait_pharaoh. Purpose: Dialogue portrait. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach the established character model for identity and costume. Render a deliberate HAND-PAINTED FANTASY ILLUSTRATION with natural adult anatomy, not an enlarged gameplay sprite.
+
+Subject: Attach the established Pharaoh base model: regal emaciated adult mummy face, dark sockets with restrained amber light, ivory wraps, lapis-and-gold striped nemes, broad gold collar and ivory/lapis layered robes. Keep the identity and rod crown design coherent with the boss model. Mood: menace.
+
+Direction: Use the exact single orientation described; do not generate additional views.
+
+Final target: 512x512 native pixels PER FRAME; All frames fixed 512x512 canvas, no trimming; origin (0, 0). Keep placement fixed between frames.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate one static asset only, no contact sheet or alternative views.
+
+Playback/state selection: static. contract.
+
+Additional constraints: Deliberate hand-painted fantasy bust illustration, facing RIGHT toward dialogue text, three-quarter view, chest-up. Convincing adult skull, eye sockets, neck and shoulder anatomy; natural restrained eye size rather than enlarged sprite eyes. Preserve identity landmarks, hairline, costume, materials and upper-left light from the established game model. Brushwork and designed value masses, no plastic 3D, photoreal collage, warped jewelry, melted fingers or stock AI fantasy face. Transparent outside bust, shoulder edges contained with 16px safe padding; no baked frame or text. At 208x208 the face and gaze still read. Dave is warm, firm and battle-worn; solemn lowers the eyes, determined keeps a steady gaze. Pharaoh base is controlled menace, no Grail; optional rage is parked P2 and is not needed by the current script.
+
+Inspection before acceptance: Natural adult cranial and neck anatomy, equal believable eyes and coherent gaze right. Dave hairline, colour, clasps and armor match his model; Pharaoh regalia matches boss. No asymmetrical melted collar, extra teeth, fingers or floating accessories. Inspect at both 512 and GUI 208 pixels; mouth remains expressive and deliberate.

@@ -1,0 +1,884 @@
+{
+  "schema_version": 1,
+  "chapter_id": "chapter_1_desert",
+  "authority": {
+    "format": "PROJECT_CONTRACT.md section 10; dialogue.json retains only speaker/text/mood.",
+    "canonical_text": "datafiles/data/dialogue.json",
+    "line_metadata": "This file's lines records bind by scene_id and zero-based line_index. The stable id is the external reference; do not persist array indices.",
+    "integration_status": "Content handoff. Semantic completion events, added flags and scene anchors below are requirements for Claude's systems, not existing engine APIs."
+  },
+  "speakers": {
+    "narrator": {
+      "display_name": "",
+      "portrait_id": null
+    },
+    "dave": {
+      "display_name": "Dave",
+      "portrait_id": "spr_portrait_dave"
+    },
+    "pharaoh": {
+      "display_name": "The Undead Pharaoh",
+      "portrait_id": "spr_portrait_pharaoh"
+    }
+  },
+  "text_presentation": {
+    "gui_size_px": [
+      1280,
+      720
+    ],
+    "dialogue_font_px": 28,
+    "ui_font_px": 23,
+    "title_font_px": 46,
+    "portrait_native_px": [
+      512,
+      512
+    ],
+    "portrait_draw_px": [
+      208,
+      208
+    ],
+    "portrait_position": "left for both characters, facing right toward text",
+    "narrator_portrait": null,
+    "characters_per_second": 24,
+    "max_characters_per_entry": 140,
+    "wrap": "Word-wrap within the existing dialogue text area; at most two text rows. Do not insert hard newlines in canonical text."
+  },
+  "vocal_blip_profiles": {
+    "silent": {
+      "assets": [],
+      "nonverbal": true,
+      "trigger": "none"
+    },
+    "voice_narrator": {
+      "assets": [
+        "snd_voice_narrator_1",
+        "snd_voice_narrator_2",
+        "snd_voice_narrator_3",
+        "snd_voice_narrator_4"
+      ],
+      "duration_ms": [
+        50,
+        75
+      ],
+      "tone": "Soft breath-like text tone, subdued and impartial.",
+      "gain_db": -8
+    },
+    "voice_dave": {
+      "assets": [
+        "snd_voice_dave_1",
+        "snd_voice_dave_2",
+        "snd_voice_dave_3",
+        "snd_voice_dave_4"
+      ],
+      "duration_ms": [
+        70,
+        95
+      ],
+      "tone": "Warm, firm human murmur; restrained grief becomes steady resolve.",
+      "gain_db": -4
+    },
+    "voice_pharaoh": {
+      "assets": [
+        "snd_voice_pharaoh_1",
+        "snd_voice_pharaoh_2",
+        "snd_voice_pharaoh_3",
+        "snd_voice_pharaoh_4"
+      ],
+      "duration_ms": [
+        90,
+        110
+      ],
+      "tone": "Low, dry, resonant murmur; controlled menace, intelligible consonant-free texture.",
+      "gain_db": -3
+    }
+  },
+  "blip_playback": {
+    "eligible_characters": "ASCII letters and digits only; no sounds for whitespace or punctuation.",
+    "cadence": "One blip per second eligible revealed character; reset counter at each line.",
+    "pitch_multiplier": [
+      0.94,
+      1.06
+    ],
+    "min_interval_ms": 75,
+    "max_simultaneous": 1,
+    "comma_pause_ms": 120,
+    "sentence_pause_ms": 240,
+    "variant_choice": "Select among the available variants without consecutive repeats.",
+    "on_instant_reveal_advance_or_skip": "Cancel pending and playing blips; never synthesize all unrevealed sounds.",
+    "volume_bus": "dialogue_blips",
+    "missing_asset_fallback": "Use available variants; if none exist, remain silent.",
+    "spoken_words": false
+  },
+  "lines": {
+    "intro_010": {
+      "id": "intro_010",
+      "scene_id": "intro",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "The Holy City had fallen.",
+      "vocal_blip_profile": "voice_narrator"
+    },
+    "intro_020": {
+      "id": "intro_020",
+      "scene_id": "intro",
+      "line_index": 1,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Dave alone had survived the siege.",
+      "vocal_blip_profile": "voice_narrator"
+    },
+    "intro_030": {
+      "id": "intro_030",
+      "scene_id": "intro",
+      "line_index": 2,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "The enemy had taken the original Holy Grail.",
+      "vocal_blip_profile": "voice_narrator"
+    },
+    "intro_040": {
+      "id": "intro_040",
+      "scene_id": "intro",
+      "line_index": 3,
+      "speaker": "dave",
+      "portrait_id": "spr_portrait_dave",
+      "expression": "solemn",
+      "mood": "solemn",
+      "text": "I could not save you.",
+      "vocal_blip_profile": "voice_dave"
+    },
+    "intro_050": {
+      "id": "intro_050",
+      "scene_id": "intro",
+      "line_index": 4,
+      "speaker": "dave",
+      "portrait_id": "spr_portrait_dave",
+      "expression": "determined",
+      "mood": "determined",
+      "text": "I will return the Holy Grail to the Holy Sanctuary.",
+      "vocal_blip_profile": "voice_dave"
+    },
+    "intro_060": {
+      "id": "intro_060",
+      "scene_id": "intro",
+      "line_index": 5,
+      "speaker": "dave",
+      "portrait_id": "spr_portrait_dave",
+      "expression": "determined",
+      "mood": "determined",
+      "text": "I swear it. I will reunite our people and bring them home.",
+      "vocal_blip_profile": "voice_dave"
+    },
+    "intro_070": {
+      "id": "intro_070",
+      "scene_id": "intro",
+      "line_index": 6,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Beyond the broken walls, the desert waited.",
+      "vocal_blip_profile": "voice_narrator"
+    },
+    "boss_intro_010": {
+      "id": "boss_intro_010",
+      "scene_id": "boss_intro",
+      "line_index": 0,
+      "speaker": "dave",
+      "portrait_id": "spr_portrait_dave",
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Step aside.",
+      "vocal_blip_profile": "voice_dave"
+    },
+    "boss_intro_020": {
+      "id": "boss_intro_020",
+      "scene_id": "boss_intro",
+      "line_index": 1,
+      "speaker": "pharaoh",
+      "portrait_id": "spr_portrait_pharaoh",
+      "expression": "menace",
+      "mood": "menace",
+      "text": "You shall not pass. This desert will be your grave.",
+      "vocal_blip_profile": "voice_pharaoh"
+    },
+    "ending_010": {
+      "id": "ending_010",
+      "scene_id": "ending",
+      "line_index": 0,
+      "speaker": "dave",
+      "portrait_id": "spr_portrait_dave",
+      "expression": "determined",
+      "mood": "determined",
+      "text": "My vow still stands.",
+      "vocal_blip_profile": "voice_dave"
+    },
+    "objective_quest_010": {
+      "id": "objective_quest_010",
+      "scene_id": "objective_quest",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Return the Holy Grail to the Holy Sanctuary. Reunite the people of the Holy City.",
+      "vocal_blip_profile": "silent"
+    },
+    "objective_desert_010": {
+      "id": "objective_desert_010",
+      "scene_id": "objective_desert",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Travel east through the desert.",
+      "vocal_blip_profile": "silent"
+    },
+    "objective_pharaoh_010": {
+      "id": "objective_pharaoh_010",
+      "scene_id": "objective_pharaoh",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Defeat the Undead Pharaoh.",
+      "vocal_blip_profile": "silent"
+    },
+    "objective_dungeon_010": {
+      "id": "objective_dungeon_010",
+      "scene_id": "objective_dungeon",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Enter the dungeon.",
+      "vocal_blip_profile": "silent"
+    },
+    "checkpoint_prompt_010": {
+      "id": "checkpoint_prompt_010",
+      "scene_id": "checkpoint_prompt",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Interact with the star to save.",
+      "vocal_blip_profile": "silent"
+    },
+    "checkpoint_choose_010": {
+      "id": "checkpoint_choose_010",
+      "scene_id": "checkpoint_choose",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Choose a save slot.",
+      "vocal_blip_profile": "silent"
+    },
+    "checkpoint_overwrite_010": {
+      "id": "checkpoint_overwrite_010",
+      "scene_id": "checkpoint_overwrite",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Replace this slot with your current journey?",
+      "vocal_blip_profile": "silent"
+    },
+    "checkpoint_saved_010": {
+      "id": "checkpoint_saved_010",
+      "scene_id": "checkpoint_saved",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Journey saved. Health restored.",
+      "vocal_blip_profile": "silent"
+    },
+    "checkpoint_failed_010": {
+      "id": "checkpoint_failed_010",
+      "scene_id": "checkpoint_failed",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Could not save. Try again.",
+      "vocal_blip_profile": "silent"
+    },
+    "checkpoint_restored_010": {
+      "id": "checkpoint_restored_010",
+      "scene_id": "checkpoint_restored",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Journey restored.",
+      "vocal_blip_profile": "silent"
+    },
+    "ui_reveal_010": {
+      "id": "ui_reveal_010",
+      "scene_id": "ui_reveal",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Reveal",
+      "vocal_blip_profile": "silent"
+    },
+    "ui_advance_010": {
+      "id": "ui_advance_010",
+      "scene_id": "ui_advance",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Advance",
+      "vocal_blip_profile": "silent"
+    },
+    "ui_skip_010": {
+      "id": "ui_skip_010",
+      "scene_id": "ui_skip",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Hold to skip",
+      "vocal_blip_profile": "silent"
+    },
+    "ui_ending_title_010": {
+      "id": "ui_ending_title_010",
+      "scene_id": "ui_ending_title",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "To Be Continued",
+      "vocal_blip_profile": "silent"
+    },
+    "ui_return_menu_010": {
+      "id": "ui_return_menu_010",
+      "scene_id": "ui_return_menu",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "Return to Main Menu",
+      "vocal_blip_profile": "silent"
+    },
+    "ui_boss_name_010": {
+      "id": "ui_boss_name_010",
+      "scene_id": "ui_boss_name",
+      "line_index": 0,
+      "speaker": "narrator",
+      "portrait_id": null,
+      "expression": "neutral",
+      "mood": "neutral",
+      "text": "The Undead Pharaoh",
+      "vocal_blip_profile": "silent"
+    }
+  },
+  "scene_modes": {
+    "intro": "timed_54s",
+    "boss_intro": "manual_two_lines",
+    "boss_defeat": "timed_7_5s",
+    "ending": "timed_10s_then_title_hold",
+    "objectives": "nonblocking_toasts",
+    "checkpoints": "event_driven_ui",
+    "interface": "ui_labels"
+  },
+  "scene_line_ids": {
+    "intro": [
+      "intro_010",
+      "intro_020",
+      "intro_030",
+      "intro_040",
+      "intro_050",
+      "intro_060",
+      "intro_070"
+    ],
+    "boss_intro": [
+      "boss_intro_010",
+      "boss_intro_020"
+    ],
+    "ending": [
+      "ending_010"
+    ],
+    "objective_quest": [
+      "objective_quest_010"
+    ],
+    "objective_desert": [
+      "objective_desert_010"
+    ],
+    "objective_pharaoh": [
+      "objective_pharaoh_010"
+    ],
+    "objective_dungeon": [
+      "objective_dungeon_010"
+    ],
+    "checkpoint_prompt": [
+      "checkpoint_prompt_010"
+    ],
+    "checkpoint_choose": [
+      "checkpoint_choose_010"
+    ],
+    "checkpoint_overwrite": [
+      "checkpoint_overwrite_010"
+    ],
+    "checkpoint_saved": [
+      "checkpoint_saved_010"
+    ],
+    "checkpoint_failed": [
+      "checkpoint_failed_010"
+    ],
+    "checkpoint_restored": [
+      "checkpoint_restored_010"
+    ],
+    "ui_reveal": [
+      "ui_reveal_010"
+    ],
+    "ui_advance": [
+      "ui_advance_010"
+    ],
+    "ui_skip": [
+      "ui_skip_010"
+    ],
+    "ui_ending_title": [
+      "ui_ending_title_010"
+    ],
+    "ui_return_menu": [
+      "ui_return_menu_010"
+    ],
+    "ui_boss_name": [
+      "ui_boss_name_010"
+    ]
+  },
+  "objective_events": {
+    "objective_quest": {
+      "line_id": "objective_quest_010",
+      "trigger": "Overall quest context; optional pause-menu objective field if provided by the UI. Never add a permanent quest HUD.",
+      "duration_s": null
+    },
+    "objective_desert": {
+      "line_id": "objective_desert_010",
+      "trigger": "intro_complete, after arrival is ready",
+      "duration_s": 3.5
+    },
+    "objective_pharaoh": {
+      "line_id": "objective_pharaoh_010",
+      "trigger": "boss_intro_complete",
+      "duration_s": 2.5
+    },
+    "objective_dungeon": {
+      "line_id": "objective_dungeon_010",
+      "trigger": "boss_defeat_complete, after arena is ready",
+      "duration_s": 3.5
+    }
+  },
+  "checkpoint_events": {
+    "checkpoint_prompt": "Player within interaction range of a safe yellow-star checkpoint; remove on leaving.",
+    "checkpoint_choose": "Checkpoint interaction opens the existing three-slot save UI.",
+    "checkpoint_overwrite": "Only after an occupied slot is selected; existing UI provides Confirm and Cancel.",
+    "checkpoint_saved": "Only after the selected save slot and its healed checkpoint snapshot are successfully committed.",
+    "checkpoint_failed": "After a failed save attempt; do not show success or consume a slot.",
+    "checkpoint_restored": "Only after a selected checkpoint snapshot has finished loading."
+  },
+  "bindings": {
+    "arrival_spawn": {
+      "room_id": "rm_d01_arrival",
+      "source": "Authored New Game player start from the room layout; use the same safe position as the first-death fallback.",
+      "facing_direction_index": 0
+    },
+    "boss_arena": {
+      "source": "The main-route boss room between Pharaoh's Gate and rm_d18_dungeon_threshold; resolve from Claude's room graph.",
+      "entry": "Use the existing fully-inside gate trigger and staging point.",
+      "reward": "Use the boss room's authored persistent unique-reward ID."
+    },
+    "ending_threshold": {
+      "room_id": "rm_d18_dungeon_threshold",
+      "source": "The plane inside the dungeon doorway, reachable only after boss_pharaoh_defeated."
+    }
+  },
+  "completion_events": {
+    "intro_complete": {
+      "allowed_from": [
+        "intro"
+      ],
+      "establish": [
+        "Set intro_seen = true in the current run.",
+        "Enter rm_d01_arrival at its authored safe player start, facing east (direction index 0).",
+        "Keep starter loadout and health established by New Game; do not grant or reset either here.",
+        "Set the active local objective to objective_desert; retain objective_quest as the overall quest.",
+        "Keep boss_pharaoh_defeated = false and grail_recovered = false for this new run.",
+        "Clear cinematic overlays, input locks and pending shot callbacks; restore gameplay camera, health HUD, hotbar, normal damage rules and exploration audio only after the destination room is ready.",
+        "Show the same objective_desert toast after normal playback or skip. Establish a safe initial restart snapshot if no checkpoint has been saved."
+      ],
+      "must_not": [
+        "Overwrite a save slot.",
+        "Spawn Dave inside the cinematic backdrop or teleport him east of the authored arrival.",
+        "Replay New Game inventory grants."
+      ]
+    },
+    "boss_intro_complete": {
+      "allowed_from": [
+        "boss_intro"
+      ],
+      "establish": [
+        "Keep Dave fully inside the boss arena at the authored entry staging point; preserve current HP, equipment and inventory.",
+        "Ensure the entrance gate is closed, collidable and exits are locked before releasing control.",
+        "Ensure exactly one Pharaoh exists and is initialized for this attempt, with full HP only if this is a fresh encounter.",
+        "Set boss_intro_seen = true and consume the attempt-local entry trigger; boss_pharaoh_defeated stays false.",
+        "Clear dialogue, restore the arena camera and health/hotbar, show ui_boss_name and boss HP, start mus_pharaoh once, and set objective_pharaoh.",
+        "Enable the combat controller only after all entry conditions hold. Schedule the first telegraphed attack no earlier than 0.75 s after control returns.",
+        "Consume held advance/skip inputs until release before attack, interact or pause can trigger."
+      ],
+      "must_not": [
+        "Advance to a defeated boss state.",
+        "Reset an already active boss's HP or duplicate the boss, gates, music or summons."
+      ]
+    },
+    "boss_defeat_complete": {
+      "allowed_from": [
+        "boss_defeat_after_zero_hp"
+      ],
+      "establish": [
+        "Stop all attack scheduling and damage immediately.",
+        "Set boss_pharaoh_defeated = true; remove the Pharaoh, encounter summons, projectiles, warnings and hazards; stop their looping audio.",
+        "Open the arena entrance and the route to the dungeon; remove the boss health bar.",
+        "Call engineering's idempotent boss reward routine once for pharaoh_ankh, using the authored boss reward's persistent ID. If inventory is full, keep the unique reward available under the existing loot rules; do not silently claim or discard it.",
+        "Set objective_dungeon. Keep grail_recovered = false and chapter_1_complete = false.",
+        "Clear fades and input locks, restore gameplay camera/HUD/audio, consume held inputs and release Dave in the cleared arena."
+      ],
+      "must_not": [
+        "Allow skipping before a legitimate zero-HP event.",
+        "Count the Pharaoh's ankh as the Holy Grail.",
+        "Enter the dungeon or complete the chapter on the player's behalf.",
+        "Write over a player-selected save slot."
+      ]
+    },
+    "ending_complete": {
+      "allowed_from": [
+        "ending_after_threshold_and_victory"
+      ],
+      "establish": [
+        "Retain boss_pharaoh_defeated = true and grail_recovered = false.",
+        "Set chapter_1_complete = true and ending_seen = true in current run state; preserve inventory and reward status.",
+        "Enter rm_ending, remove world control/HUD/damage and all remaining scene callbacks; show ui_ending_title and ui_return_menu.",
+        "Stop wind, footsteps and dialogue blips; fade any abandoned music to the ending tail or silence.",
+        "Keep the title visible until a fresh explicit menu input. Consume the input that skipped the scene so it cannot also activate Return to Main Menu."
+      ],
+      "must_not": [
+        "Set grail_recovered = true or reunite the city on screen.",
+        "Start a dungeon level.",
+        "Automatically leave the title, grant an item or overwrite any save slot."
+      ]
+    }
+  },
+  "sequences": {
+    "boss_intro": {
+      "scene_id": "boss_intro",
+      "duration_s": 8,
+      "timing": "Reading target only; both lines require advance. Hold each text shot until acknowledged.",
+      "trigger": "Dave fully crosses the authored boss entrance trigger; boss_pharaoh_defeated is false; encounter is not already active.",
+      "completion_event": "boss_intro_complete",
+      "shots": [
+        {
+          "id": "boss_shot_010",
+          "start_s": 0,
+          "duration_s": 1,
+          "camera": "Hold the arena gameplay camera with Dave inside the gate and the Pharaoh ahead.",
+          "character_poses": "Dave halts facing up. Pharaoh floats facing down, rod grounded visually; no attack pose.",
+          "environment_motion": "Gate closes behind Dave; sand density decreases so portraits and the arena remain clear.",
+          "text_cues": [],
+          "audio_cues": [
+            {
+              "offset_s": 0,
+              "asset_id": "snd_gate_slam",
+              "action": "play_once"
+            },
+            {
+              "offset_s": 0,
+              "asset_id": "mus_desert",
+              "action": "fade_out",
+              "fade_s": 0.8
+            }
+          ]
+        },
+        {
+          "id": "boss_shot_020",
+          "start_s": 1,
+          "duration_s": 2,
+          "camera": "Keep Dave and Pharaoh visible at native scale; no camera shake.",
+          "character_poses": "Dave squares his shoulders, sword held low, facing up; use his neutral portrait on the left.",
+          "environment_motion": "Only cape movement and a faint dust drift continue.",
+          "text_cues": [
+            {
+              "line_id": "boss_intro_010",
+              "offset_s": 0,
+              "duration_s": 2
+            }
+          ],
+          "audio_cues": []
+        },
+        {
+          "id": "boss_shot_030",
+          "start_s": 3,
+          "duration_s": 4,
+          "camera": "Hold the same camera. Change only the current speaker portrait.",
+          "character_poses": "Pharaoh tilts his headdress downward and inclines the rod without charging it; menace portrait on the left.",
+          "environment_motion": "He floats gently; no lightning, summons or damage effects.",
+          "text_cues": [
+            {
+              "line_id": "boss_intro_020",
+              "offset_s": 0,
+              "duration_s": 4
+            }
+          ],
+          "audio_cues": []
+        },
+        {
+          "id": "boss_shot_040",
+          "start_s": 7,
+          "duration_s": 1,
+          "camera": "Settle onto the normal arena camera.",
+          "character_poses": "Both return to combat-ready idle. Clear dialogue and reveal the boss name and health bar.",
+          "environment_motion": "Gate stays closed. Keep all damage inactive through the handoff.",
+          "text_cues": [
+            {
+              "line_id": "ui_boss_name_010",
+              "offset_s": 0,
+              "duration_s": 1
+            }
+          ],
+          "audio_cues": [
+            {
+              "offset_s": 0,
+              "asset_id": "mus_pharaoh",
+              "action": "start_loop"
+            }
+          ]
+        }
+      ]
+    },
+    "boss_defeat": {
+      "scene_id": "boss_defeat",
+      "duration_s": 7.5,
+      "timing": "Timed; skippable only after the boss legitimately reaches zero HP.",
+      "trigger": "Pharaoh HP reaches zero during the active encounter.",
+      "completion_event": "boss_defeat_complete",
+      "shots": [
+        {
+          "id": "defeat_shot_010",
+          "start_s": 0,
+          "duration_s": 1.5,
+          "camera": "Hold arena camera; optional restrained shake obeys the user's setting.",
+          "character_poses": "Dave stops. Pharaoh begins the 16-frame disintegration at 12 fps, holding its last frame if necessary.",
+          "environment_motion": "Disable all encounter damage immediately. Summons stop; hazards and projectiles cannot hurt Dave.",
+          "text_cues": [],
+          "audio_cues": [
+            {
+              "offset_s": 0,
+              "asset_id": "mus_pharaoh",
+              "action": "fade_out",
+              "fade_s": 1.5
+            },
+            {
+              "offset_s": 0,
+              "asset_id": "snd_boss_death",
+              "action": "play_once"
+            },
+            {
+              "offset_s": 0,
+              "asset_id": "snd_disintegrate",
+              "action": "play_once"
+            }
+          ]
+        },
+        {
+          "id": "defeat_shot_020",
+          "start_s": 1.5,
+          "duration_s": 2,
+          "camera": "Hold position while a smooth two-second fade reaches white.",
+          "character_poses": "Dave remains safe and still. Pharaoh dissolves completely.",
+          "environment_motion": "One continuous fade, never repeated flashing. Reduced-flash mode uses a slow dark dissolve.",
+          "text_cues": [],
+          "audio_cues": []
+        },
+        {
+          "id": "defeat_shot_030",
+          "start_s": 3.5,
+          "duration_s": 1,
+          "camera": "Full white hold, or full dark hold under reduced flash.",
+          "character_poses": "Remove Pharaoh, summoned enemies, projectiles, telegraphs and hazards while obscured.",
+          "environment_motion": "Stop encounter loops; open the entry gate and dungeon route; make the unique reward available once.",
+          "text_cues": [],
+          "audio_cues": []
+        },
+        {
+          "id": "defeat_shot_040",
+          "start_s": 4.5,
+          "duration_s": 2,
+          "camera": "Fade smoothly back to the unchanged arena camera over two seconds.",
+          "character_poses": "Dave stands in the cleared courtyard. Boss and summons are absent.",
+          "environment_motion": "Exit is visibly open. Resume low wind; remove the boss health bar.",
+          "text_cues": [],
+          "audio_cues": [
+            {
+              "offset_s": 0,
+              "asset_id": "snd_wind_loop",
+              "action": "resume_quietly"
+            }
+          ]
+        },
+        {
+          "id": "defeat_shot_050",
+          "start_s": 6.5,
+          "duration_s": 1,
+          "camera": "Return camera control to gameplay.",
+          "character_poses": "Dave resumes normal idle. Release control and show objective_dungeon only when this sequence completes.",
+          "environment_motion": "The courtyard stays clear of encounter threats.",
+          "text_cues": [],
+          "audio_cues": [
+            {
+              "offset_s": 0,
+              "asset_id": "mus_desert",
+              "action": "fade_in_loop",
+              "fade_s": 1
+            }
+          ]
+        }
+      ]
+    },
+    "ending": {
+      "scene_id": "ending",
+      "duration_s": 10,
+      "timing": "Timed until title; title waits indefinitely for Return to Main Menu.",
+      "trigger": "After victory, Dave fully crosses the dungeon doorway in rm_d18_dungeon_threshold.",
+      "completion_event": "ending_complete",
+      "shots": [
+        {
+          "id": "ending_shot_010",
+          "start_s": 0,
+          "duration_s": 2,
+          "camera": "Track Dave's last two steps toward the dark doorway; never reveal a playable interior.",
+          "character_poses": "Dave faces up into the entrance, red cape trailing. Halt him just beyond the threshold.",
+          "environment_motion": "Sand passes left outside; the interior remains still and dark.",
+          "text_cues": [],
+          "audio_cues": [
+            {
+              "offset_s": 0,
+              "asset_id": "mus_desert",
+              "action": "fade_out",
+              "fade_s": 1
+            },
+            {
+              "offset_s": 0,
+              "asset_id": "mus_ending",
+              "action": "start_non_loop"
+            },
+            {
+              "offset_s": 0,
+              "asset_id": "snd_wind_loop",
+              "action": "fade_out",
+              "fade_s": 2
+            }
+          ]
+        },
+        {
+          "id": "ending_shot_020",
+          "start_s": 2,
+          "duration_s": 3,
+          "camera": "Hold the doorway composition.",
+          "character_poses": "Dave stands upright in silhouette; his determined portrait appears for the final brief line.",
+          "environment_motion": "Let the last sand drift fade at the entrance.",
+          "text_cues": [
+            {
+              "line_id": "ending_010",
+              "offset_s": 0,
+              "duration_s": 3
+            }
+          ],
+          "audio_cues": []
+        },
+        {
+          "id": "ending_shot_030",
+          "start_s": 5,
+          "duration_s": 1,
+          "camera": "Fade evenly to black over one second.",
+          "character_poses": "Dave disappears only beneath the fade.",
+          "environment_motion": "Do not show the Grail, a new enemy or an interior location.",
+          "text_cues": [],
+          "audio_cues": []
+        },
+        {
+          "id": "ending_shot_040",
+          "start_s": 6,
+          "duration_s": 4,
+          "camera": "Static rm_ending presentation; title centred on the black or restrained entrance background.",
+          "character_poses": "No characters appear. Show the title; enable Return to Main Menu at sequence completion, after the music tail.",
+          "environment_motion": "Hold still; no flashing effects.",
+          "text_cues": [
+            {
+              "line_id": "ui_ending_title_010",
+              "offset_s": 0,
+              "duration_s": 4
+            }
+          ],
+          "audio_cues": [
+            {
+              "offset_s": 0,
+              "asset_id": "mus_ending",
+              "action": "score_direction",
+              "note": "Leave the motif unresolved; tail ends at 10 s, then remain quiet."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "persistence": {
+    "existing_flag": "boss_pharaoh_defeated",
+    "content_flag_names": [
+      "intro_seen",
+      "boss_intro_seen",
+      "grail_recovered",
+      "chapter_1_complete",
+      "ending_seen"
+    ],
+    "scope": "Proposed names for Claude's serializer; map to existing equivalents. A skipped scene and a normally finished scene commit the same current-run values. No narrative action silently overwrites a manual save slot.",
+    "checkpoint_load": "Restore the selected snapshot as a whole, including boss, inventory and reward flags. An old pre-boss save legitimately restores an undefeated encounter; a saved completed-boss state must never replay that fight.",
+    "boss_retry": "Show the two-line exchange on each fresh attempt unless a future user setting suppresses seen scenes. Seen-scene suppression must call boss_intro_complete. Gate entry is consumed once per attempt, not once for the whole campaign."
+  },
+  "portrait_expression_assets": {
+    "spr_portrait_dave": {
+      "neutral": "spr_portrait_dave",
+      "solemn": "spr_portrait_dave_solemn",
+      "determined": "spr_portrait_dave_determined",
+      "missing_expression_fallback": "spr_portrait_dave"
+    },
+    "spr_portrait_pharaoh": {
+      "menace": "spr_portrait_pharaoh",
+      "missing_expression_fallback": "spr_portrait_pharaoh"
+    }
+  }
+}
+

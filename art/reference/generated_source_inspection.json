@@ -1,0 +1,167 @@
+[
+  {
+    "file": "art/source/dave/dave_base_down_v001.png",
+    "size_px": [
+      1374,
+      1145
+    ],
+    "mode": "RGBA",
+    "png_channel_bit_depth": 8,
+    "png_colour_type": 6,
+    "embedded_icc": false,
+    "srgb_chunk_present": false,
+    "alpha_zero_pixels": 1220424,
+    "alpha_partial_pixels": 352321,
+    "alpha_opaque_pixels": 485,
+    "alpha_nearly_opaque_250_255_pixels": 326153,
+    "alpha_mode_counts": [
+      [
+        0,
+        1220424
+      ],
+      [
+        253,
+        290980
+      ],
+      [
+        252,
+        19249
+      ],
+      [
+        254,
+        8406
+      ],
+      [
+        1,
+        8113
+      ],
+      [
+        251,
+        4721
+      ]
+    ],
+    "nonzero_alpha_bounds": [
+      0,
+      17,
+      1336,
+      1129
+    ],
+    "alpha_128_bounds": [
+      200,
+      188,
+      1032,
+      962
+    ],
+    "status": "generated_source_not_engine_ready"
+  },
+  {
+    "file": "art/source/dave/dave_base_down_v002.png",
+    "size_px": [
+      1278,
+      1230
+    ],
+    "mode": "RGBA",
+    "png_channel_bit_depth": 8,
+    "png_colour_type": 6,
+    "embedded_icc": false,
+    "srgb_chunk_present": false,
+    "alpha_zero_pixels": 1087793,
+    "alpha_partial_pixels": 482916,
+    "alpha_opaque_pixels": 1231,
+    "alpha_nearly_opaque_250_255_pixels": 469242,
+    "alpha_mode_counts": [
+      [
+        0,
+        1087793
+      ],
+      [
+        253,
+        390376
+      ],
+      [
+        254,
+        64588
+      ],
+      [
+        252,
+        9825
+      ],
+      [
+        1,
+        2779
+      ],
+      [
+        251,
+        2070
+      ]
+    ],
+    "nonzero_alpha_bounds": [
+      66,
+      61,
+      1246,
+      1206
+    ],
+    "alpha_128_bounds": [
+      163,
+      169,
+      1084,
+      1049
+    ],
+    "status": "generated_source_not_engine_ready"
+  },
+  {
+    "file": "art/source/icons/spr_icon_potion_health_source_v001.png",
+    "size_px": [
+      1278,
+      1230
+    ],
+    "mode": "RGBA",
+    "png_channel_bit_depth": 8,
+    "png_colour_type": 6,
+    "embedded_icc": false,
+    "srgb_chunk_present": false,
+    "alpha_zero_pixels": 1218110,
+    "alpha_partial_pixels": 352882,
+    "alpha_opaque_pixels": 948,
+    "alpha_nearly_opaque_250_255_pixels": 342189,
+    "alpha_mode_counts": [
+      [
+        0,
+        1218110
+      ],
+      [
+        253,
+        223493
+      ],
+      [
+        252,
+        91889
+      ],
+      [
+        251,
+        14033
+      ],
+      [
+        254,
+        9184
+      ],
+      [
+        1,
+        2918
+      ]
+    ],
+    "nonzero_alpha_bounds": [
+      49,
+      37,
+      1240,
+      1181
+    ],
+    "alpha_128_bounds": [
+      318,
+      229,
+      960,
+      1011
+    ],
+    "status": "generated_source_not_engine_ready"
+  }
+]

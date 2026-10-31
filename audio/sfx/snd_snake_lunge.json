@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_snake_lunge",
+  "purpose": "Python melee lunge",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.25,
+  "actual_duration_seconds": 0.25,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_snake_lunge_1.wav",
+      "path": "audio/sfx/snd_snake_lunge_1.wav",
+      "sha256": "5b6dc0abded063393ddcdeeed4777de07b900482834ae6fd2f37d168e8371bbd",
+      "bytes": 22094,
+      "frames": 11025,
+      "duration_seconds": 0.25,
+      "seed": 2784768052,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.99442,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -21.65392,
+        "dc_offset": -6.366478883219954e-08,
+        "onset_ms_at_minus60_relative": 0.658,
+        "trailing_ms_below_minus60_relative": 1.247
+      }
+    },
+    {
+      "file": "snd_snake_lunge_2.wav",
+      "path": "audio/sfx/snd_snake_lunge_2.wav",
+      "sha256": "7dadc6ee70a524c479cc72b4cf3290f0a676a1b0ab15e4cc8d678894f03d8fc3",
+      "bytes": 22094,
+      "frames": 11025,
+      "duration_seconds": 0.25,
+      "seed": 106152790,
+      "measurements": {
+        "sample_peak_dbfs": -7.0595,
+        "oversampled_peak_dbfs_4x": -7.03475,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -21.6539,
+        "dc_offset": -4.428854875283447e-08,
+        "onset_ms_at_minus60_relative": 0.522,
+        "trailing_ms_below_minus60_relative": 1.406
+      }
+    },
+    {
+      "file": "snd_snake_lunge_3.wav",
+      "path": "audio/sfx/snd_snake_lunge_3.wav",
+      "sha256": "a4f8726d3f250e0b2179cc66f8101b6b9bbc4b29b94f649c901d661b43e359d5",
+      "bytes": 22094,
+      "frames": 11025,
+      "duration_seconds": 0.25,
+      "seed": 962568020,
+      "measurements": {
+        "sample_peak_dbfs": -8.09115,
+        "oversampled_peak_dbfs_4x": -8.0779,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -21.65393,
+        "dc_offset": 1.1072137188208617e-08,
+        "onset_ms_at_minus60_relative": 0.431,
+        "trailing_ms_below_minus60_relative": 1.156
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_snake_lunge: Python melee lunge. Create a short wide scale brush and forceful air push with a tiny dry jaw click, no human grunt, hiss layer, wet bite or weapon swish. Deliver 3 separate distinct takes, each 0.25 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 3e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

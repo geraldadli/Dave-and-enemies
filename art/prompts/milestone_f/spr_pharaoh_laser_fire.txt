@@ -1,0 +1,29 @@
+Use case: identity-preserve.
+
+Asset ID: spr_pharaoh_laser_fire. Purpose: pharaoh laser fire. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach art/reference/template_sprite_inspection.png as the authoritative style/density reference. Match the supplied Hero's Trail template reference: elevated top-down three-quarter orthographic adventure view, smooth antialiased illustrated cartoon game art, dark charcoal outlines about 1-2 native pixels wide, broad soft cel shading, light from upper left, restrained highlights and slate or warm brown shadows. Human-sized humanoids have compact chibi proportions with heads about 35-40 percent of body height; creatures keep the specific anatomy described below. These are 64-pixel tiles with roughly 78-pixel-tall human bodies. Preserve native visual density; no coarse pixel grid, realistic rendering, anime redesign, isometric diamond grid, noisy microtexture, text, watermark, labels or checkerboard painted into pixels.
+
+Production gate: run the animation request only after this character base and this facing pass native-size identity, perspective and alignment inspection. If that gate is pending, make only the neutral base/facing reference first, then stop before animation.
+
+Attach the established pharaoh base model as the identity reference. If it has not been established, generate only its neutral base first and stop before animation. Do not invent a new design for each state.
+
+Subject: The Undead Pharaoh, a regal desiccated adult mummy king, about 140 native pixels tall, floating above a fixed ground anchor. Narrow skeletal face, dark sockets with restrained amber inner light, ivory wrappings, muted lapis-and-gold striped nemes, broad gold collar and layered ivory robes with lapis and ochre trim. One consistent gold laser rod with an amber inset crown in anatomical right hand (image left while facing down). No scimitar, extra arms or recovered Grail. Fix the rod length and crown silhouette before animation.
+
+Direction: Face down toward the camera; do not generate additional directions.
+
+Final target: 192x192 native pixels PER FRAME; All frames fixed 192x192 canvas, no trimming; origin (96, 176). Anchor is the feet or ground point; no baked ground shadow.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate ONLY this one asset/action/direction as 4 chronological frames in one horizontal row, equally sized cells, left to right, no labels or visible grid lines. Planned final strip is 768x192, or individual fixed 192x192 frames. A generator may produce a larger source; exact grid and dimensions must be checked and exported afterward. No other characters, actions or directions.
+
+Pose plan, zero-based indices: Four restrained rod recoil/robe ripple poses around a stable firing stance. Laser beam separate; loop first/last body and rod pose carefully.
+
+Playback specification: 12 fps; loop. counts/loop from F1; fps chosen from contract default where applicable or proposed.
+
+Additional constraints:  After export measure the centre of the rod crown on EVERY frame and supply signed dx,dy from (96,176) in the sidecar. Laser fire tip tracking also proposed to prevent beam wobble. Null means unmeasured, never a zero offset.
+
+Transparent outer canvas, no ground plane or baked ground shadow. Preserve solid interiors, clean straight alpha and no clipped silhouette. Source artwork is not an engine-ready export until measured and inspected.
+
+Inspection before acceptance: Inspect all frames over the same body/ground overlay; no head-size or anatomy drift. Weapon hand, garment layers, palette and upper-left highlights remain fixed. Read the silhouette at native size on pale sand and dark ruins. Check chronological pose order, contact/release frames and last-to-first transition if looping. No weapon, cape, ear or effect clipped at a canvas edge.

@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_worm_burrow",
+  "purpose": "Sandworm returns under sand",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.9,
+  "actual_duration_seconds": 0.9,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_worm_burrow_1.wav",
+      "path": "audio/sfx/snd_worm_burrow_1.wav",
+      "sha256": "13391d5a3fda34d15e3fa0fdd0d76dfb868bfcd2b4e53e718916d9942972d961",
+      "bytes": 79424,
+      "frames": 39690,
+      "duration_seconds": 0.9,
+      "seed": 571516656,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.99442,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.81764,
+        "dc_offset": -5.382288910934745e-09,
+        "onset_ms_at_minus60_relative": 0.295,
+        "trailing_ms_below_minus60_relative": 0.59
+      }
+    },
+    {
+      "file": "snd_worm_burrow_2.wav",
+      "path": "audio/sfx/snd_worm_burrow_2.wav",
+      "sha256": "4b8332a89c3edbcc2ceb614064113fcfc9d2affd880e87d6b67421e0f1d88901",
+      "bytes": 79424,
+      "frames": 39690,
+      "duration_seconds": 0.9,
+      "seed": 1712905245,
+      "measurements": {
+        "sample_peak_dbfs": -8.17838,
+        "oversampled_peak_dbfs_4x": -8.10934,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.81762,
+        "dc_offset": 2.306695247543462e-09,
+        "onset_ms_at_minus60_relative": 0.317,
+        "trailing_ms_below_minus60_relative": 0.544
+      }
+    },
+    {
+      "file": "snd_worm_burrow_3.wav",
+      "path": "audio/sfx/snd_worm_burrow_3.wav",
+      "sha256": "b5b8c508008c480ce386c9b2866bfd8094bd3330c098cb96ca24c38161d172f1",
+      "bytes": 79424,
+      "frames": 39690,
+      "duration_seconds": 0.9,
+      "seed": 2450803448,
+      "measurements": {
+        "sample_peak_dbfs": -6.92021,
+        "oversampled_peak_dbfs_4x": -6.91469,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.81764,
+        "dc_offset": 1.3917061326845552e-07,
+        "onset_ms_at_minus60_relative": 0.317,
+        "trailing_ms_below_minus60_relative": 0.952
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_worm_burrow: Sandworm returns under sand. Create a downward sliding coarse-sand suction with soft body drag and settling grains, a downward energy gesture distinct from the upward eruption. No splash or voice. Deliver 3 separate distinct takes, each 0.9 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 2e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

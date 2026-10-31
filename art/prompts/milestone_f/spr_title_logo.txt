@@ -1,0 +1,21 @@
+Use case: stylized-concept.
+
+Asset ID: spr_title_logo. Purpose: Title or ending presentation art. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach art/reference/template_sprite_inspection.png as the authoritative style/density reference. Match the supplied Hero's Trail template reference: elevated top-down three-quarter orthographic adventure view, smooth antialiased illustrated cartoon game art, dark charcoal outlines about 1-2 native pixels wide, broad soft cel shading, light from upper left, restrained highlights and slate or warm brown shadows. Human-sized humanoids have compact chibi proportions with heads about 35-40 percent of body height; creatures keep the specific anatomy described below. These are 64-pixel tiles with roughly 78-pixel-tall human bodies. Preserve native visual density; no coarse pixel grid, realistic rendering, anime redesign, isometric diamond grid, noisy microtexture, watermark, labels or checkerboard painted into pixels.
+
+Subject: A deliberate fantasy adventure wordmark reading exactly "Dave’s & Enemies", warm pale stone and restrained brass, readable ampersand, no subtitle, no extra text.
+
+Direction: Use the exact single orientation described; do not generate additional views.
+
+Final target: 640x240 native pixels PER FRAME; All frames fixed 640x240 canvas, no trimming; origin (0, 0). Keep placement fixed between frames.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate one static asset only, no contact sheet or alternative views.
+
+Playback/state selection: static. contract.
+
+Additional constraints: Keep ending composition restrained and the threshold dark, no playable dungeon interior. The ending title To Be Continued and its menu button are live text, not baked into spr_ending_bg. Title logo requires manual typography and spelling verification; do not rely on generated letterforms.
+
+Inspection before acceptance: Native 1280x720 composition or exact logo canvas. Title spelling, apostrophe and ampersand inspected character by character. No recovered Grail; GUI text areas remain clear.

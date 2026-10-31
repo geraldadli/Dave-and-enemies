@@ -1,0 +1,71 @@
+{
+  "room_id": "rm_d16_pharaohs_gate",
+  "display_name": "Pharaoh's Gate",
+  "size_cells": [
+    36,
+    24
+  ],
+  "terrain": [
+    "####################################",
+    "#MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#...............MMM................#",
+    "#...............MMM................#",
+    "#...............MMM................#",
+    "#...............MMM................#",
+    "#...............MMM................#",
+    "__________________________.........#",
+    "__________________________.........#",
+    "__________________________.........#",
+    "#...............MMM....___.........#",
+    "#...............MMM....___.........#",
+    "#......................___..._____.#",
+    "#......................_____________",
+    "#......................_____________",
+    "#......................_____________",
+    "#............................_____.#",
+    "#..................................#",
+    "#..................................#",
+    "#..................................#",
+    "####################################"
+  ],
+  "exits": [
+    {
+      "id": "west",
+      "side": "W",
+      "rows": [
+        10,
+        12
+      ],
+      "to": "rm_d15_tomb_approach",
+      "to_exit": "east"
+    },
+    {
+      "id": "east",
+      "side": "E",
+      "rows": [
+        16,
+        18
+      ],
+      "to": "rm_d17_pharaohs_courtyard",
+      "to_exit": "west"
+    }
+  ],
+  "objects": [
+    {
+      "type": "checkpoint",
+      "cell": [
+        31,
+        17
+      ]
+    }
+  ],
+  "music": "mus_desert",
+  "weather": {
+    "sandstorm": false,
+    "tumbleweeds": false
+  },
+  "notes": "Authored design v1; batch 6. See gameplay_specs.json and decorations.json. An entirely safe final save star sits directly on the route to the arena vestibule."
+}

@@ -1,0 +1,71 @@
+{
+  "asset_id": "mus_ending",
+  "purpose": "Dungeon threshold and To Be Continued",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "file": "mus_ending.wav",
+  "sha256": "e34c0a055ef7266689ccddcddb84676ef4843f1b3b6970c18eff2c2a5329d8f8",
+  "bytes": 1764044,
+  "channels": 2,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 10,
+  "frames": 441000,
+  "loop": false,
+  "loop_start": null,
+  "loop_end": null,
+  "generation": "Original seeded Python composition, additive instrument synthesis and linear room/delay rendering; no samples, vocals, dialogue, weather or battle SFX.",
+  "source": "tools/render_chapter_cues.py",
+  "source_sha256": "a9dbeb326b1e70022eadd218346d54efedaf68364299f82f8885f9acfb2fce24",
+  "instrument_source": "tools/render_chapter_music.py",
+  "seed": 100631,
+  "score_file": "mus_ending.score.json",
+  "event_count": 21,
+  "markers": [
+    [
+      0,
+      "Threshold: C-Db-E-G exploration motif"
+    ],
+    [
+      2,
+      "Sparse C-G support beneath Dave's final line through second 5"
+    ],
+    [
+      6,
+      "To Be Continued title: F-E-Db-C answer"
+    ],
+    [
+      8,
+      "Open fifth decays to silence by second 10"
+    ]
+  ],
+  "soft_peak_shaping_passes": 0,
+  "measurements": {
+    "integrated_lufs": -16.05,
+    "true_peak_dbtp": -3.06,
+    "loudness_range_lu": 12.2,
+    "meter": "FFmpeg loudnorm input measurements (EBU R128/BS.1770)",
+    "sample_peak_dbfs": -3.068024344900065,
+    "dc_offset_per_channel": [
+      -3.94444887329932e-09,
+      -6.64328231292517e-09
+    ],
+    "last_100ms_rms_dbfs": -79.93441751280417,
+    "first_100ms_rms_dbfs": -14.564741112447098,
+    "final_sample_abs_max": 0.0,
+    "terminal_quantized_silence_ms": 29.183673469387756,
+    "stereo_correlation": 0.9505596710122219,
+    "non_looping_tail": {
+      "fade_from_seconds": 8,
+      "all_decay_inside_file": true,
+      "no_wrapped_reverb_or_echo": true,
+      "natural_end_check": "PASS"
+    }
+  },
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset mus_ending: Dungeon threshold and To Be Continued. Compose a 10-second non-looping cue following the ending storyboard, with no forced bar count. At 0-2 s revoice the exploration motif's C-Db-E-G opening on warm plucked strings and breathy flute. At 2-5 s thin to a soft C-G support under Dave's final text. At 6 s support the To Be Continued title with a restrained F-E-Db-C answer, then a long open C-G ending. Use a single soft frame-drum beat at the start, then no driving rhythm. Suggest a promise continuing beyond the dungeon door, with quiet relief and remaining mystery. Do not sound like the quest or Grail recovery is complete. Allow the final resonance to decay from 8-10 s; no separate tail outside the export. The title holds in silence after 10 s. Deliver 1 distinct take, each 10 seconds long including decay. This is a complete non-looping score cue; keep its natural ending within the file and do not append another cue or silent padding. No vocals, speech, lyrics, quoted melodies, stock tracks, combat effects or weather baked into the music. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, stereo, peak no higher than -1 dBFS. Master to -16 LUFS integrated, tolerance +/-1 LU; retain transient headroom. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "trigger": "At t=0 enter the ending sequence from the cleared dungeon threshold; play once per entry. Title appears at t=6 s.",
+  "stop": "Natural end into silence; fade out over 300 ms if returning to main menu or loading a save.",
+  "playback_gain_baked_in": false,
+  "auditory_review": "Pending human listening review; objective audio checks passed.",
+  "game_integration": "Not imported; Claude owns playback, fades, mixing and triggers."
+}

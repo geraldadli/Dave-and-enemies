@@ -1,0 +1,245 @@
+{
+  "status": "pass",
+  "checks": 1727,
+  "errors": [],
+  "rooms": {
+    "rm_d01_arrival": {
+      "status": "pass",
+      "walkable_cells": 637,
+      "reachable_cells": 637,
+      "three_wide_centres": 511,
+      "arrivals": 2,
+      "chests": 1,
+      "enemies": 0
+    },
+    "rm_d02_dune_trail": {
+      "status": "pass",
+      "walkable_cells": 651,
+      "reachable_cells": 651,
+      "three_wide_centres": 489,
+      "arrivals": 2,
+      "chests": 1,
+      "enemies": 1
+    },
+    "rm_d03_canyon_approach": {
+      "status": "pass",
+      "walkable_cells": 583,
+      "reachable_cells": 583,
+      "three_wide_centres": 451,
+      "arrivals": 3,
+      "chests": 1,
+      "enemies": 2
+    },
+    "rm_d04_split_cliffs": {
+      "status": "pass",
+      "walkable_cells": 641,
+      "reachable_cells": 641,
+      "three_wide_centres": 453,
+      "arrivals": 2,
+      "chests": 1,
+      "enemies": 1
+    },
+    "rm_d05_dry_wash": {
+      "status": "pass",
+      "walkable_cells": 663,
+      "reachable_cells": 663,
+      "three_wide_centres": 498,
+      "arrivals": 2,
+      "chests": 1,
+      "enemies": 1
+    },
+    "rm_d06_oasis_refuge": {
+      "status": "pass",
+      "walkable_cells": 705,
+      "reachable_cells": 705,
+      "three_wide_centres": 526,
+      "arrivals": 3,
+      "chests": 1,
+      "enemies": 0
+    },
+    "rm_d07_ruined_caravan": {
+      "status": "pass",
+      "walkable_cells": 662,
+      "reachable_cells": 662,
+      "three_wide_centres": 516,
+      "arrivals": 2,
+      "chests": 1,
+      "enemies": 2
+    },
+    "rm_d08_cactus_flats": {
+      "status": "pass",
+      "walkable_cells": 707,
+      "reachable_cells": 707,
+      "three_wide_centres": 534,
+      "arrivals": 3,
+      "chests": 1,
+      "enemies": 1
+    },
+    "rm_d09_bonefield": {
+      "status": "pass",
+      "walkable_cells": 686,
+      "reachable_cells": 686,
+      "three_wide_centres": 531,
+      "arrivals": 2,
+      "chests": 1,
+      "enemies": 3
+    },
+    "rm_d10_broken_bridge": {
+      "status": "pass",
+      "walkable_cells": 653,
+      "reachable_cells": 653,
+      "three_wide_centres": 482,
+      "arrivals": 3,
+      "chests": 1,
+      "enemies": 1
+    },
+    "rm_d11_forgotten_ruins": {
+      "status": "pass",
+      "walkable_cells": 625,
+      "reachable_cells": 625,
+      "three_wide_centres": 477,
+      "arrivals": 2,
+      "chests": 1,
+      "enemies": 0
+    },
+    "rm_d12_great_desert_stairs": {
+      "status": "pass",
+      "walkable_cells": 703,
+      "reachable_cells": 703,
+      "three_wide_centres": 523,
+      "arrivals": 2,
+      "chests": 1,
+      "enemies": 2
+    },
+    "rm_d13_windblown_plateau": {
+      "status": "pass",
+      "walkable_cells": 692,
+      "reachable_cells": 692,
+      "three_wide_centres": 508,
+      "arrivals": 3,
+      "chests": 1,
+      "enemies": 1
+    },
+    "rm_d14_royal_causeway": {
+      "status": "pass",
+      "walkable_cells": 733,
+      "reachable_cells": 733,
+      "three_wide_centres": 557,
+      "arrivals": 2,
+      "chests": 1,
+      "enemies": 3
+    },
+    "rm_d15_tomb_approach": {
+      "status": "pass",
+      "walkable_cells": 652,
+      "reachable_cells": 652,
+      "three_wide_centres": 514,
+      "arrivals": 3,
+      "chests": 1,
+      "enemies": 0
+    },
+    "rm_d16_pharaohs_gate": {
+      "status": "pass",
+      "walkable_cells": 597,
+      "reachable_cells": 597,
+      "three_wide_centres": 469,
+      "arrivals": 2,
+      "chests": 0,
+      "enemies": 0
+    },
+    "rm_d17_pharaohs_courtyard": {
+      "status": "pass",
+      "walkable_cells": 492,
+      "reachable_cells": 492,
+      "three_wide_centres": 362,
+      "arrivals": 2,
+      "chests": 0,
+      "enemies": 1
+    },
+    "rm_d18_dungeon_threshold": {
+      "status": "pass",
+      "walkable_cells": 720,
+      "reachable_cells": 720,
+      "three_wide_centres": 608,
+      "arrivals": 1,
+      "chests": 0,
+      "enemies": 0
+    },
+    "rm_o1_sunken_lookout": {
+      "status": "pass",
+      "walkable_cells": 473,
+      "reachable_cells": 473,
+      "three_wide_centres": 320,
+      "arrivals": 1,
+      "chests": 1,
+      "enemies": 1
+    },
+    "rm_o2_hidden_spring": {
+      "status": "pass",
+      "walkable_cells": 545,
+      "reachable_cells": 545,
+      "three_wide_centres": 398,
+      "arrivals": 1,
+      "chests": 1,
+      "enemies": 0
+    },
+    "rm_o3_bandit_cache": {
+      "status": "pass",
+      "walkable_cells": 509,
+      "reachable_cells": 509,
+      "three_wide_centres": 391,
+      "arrivals": 1,
+      "chests": 1,
+      "enemies": 2
+    },
+    "rm_o4_buried_cistern": {
+      "status": "pass",
+      "walkable_cells": 473,
+      "reachable_cells": 473,
+      "three_wide_centres": 280,
+      "arrivals": 1,
+      "chests": 1,
+      "enemies": 0
+    },
+    "rm_o5_echo_grotto": {
+      "status": "pass",
+      "walkable_cells": 461,
+      "reachable_cells": 461,
+      "three_wide_centres": 360,
+      "arrivals": 1,
+      "chests": 1,
+      "enemies": 3
+    },
+    "rm_o6_memorial_vault": {
+      "status": "pass",
+      "walkable_cells": 462,
+      "reachable_cells": 462,
+      "three_wide_centres": 315,
+      "arrivals": 1,
+      "chests": 1,
+      "enemies": 1
+    }
+  },
+  "summary": {
+    "rooms": 24,
+    "directed_exits": 46,
+    "chests": 21,
+    "initial_enemies": 26,
+    "checkpoints": 3
+  },
+  "guarantee": "Static authored topology under full-cell terrain blockers, conservative prop/chest blockers, and explicit boss gate states. Actual collision masks are smaller. No dynamic AI/physics/timing claim.",
+  "required_IDE_checks": [
+    "8-direction movement and corner sliding with dedicated masks",
+    "melee swing arc, knockback, kiting and enemy leash behavior in each pad",
+    "ranged LOS against cliff/masonry; no attacks on entry corridors or structure landings",
+    "bridge rails and stair art leave authored openings intact",
+    "all outbound and reciprocal transitions including held input",
+    "chest overflow, partial claims and checkpoint rollback",
+    "three independent saves and restart before first save",
+    "boss gate closure after whole mask passes; dialogue skip and death restart",
+    "thunder safe-strip reachability at final movement speed in every phase",
+    "whiteout disables damage then removes all threats",
+    "load cleared arena, pending unique reward/full inventory",
+    "threshold ending and completed-save replay"
+  ]
+}

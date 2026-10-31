@@ -1,0 +1,21 @@
+Use case: stylized-concept.
+
+Asset ID: spr_ui_slot_selected. Purpose: Core HUD kit. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach this component from art/reference/ui_handoff/assets/ as the authoritative geometry and palette reference. The prototype is already supplied; reuse it for the current milestone. This optional generation prompt is for later approved art polish only. Preserve the existing dark ink/cool grey/gold hierarchy. This is flat screen-space UI, no world camera foreshortening.
+
+Subject: Reuse the supplied selected-slot OVERLAY: transparent centre, gold outline, corners and selected marker aligned exactly to the base 72x72 slot. No icon or text.
+
+Direction: Use the exact single orientation described; do not generate additional views.
+
+Final target: 72x72 native pixels PER FRAME; All frames fixed 72x72 canvas, no trimming; origin (0, 0). Keep placement fixed between frames.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate one static asset only, no contact sheet or alternative views.
+
+Playback/state selection: static. contract.
+
+Additional constraints: Screen-space UI, not a top-down world object. No baked letters, numbers, labels or item art; preserve border sizes exactly.
+
+Inspection before acceptance: Read at native 1280x720 GUI scale. Bar fill and frame align pixel for pixel. Selection reads through shape and value. Panel corners survive nine-slice stretch tests at 320x160 and 760x300.

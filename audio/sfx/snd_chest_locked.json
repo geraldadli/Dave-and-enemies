@@ -1,0 +1,62 @@
+{
+  "asset_id": "snd_chest_locked",
+  "purpose": "Chest or sealed door interaction denied",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.22,
+  "actual_duration_seconds": 0.22,
+  "variation_count": 2,
+  "files": [
+    {
+      "file": "snd_chest_locked_1.wav",
+      "path": "audio/sfx/snd_chest_locked_1.wav",
+      "sha256": "1a549bc7f4db587d0c4d0a812d292ef30691f76991013e662e8eb6959d4a5a58",
+      "bytes": 19448,
+      "frames": 9702,
+      "duration_seconds": 0.22,
+      "seed": 957231349,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.97952,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -21.20296,
+        "dc_offset": -2.2018454635642136e-08,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 1.633
+      }
+    },
+    {
+      "file": "snd_chest_locked_2.wav",
+      "path": "audio/sfx/snd_chest_locked_2.wav",
+      "sha256": "cb8c80f1578d53e53f2f85e6d1ad29cb2a8b5f2c4f90a58d5d6b66af6fa2fdc6",
+      "bytes": 19448,
+      "frames": 9702,
+      "duration_seconds": 0.22,
+      "seed": 3715587389,
+      "measurements": {
+        "sample_peak_dbfs": -6.41594,
+        "oversampled_peak_dbfs_4x": -6.38952,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -21.20296,
+        "dc_offset": 3.145493519377448e-08,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 1.247
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_chest_locked: Chest or sealed door interaction denied. Record a short dry wooden latch tug and damped metal catch. No successful opening, alarm or spoken disapproval. Deliver 2 separate distinct takes, each 0.22 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 0.0,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

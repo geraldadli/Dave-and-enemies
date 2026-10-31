@@ -1,0 +1,44 @@
+{
+  "asset_id": "snd_disintegrate",
+  "purpose": "Pharaoh dissolves into sand",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 2.4,
+  "actual_duration_seconds": 2.4,
+  "variation_count": 1,
+  "files": [
+    {
+      "file": "snd_disintegrate.wav",
+      "path": "audio/sfx/snd_disintegrate.wav",
+      "sha256": "159bfceb944826d1c9a2bbfb6f963b62674f6be18a2bbc57237606c453df4cb3",
+      "bytes": 211724,
+      "frames": 105840,
+      "duration_seconds": 2.4,
+      "seed": 1963021809,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.91753,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -24.42138,
+        "dc_offset": -4.613390495086924e-09,
+        "onset_ms_at_minus60_relative": 0.204,
+        "trailing_ms_below_minus60_relative": 1.202
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_disintegrate: Pharaoh dissolves into sand. Create a dry descending granular crumble, tiny brittle bronze flecks and a final soft sandy air release. No second blast, voice, music or continuous storm bed. Design the final second to dissipate naturally. Deliver 1 distinct take, each 2.4 seconds long including decay. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 0.0,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_skeleton_warrior_attack",
+  "purpose": "Skeleton warrior melee preparation",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.38,
+  "actual_duration_seconds": 0.38,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_skeleton_warrior_attack_1.wav",
+      "path": "audio/sfx/snd_skeleton_warrior_attack_1.wav",
+      "sha256": "6346d340c6961d995767be06831e72f7b4a3621319adaaaddf2b43d6d4745bfa",
+      "bytes": 33560,
+      "frames": 16758,
+      "duration_seconds": 0.38,
+      "seed": 388838877,
+      "measurements": {
+        "sample_peak_dbfs": -6.37277,
+        "oversampled_peak_dbfs_4x": -6.08918,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.93471,
+        "dc_offset": -1.0926451172574294e-08,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 1.587
+      }
+    },
+    {
+      "file": "snd_skeleton_warrior_attack_2.wav",
+      "path": "audio/sfx/snd_skeleton_warrior_attack_2.wav",
+      "sha256": "c885d917cd33a1cdb76ed27931f414994f715e2ab4c48b394d142332dafb22a2",
+      "bytes": 33560,
+      "frames": 16758,
+      "duration_seconds": 0.38,
+      "seed": 3164578392,
+      "measurements": {
+        "sample_peak_dbfs": -6.00048,
+        "oversampled_peak_dbfs_4x": -5.99495,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.9347,
+        "dc_offset": -8.376945898973625e-08,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 1.61
+      }
+    },
+    {
+      "file": "snd_skeleton_warrior_attack_3.wav",
+      "path": "audio/sfx/snd_skeleton_warrior_attack_3.wav",
+      "sha256": "cb1d26850d067cb969346abe7f32c3705b64ec327cd23eaaeca83c5d170ab458",
+      "bytes": 33560,
+      "frames": 16758,
+      "duration_seconds": 0.38,
+      "seed": 3249577727,
+      "measurements": {
+        "sample_peak_dbfs": -6.51639,
+        "oversampled_peak_dbfs_4x": -6.42016,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.93469,
+        "dc_offset": -8.55905341851653e-08,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 1.429
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_skeleton_warrior_attack: Skeleton warrior melee preparation. Create a sharp hollow bone joint click followed by a thin steel weapon swish. Weapon may be sword or spear, so keep the gesture neutral. No contact, human grunt or long metal ring. Deliver 3 separate distinct takes, each 0.38 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 2e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

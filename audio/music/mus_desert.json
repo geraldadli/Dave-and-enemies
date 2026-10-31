@@ -1,0 +1,54 @@
+{
+  "asset_id": "mus_desert",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "file": "mus_desert.wav",
+  "sha256": "8178d174bf01466be5095300d6a442fe6dbd092068cdbb6fb680c83594983c4e",
+  "bytes": 16934444,
+  "channels": 2,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "bpm": 80,
+  "meter": "4/4",
+  "bars": 32,
+  "duration_seconds": 96.0,
+  "frames": 4233600,
+  "loop_start": 0,
+  "loop_end": 96.0,
+  "loop_start_frame_inclusive": 0,
+  "loop_end_frame_exclusive": 4233600,
+  "whole_file_seamless_design": true,
+  "generation": "Original Python composition and additive/physical-inspired synthesis; no sampled instruments, external music, vocals, or AI music API.",
+  "source": "tools/render_chapter_music.py",
+  "seed": 63107,
+  "score_file": "mus_desert.score.json",
+  "event_count": 721,
+  "soft_peak_shaping_passes": 1,
+  "measurements": {
+    "integrated_lufs": -16.0,
+    "true_peak_dbtp": -2.11,
+    "loudness_range_lu": 3.8,
+    "meter": "FFmpeg loudnorm input measurements (EBU R128/BS.1770)",
+    "sample_peak_dbfs": -2.11067,
+    "rms_dbfs": -18.25626,
+    "dc_offset_per_channel": [
+      2.547e-07,
+      6.43e-08
+    ],
+    "stereo_correlation": 0.93333,
+    "loop_boundary": {
+      "jump_per_channel": [
+        0.009185791015625,
+        0.004302978515625
+      ],
+      "ordinary_step_99_9_percentile_per_channel": [
+        0.070343017578125,
+        0.05645751953125
+      ],
+      "seam_within_ordinary_step_range": true,
+      "tail_policy": "All notes, delays, filters and reverb wrap circularly; no file fades or padding."
+    }
+  },
+  "auditory_review": "Pending human listening review; objective audio checks passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and triggers."
+}

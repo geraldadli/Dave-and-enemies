@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><style>@font-face{font-family:NotoUI;src:url(../fonts/NotoSans-Regular.ttf)}@font-face{font-family:NotoUI;src:url(../fonts/NotoSans-Bold.ttf);font-weight:700}text{font-family:NotoUI,"Noto Sans",sans-serif}</style></defs>
+<rect x="0" y="0" width="1280" height="720" rx="0" fill="#171B27" stroke="none" stroke-width="1"/>
+<polygon points="0,580 256,534 488,572 800,548 1060,574 1280,520 1280,720 0,720" fill="#252735" stroke="none" stroke-width="1"/>
+<polygon points="0,644 300,610 600,640 1010,600 1280,640 1280,720 0,720" fill="#34303B" stroke="none" stroke-width="1"/>
+<rect x="934" y="200" width="84" height="374" rx="4" fill="#282A38" stroke="none" stroke-width="1"/>
+<rect x="1140" y="200" width="84" height="374" rx="4" fill="#282A38" stroke="none" stroke-width="1"/>
+<rect x="918" y="168" width="322" height="64" rx="8" fill="#30313F" stroke="none" stroke-width="1"/>
+<polyline points="950,260 1000,260" fill="none" stroke="#373847" stroke-width="2"/>
+<polyline points="950,340 1000,340" fill="none" stroke="#373847" stroke-width="2"/>
+<polyline points="950,420 1000,420" fill="none" stroke="#373847" stroke-width="2"/>
+<polyline points="950,500 1000,500" fill="none" stroke="#373847" stroke-width="2"/>
+<polyline points="1156,260 1206,260" fill="none" stroke="#373847" stroke-width="2"/>
+<polyline points="1156,340 1206,340" fill="none" stroke="#373847" stroke-width="2"/>
+<polyline points="1156,420 1206,420" fill="none" stroke="#373847" stroke-width="2"/>
+<polyline points="1156,500 1206,500" fill="none" stroke="#373847" stroke-width="2"/>
+<polyline points="448,140 832,140" fill="none" stroke="#EAC477" stroke-width="1"/>
+<text x="640" y="187.0" font-size="18" font-weight="400" text-anchor="middle" fill="#EAC477">CHAPTER I</text>
+<text x="640" y="263.0" font-size="46" font-weight="700" text-anchor="middle" fill="#F6EBDD">To Be Continued</text>
+<text x="640" y="320.0" font-size="23" font-weight="400" text-anchor="middle" fill="#B9C3D3">Beyond the desert, the search goes on.</text>
+<rect x="448" y="432" width="384" height="56" rx="8" fill="#242A39" stroke="#EAC477" stroke-width="2"/>
+<rect x="449" y="433" width="382" height="54" rx="8" fill="none" stroke="#EAC477" stroke-width="2"/>
+<polyline points="458,432 448,432 448,442" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="822,432 832,432 832,442" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="458,488 448,488 448,478" fill="none" stroke="#EAC477" stroke-width="3"/>
+<polyline points="822,488 832,488 832,478" fill="none" stroke="#EAC477" stroke-width="3"/>
+<text x="640.0" y="469.0" font-size="23" font-weight="400" text-anchor="middle" fill="#F6EBDD">Main Menu</text>
+<text x="640" y="539.0" font-size="18" font-weight="400" text-anchor="middle" fill="#B9C3D3">Your journey continues in the next chapter.</text>
+</svg>

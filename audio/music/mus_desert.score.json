@@ -1,0 +1,6510 @@
+{
+  "asset_id": "mus_desert",
+  "bpm": 80,
+  "bars": 32,
+  "meter": "4/4",
+  "seed": 63107,
+  "seconds": 96.0,
+  "beat_unit": "quarter",
+  "tuning": "A4=440 Hz; C4=MIDI 60",
+  "pitch_collection": [
+    "C",
+    "Db",
+    "E",
+    "F",
+    "G",
+    "Ab",
+    "B"
+  ],
+  "events": [
+    {
+      "instrument": "oud",
+      "beat": 0.005530571297458583,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.0969770650842836,
+      "pan": -0.3162276981238811,
+      "seed": 1390268636
+    },
+    {
+      "instrument": "oud",
+      "beat": 1.4937535570774843,
+      "note": 52,
+      "gate_beats": 0.8,
+      "velocity": 0.09771831473884274,
+      "pan": 0.2502529193154466,
+      "seed": 1306215223
+    },
+    {
+      "instrument": "oud",
+      "beat": 2.499547529201191,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.10043590701910482,
+      "pan": -0.35422825052076573,
+      "seed": 694712043
+    },
+    {
+      "instrument": "oud",
+      "beat": 3.252552960989809,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.09123073015505968,
+      "pan": 0.25349048021405873,
+      "seed": 696427288
+    },
+    {
+      "instrument": "bass",
+      "beat": 0.00459670163008943,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10493700044285419,
+      "pan": -0.0530561894015098,
+      "seed": 1115783709
+    },
+    {
+      "instrument": "bass",
+      "beat": 2.493855383897342,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.054039534551455985,
+      "pan": 0.03264547413858098,
+      "seed": 820310670
+    },
+    {
+      "instrument": "doum",
+      "beat": -0.004350176082077431,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10393005698854062,
+      "pan": -0.14703963361165373,
+      "seed": 1952283056
+    },
+    {
+      "instrument": "tek",
+      "beat": 1.4936287445823537,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.046052053339925084,
+      "pan": 0.20996164713777116,
+      "seed": 1586161048
+    },
+    {
+      "instrument": "tek",
+      "beat": 2.9956282453798195,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05646348939235414,
+      "pan": 0.19215181045192162,
+      "seed": 768603348
+    },
+    {
+      "instrument": "shaker",
+      "beat": -0.0038228486530561827,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01177529597203518,
+      "pan": 0.41238275352732423,
+      "seed": 576838398
+    },
+    {
+      "instrument": "shaker",
+      "beat": 0.4953963225681201,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009119478917291993,
+      "pan": -0.44762080671335863,
+      "seed": 1942979191
+    },
+    {
+      "instrument": "shaker",
+      "beat": 1.0011295544379903,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012327720019135395,
+      "pan": 0.4032898392748794,
+      "seed": 968234510
+    },
+    {
+      "instrument": "shaker",
+      "beat": 1.4973533921502098,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008464065493270508,
+      "pan": -0.4377610923377714,
+      "seed": 1153694089
+    },
+    {
+      "instrument": "shaker",
+      "beat": 2.0055412868968028,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011402247376896013,
+      "pan": 0.41590507398360016,
+      "seed": 182573005
+    },
+    {
+      "instrument": "shaker",
+      "beat": 2.5010486156092484,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008826192151300134,
+      "pan": -0.46342349087456947,
+      "seed": 911614742
+    },
+    {
+      "instrument": "shaker",
+      "beat": 3.006506101558784,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01176413007236143,
+      "pan": 0.42316273267068705,
+      "seed": 385054748
+    },
+    {
+      "instrument": "shaker",
+      "beat": 3.4970069629002927,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009486636114584798,
+      "pan": -0.4574986774389159,
+      "seed": 328592632
+    },
+    {
+      "instrument": "oud",
+      "beat": 4.000529973603914,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.09936044936758112,
+      "pan": -0.33298133297745525,
+      "seed": 2094818898
+    },
+    {
+      "instrument": "oud",
+      "beat": 5.506350993020116,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.09933869499987667,
+      "pan": 0.2395500110936329,
+      "seed": 1045731698
+    },
+    {
+      "instrument": "oud",
+      "beat": 6.505488315594178,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.0910012056043375,
+      "pan": -0.30951322967226785,
+      "seed": 1827757730
+    },
+    {
+      "instrument": "oud",
+      "beat": 7.245899809528394,
+      "note": 64,
+      "gate_beats": 0.8,
+      "velocity": 0.1000288030980727,
+      "pan": 0.22647546853656664,
+      "seed": 1082681958
+    },
+    {
+      "instrument": "oud",
+      "beat": 7.494644745564834,
+      "note": 55,
+      "gate_beats": 0.5,
+      "velocity": 0.04678376420263766,
+      "pan": 0.4095032421960916,
+      "seed": 1807572712
+    },
+    {
+      "instrument": "oud",
+      "beat": 7.566050468054017,
+      "note": 60,
+      "gate_beats": 0.5,
+      "velocity": 0.0473964342025381,
+      "pan": 0.38778274756522096,
+      "seed": 2119511709
+    },
+    {
+      "instrument": "oud",
+      "beat": 7.624504846902758,
+      "note": 64,
+      "gate_beats": 0.5,
+      "velocity": 0.04629189351233195,
+      "pan": 0.3865599979022031,
+      "seed": 1583746958
+    },
+    {
+      "instrument": "bass",
+      "beat": 4.001916075289767,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10087522872218972,
+      "pan": -0.006061091809938711,
+      "seed": 358878336
+    },
+    {
+      "instrument": "bass",
+      "beat": 6.494325090087234,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05182522619616925,
+      "pan": 0.03314250194241803,
+      "seed": 1898592700
+    },
+    {
+      "instrument": "doum",
+      "beat": 3.9975088612413496,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10626581823325426,
+      "pan": -0.12838451915945234,
+      "seed": 1631336964
+    },
+    {
+      "instrument": "doum",
+      "beat": 6.747226854069293,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06634782517215329,
+      "pan": -0.10119947608234314,
+      "seed": 1328275407
+    },
+    {
+      "instrument": "tek",
+      "beat": 5.505491404585222,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04670261107200866,
+      "pan": 0.22484637157062703,
+      "seed": 1312602650
+    },
+    {
+      "instrument": "tek",
+      "beat": 6.996848242558631,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05656311985849542,
+      "pan": 0.19435796212947806,
+      "seed": 465514957
+    },
+    {
+      "instrument": "shaker",
+      "beat": 3.9955308846065343,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011386292485831768,
+      "pan": 0.3819638744584397,
+      "seed": 1861849413
+    },
+    {
+      "instrument": "shaker",
+      "beat": 4.505663540425215,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009328395828619598,
+      "pan": -0.4292733412024804,
+      "seed": 541579860
+    },
+    {
+      "instrument": "shaker",
+      "beat": 4.999153868589443,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011473072958061088,
+      "pan": 0.38441657410217445,
+      "seed": 1684329822
+    },
+    {
+      "instrument": "shaker",
+      "beat": 5.494422709175973,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009085140357635786,
+      "pan": -0.4646708723424703,
+      "seed": 1265605315
+    },
+    {
+      "instrument": "shaker",
+      "beat": 5.994979893782213,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012097650761637341,
+      "pan": 0.40401151015238557,
+      "seed": 319182798
+    },
+    {
+      "instrument": "shaker",
+      "beat": 6.49778801865543,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008878894331180375,
+      "pan": -0.45776103190359124,
+      "seed": 2093861629
+    },
+    {
+      "instrument": "shaker",
+      "beat": 6.995848282818478,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012286771388888834,
+      "pan": 0.3884407392453714,
+      "seed": 534888674
+    },
+    {
+      "instrument": "shaker",
+      "beat": 7.497118117950359,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00874688268517185,
+      "pan": -0.4612248016548969,
+      "seed": 1287891446
+    },
+    {
+      "instrument": "oud",
+      "beat": 7.997346426815526,
+      "note": 49,
+      "gate_beats": 0.8,
+      "velocity": 0.10062596634318584,
+      "pan": -0.3301618927786489,
+      "seed": 118658447
+    },
+    {
+      "instrument": "oud",
+      "beat": 9.498379997303418,
+      "note": 53,
+      "gate_beats": 0.8,
+      "velocity": 0.0939668034698942,
+      "pan": 0.2274764255070474,
+      "seed": 500857506
+    },
+    {
+      "instrument": "oud",
+      "beat": 10.505239061584538,
+      "note": 56,
+      "gate_beats": 0.8,
+      "velocity": 0.09987412066956633,
+      "pan": -0.35457488965710504,
+      "seed": 894484334
+    },
+    {
+      "instrument": "oud",
+      "beat": 11.248425160618494,
+      "note": 61,
+      "gate_beats": 0.8,
+      "velocity": 0.09842841486221064,
+      "pan": 0.2382349080775349,
+      "seed": 1654638992
+    },
+    {
+      "instrument": "bass",
+      "beat": 7.99427037566182,
+      "note": 37,
+      "gate_beats": 1.75,
+      "velocity": 0.10249446184585372,
+      "pan": -0.0271716106123775,
+      "seed": 535236961
+    },
+    {
+      "instrument": "bass",
+      "beat": 10.503572730446514,
+      "note": 37,
+      "gate_beats": 1,
+      "velocity": 0.0519883143153087,
+      "pan": 0.01672559783148032,
+      "seed": 1598475859
+    },
+    {
+      "instrument": "doum",
+      "beat": 7.998257003487932,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.11040113156144474,
+      "pan": -0.1514779386633992,
+      "seed": 910318318
+    },
+    {
+      "instrument": "tek",
+      "beat": 9.505425468654597,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04672185559397368,
+      "pan": 0.22369210327062491,
+      "seed": 468810554
+    },
+    {
+      "instrument": "tek",
+      "beat": 10.998353653687763,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05619485510079262,
+      "pan": 0.19291852991692307,
+      "seed": 519844175
+    },
+    {
+      "instrument": "shaker",
+      "beat": 8.003713000447183,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011445081183620419,
+      "pan": 0.40889962156574605,
+      "seed": 957638333
+    },
+    {
+      "instrument": "shaker",
+      "beat": 8.504863401505908,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009419108697389666,
+      "pan": -0.4640786262489037,
+      "seed": 71637116
+    },
+    {
+      "instrument": "shaker",
+      "beat": 8.999740618360875,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011521473584323106,
+      "pan": 0.38858317837007694,
+      "seed": 1834968563
+    },
+    {
+      "instrument": "shaker",
+      "beat": 9.494504433974933,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009537299572704211,
+      "pan": -0.4656971691617207,
+      "seed": 2064918068
+    },
+    {
+      "instrument": "shaker",
+      "beat": 9.996487551503517,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011505294516321202,
+      "pan": 0.4079090978648993,
+      "seed": 490324827
+    },
+    {
+      "instrument": "shaker",
+      "beat": 10.493421949978703,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009352926985409757,
+      "pan": -0.4674709623200412,
+      "seed": 967995196
+    },
+    {
+      "instrument": "shaker",
+      "beat": 11.006518789667972,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012292451480321398,
+      "pan": 0.405656020460444,
+      "seed": 1889501439
+    },
+    {
+      "instrument": "shaker",
+      "beat": 11.502483886199682,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008664673564869252,
+      "pan": -0.47349229131453874,
+      "seed": 1861133768
+    },
+    {
+      "instrument": "oud",
+      "beat": 11.999824632308579,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.08975605988596005,
+      "pan": -0.33892354581009915,
+      "seed": 1915578597
+    },
+    {
+      "instrument": "oud",
+      "beat": 13.493989280780934,
+      "note": 52,
+      "gate_beats": 0.8,
+      "velocity": 0.08944528300474232,
+      "pan": 0.24375509945707063,
+      "seed": 249358373
+    },
+    {
+      "instrument": "oud",
+      "beat": 14.496178402742563,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.09605956296602135,
+      "pan": -0.3415873130521987,
+      "seed": 200585242
+    },
+    {
+      "instrument": "oud",
+      "beat": 15.249916711173128,
+      "note": 59,
+      "gate_beats": 0.8,
+      "velocity": 0.09843949233966606,
+      "pan": 0.24307533414445623,
+      "seed": 872866364
+    },
+    {
+      "instrument": "bass",
+      "beat": 12.000698868428158,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.1083490985892989,
+      "pan": -0.017582165275786835,
+      "seed": 1729596059
+    },
+    {
+      "instrument": "bass",
+      "beat": 14.498758405434963,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.053446707961103485,
+      "pan": 0.041515885690060275,
+      "seed": 531093176
+    },
+    {
+      "instrument": "doum",
+      "beat": 11.99961638365755,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10737384003758095,
+      "pan": -0.14960320529715698,
+      "seed": 642025879
+    },
+    {
+      "instrument": "doum",
+      "beat": 14.7479458095517,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06259880801711667,
+      "pan": -0.08233460286382255,
+      "seed": 2051064378
+    },
+    {
+      "instrument": "tek",
+      "beat": 13.496350534127654,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04576009339075064,
+      "pan": 0.18655987099212404,
+      "seed": 743401304
+    },
+    {
+      "instrument": "tek",
+      "beat": 15.000682383443573,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.057157199453279586,
+      "pan": 0.21871821660262492,
+      "seed": 397708724
+    },
+    {
+      "instrument": "shaker",
+      "beat": 11.995132867885618,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01163853065803843,
+      "pan": 0.4005328028591834,
+      "seed": 2047919782
+    },
+    {
+      "instrument": "shaker",
+      "beat": 12.495692683451411,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009001991086777874,
+      "pan": -0.4570051902493985,
+      "seed": 1693742716
+    },
+    {
+      "instrument": "shaker",
+      "beat": 12.996242579261976,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011533264082064197,
+      "pan": 0.4122137134925684,
+      "seed": 750131254
+    },
+    {
+      "instrument": "shaker",
+      "beat": 13.497258968795832,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009280195156277501,
+      "pan": -0.47261387780887043,
+      "seed": 2101107717
+    },
+    {
+      "instrument": "shaker",
+      "beat": 13.997073591588963,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011341126752329178,
+      "pan": 0.38844467387793447,
+      "seed": 1123903437
+    },
+    {
+      "instrument": "shaker",
+      "beat": 14.502293714741135,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009290298572731363,
+      "pan": -0.4474985556411293,
+      "seed": 351396860
+    },
+    {
+      "instrument": "shaker",
+      "beat": 14.9997207957746,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012663937325856928,
+      "pan": 0.3869908347095111,
+      "seed": 419270569
+    },
+    {
+      "instrument": "shaker",
+      "beat": 15.498536180582779,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009432600148413559,
+      "pan": -0.45751991855879376,
+      "seed": 1667995374
+    },
+    {
+      "instrument": "oud",
+      "beat": 15.996380145210765,
+      "note": 53,
+      "gate_beats": 0.8,
+      "velocity": 0.09925592267393685,
+      "pan": -0.35240007082454994,
+      "seed": 395072885
+    },
+    {
+      "instrument": "oud",
+      "beat": 17.498151703994466,
+      "note": 56,
+      "gate_beats": 0.8,
+      "velocity": 0.09588057731715283,
+      "pan": 0.22554392652550462,
+      "seed": 1780768895
+    },
+    {
+      "instrument": "oud",
+      "beat": 18.49701494821051,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.09923844975813499,
+      "pan": -0.3333289041441971,
+      "seed": 354638451
+    },
+    {
+      "instrument": "oud",
+      "beat": 19.25502968656037,
+      "note": 65,
+      "gate_beats": 0.8,
+      "velocity": 0.09912715054716101,
+      "pan": 0.26586592876434223,
+      "seed": 1840242939
+    },
+    {
+      "instrument": "bass",
+      "beat": 16.003832008398867,
+      "note": 41,
+      "gate_beats": 1.75,
+      "velocity": 0.10029855630323418,
+      "pan": -0.00623941723271302,
+      "seed": 1771943946
+    },
+    {
+      "instrument": "bass",
+      "beat": 18.506199936840844,
+      "note": 41,
+      "gate_beats": 1,
+      "velocity": 0.05336032659625754,
+      "pan": 0.02175085918105188,
+      "seed": 1494774348
+    },
+    {
+      "instrument": "doum",
+      "beat": 16.00360782930423,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10421435144917182,
+      "pan": -0.14035237530148087,
+      "seed": 2024182327
+    },
+    {
+      "instrument": "tek",
+      "beat": 17.497194622399135,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.043092102979065246,
+      "pan": 0.2064736954028253,
+      "seed": 234653367
+    },
+    {
+      "instrument": "tek",
+      "beat": 19.00295533756999,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05331824280014679,
+      "pan": 0.1837213048921682,
+      "seed": 1962489657
+    },
+    {
+      "instrument": "shaker",
+      "beat": 15.998266960969685,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011450017925475937,
+      "pan": 0.3890173220800192,
+      "seed": 77304001
+    },
+    {
+      "instrument": "shaker",
+      "beat": 16.4940671954031,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008650671165762024,
+      "pan": -0.42999062676834765,
+      "seed": 894496379
+    },
+    {
+      "instrument": "shaker",
+      "beat": 16.997017596261045,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012570243249928694,
+      "pan": 0.4050181105338331,
+      "seed": 777717744
+    },
+    {
+      "instrument": "shaker",
+      "beat": 17.493629366859338,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009111488008670772,
+      "pan": -0.4263451626476986,
+      "seed": 60276900
+    },
+    {
+      "instrument": "shaker",
+      "beat": 17.99922829082621,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012523894553341231,
+      "pan": 0.38875007249546606,
+      "seed": 417189674
+    },
+    {
+      "instrument": "shaker",
+      "beat": 18.50416374043637,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008573614563375336,
+      "pan": -0.4337442091865775,
+      "seed": 1153060621
+    },
+    {
+      "instrument": "shaker",
+      "beat": 18.995110428060872,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011838012071173567,
+      "pan": 0.407281608506519,
+      "seed": 1916006077
+    },
+    {
+      "instrument": "shaker",
+      "beat": 19.50488896751316,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009084879263761237,
+      "pan": -0.459075272102115,
+      "seed": 470847227
+    },
+    {
+      "instrument": "oud",
+      "beat": 19.999948751930695,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.093934621002291,
+      "pan": -0.328756644080508,
+      "seed": 396885968
+    },
+    {
+      "instrument": "oud",
+      "beat": 21.497276071015083,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.09591759337653676,
+      "pan": 0.2302293155649618,
+      "seed": 1211610725
+    },
+    {
+      "instrument": "oud",
+      "beat": 22.501214539331723,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.09402606895866662,
+      "pan": -0.33885305180024505,
+      "seed": 1550466871
+    },
+    {
+      "instrument": "oud",
+      "beat": 23.25178529941351,
+      "note": 64,
+      "gate_beats": 0.8,
+      "velocity": 0.09833075677074853,
+      "pan": 0.2604673117513792,
+      "seed": 598911753
+    },
+    {
+      "instrument": "oud",
+      "beat": 23.4937722527043,
+      "note": 55,
+      "gate_beats": 0.5,
+      "velocity": 0.043312018985012635,
+      "pan": 0.4088318884890383,
+      "seed": 893848785
+    },
+    {
+      "instrument": "oud",
+      "beat": 23.55770111498678,
+      "note": 60,
+      "gate_beats": 0.5,
+      "velocity": 0.04462206754307371,
+      "pan": 0.4212008900234366,
+      "seed": 137027980
+    },
+    {
+      "instrument": "oud",
+      "beat": 23.61592234447874,
+      "note": 64,
+      "gate_beats": 0.5,
+      "velocity": 0.04508500708835031,
+      "pan": 0.4204858786149618,
+      "seed": 403770944
+    },
+    {
+      "instrument": "bass",
+      "beat": 20.004865960912937,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10603871283513207,
+      "pan": -0.005666352306273714,
+      "seed": 247227044
+    },
+    {
+      "instrument": "bass",
+      "beat": 22.50369515419528,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05252496581841584,
+      "pan": 0.00516537294707016,
+      "seed": 980872747
+    },
+    {
+      "instrument": "doum",
+      "beat": 20.002627730437176,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10577202053912589,
+      "pan": -0.1349986715622537,
+      "seed": 1113564363
+    },
+    {
+      "instrument": "doum",
+      "beat": 22.744016973019193,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06774832260487207,
+      "pan": -0.07317776221551689,
+      "seed": 103500716
+    },
+    {
+      "instrument": "tek",
+      "beat": 21.503370238552876,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.0459236019630576,
+      "pan": 0.19912322947670846,
+      "seed": 1688896375
+    },
+    {
+      "instrument": "tek",
+      "beat": 22.996914172451373,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05440763989589076,
+      "pan": 0.18861714853516703,
+      "seed": 1713992906
+    },
+    {
+      "instrument": "shaker",
+      "beat": 20.001998671213396,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012531763579854558,
+      "pan": 0.40305242878301467,
+      "seed": 709525234
+    },
+    {
+      "instrument": "shaker",
+      "beat": 20.499429781622577,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009400576147207025,
+      "pan": -0.4682468140786084,
+      "seed": 1357606587
+    },
+    {
+      "instrument": "shaker",
+      "beat": 21.004357900185557,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012110217152317018,
+      "pan": 0.3803361428485993,
+      "seed": 114478571
+    },
+    {
+      "instrument": "shaker",
+      "beat": 21.496971874299877,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00945315241438665,
+      "pan": -0.44774843796132263,
+      "seed": 1347299905
+    },
+    {
+      "instrument": "shaker",
+      "beat": 22.000843777690836,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012440718757184218,
+      "pan": 0.4182588944795141,
+      "seed": 2013007609
+    },
+    {
+      "instrument": "shaker",
+      "beat": 22.4956138515578,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008475720977837877,
+      "pan": -0.4512115145018084,
+      "seed": 63705013
+    },
+    {
+      "instrument": "shaker",
+      "beat": 22.995207997995394,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011600671954944493,
+      "pan": 0.4027367198872893,
+      "seed": 323964365
+    },
+    {
+      "instrument": "shaker",
+      "beat": 23.506342150242823,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008913288647733636,
+      "pan": -0.47225362481969735,
+      "seed": 845475537
+    },
+    {
+      "instrument": "oud",
+      "beat": 23.99764963931788,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.09319739641364752,
+      "pan": -0.3063139821782717,
+      "seed": 1968502434
+    },
+    {
+      "instrument": "oud",
+      "beat": 25.497362290045558,
+      "note": 59,
+      "gate_beats": 0.8,
+      "velocity": 0.09851634937202484,
+      "pan": 0.2612810639544789,
+      "seed": 1625715621
+    },
+    {
+      "instrument": "oud",
+      "beat": 26.493602427083182,
+      "note": 67,
+      "gate_beats": 0.8,
+      "velocity": 0.09570007351120563,
+      "pan": -0.33107193319366124,
+      "seed": 1074736906
+    },
+    {
+      "instrument": "oud",
+      "beat": 27.24387159711104,
+      "note": 61,
+      "gate_beats": 0.8,
+      "velocity": 0.09390529519775305,
+      "pan": 0.24149513419768734,
+      "seed": 1173721228
+    },
+    {
+      "instrument": "bass",
+      "beat": 23.996619755111293,
+      "note": 43,
+      "gate_beats": 1.75,
+      "velocity": 0.10389551735538313,
+      "pan": -0.04376853353884625,
+      "seed": 363618076
+    },
+    {
+      "instrument": "bass",
+      "beat": 26.501347389309885,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05237993416305769,
+      "pan": 0.01091413956500916,
+      "seed": 760427556
+    },
+    {
+      "instrument": "doum",
+      "beat": 23.999902043727936,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10158382577255738,
+      "pan": -0.11631159429003038,
+      "seed": 449979494
+    },
+    {
+      "instrument": "tek",
+      "beat": 25.494412871559632,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04572216981344106,
+      "pan": 0.22187926831269317,
+      "seed": 1187770798
+    },
+    {
+      "instrument": "tek",
+      "beat": 26.999822658278507,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.056358439124591875,
+      "pan": 0.21088099605186855,
+      "seed": 818237526
+    },
+    {
+      "instrument": "shaker",
+      "beat": 23.998036599843147,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012005111544104644,
+      "pan": 0.3791058713999155,
+      "seed": 578139894
+    },
+    {
+      "instrument": "shaker",
+      "beat": 24.503977540300415,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009314123927330746,
+      "pan": -0.4702591248235311,
+      "seed": 862491015
+    },
+    {
+      "instrument": "shaker",
+      "beat": 24.999749023431203,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011768728219915888,
+      "pan": 0.38164248035866455,
+      "seed": 1171227281
+    },
+    {
+      "instrument": "shaker",
+      "beat": 25.49539436514767,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00874191578777208,
+      "pan": -0.460056981282726,
+      "seed": 477593703
+    },
+    {
+      "instrument": "shaker",
+      "beat": 25.997658162828767,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011816799737573387,
+      "pan": 0.41574126698893177,
+      "seed": 335539175
+    },
+    {
+      "instrument": "shaker",
+      "beat": 26.497192354561005,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008553820651798279,
+      "pan": -0.4404582865529813,
+      "seed": 1305994964
+    },
+    {
+      "instrument": "shaker",
+      "beat": 27.00121053267921,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012305758527390832,
+      "pan": 0.37540201442890886,
+      "seed": 601290995
+    },
+    {
+      "instrument": "shaker",
+      "beat": 27.49339472516682,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009186072937934426,
+      "pan": -0.4389699945422336,
+      "seed": 552826178
+    },
+    {
+      "instrument": "oud",
+      "beat": 28.000345639362763,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.09828538195550006,
+      "pan": -0.3252717328583104,
+      "seed": 1481255199
+    },
+    {
+      "instrument": "oud",
+      "beat": 29.494110981879473,
+      "note": 52,
+      "gate_beats": 0.8,
+      "velocity": 0.09634170340103396,
+      "pan": 0.24175741489100072,
+      "seed": 186470926
+    },
+    {
+      "instrument": "oud",
+      "beat": 30.49627931852086,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.09360398045676054,
+      "pan": -0.3455823793744781,
+      "seed": 37368706
+    },
+    {
+      "instrument": "oud",
+      "beat": 31.2530242508462,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.09195151113500713,
+      "pan": 0.23443710174372318,
+      "seed": 2055416500
+    },
+    {
+      "instrument": "bass",
+      "beat": 28.006164760301413,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10718747174687708,
+      "pan": -0.006675127506816557,
+      "seed": 309535150
+    },
+    {
+      "instrument": "bass",
+      "beat": 30.500721719768173,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05250066311453091,
+      "pan": 0.006899722062767358,
+      "seed": 35392640
+    },
+    {
+      "instrument": "doum",
+      "beat": 28.005388421632997,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10915678294395115,
+      "pan": -0.13168046854901538,
+      "seed": 254648228
+    },
+    {
+      "instrument": "doum",
+      "beat": 30.752724551692545,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06609748136671319,
+      "pan": -0.1131337521211978,
+      "seed": 1288374859
+    },
+    {
+      "instrument": "tek",
+      "beat": 29.50521426898214,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04513675215125199,
+      "pan": 0.22088370412326647,
+      "seed": 1077262364
+    },
+    {
+      "instrument": "tek",
+      "beat": 31.00615262262171,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05526312227953485,
+      "pan": 0.1877096484833681,
+      "seed": 1615004192
+    },
+    {
+      "instrument": "shaker",
+      "beat": 28.003323752134783,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01196231301131974,
+      "pan": 0.3941903904530774,
+      "seed": 1441347689
+    },
+    {
+      "instrument": "shaker",
+      "beat": 28.500306101133944,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00856464600921923,
+      "pan": -0.44212582537053874,
+      "seed": 206120944
+    },
+    {
+      "instrument": "shaker",
+      "beat": 28.993620267542827,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012209455480536997,
+      "pan": 0.41940511189690083,
+      "seed": 528970890
+    },
+    {
+      "instrument": "shaker",
+      "beat": 29.50050025509537,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009448591645348942,
+      "pan": -0.4482477365035948,
+      "seed": 258112753
+    },
+    {
+      "instrument": "shaker",
+      "beat": 30.004000228965243,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01148392882205062,
+      "pan": 0.4031746293715476,
+      "seed": 448365950
+    },
+    {
+      "instrument": "shaker",
+      "beat": 30.49499182733042,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00859508223176783,
+      "pan": -0.4348178584122223,
+      "seed": 931898369
+    },
+    {
+      "instrument": "shaker",
+      "beat": 30.997129933191378,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011717493804549102,
+      "pan": 0.4217086579753214,
+      "seed": 266413657
+    },
+    {
+      "instrument": "shaker",
+      "beat": 31.501964830397164,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008926957406070617,
+      "pan": -0.42839267487952587,
+      "seed": 1882462593
+    },
+    {
+      "instrument": "finger",
+      "beat": 31.25525873147943,
+      "note": null,
+      "gate_beats": 0.1,
+      "velocity": 0.022045652656151955,
+      "pan": 0.10315827005048656,
+      "seed": 1239326069
+    },
+    {
+      "instrument": "finger",
+      "beat": 31.50473783048724,
+      "note": null,
+      "gate_beats": 0.1,
+      "velocity": 0.022484319874746538,
+      "pan": 0.09771327215349758,
+      "seed": 298491698
+    },
+    {
+      "instrument": "finger",
+      "beat": 31.749352320706688,
+      "note": null,
+      "gate_beats": 0.1,
+      "velocity": 0.023143012173891905,
+      "pan": 0.14001460755447756,
+      "seed": 1653597267
+    },
+    {
+      "instrument": "oud",
+      "beat": 31.995039419721984,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.09394519185253154,
+      "pan": -0.3096638981379546,
+      "seed": 1774334638
+    },
+    {
+      "instrument": "oud",
+      "beat": 33.502177566958444,
+      "note": 52,
+      "gate_beats": 0.8,
+      "velocity": 0.09099756289941333,
+      "pan": 0.25464074410436965,
+      "seed": 822254728
+    },
+    {
+      "instrument": "oud",
+      "beat": 34.49567643839601,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.0935353339617312,
+      "pan": -0.3508287791276711,
+      "seed": 1033260593
+    },
+    {
+      "instrument": "oud",
+      "beat": 35.255845362606415,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.09599346045872598,
+      "pan": 0.23838605681210234,
+      "seed": 723406154
+    },
+    {
+      "instrument": "bass",
+      "beat": 31.994347463455558,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10017518675323009,
+      "pan": -0.04140599729612202,
+      "seed": 53475904
+    },
+    {
+      "instrument": "bass",
+      "beat": 34.499144395165004,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.058060887287031175,
+      "pan": 0.015639408349691047,
+      "seed": 492661558
+    },
+    {
+      "instrument": "doum",
+      "beat": 31.995048898592795,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10228527034926088,
+      "pan": -0.12053613181330897,
+      "seed": 744556621
+    },
+    {
+      "instrument": "tek",
+      "beat": 33.49589530452247,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04677480713730273,
+      "pan": 0.22420372641460756,
+      "seed": 1465639635
+    },
+    {
+      "instrument": "tek",
+      "beat": 34.99938467276677,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.058157590762529646,
+      "pan": 0.19901537939152994,
+      "seed": 1105820127
+    },
+    {
+      "instrument": "shaker",
+      "beat": 32.00577364951651,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01206310030947344,
+      "pan": 0.40799837374263476,
+      "seed": 1473498536
+    },
+    {
+      "instrument": "shaker",
+      "beat": 32.502605686003264,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008907369555647342,
+      "pan": -0.4473119373506476,
+      "seed": 1612440612
+    },
+    {
+      "instrument": "shaker",
+      "beat": 33.00497116354168,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011577612356451992,
+      "pan": 0.3986844961514261,
+      "seed": 734891394
+    },
+    {
+      "instrument": "shaker",
+      "beat": 33.49337202468152,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.0091241565419907,
+      "pan": -0.4372679279859162,
+      "seed": 4502514
+    },
+    {
+      "instrument": "shaker",
+      "beat": 33.995818241702445,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011707293880740717,
+      "pan": 0.40315419992424917,
+      "seed": 976430509
+    },
+    {
+      "instrument": "shaker",
+      "beat": 34.49516654745263,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009057723086605976,
+      "pan": -0.4419077751735198,
+      "seed": 317756464
+    },
+    {
+      "instrument": "shaker",
+      "beat": 35.00513197780402,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011873908963519158,
+      "pan": 0.3938353969217714,
+      "seed": 647561935
+    },
+    {
+      "instrument": "shaker",
+      "beat": 35.499490397396386,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008800934214244275,
+      "pan": -0.4261287622816626,
+      "seed": 1267560101
+    },
+    {
+      "instrument": "oud",
+      "beat": 36.00515384755969,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.09010936717759596,
+      "pan": -0.35090858033381034,
+      "seed": 455614177
+    },
+    {
+      "instrument": "oud",
+      "beat": 37.496819809024096,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.0977762830846682,
+      "pan": 0.2621400736427352,
+      "seed": 787852015
+    },
+    {
+      "instrument": "oud",
+      "beat": 38.50051158829907,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.09021480657021055,
+      "pan": -0.3153160868337337,
+      "seed": 1802123388
+    },
+    {
+      "instrument": "oud",
+      "beat": 39.24634075470231,
+      "note": 64,
+      "gate_beats": 0.8,
+      "velocity": 0.09435218733434947,
+      "pan": 0.26504136653953725,
+      "seed": 267787232
+    },
+    {
+      "instrument": "oud",
+      "beat": 39.49457966325539,
+      "note": 55,
+      "gate_beats": 0.5,
+      "velocity": 0.04378505226800908,
+      "pan": 0.40399698472160533,
+      "seed": 1528210351
+    },
+    {
+      "instrument": "oud",
+      "beat": 39.55929040352734,
+      "note": 60,
+      "gate_beats": 0.5,
+      "velocity": 0.04470984509889898,
+      "pan": 0.41246038544068825,
+      "seed": 1892724525
+    },
+    {
+      "instrument": "oud",
+      "beat": 39.61469717398309,
+      "note": 64,
+      "gate_beats": 0.5,
+      "velocity": 0.04324079703165489,
+      "pan": 0.3994841461479556,
+      "seed": 767360169
+    },
+    {
+      "instrument": "bass",
+      "beat": 36.00460597739264,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10209376874019369,
+      "pan": -0.03462139417544603,
+      "seed": 2017125004
+    },
+    {
+      "instrument": "bass",
+      "beat": 38.49811912104453,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05387538296617463,
+      "pan": 0.05023304931191945,
+      "seed": 787209111
+    },
+    {
+      "instrument": "doum",
+      "beat": 35.99474563838952,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10850328102971969,
+      "pan": -0.10546323618366701,
+      "seed": 1360403629
+    },
+    {
+      "instrument": "doum",
+      "beat": 38.74351158403671,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06796203623631601,
+      "pan": -0.09571616497057554,
+      "seed": 1584009207
+    },
+    {
+      "instrument": "tek",
+      "beat": 37.49632314130099,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04274765258027803,
+      "pan": 0.18314340269202908,
+      "seed": 485935544
+    },
+    {
+      "instrument": "tek",
+      "beat": 38.993698993225586,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.054641187876216836,
+      "pan": 0.1946764076538916,
+      "seed": 724658568
+    },
+    {
+      "instrument": "shaker",
+      "beat": 36.0044795853464,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01223442694931491,
+      "pan": 0.39178834849383015,
+      "seed": 1264385439
+    },
+    {
+      "instrument": "shaker",
+      "beat": 36.49628345136927,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00899592433996288,
+      "pan": -0.4457901550934269,
+      "seed": 145844807
+    },
+    {
+      "instrument": "shaker",
+      "beat": 36.997239825343065,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011582513810128857,
+      "pan": 0.4233753489676016,
+      "seed": 964775354
+    },
+    {
+      "instrument": "shaker",
+      "beat": 37.49610597057297,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008965596989484795,
+      "pan": -0.427408951484454,
+      "seed": 9005643
+    },
+    {
+      "instrument": "shaker",
+      "beat": 37.99359789569277,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012368099078832667,
+      "pan": 0.41682333988977827,
+      "seed": 89101677
+    },
+    {
+      "instrument": "shaker",
+      "beat": 38.50601442697916,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008598041325710178,
+      "pan": -0.45039152835844903,
+      "seed": 1250457011
+    },
+    {
+      "instrument": "shaker",
+      "beat": 38.99517392656798,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012675603396352373,
+      "pan": 0.42170186455860575,
+      "seed": 49005491
+    },
+    {
+      "instrument": "shaker",
+      "beat": 39.50236777450008,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009199750790483685,
+      "pan": -0.4575060684216174,
+      "seed": 1398678702
+    },
+    {
+      "instrument": "oud",
+      "beat": 40.00008399595961,
+      "note": 49,
+      "gate_beats": 0.8,
+      "velocity": 0.0982209301891851,
+      "pan": -0.3084180839261006,
+      "seed": 1715608987
+    },
+    {
+      "instrument": "oud",
+      "beat": 41.50141597709312,
+      "note": 53,
+      "gate_beats": 0.8,
+      "velocity": 0.09017562612104497,
+      "pan": 0.245276152043521,
+      "seed": 420329268
+    },
+    {
+      "instrument": "oud",
+      "beat": 42.497348306545156,
+      "note": 56,
+      "gate_beats": 0.8,
+      "velocity": 0.0928307037862496,
+      "pan": -0.31326540789647234,
+      "seed": 519543664
+    },
+    {
+      "instrument": "oud",
+      "beat": 43.24572341987284,
+      "note": 61,
+      "gate_beats": 0.8,
+      "velocity": 0.09642853996408911,
+      "pan": 0.2427827476138449,
+      "seed": 18717436
+    },
+    {
+      "instrument": "bass",
+      "beat": 40.00014324176048,
+      "note": 37,
+      "gate_beats": 1.75,
+      "velocity": 0.10227068302412348,
+      "pan": -0.05214786199317453,
+      "seed": 1375103179
+    },
+    {
+      "instrument": "bass",
+      "beat": 42.496559271971364,
+      "note": 37,
+      "gate_beats": 1,
+      "velocity": 0.05374502231884669,
+      "pan": 0.05244571136760421,
+      "seed": 1493401112
+    },
+    {
+      "instrument": "doum",
+      "beat": 39.994172424044656,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10631633650885218,
+      "pan": -0.12550739268575725,
+      "seed": 742064673
+    },
+    {
+      "instrument": "tek",
+      "beat": 41.49660814527517,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04543270397399534,
+      "pan": 0.18268867169208403,
+      "seed": 2078460568
+    },
+    {
+      "instrument": "tek",
+      "beat": 42.99441721480367,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05320144198294378,
+      "pan": 0.17689617846087552,
+      "seed": 525746840
+    },
+    {
+      "instrument": "shaker",
+      "beat": 40.005897787423834,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012351779224672283,
+      "pan": 0.3940955167655678,
+      "seed": 1491034207
+    },
+    {
+      "instrument": "shaker",
+      "beat": 40.50155733662485,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009476505789566027,
+      "pan": -0.4602082747669403,
+      "seed": 1562346025
+    },
+    {
+      "instrument": "shaker",
+      "beat": 41.00008775445174,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011928185587351503,
+      "pan": 0.41644100642075266,
+      "seed": 2129496017
+    },
+    {
+      "instrument": "shaker",
+      "beat": 41.49420014690676,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008904876088519666,
+      "pan": -0.46699575714213665,
+      "seed": 2101245998
+    },
+    {
+      "instrument": "shaker",
+      "beat": 41.99439140128351,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012063944371820855,
+      "pan": 0.4242562219566588,
+      "seed": 1307488180
+    },
+    {
+      "instrument": "shaker",
+      "beat": 42.50503672086854,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008624042696815378,
+      "pan": -0.43728208927187023,
+      "seed": 1646381465
+    },
+    {
+      "instrument": "shaker",
+      "beat": 43.00164723475601,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011903117733756454,
+      "pan": 0.37933040543248814,
+      "seed": 1071633634
+    },
+    {
+      "instrument": "shaker",
+      "beat": 43.49642392283067,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008946028399664673,
+      "pan": -0.4306899756152946,
+      "seed": 362786761
+    },
+    {
+      "instrument": "oud",
+      "beat": 43.99594160690797,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.0919878344042043,
+      "pan": -0.31087216625056674,
+      "seed": 1425923770
+    },
+    {
+      "instrument": "oud",
+      "beat": 45.495720401625505,
+      "note": 52,
+      "gate_beats": 0.8,
+      "velocity": 0.0913453742420886,
+      "pan": 0.24299022389429106,
+      "seed": 1177620293
+    },
+    {
+      "instrument": "oud",
+      "beat": 46.497093091615575,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.09528864839960138,
+      "pan": -0.3127346853195456,
+      "seed": 2142982216
+    },
+    {
+      "instrument": "oud",
+      "beat": 47.25246203970865,
+      "note": 59,
+      "gate_beats": 0.8,
+      "velocity": 0.09190762410636584,
+      "pan": 0.2377087500531527,
+      "seed": 1187348488
+    },
+    {
+      "instrument": "bass",
+      "beat": 44.004307651557156,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.11126347776629843,
+      "pan": -0.026693364892431175,
+      "seed": 80805989
+    },
+    {
+      "instrument": "bass",
+      "beat": 46.49355223160678,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05562560124670491,
+      "pan": 0.02532222668860367,
+      "seed": 317350723
+    },
+    {
+      "instrument": "doum",
+      "beat": 44.005098822428764,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10806834277474126,
+      "pan": -0.12836643954463234,
+      "seed": 748822332
+    },
+    {
+      "instrument": "doum",
+      "beat": 46.744072873933504,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06320556379911879,
+      "pan": -0.07710728625771868,
+      "seed": 466190661
+    },
+    {
+      "instrument": "tek",
+      "beat": 45.50566238676376,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04284282605799837,
+      "pan": 0.21644420076588436,
+      "seed": 227754067
+    },
+    {
+      "instrument": "tek",
+      "beat": 46.99767365628935,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05818974295550739,
+      "pan": 0.18581414382045064,
+      "seed": 984525023
+    },
+    {
+      "instrument": "shaker",
+      "beat": 43.996266507957614,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012492257060237509,
+      "pan": 0.4053251270068103,
+      "seed": 1135725912
+    },
+    {
+      "instrument": "shaker",
+      "beat": 44.49653087116757,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009322711427671446,
+      "pan": -0.47462006255494965,
+      "seed": 112926441
+    },
+    {
+      "instrument": "shaker",
+      "beat": 45.00349873035533,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01146485581505312,
+      "pan": 0.42102353546128995,
+      "seed": 1596543413
+    },
+    {
+      "instrument": "shaker",
+      "beat": 45.50644439387994,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009038344999328906,
+      "pan": -0.44559245545880477,
+      "seed": 1024951802
+    },
+    {
+      "instrument": "shaker",
+      "beat": 46.0018208312683,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01193056934576401,
+      "pan": 0.3752445392876105,
+      "seed": 1213246760
+    },
+    {
+      "instrument": "shaker",
+      "beat": 46.49725601840889,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009052072875298252,
+      "pan": -0.4678840505905905,
+      "seed": 1565393728
+    },
+    {
+      "instrument": "shaker",
+      "beat": 46.9987699961147,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.0119111330082112,
+      "pan": 0.4116493243338207,
+      "seed": 2073993885
+    },
+    {
+      "instrument": "shaker",
+      "beat": 47.503995389184404,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00924846166597403,
+      "pan": -0.4595030586965231,
+      "seed": 503920703
+    },
+    {
+      "instrument": "oud",
+      "beat": 47.993792520698335,
+      "note": 53,
+      "gate_beats": 0.8,
+      "velocity": 0.10059228651263478,
+      "pan": -0.32724941341104674,
+      "seed": 130438259
+    },
+    {
+      "instrument": "oud",
+      "beat": 49.4967306137813,
+      "note": 56,
+      "gate_beats": 0.8,
+      "velocity": 0.09501253000547984,
+      "pan": 0.2334008426716114,
+      "seed": 2097209696
+    },
+    {
+      "instrument": "oud",
+      "beat": 50.49587439385292,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.0946722433723819,
+      "pan": -0.31034633879136775,
+      "seed": 124511670
+    },
+    {
+      "instrument": "oud",
+      "beat": 51.25236454354618,
+      "note": 65,
+      "gate_beats": 0.8,
+      "velocity": 0.09000666386653619,
+      "pan": 0.24306377208576907,
+      "seed": 1146196178
+    },
+    {
+      "instrument": "bass",
+      "beat": 48.00106640943488,
+      "note": 41,
+      "gate_beats": 1.75,
+      "velocity": 0.1044864351748062,
+      "pan": -0.024750913581618246,
+      "seed": 1127757196
+    },
+    {
+      "instrument": "bass",
+      "beat": 50.49574438722158,
+      "note": 41,
+      "gate_beats": 1,
+      "velocity": 0.053747415658886806,
+      "pan": 0.00938734580118783,
+      "seed": 1855284633
+    },
+    {
+      "instrument": "doum",
+      "beat": 48.00152521006602,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10147145210966532,
+      "pan": -0.13026688440269787,
+      "seed": 489611619
+    },
+    {
+      "instrument": "tek",
+      "beat": 49.500986803066,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04443120554383988,
+      "pan": 0.21687229457076318,
+      "seed": 188842288
+    },
+    {
+      "instrument": "tek",
+      "beat": 51.00596724789153,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.052536961882272665,
+      "pan": 0.21784622718556812,
+      "seed": 1243859126
+    },
+    {
+      "instrument": "shaker",
+      "beat": 48.00048092003309,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012049088148078342,
+      "pan": 0.3919308201664563,
+      "seed": 552210888
+    },
+    {
+      "instrument": "shaker",
+      "beat": 48.4934751219023,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009309751836092204,
+      "pan": -0.45587543682975235,
+      "seed": 482460836
+    },
+    {
+      "instrument": "shaker",
+      "beat": 48.993382453512496,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012281347095343403,
+      "pan": 0.4105024184904133,
+      "seed": 131264621
+    },
+    {
+      "instrument": "shaker",
+      "beat": 49.49404718287214,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008672826549266682,
+      "pan": -0.453759106813643,
+      "seed": 195420840
+    },
+    {
+      "instrument": "shaker",
+      "beat": 49.9999444472224,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012256604872683485,
+      "pan": 0.3928107849608709,
+      "seed": 241677624
+    },
+    {
+      "instrument": "shaker",
+      "beat": 50.50095787521672,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00907202153179744,
+      "pan": -0.45715632437489895,
+      "seed": 1437497661
+    },
+    {
+      "instrument": "shaker",
+      "beat": 51.006283910577224,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012515031273925415,
+      "pan": 0.4238111122455353,
+      "seed": 727184472
+    },
+    {
+      "instrument": "shaker",
+      "beat": 51.49352327978442,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008641683969196066,
+      "pan": -0.47466980888168553,
+      "seed": 1523714271
+    },
+    {
+      "instrument": "oud",
+      "beat": 51.993706954722505,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.09237663685906321,
+      "pan": -0.30899943771477034,
+      "seed": 2092795340
+    },
+    {
+      "instrument": "oud",
+      "beat": 53.50287946240117,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.09787806053075619,
+      "pan": 0.23157466283633457,
+      "seed": 605994226
+    },
+    {
+      "instrument": "oud",
+      "beat": 54.49530015563216,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.09646319591182977,
+      "pan": -0.32270876945689136,
+      "seed": 181768909
+    },
+    {
+      "instrument": "oud",
+      "beat": 55.252713365446034,
+      "note": 64,
+      "gate_beats": 0.8,
+      "velocity": 0.09758865610381152,
+      "pan": 0.22945233732418327,
+      "seed": 1267308007
+    },
+    {
+      "instrument": "oud",
+      "beat": 55.497070426610684,
+      "note": 55,
+      "gate_beats": 0.5,
+      "velocity": 0.04268649444072123,
+      "pan": 0.3853367111457531,
+      "seed": 568795769
+    },
+    {
+      "instrument": "oud",
+      "beat": 55.563517129225446,
+      "note": 60,
+      "gate_beats": 0.5,
+      "velocity": 0.04567149254375209,
+      "pan": 0.40278036240746135,
+      "seed": 861711501
+    },
+    {
+      "instrument": "oud",
+      "beat": 55.617803584012975,
+      "note": 64,
+      "gate_beats": 0.5,
+      "velocity": 0.04514187776953369,
+      "pan": 0.41143032554882764,
+      "seed": 1217898632
+    },
+    {
+      "instrument": "bass",
+      "beat": 51.99647806913313,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10203093396244552,
+      "pan": -0.020922910279756526,
+      "seed": 897377565
+    },
+    {
+      "instrument": "bass",
+      "beat": 54.50472035847223,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.051746029496248645,
+      "pan": 0.0457512104485283,
+      "seed": 988894042
+    },
+    {
+      "instrument": "doum",
+      "beat": 52.00285338284204,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10768532660501104,
+      "pan": -0.11796286100964871,
+      "seed": 1460097613
+    },
+    {
+      "instrument": "doum",
+      "beat": 54.753039379176,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06254424131534253,
+      "pan": -0.11216949990782889,
+      "seed": 1939091771
+    },
+    {
+      "instrument": "tek",
+      "beat": 53.49739460475627,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04277813176602896,
+      "pan": 0.1750643358213698,
+      "seed": 1906387703
+    },
+    {
+      "instrument": "tek",
+      "beat": 54.99579352242748,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.054804882913028444,
+      "pan": 0.2241009489904809,
+      "seed": 1293677660
+    },
+    {
+      "instrument": "shaker",
+      "beat": 52.001696179983824,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012589694772473951,
+      "pan": 0.40289377810488863,
+      "seed": 856206333
+    },
+    {
+      "instrument": "shaker",
+      "beat": 52.498527239474505,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009234904908406297,
+      "pan": -0.4324100394774037,
+      "seed": 1934058872
+    },
+    {
+      "instrument": "shaker",
+      "beat": 52.997170960130155,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012670035581107224,
+      "pan": 0.3989852410229016,
+      "seed": 372712705
+    },
+    {
+      "instrument": "shaker",
+      "beat": 53.504050336704296,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009265577482558338,
+      "pan": -0.436424024930335,
+      "seed": 1101202548
+    },
+    {
+      "instrument": "shaker",
+      "beat": 54.00136088532775,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012469111252758212,
+      "pan": 0.38104232472522187,
+      "seed": 242705846
+    },
+    {
+      "instrument": "shaker",
+      "beat": 54.50037918164707,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009114464484630524,
+      "pan": -0.466567942746541,
+      "seed": 626500822
+    },
+    {
+      "instrument": "shaker",
+      "beat": 55.00013330289951,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011721489938318836,
+      "pan": 0.4214116528221861,
+      "seed": 596887788
+    },
+    {
+      "instrument": "shaker",
+      "beat": 55.503425255516596,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009154429078687215,
+      "pan": -0.4691490027774777,
+      "seed": 1899786572
+    },
+    {
+      "instrument": "oud",
+      "beat": 56.00472657543172,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.1006802671315466,
+      "pan": -0.33096439175997766,
+      "seed": 1035281858
+    },
+    {
+      "instrument": "oud",
+      "beat": 57.4982122893964,
+      "note": 59,
+      "gate_beats": 0.8,
+      "velocity": 0.09298628112704699,
+      "pan": 0.25356804701198504,
+      "seed": 1634615155
+    },
+    {
+      "instrument": "oud",
+      "beat": 58.502502955456954,
+      "note": 67,
+      "gate_beats": 0.8,
+      "velocity": 0.09716758025388633,
+      "pan": -0.3072648148735235,
+      "seed": 827463288
+    },
+    {
+      "instrument": "oud",
+      "beat": 59.256445156478264,
+      "note": 61,
+      "gate_beats": 0.8,
+      "velocity": 0.09918826297527063,
+      "pan": 0.2722075936374046,
+      "seed": 955903459
+    },
+    {
+      "instrument": "bass",
+      "beat": 56.00465084005616,
+      "note": 43,
+      "gate_beats": 1.75,
+      "velocity": 0.10583643580965159,
+      "pan": -0.037887940660471145,
+      "seed": 565138890
+    },
+    {
+      "instrument": "bass",
+      "beat": 58.504860424747335,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05233116511420375,
+      "pan": 0.005842148730821815,
+      "seed": 941785858
+    },
+    {
+      "instrument": "doum",
+      "beat": 56.0063972546151,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.09960886272819186,
+      "pan": -0.14910455213470547,
+      "seed": 593145177
+    },
+    {
+      "instrument": "tek",
+      "beat": 57.49772491671693,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04613744025303218,
+      "pan": 0.20962337811159057,
+      "seed": 648768209
+    },
+    {
+      "instrument": "tek",
+      "beat": 58.99733170482853,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05505780520496614,
+      "pan": 0.2227075695401287,
+      "seed": 1273223860
+    },
+    {
+      "instrument": "shaker",
+      "beat": 56.003721284398594,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012066208170212317,
+      "pan": 0.401295666846582,
+      "seed": 1282731415
+    },
+    {
+      "instrument": "shaker",
+      "beat": 56.496616255607755,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00952194090065976,
+      "pan": -0.4530811168666498,
+      "seed": 1167961843
+    },
+    {
+      "instrument": "shaker",
+      "beat": 57.00517867678612,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012230655686521626,
+      "pan": 0.3755468479836474,
+      "seed": 1900262056
+    },
+    {
+      "instrument": "shaker",
+      "beat": 57.49565056199404,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009291757411830163,
+      "pan": -0.472181087756589,
+      "seed": 2077100443
+    },
+    {
+      "instrument": "shaker",
+      "beat": 57.996396283085005,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011957003287492036,
+      "pan": 0.4182654835083311,
+      "seed": 279721247
+    },
+    {
+      "instrument": "shaker",
+      "beat": 58.49358823597259,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009221324227950054,
+      "pan": -0.4695038401830226,
+      "seed": 1134615191
+    },
+    {
+      "instrument": "shaker",
+      "beat": 59.006626385498286,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01225141869537707,
+      "pan": 0.39174730726249507,
+      "seed": 40514692
+    },
+    {
+      "instrument": "shaker",
+      "beat": 59.50384937552624,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009252067576860317,
+      "pan": -0.4599632394740027,
+      "seed": 610579854
+    },
+    {
+      "instrument": "oud",
+      "beat": 60.00361757954736,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.08953046575837215,
+      "pan": -0.31204420545864264,
+      "seed": 446870025
+    },
+    {
+      "instrument": "oud",
+      "beat": 61.50056279762318,
+      "note": 52,
+      "gate_beats": 0.8,
+      "velocity": 0.0967686344615881,
+      "pan": 0.2266835132844954,
+      "seed": 472990911
+    },
+    {
+      "instrument": "oud",
+      "beat": 62.50554605970437,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.09557924204240278,
+      "pan": -0.34194246743371626,
+      "seed": 728377282
+    },
+    {
+      "instrument": "oud",
+      "beat": 63.24433172082214,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.09075433678402017,
+      "pan": 0.23494648260605458,
+      "seed": 1654973259
+    },
+    {
+      "instrument": "bass",
+      "beat": 60.00172760492404,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10012338956105828,
+      "pan": -0.052469239566073,
+      "seed": 1713795000
+    },
+    {
+      "instrument": "bass",
+      "beat": 62.498224769190216,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05792354336747385,
+      "pan": 0.0427100205859151,
+      "seed": 1894593819
+    },
+    {
+      "instrument": "doum",
+      "beat": 60.0059702812559,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10683276413376322,
+      "pan": -0.10733643607981222,
+      "seed": 1504412923
+    },
+    {
+      "instrument": "doum",
+      "beat": 62.74947126688324,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06608192495333627,
+      "pan": -0.11134631565704385,
+      "seed": 121317327
+    },
+    {
+      "instrument": "tek",
+      "beat": 61.498250414873915,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04634259239124109,
+      "pan": 0.20895309043888008,
+      "seed": 226418276
+    },
+    {
+      "instrument": "tek",
+      "beat": 63.004122121353966,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05742079799339698,
+      "pan": 0.22301641373159486,
+      "seed": 2124057828
+    },
+    {
+      "instrument": "shaker",
+      "beat": 60.00254905214506,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012520411155241721,
+      "pan": 0.40380638799756774,
+      "seed": 1653152716
+    },
+    {
+      "instrument": "shaker",
+      "beat": 60.496573442441246,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009495193450949404,
+      "pan": -0.44357223598474416,
+      "seed": 1592425208
+    },
+    {
+      "instrument": "shaker",
+      "beat": 61.00124757657352,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012269154159238403,
+      "pan": 0.3979868547608576,
+      "seed": 834450377
+    },
+    {
+      "instrument": "shaker",
+      "beat": 61.506261016260815,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008532042808777656,
+      "pan": -0.4402497662588826,
+      "seed": 1866883586
+    },
+    {
+      "instrument": "shaker",
+      "beat": 62.00060432948304,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011393427695357939,
+      "pan": 0.40404404025911117,
+      "seed": 1029914958
+    },
+    {
+      "instrument": "shaker",
+      "beat": 62.502536551860956,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009397923898149443,
+      "pan": -0.46434402832913246,
+      "seed": 720933426
+    },
+    {
+      "instrument": "shaker",
+      "beat": 63.00497951154729,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011789270889985576,
+      "pan": 0.3800462471052859,
+      "seed": 442584579
+    },
+    {
+      "instrument": "shaker",
+      "beat": 63.49536544325556,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008752711278642805,
+      "pan": -0.4581641188243867,
+      "seed": 622747574
+    },
+    {
+      "instrument": "finger",
+      "beat": 63.252722706717016,
+      "note": null,
+      "gate_beats": 0.1,
+      "velocity": 0.021706890868570233,
+      "pan": 0.1437460740618575,
+      "seed": 353745435
+    },
+    {
+      "instrument": "finger",
+      "beat": 63.50261910451846,
+      "note": null,
+      "gate_beats": 0.1,
+      "velocity": 0.020796512947975927,
+      "pan": 0.1037287237625456,
+      "seed": 2070560973
+    },
+    {
+      "instrument": "finger",
+      "beat": 63.75484304753248,
+      "note": null,
+      "gate_beats": 0.1,
+      "velocity": 0.021375981864539977,
+      "pan": 0.14295968643675466,
+      "seed": 1305026819
+    },
+    {
+      "instrument": "oud",
+      "beat": 63.99412943959029,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.08114412323204942,
+      "pan": -0.34621449637799606,
+      "seed": 873768410
+    },
+    {
+      "instrument": "oud",
+      "beat": 65.49920532748277,
+      "note": 52,
+      "gate_beats": 0.8,
+      "velocity": 0.07608256710667076,
+      "pan": 0.23520917611326517,
+      "seed": 1833147242
+    },
+    {
+      "instrument": "oud",
+      "beat": 66.50119701237593,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.07766584635667137,
+      "pan": -0.3123217879491474,
+      "seed": 1497353828
+    },
+    {
+      "instrument": "oud",
+      "beat": 67.24446914169236,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.07919533218244597,
+      "pan": 0.22827450621080514,
+      "seed": 1310962721
+    },
+    {
+      "instrument": "bass",
+      "beat": 64.00072638547263,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10150808608457372,
+      "pan": -0.030476357812194942,
+      "seed": 1279909349
+    },
+    {
+      "instrument": "bass",
+      "beat": 66.49666165851103,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.0520533734370267,
+      "pan": 0.047048626361100084,
+      "seed": 554046810
+    },
+    {
+      "instrument": "doum",
+      "beat": 64.00630320751699,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10167966844408612,
+      "pan": -0.10602987452502267,
+      "seed": 65012371
+    },
+    {
+      "instrument": "tek",
+      "beat": 65.50332834310662,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04693194021773343,
+      "pan": 0.2247782948145731,
+      "seed": 1762118728
+    },
+    {
+      "instrument": "tek",
+      "beat": 66.99873445008244,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.054738258146247665,
+      "pan": 0.20498066009754032,
+      "seed": 2097311263
+    },
+    {
+      "instrument": "shaker",
+      "beat": 63.99604907279248,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01263254176548478,
+      "pan": 0.42317457674239994,
+      "seed": 811266978
+    },
+    {
+      "instrument": "shaker",
+      "beat": 64.49489714162986,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009260040794924918,
+      "pan": -0.4639349522458914,
+      "seed": 1920977288
+    },
+    {
+      "instrument": "shaker",
+      "beat": 65.00504883607516,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012053429774710881,
+      "pan": 0.3988788769277522,
+      "seed": 1240768397
+    },
+    {
+      "instrument": "shaker",
+      "beat": 65.50057283050825,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00855733216712637,
+      "pan": -0.46829307716559043,
+      "seed": 286396410
+    },
+    {
+      "instrument": "shaker",
+      "beat": 66.00214175266954,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01248113470551512,
+      "pan": 0.40475014758970446,
+      "seed": 1361354191
+    },
+    {
+      "instrument": "shaker",
+      "beat": 66.4976070304046,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009293288668746796,
+      "pan": -0.4650085366965542,
+      "seed": 1384388949
+    },
+    {
+      "instrument": "shaker",
+      "beat": 66.99888799624605,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011605032118817292,
+      "pan": 0.3827490839384996,
+      "seed": 1149295791
+    },
+    {
+      "instrument": "shaker",
+      "beat": 67.50236886239485,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009488639921625675,
+      "pan": -0.46308038091555503,
+      "seed": 1127040118
+    },
+    {
+      "instrument": "oud",
+      "beat": 68.00431122027085,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.08094329177996494,
+      "pan": -0.35104756849653396,
+      "seed": 1700810475
+    },
+    {
+      "instrument": "oud",
+      "beat": 69.50204496257557,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.0815789106006243,
+      "pan": 0.25025294247118407,
+      "seed": 504316875
+    },
+    {
+      "instrument": "oud",
+      "beat": 70.50282430240554,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.08011705973899687,
+      "pan": -0.3278876813845297,
+      "seed": 356458509
+    },
+    {
+      "instrument": "oud",
+      "beat": 71.25592672383729,
+      "note": 64,
+      "gate_beats": 0.8,
+      "velocity": 0.08277292955725322,
+      "pan": 0.2743448971902577,
+      "seed": 810038833
+    },
+    {
+      "instrument": "oud",
+      "beat": 71.50020980306851,
+      "note": 55,
+      "gate_beats": 0.5,
+      "velocity": 0.04518723875531096,
+      "pan": 0.41912936535564654,
+      "seed": 1007716317
+    },
+    {
+      "instrument": "oud",
+      "beat": 71.55942897901794,
+      "note": 60,
+      "gate_beats": 0.5,
+      "velocity": 0.04657368355559359,
+      "pan": 0.37529911098402324,
+      "seed": 243050983
+    },
+    {
+      "instrument": "oud",
+      "beat": 71.62310768220225,
+      "note": 64,
+      "gate_beats": 0.5,
+      "velocity": 0.04344786770460117,
+      "pan": 0.4248688270098522,
+      "seed": 1255286677
+    },
+    {
+      "instrument": "bass",
+      "beat": 67.99415122061768,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10837134932255761,
+      "pan": -0.04901776254425566,
+      "seed": 1438356940
+    },
+    {
+      "instrument": "bass",
+      "beat": 70.50529015984227,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05474452983049208,
+      "pan": 0.02528376396136542,
+      "seed": 784354291
+    },
+    {
+      "instrument": "doum",
+      "beat": 68.00330793622976,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10035573148944267,
+      "pan": -0.11073307527583448,
+      "seed": 707189898
+    },
+    {
+      "instrument": "doum",
+      "beat": 70.75261717972273,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06579691040425588,
+      "pan": -0.09177980617509025,
+      "seed": 1404455249
+    },
+    {
+      "instrument": "tek",
+      "beat": 69.4965646357086,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.042578233800026254,
+      "pan": 0.21326510801475373,
+      "seed": 428073910
+    },
+    {
+      "instrument": "tek",
+      "beat": 70.99850641353673,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.056692285047643835,
+      "pan": 0.2242347071016977,
+      "seed": 299701220
+    },
+    {
+      "instrument": "shaker",
+      "beat": 67.99601732864453,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012003947076183201,
+      "pan": 0.4177362852245845,
+      "seed": 1264349155
+    },
+    {
+      "instrument": "shaker",
+      "beat": 68.50316005139214,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008772478601410316,
+      "pan": -0.46481482954213793,
+      "seed": 336399048
+    },
+    {
+      "instrument": "shaker",
+      "beat": 69.00423376903947,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012408248579855351,
+      "pan": 0.3842557770988161,
+      "seed": 1977355048
+    },
+    {
+      "instrument": "shaker",
+      "beat": 69.50108800390308,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008692648307345834,
+      "pan": -0.44427765370622774,
+      "seed": 1706104704
+    },
+    {
+      "instrument": "shaker",
+      "beat": 70.0054372030261,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012437776999463787,
+      "pan": 0.39130674629273915,
+      "seed": 178442803
+    },
+    {
+      "instrument": "shaker",
+      "beat": 70.50091530388755,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009307878454470038,
+      "pan": -0.4563724804912087,
+      "seed": 1341797321
+    },
+    {
+      "instrument": "shaker",
+      "beat": 71.0005954596888,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.0122218847789486,
+      "pan": 0.3945834492255724,
+      "seed": 66166871
+    },
+    {
+      "instrument": "shaker",
+      "beat": 71.50083381405514,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009311223408584469,
+      "pan": -0.4319835414038532,
+      "seed": 2028873534
+    },
+    {
+      "instrument": "oud",
+      "beat": 72.00501490469269,
+      "note": 49,
+      "gate_beats": 0.8,
+      "velocity": 0.0808413838879408,
+      "pan": -0.3514675257570862,
+      "seed": 343478544
+    },
+    {
+      "instrument": "oud",
+      "beat": 73.50007780079659,
+      "note": 53,
+      "gate_beats": 0.8,
+      "velocity": 0.07593598307827942,
+      "pan": 0.26655474180882305,
+      "seed": 2051146973
+    },
+    {
+      "instrument": "oud",
+      "beat": 74.50494148444722,
+      "note": 56,
+      "gate_beats": 0.8,
+      "velocity": 0.08447131949665079,
+      "pan": -0.33630498765279426,
+      "seed": 1578214059
+    },
+    {
+      "instrument": "oud",
+      "beat": 75.25501837680962,
+      "note": 61,
+      "gate_beats": 0.8,
+      "velocity": 0.08353895160910975,
+      "pan": 0.25539549601723377,
+      "seed": 2130414516
+    },
+    {
+      "instrument": "bass",
+      "beat": 71.99751186594537,
+      "note": 37,
+      "gate_beats": 1.75,
+      "velocity": 0.10178339905208583,
+      "pan": -0.015624630691770794,
+      "seed": 2080058992
+    },
+    {
+      "instrument": "bass",
+      "beat": 74.49986294108477,
+      "note": 37,
+      "gate_beats": 1,
+      "velocity": 0.05408161439407669,
+      "pan": 0.042022765244459984,
+      "seed": 709805360
+    },
+    {
+      "instrument": "doum",
+      "beat": 71.99379513056665,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10738637931925357,
+      "pan": -0.10649723573668363,
+      "seed": 546970165
+    },
+    {
+      "instrument": "tek",
+      "beat": 73.4941444127017,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04592763563809974,
+      "pan": 0.21777999261097164,
+      "seed": 985793822
+    },
+    {
+      "instrument": "tek",
+      "beat": 74.99334989837385,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.0570752622087241,
+      "pan": 0.18258858352940224,
+      "seed": 533619279
+    },
+    {
+      "instrument": "shaker",
+      "beat": 72.00422778525076,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011380458245228259,
+      "pan": 0.37911707021612684,
+      "seed": 360340045
+    },
+    {
+      "instrument": "shaker",
+      "beat": 72.49925826587864,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009320795124392565,
+      "pan": -0.45620290800740343,
+      "seed": 1144665977
+    },
+    {
+      "instrument": "shaker",
+      "beat": 72.9976773508534,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012135123372833062,
+      "pan": 0.4104950365050356,
+      "seed": 610728889
+    },
+    {
+      "instrument": "shaker",
+      "beat": 73.49436658142059,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009256464443885865,
+      "pan": -0.45236325940329286,
+      "seed": 1110985782
+    },
+    {
+      "instrument": "shaker",
+      "beat": 73.9958902866971,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011537786006846705,
+      "pan": 0.4196443874851552,
+      "seed": 1471022911
+    },
+    {
+      "instrument": "shaker",
+      "beat": 74.50391098522577,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00940091794084647,
+      "pan": -0.43329850508255324,
+      "seed": 1262890025
+    },
+    {
+      "instrument": "shaker",
+      "beat": 75.00441639075737,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01208448050258144,
+      "pan": 0.38463872551253925,
+      "seed": 1888337749
+    },
+    {
+      "instrument": "shaker",
+      "beat": 75.5011528745942,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008751263456657603,
+      "pan": -0.4384650603388527,
+      "seed": 1590663193
+    },
+    {
+      "instrument": "oud",
+      "beat": 75.99995632704669,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.08391187653675411,
+      "pan": -0.32951967473528276,
+      "seed": 468593451
+    },
+    {
+      "instrument": "oud",
+      "beat": 77.4973817102696,
+      "note": 52,
+      "gate_beats": 0.8,
+      "velocity": 0.08011053505293851,
+      "pan": 0.2591439073957492,
+      "seed": 42068126
+    },
+    {
+      "instrument": "oud",
+      "beat": 78.50398056231424,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.07800790455040817,
+      "pan": -0.31879086476742935,
+      "seed": 1803527586
+    },
+    {
+      "instrument": "oud",
+      "beat": 79.25305218259659,
+      "note": 59,
+      "gate_beats": 0.8,
+      "velocity": 0.08349763104814334,
+      "pan": 0.2267132104129605,
+      "seed": 196641943
+    },
+    {
+      "instrument": "bass",
+      "beat": 76.0027200920657,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10905852498823405,
+      "pan": -0.021607764661862476,
+      "seed": 902223743
+    },
+    {
+      "instrument": "bass",
+      "beat": 78.4950892641781,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05797248687267132,
+      "pan": 0.043848609273459994,
+      "seed": 752689253
+    },
+    {
+      "instrument": "doum",
+      "beat": 76.00144097467627,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10916579811221679,
+      "pan": -0.11200421626965446,
+      "seed": 1330765430
+    },
+    {
+      "instrument": "doum",
+      "beat": 78.74713469551106,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06341293446142149,
+      "pan": -0.08822478992708425,
+      "seed": 1127649288
+    },
+    {
+      "instrument": "tek",
+      "beat": 77.49550404825827,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04434545140874533,
+      "pan": 0.1892211878040746,
+      "seed": 1952014498
+    },
+    {
+      "instrument": "tek",
+      "beat": 78.99501036601485,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05566280891838079,
+      "pan": 0.18084512488115034,
+      "seed": 1704349487
+    },
+    {
+      "instrument": "shaker",
+      "beat": 76.00318682348173,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011548115075924277,
+      "pan": 0.38579557162977535,
+      "seed": 1979279796
+    },
+    {
+      "instrument": "shaker",
+      "beat": 76.49352438418218,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009437527818061222,
+      "pan": -0.4713162933972134,
+      "seed": 549237156
+    },
+    {
+      "instrument": "shaker",
+      "beat": 76.99837275994192,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011867438379217379,
+      "pan": 0.4115975560797986,
+      "seed": 1875199961
+    },
+    {
+      "instrument": "shaker",
+      "beat": 77.50357278100556,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00902288764242327,
+      "pan": -0.4596109975317061,
+      "seed": 152611713
+    },
+    {
+      "instrument": "shaker",
+      "beat": 77.9990691884593,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.0122482991218149,
+      "pan": 0.37891713561512724,
+      "seed": 1823246241
+    },
+    {
+      "instrument": "shaker",
+      "beat": 78.49376979991517,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009099132596699184,
+      "pan": -0.42639571595440284,
+      "seed": 1878489841
+    },
+    {
+      "instrument": "shaker",
+      "beat": 78.99508270838923,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011776142897045094,
+      "pan": 0.4230605164505131,
+      "seed": 105288742
+    },
+    {
+      "instrument": "shaker",
+      "beat": 79.49742234395482,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009012006616357204,
+      "pan": -0.46453349915745856,
+      "seed": 1031222612
+    },
+    {
+      "instrument": "oud",
+      "beat": 80.0007381167962,
+      "note": 53,
+      "gate_beats": 0.8,
+      "velocity": 0.07936678522827133,
+      "pan": -0.32201190268410607,
+      "seed": 1606201447
+    },
+    {
+      "instrument": "oud",
+      "beat": 81.50013524057853,
+      "note": 56,
+      "gate_beats": 0.8,
+      "velocity": 0.07954033514081937,
+      "pan": 0.2649200136030141,
+      "seed": 2011338005
+    },
+    {
+      "instrument": "oud",
+      "beat": 82.49537271886132,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.08137617178242194,
+      "pan": -0.3400399378008959,
+      "seed": 1600721546
+    },
+    {
+      "instrument": "oud",
+      "beat": 83.25561414716542,
+      "note": 65,
+      "gate_beats": 0.8,
+      "velocity": 0.08370545958696479,
+      "pan": 0.2353140430399447,
+      "seed": 1010766604
+    },
+    {
+      "instrument": "bass",
+      "beat": 79.997045486345,
+      "note": 41,
+      "gate_beats": 1.75,
+      "velocity": 0.10484339110199524,
+      "pan": -0.039540696002509826,
+      "seed": 1924869087
+    },
+    {
+      "instrument": "bass",
+      "beat": 82.50186810550323,
+      "note": 41,
+      "gate_beats": 1,
+      "velocity": 0.056284640065540945,
+      "pan": 0.016050509552371927,
+      "seed": 1567404695
+    },
+    {
+      "instrument": "doum",
+      "beat": 80.00654793952394,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10040816013437005,
+      "pan": -0.1378025605140525,
+      "seed": 128558774
+    },
+    {
+      "instrument": "tek",
+      "beat": 81.50631283053546,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04319119005243831,
+      "pan": 0.18667480688427907,
+      "seed": 998540631
+    },
+    {
+      "instrument": "tek",
+      "beat": 82.99421757478848,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.052594545372025445,
+      "pan": 0.20929218249905224,
+      "seed": 85596599
+    },
+    {
+      "instrument": "shaker",
+      "beat": 80.00029429533109,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011596132951503076,
+      "pan": 0.40010479513344044,
+      "seed": 89215098
+    },
+    {
+      "instrument": "shaker",
+      "beat": 80.49986265986942,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00869692041531835,
+      "pan": -0.44299613429517243,
+      "seed": 1814420033
+    },
+    {
+      "instrument": "shaker",
+      "beat": 81.00027482842043,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012289254299886367,
+      "pan": 0.4045938017769424,
+      "seed": 1088617659
+    },
+    {
+      "instrument": "shaker",
+      "beat": 81.49976438570377,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009284805088943176,
+      "pan": -0.434214536675551,
+      "seed": 1887693371
+    },
+    {
+      "instrument": "shaker",
+      "beat": 81.99570727823297,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012714116233084789,
+      "pan": 0.4159167873409393,
+      "seed": 47376526
+    },
+    {
+      "instrument": "shaker",
+      "beat": 82.49732883388515,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009443653487318146,
+      "pan": -0.4312890579941732,
+      "seed": 419923787
+    },
+    {
+      "instrument": "shaker",
+      "beat": 83.00530623977761,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011526420120107201,
+      "pan": 0.4207729833141216,
+      "seed": 2117925580
+    },
+    {
+      "instrument": "shaker",
+      "beat": 83.50315558249956,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009348271988896224,
+      "pan": -0.4412071183882754,
+      "seed": 350981929
+    },
+    {
+      "instrument": "oud",
+      "beat": 84.0002489673828,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.08451937475450817,
+      "pan": -0.3528566318042324,
+      "seed": 2131275797
+    },
+    {
+      "instrument": "oud",
+      "beat": 85.50578509227803,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.08235835030632703,
+      "pan": 0.2576433085285372,
+      "seed": 1924786383
+    },
+    {
+      "instrument": "oud",
+      "beat": 86.49632294113012,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.08094996627345047,
+      "pan": -0.34986906787634736,
+      "seed": 931359425
+    },
+    {
+      "instrument": "oud",
+      "beat": 87.25136913543139,
+      "note": 64,
+      "gate_beats": 0.8,
+      "velocity": 0.07563744079915233,
+      "pan": 0.26583195015665345,
+      "seed": 937070823
+    },
+    {
+      "instrument": "oud",
+      "beat": 87.49782716702583,
+      "note": 55,
+      "gate_beats": 0.5,
+      "velocity": 0.045675301236363625,
+      "pan": 0.39639908652417544,
+      "seed": 1560391049
+    },
+    {
+      "instrument": "oud",
+      "beat": 87.56428891384432,
+      "note": 60,
+      "gate_beats": 0.5,
+      "velocity": 0.045900269853076325,
+      "pan": 0.38194783184529135,
+      "seed": 1927104979
+    },
+    {
+      "instrument": "oud",
+      "beat": 87.62368341359287,
+      "note": 64,
+      "gate_beats": 0.5,
+      "velocity": 0.04460517050625061,
+      "pan": 0.40218221694422557,
+      "seed": 1309008219
+    },
+    {
+      "instrument": "bass",
+      "beat": 83.99481365609924,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10306800489424976,
+      "pan": -0.0086300539167782,
+      "seed": 1007091733
+    },
+    {
+      "instrument": "bass",
+      "beat": 86.50285136720056,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05795626747483286,
+      "pan": 0.015722663037581457,
+      "seed": 1864261623
+    },
+    {
+      "instrument": "doum",
+      "beat": 84.00028297450048,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.09961334662370827,
+      "pan": -0.1116330682117772,
+      "seed": 990389907
+    },
+    {
+      "instrument": "doum",
+      "beat": 86.74785732018177,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06768942970401137,
+      "pan": -0.08925710903676982,
+      "seed": 1384068427
+    },
+    {
+      "instrument": "tek",
+      "beat": 85.5056761276333,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04385258751372603,
+      "pan": 0.18846535748914509,
+      "seed": 159634546
+    },
+    {
+      "instrument": "tek",
+      "beat": 87.00454053718276,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.054761661678011095,
+      "pan": 0.2203817826775564,
+      "seed": 1588467871
+    },
+    {
+      "instrument": "shaker",
+      "beat": 83.99354429240017,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011321965352703892,
+      "pan": 0.41906757491783314,
+      "seed": 890382473
+    },
+    {
+      "instrument": "shaker",
+      "beat": 84.49888225029483,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008721757677427772,
+      "pan": -0.43447018353558126,
+      "seed": 1227323356
+    },
+    {
+      "instrument": "shaker",
+      "beat": 84.99749134236676,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01163598482063961,
+      "pan": 0.38735731183601735,
+      "seed": 2074133368
+    },
+    {
+      "instrument": "shaker",
+      "beat": 85.4968304138589,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008474184046718678,
+      "pan": -0.46813476040988605,
+      "seed": 1359492476
+    },
+    {
+      "instrument": "shaker",
+      "beat": 85.99838562470761,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012371416562450721,
+      "pan": 0.402917415407406,
+      "seed": 1025140053
+    },
+    {
+      "instrument": "shaker",
+      "beat": 86.50402328457254,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009449149541004866,
+      "pan": -0.4472516043953944,
+      "seed": 1593482205
+    },
+    {
+      "instrument": "shaker",
+      "beat": 86.99935902064831,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012312253323541416,
+      "pan": 0.42156011150893496,
+      "seed": 2144490632
+    },
+    {
+      "instrument": "shaker",
+      "beat": 87.50429401247351,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00906093486111782,
+      "pan": -0.46288583006457923,
+      "seed": 943200948
+    },
+    {
+      "instrument": "oud",
+      "beat": 87.99668916856973,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.08456398005631671,
+      "pan": -0.3074715610185707,
+      "seed": 1579494041
+    },
+    {
+      "instrument": "oud",
+      "beat": 89.49835359041089,
+      "note": 59,
+      "gate_beats": 0.8,
+      "velocity": 0.08194649280318679,
+      "pan": 0.27059532905172845,
+      "seed": 1605230076
+    },
+    {
+      "instrument": "oud",
+      "beat": 90.50255081707863,
+      "note": 67,
+      "gate_beats": 0.8,
+      "velocity": 0.08077042675865174,
+      "pan": -0.3150893529110012,
+      "seed": 298265848
+    },
+    {
+      "instrument": "oud",
+      "beat": 91.2454720540874,
+      "note": 61,
+      "gate_beats": 0.8,
+      "velocity": 0.08367671477831833,
+      "pan": 0.2614224315343994,
+      "seed": 1042442827
+    },
+    {
+      "instrument": "bass",
+      "beat": 88.00358096193308,
+      "note": 43,
+      "gate_beats": 1.75,
+      "velocity": 0.10407454095376723,
+      "pan": -0.016698843693350826,
+      "seed": 396949657
+    },
+    {
+      "instrument": "bass",
+      "beat": 90.49819840533759,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05276425276973854,
+      "pan": 0.032102880810854426,
+      "seed": 967736689
+    },
+    {
+      "instrument": "doum",
+      "beat": 87.99922758639931,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10843157159813059,
+      "pan": -0.13325363363810885,
+      "seed": 1765575652
+    },
+    {
+      "instrument": "tek",
+      "beat": 89.50371940495326,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.045261609741556685,
+      "pan": 0.20698285424900525,
+      "seed": 2075015907
+    },
+    {
+      "instrument": "tek",
+      "beat": 91.00124423883796,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05470529443291453,
+      "pan": 0.19219841093558385,
+      "seed": 2004029650
+    },
+    {
+      "instrument": "shaker",
+      "beat": 87.99758943475643,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012480922913873456,
+      "pan": 0.38047264508744594,
+      "seed": 1380974419
+    },
+    {
+      "instrument": "shaker",
+      "beat": 88.50341877152972,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00922709887809569,
+      "pan": -0.4486793776711211,
+      "seed": 877274439
+    },
+    {
+      "instrument": "shaker",
+      "beat": 88.99982493388823,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01250866040880934,
+      "pan": 0.41720829422834865,
+      "seed": 496071124
+    },
+    {
+      "instrument": "shaker",
+      "beat": 89.49383322525986,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009408809795187916,
+      "pan": -0.4416397651385171,
+      "seed": 1927294184
+    },
+    {
+      "instrument": "shaker",
+      "beat": 89.99334984311206,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011717354831092285,
+      "pan": 0.3812040779063069,
+      "seed": 356399248
+    },
+    {
+      "instrument": "shaker",
+      "beat": 90.49550639624553,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00934507605356918,
+      "pan": -0.4601801042750192,
+      "seed": 837072433
+    },
+    {
+      "instrument": "shaker",
+      "beat": 91.0028211530035,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012660058958831969,
+      "pan": 0.40540623629469474,
+      "seed": 2101878264
+    },
+    {
+      "instrument": "shaker",
+      "beat": 91.49850211188742,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008736878309711158,
+      "pan": -0.4396457650381664,
+      "seed": 361180571
+    },
+    {
+      "instrument": "oud",
+      "beat": 91.99999584763586,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.08323728923259344,
+      "pan": -0.3388944577053026,
+      "seed": 1278923854
+    },
+    {
+      "instrument": "oud",
+      "beat": 93.49724781257966,
+      "note": 52,
+      "gate_beats": 0.8,
+      "velocity": 0.07763842965935287,
+      "pan": 0.22751478974054742,
+      "seed": 179499197
+    },
+    {
+      "instrument": "oud",
+      "beat": 94.49419567681332,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.07860679168435163,
+      "pan": -0.32074061087992056,
+      "seed": 905191898
+    },
+    {
+      "instrument": "oud",
+      "beat": 95.24556534954986,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.0764179958712992,
+      "pan": 0.24454777708069855,
+      "seed": 1614620652
+    },
+    {
+      "instrument": "bass",
+      "beat": 91.99672892170533,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10114756084351419,
+      "pan": -0.04371311507299101,
+      "seed": 1591994644
+    },
+    {
+      "instrument": "bass",
+      "beat": 94.50106381445455,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.056287200040570376,
+      "pan": 0.023774711063402693,
+      "seed": 848315104
+    },
+    {
+      "instrument": "doum",
+      "beat": 91.99838646637794,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10229441525195618,
+      "pan": -0.13945203173395632,
+      "seed": 1819104392
+    },
+    {
+      "instrument": "doum",
+      "beat": 94.75539128083017,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.0687724139203068,
+      "pan": -0.07968657401055712,
+      "seed": 834720279
+    },
+    {
+      "instrument": "tek",
+      "beat": 93.50360462831608,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04568482845450473,
+      "pan": 0.18134169392460678,
+      "seed": 911000682
+    },
+    {
+      "instrument": "tek",
+      "beat": 95.00284101823718,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05700953191159536,
+      "pan": 0.18755640200564858,
+      "seed": 1501097890
+    },
+    {
+      "instrument": "shaker",
+      "beat": 92.00106599786993,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01261886579851233,
+      "pan": 0.37600662273460084,
+      "seed": 388716321
+    },
+    {
+      "instrument": "shaker",
+      "beat": 92.50459497607848,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008954831060065555,
+      "pan": -0.46025825130694775,
+      "seed": 860317872
+    },
+    {
+      "instrument": "shaker",
+      "beat": 93.00037207251816,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012438659174886534,
+      "pan": 0.40051935160798247,
+      "seed": 243161178
+    },
+    {
+      "instrument": "shaker",
+      "beat": 93.4969856250518,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008636020041735191,
+      "pan": -0.46565605733345666,
+      "seed": 1133267701
+    },
+    {
+      "instrument": "shaker",
+      "beat": 94.0006655119407,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011847194614300423,
+      "pan": 0.39983097747208274,
+      "seed": 1520992071
+    },
+    {
+      "instrument": "shaker",
+      "beat": 94.50340162954426,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009414086192996047,
+      "pan": -0.47142899454951015,
+      "seed": 1713704585
+    },
+    {
+      "instrument": "shaker",
+      "beat": 94.99431384429452,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012323288803070369,
+      "pan": 0.4124875582102012,
+      "seed": 1239735696
+    },
+    {
+      "instrument": "shaker",
+      "beat": 95.50080514946087,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008525891910266814,
+      "pan": -0.4622840339708632,
+      "seed": 496300708
+    },
+    {
+      "instrument": "finger",
+      "beat": 95.25104686090371,
+      "note": null,
+      "gate_beats": 0.1,
+      "velocity": 0.023242198272695722,
+      "pan": 0.10992557909165175,
+      "seed": 1363226605
+    },
+    {
+      "instrument": "finger",
+      "beat": 95.50546082394945,
+      "note": null,
+      "gate_beats": 0.1,
+      "velocity": 0.021987938087524906,
+      "pan": 0.10567244308773349,
+      "seed": 205866126
+    },
+    {
+      "instrument": "finger",
+      "beat": 95.75061962944046,
+      "note": null,
+      "gate_beats": 0.1,
+      "velocity": 0.021415145452928778,
+      "pan": 0.09999881872645275,
+      "seed": 1223861998
+    },
+    {
+      "instrument": "oud",
+      "beat": 95.99961798683395,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.08988615750536512,
+      "pan": -0.33579437537693996,
+      "seed": 1650959250
+    },
+    {
+      "instrument": "oud",
+      "beat": 97.50406891565753,
+      "note": 52,
+      "gate_beats": 0.8,
+      "velocity": 0.10053322918856585,
+      "pan": 0.2670073682431478,
+      "seed": 84001203
+    },
+    {
+      "instrument": "oud",
+      "beat": 98.50390634564847,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.09367452196894205,
+      "pan": -0.3332598422912811,
+      "seed": 858052717
+    },
+    {
+      "instrument": "oud",
+      "beat": 99.24476821593339,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.09168714741777204,
+      "pan": 0.265900757860572,
+      "seed": 1404436690
+    },
+    {
+      "instrument": "bass",
+      "beat": 95.99864413845289,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.11129699532176988,
+      "pan": -0.04283590754831901,
+      "seed": 431563536
+    },
+    {
+      "instrument": "bass",
+      "beat": 98.4961334254697,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.054412876735088676,
+      "pan": 0.04649568853095853,
+      "seed": 1185164737
+    },
+    {
+      "instrument": "doum",
+      "beat": 95.99366525145848,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10815088746731195,
+      "pan": -0.1252899174254187,
+      "seed": 1765619326
+    },
+    {
+      "instrument": "tek",
+      "beat": 97.5020406123616,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.044987873200921576,
+      "pan": 0.21572362301920173,
+      "seed": 1347523682
+    },
+    {
+      "instrument": "tek",
+      "beat": 98.99686061623909,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05534760757467217,
+      "pan": 0.1978503533551129,
+      "seed": 1101409898
+    },
+    {
+      "instrument": "shaker",
+      "beat": 96.00047616753797,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011585935538288456,
+      "pan": 0.38592624975104,
+      "seed": 164646924
+    },
+    {
+      "instrument": "shaker",
+      "beat": 96.50563368132673,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009408653404082153,
+      "pan": -0.4317656331144547,
+      "seed": 380097323
+    },
+    {
+      "instrument": "shaker",
+      "beat": 97.00268609932586,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.0122985339475042,
+      "pan": 0.42058545089765087,
+      "seed": 998570030
+    },
+    {
+      "instrument": "shaker",
+      "beat": 97.50349926487216,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008758997598562386,
+      "pan": -0.43156404138041227,
+      "seed": 1105473236
+    },
+    {
+      "instrument": "shaker",
+      "beat": 98.00439493019185,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012243607478007935,
+      "pan": 0.39497719626493916,
+      "seed": 1491336312
+    },
+    {
+      "instrument": "shaker",
+      "beat": 98.49860210324802,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008691290181546331,
+      "pan": -0.4491017544637557,
+      "seed": 1779099275
+    },
+    {
+      "instrument": "shaker",
+      "beat": 98.99747656828724,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011403437554820619,
+      "pan": 0.4048207502413612,
+      "seed": 637865827
+    },
+    {
+      "instrument": "shaker",
+      "beat": 99.50513874668248,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009187616287435786,
+      "pan": -0.4714505655643337,
+      "seed": 612707318
+    },
+    {
+      "instrument": "oud",
+      "beat": 99.99485813197457,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.09767074003452532,
+      "pan": -0.3093242630816576,
+      "seed": 1990240672
+    },
+    {
+      "instrument": "oud",
+      "beat": 101.4948914986455,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.09206028658470966,
+      "pan": 0.227751623340813,
+      "seed": 89013334
+    },
+    {
+      "instrument": "oud",
+      "beat": 102.50101362925743,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.0978563327408012,
+      "pan": -0.34315322864771586,
+      "seed": 1699165738
+    },
+    {
+      "instrument": "oud",
+      "beat": 103.25017326337694,
+      "note": 64,
+      "gate_beats": 0.8,
+      "velocity": 0.09022335494870307,
+      "pan": 0.23757034821339246,
+      "seed": 2141597805
+    },
+    {
+      "instrument": "oud",
+      "beat": 103.50036009603852,
+      "note": 55,
+      "gate_beats": 0.5,
+      "velocity": 0.045347164067129075,
+      "pan": 0.3831821746602904,
+      "seed": 1215727961
+    },
+    {
+      "instrument": "oud",
+      "beat": 103.55343730485508,
+      "note": 60,
+      "gate_beats": 0.5,
+      "velocity": 0.04377474884812087,
+      "pan": 0.4096891969423609,
+      "seed": 1341604846
+    },
+    {
+      "instrument": "oud",
+      "beat": 103.62299680490649,
+      "note": 64,
+      "gate_beats": 0.5,
+      "velocity": 0.04404181062722063,
+      "pan": 0.42284348567088936,
+      "seed": 1477186546
+    },
+    {
+      "instrument": "bass",
+      "beat": 100.00192167120574,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.11125133365358844,
+      "pan": -0.04005102143772925,
+      "seed": 2121632337
+    },
+    {
+      "instrument": "bass",
+      "beat": 102.49970681116473,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05812157870907425,
+      "pan": 0.009491294060318903,
+      "seed": 403960434
+    },
+    {
+      "instrument": "doum",
+      "beat": 99.99515617406756,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10909496261441678,
+      "pan": -0.12733738268403355,
+      "seed": 1743136718
+    },
+    {
+      "instrument": "doum",
+      "beat": 102.7510719423881,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06513791577360957,
+      "pan": -0.09411191820092472,
+      "seed": 1683316409
+    },
+    {
+      "instrument": "tek",
+      "beat": 101.49894175989967,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04719737886038322,
+      "pan": 0.2211566617940225,
+      "seed": 1746114968
+    },
+    {
+      "instrument": "tek",
+      "beat": 103.00037211202347,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05638191694801062,
+      "pan": 0.19676729665442821,
+      "seed": 1555339479
+    },
+    {
+      "instrument": "shaker",
+      "beat": 99.99460128617089,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01188089182182739,
+      "pan": 0.399517522346551,
+      "seed": 791356763
+    },
+    {
+      "instrument": "shaker",
+      "beat": 100.4998484115317,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009284902088080225,
+      "pan": -0.42986761186733935,
+      "seed": 956969685
+    },
+    {
+      "instrument": "shaker",
+      "beat": 100.99423414182394,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011803617180166722,
+      "pan": 0.4111421164342952,
+      "seed": 252727156
+    },
+    {
+      "instrument": "shaker",
+      "beat": 101.49828150895682,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008641144273855223,
+      "pan": -0.46156054561631205,
+      "seed": 398830765
+    },
+    {
+      "instrument": "shaker",
+      "beat": 102.00362649109651,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011747393486856906,
+      "pan": 0.42013601096397285,
+      "seed": 1068979595
+    },
+    {
+      "instrument": "shaker",
+      "beat": 102.50369992001436,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009116591080179783,
+      "pan": -0.4723654576233302,
+      "seed": 1810448573
+    },
+    {
+      "instrument": "shaker",
+      "beat": 103.00369700486151,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01159602151976991,
+      "pan": 0.41949882722937176,
+      "seed": 391744874
+    },
+    {
+      "instrument": "shaker",
+      "beat": 103.50560548563539,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00863965522994117,
+      "pan": -0.442295728826258,
+      "seed": 1262889611
+    },
+    {
+      "instrument": "oud",
+      "beat": 104.00123040208686,
+      "note": 49,
+      "gate_beats": 0.8,
+      "velocity": 0.0938179164241054,
+      "pan": -0.3123680858509594,
+      "seed": 2087980712
+    },
+    {
+      "instrument": "oud",
+      "beat": 105.49659657042578,
+      "note": 53,
+      "gate_beats": 0.8,
+      "velocity": 0.09238122578618652,
+      "pan": 0.2259656694392924,
+      "seed": 600684187
+    },
+    {
+      "instrument": "oud",
+      "beat": 106.49597510987985,
+      "note": 56,
+      "gate_beats": 0.8,
+      "velocity": 0.09379685429244834,
+      "pan": -0.3381247840952898,
+      "seed": 1719660927
+    },
+    {
+      "instrument": "oud",
+      "beat": 107.2457101477617,
+      "note": 61,
+      "gate_beats": 0.8,
+      "velocity": 0.09295017496322691,
+      "pan": 0.2587289754495492,
+      "seed": 1570093904
+    },
+    {
+      "instrument": "bass",
+      "beat": 104.0021652517404,
+      "note": 37,
+      "gate_beats": 1.75,
+      "velocity": 0.10597697833980217,
+      "pan": -0.035949849861740664,
+      "seed": 2038633730
+    },
+    {
+      "instrument": "bass",
+      "beat": 106.4992662191803,
+      "note": 37,
+      "gate_beats": 1,
+      "velocity": 0.05507661007458876,
+      "pan": 0.01990131132414997,
+      "seed": 1558383919
+    },
+    {
+      "instrument": "doum",
+      "beat": 103.9933689179566,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10452122216315013,
+      "pan": -0.13309912489723147,
+      "seed": 98501115
+    },
+    {
+      "instrument": "tek",
+      "beat": 105.50371996421718,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04489241396621085,
+      "pan": 0.1789026928484152,
+      "seed": 46184842
+    },
+    {
+      "instrument": "tek",
+      "beat": 106.99721157561832,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05716118464333925,
+      "pan": 0.18872466946309088,
+      "seed": 328776410
+    },
+    {
+      "instrument": "shaker",
+      "beat": 103.9966137906168,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011858963340115535,
+      "pan": 0.4106532740622778,
+      "seed": 1358174264
+    },
+    {
+      "instrument": "shaker",
+      "beat": 104.49883930104474,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009407293186237784,
+      "pan": -0.43600120107338525,
+      "seed": 1315781103
+    },
+    {
+      "instrument": "shaker",
+      "beat": 104.9970307194504,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011817996342689353,
+      "pan": 0.38108908886895415,
+      "seed": 1644624532
+    },
+    {
+      "instrument": "shaker",
+      "beat": 105.50239930447518,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008985210048971687,
+      "pan": -0.46845761717614054,
+      "seed": 339217732
+    },
+    {
+      "instrument": "shaker",
+      "beat": 105.99964392035456,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011968363317123993,
+      "pan": 0.39471348496374703,
+      "seed": 1637213005
+    },
+    {
+      "instrument": "shaker",
+      "beat": 106.4967930993317,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00931356906482149,
+      "pan": -0.4356008488263788,
+      "seed": 1881086991
+    },
+    {
+      "instrument": "shaker",
+      "beat": 106.99436760747886,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011386720030066333,
+      "pan": 0.4183121753143227,
+      "seed": 1371911937
+    },
+    {
+      "instrument": "shaker",
+      "beat": 107.504492124017,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008611515471198166,
+      "pan": -0.4486227531914347,
+      "seed": 1440496319
+    },
+    {
+      "instrument": "oud",
+      "beat": 107.99931956376001,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.09049520582353564,
+      "pan": -0.3386049095941288,
+      "seed": 115895765
+    },
+    {
+      "instrument": "oud",
+      "beat": 109.50119109100189,
+      "note": 52,
+      "gate_beats": 0.8,
+      "velocity": 0.09616898356367871,
+      "pan": 0.2297769811832643,
+      "seed": 1773301931
+    },
+    {
+      "instrument": "oud",
+      "beat": 110.49587557718009,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.09427477362730174,
+      "pan": -0.32527775354699484,
+      "seed": 1166366013
+    },
+    {
+      "instrument": "oud",
+      "beat": 111.25105286646357,
+      "note": 59,
+      "gate_beats": 0.8,
+      "velocity": 0.1005311184255522,
+      "pan": 0.2419879978386797,
+      "seed": 1405628315
+    },
+    {
+      "instrument": "bass",
+      "beat": 107.99908236901994,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10061894739646582,
+      "pan": -0.0539192113789356,
+      "seed": 1784986865
+    },
+    {
+      "instrument": "bass",
+      "beat": 110.5050767252317,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.05757580475596071,
+      "pan": 0.04953228306969395,
+      "seed": 1870816296
+    },
+    {
+      "instrument": "doum",
+      "beat": 107.9948752827869,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.1093144598098332,
+      "pan": -0.15419406357913493,
+      "seed": 1046668730
+    },
+    {
+      "instrument": "doum",
+      "beat": 110.74521149644782,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06349528930135469,
+      "pan": -0.07547624798119405,
+      "seed": 1487885781
+    },
+    {
+      "instrument": "tek",
+      "beat": 109.49994596697194,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04425782153207494,
+      "pan": 0.21507498335589215,
+      "seed": 1650059113
+    },
+    {
+      "instrument": "tek",
+      "beat": 110.99941228715419,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05624401577001475,
+      "pan": 0.19346854930439292,
+      "seed": 206548032
+    },
+    {
+      "instrument": "shaker",
+      "beat": 108.00514011780609,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011506715801495515,
+      "pan": 0.39680020285091183,
+      "seed": 1047706934
+    },
+    {
+      "instrument": "shaker",
+      "beat": 108.50483621949238,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008847034393234265,
+      "pan": -0.4432820850372525,
+      "seed": 1357239204
+    },
+    {
+      "instrument": "shaker",
+      "beat": 109.00539664482568,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011443593425562027,
+      "pan": 0.39573348590896573,
+      "seed": 1912827397
+    },
+    {
+      "instrument": "shaker",
+      "beat": 109.49736968480957,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009408076437239307,
+      "pan": -0.47354223102253146,
+      "seed": 1065640912
+    },
+    {
+      "instrument": "shaker",
+      "beat": 109.9989355779732,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011550115512438792,
+      "pan": 0.41735120738796655,
+      "seed": 845413123
+    },
+    {
+      "instrument": "shaker",
+      "beat": 110.49429346083745,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009093348484362782,
+      "pan": -0.4672498138173475,
+      "seed": 29602471
+    },
+    {
+      "instrument": "shaker",
+      "beat": 111.00320756498319,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012144689545660501,
+      "pan": 0.41997066575895076,
+      "seed": 2109647174
+    },
+    {
+      "instrument": "shaker",
+      "beat": 111.50194632202678,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009402179406671818,
+      "pan": -0.4317004269714008,
+      "seed": 84649242
+    },
+    {
+      "instrument": "oud",
+      "beat": 111.99553645509414,
+      "note": 53,
+      "gate_beats": 0.8,
+      "velocity": 0.09924596324503646,
+      "pan": -0.3416230236113183,
+      "seed": 1705591211
+    },
+    {
+      "instrument": "oud",
+      "beat": 113.5023253133773,
+      "note": 56,
+      "gate_beats": 0.8,
+      "velocity": 0.09477152647295509,
+      "pan": 0.27334916282824345,
+      "seed": 2004366174
+    },
+    {
+      "instrument": "oud",
+      "beat": 114.495369356094,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.09813296435921183,
+      "pan": -0.3461107961462208,
+      "seed": 1258403233
+    },
+    {
+      "instrument": "oud",
+      "beat": 115.25360814819996,
+      "note": 65,
+      "gate_beats": 0.8,
+      "velocity": 0.09121896500041228,
+      "pan": 0.23997189074610828,
+      "seed": 62683140
+    },
+    {
+      "instrument": "bass",
+      "beat": 112.00068413572563,
+      "note": 41,
+      "gate_beats": 1.75,
+      "velocity": 0.11004455065906608,
+      "pan": -0.033601041759098005,
+      "seed": 353192651
+    },
+    {
+      "instrument": "bass",
+      "beat": 114.50583741504646,
+      "note": 41,
+      "gate_beats": 1,
+      "velocity": 0.05653574726915626,
+      "pan": 0.03676277826631558,
+      "seed": 1238717986
+    },
+    {
+      "instrument": "doum",
+      "beat": 112.0050002348172,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10966997064363958,
+      "pan": -0.14982081235718608,
+      "seed": 632904828
+    },
+    {
+      "instrument": "tek",
+      "beat": 113.49342010833323,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04486511857686346,
+      "pan": 0.177380125573854,
+      "seed": 742658298
+    },
+    {
+      "instrument": "tek",
+      "beat": 115.00563907844577,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05675846531665568,
+      "pan": 0.20856116637467986,
+      "seed": 1046276984
+    },
+    {
+      "instrument": "shaker",
+      "beat": 112.00513926355667,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012308955552492467,
+      "pan": 0.4132797291138325,
+      "seed": 985958184
+    },
+    {
+      "instrument": "shaker",
+      "beat": 112.50294919590627,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008631165339347048,
+      "pan": -0.46437128067638794,
+      "seed": 1411430353
+    },
+    {
+      "instrument": "shaker",
+      "beat": 113.00377394296086,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012087024598305997,
+      "pan": 0.39328931619480156,
+      "seed": 870567529
+    },
+    {
+      "instrument": "shaker",
+      "beat": 113.50337549361542,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.00870574340369034,
+      "pan": -0.4720520270722002,
+      "seed": 768405212
+    },
+    {
+      "instrument": "shaker",
+      "beat": 114.00272961174782,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012318552885845184,
+      "pan": 0.4167292825228816,
+      "seed": 441286360
+    },
+    {
+      "instrument": "shaker",
+      "beat": 114.49381666823909,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008631804645655862,
+      "pan": -0.4687848005860784,
+      "seed": 184738533
+    },
+    {
+      "instrument": "shaker",
+      "beat": 114.99768385326682,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012353353330639602,
+      "pan": 0.3828714759774298,
+      "seed": 1654054626
+    },
+    {
+      "instrument": "shaker",
+      "beat": 115.50034449413253,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008915587101954713,
+      "pan": -0.4634259102807746,
+      "seed": 103965771
+    },
+    {
+      "instrument": "oud",
+      "beat": 116.00434917700578,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.0957763376402651,
+      "pan": -0.3204223872597859,
+      "seed": 913781838
+    },
+    {
+      "instrument": "oud",
+      "beat": 117.49519980908833,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.09035447371500076,
+      "pan": 0.27028479541188855,
+      "seed": 942457679
+    },
+    {
+      "instrument": "oud",
+      "beat": 118.50311607760806,
+      "note": 60,
+      "gate_beats": 0.8,
+      "velocity": 0.10008009146503329,
+      "pan": -0.3060284278922763,
+      "seed": 2034316835
+    },
+    {
+      "instrument": "oud",
+      "beat": 119.25604282771633,
+      "note": 64,
+      "gate_beats": 0.8,
+      "velocity": 0.09020790291519593,
+      "pan": 0.26535351080694264,
+      "seed": 329841969
+    },
+    {
+      "instrument": "oud",
+      "beat": 119.50493852714168,
+      "note": 55,
+      "gate_beats": 0.5,
+      "velocity": 0.04467991365803924,
+      "pan": 0.393944558270374,
+      "seed": 709921106
+    },
+    {
+      "instrument": "oud",
+      "beat": 119.55601037538784,
+      "note": 60,
+      "gate_beats": 0.5,
+      "velocity": 0.042797665325491556,
+      "pan": 0.37756599459895696,
+      "seed": 1847167373
+    },
+    {
+      "instrument": "oud",
+      "beat": 119.62175865674025,
+      "note": 64,
+      "gate_beats": 0.5,
+      "velocity": 0.04644441204700103,
+      "pan": 0.3809047110029051,
+      "seed": 445219230
+    },
+    {
+      "instrument": "bass",
+      "beat": 115.99792424752266,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10842960284192021,
+      "pan": -0.0297487444634716,
+      "seed": 523396436
+    },
+    {
+      "instrument": "bass",
+      "beat": 118.49781196437,
+      "note": 43,
+      "gate_beats": 1,
+      "velocity": 0.055774368667293045,
+      "pan": 0.05233255905849551,
+      "seed": 341204140
+    },
+    {
+      "instrument": "doum",
+      "beat": 115.99841301384961,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10522631818630018,
+      "pan": -0.12185709379975541,
+      "seed": 1226395177
+    },
+    {
+      "instrument": "doum",
+      "beat": 118.74656224359119,
+      "note": null,
+      "gate_beats": 0.4,
+      "velocity": 0.06735622811404904,
+      "pan": -0.0842389050701574,
+      "seed": 2135874953
+    },
+    {
+      "instrument": "tek",
+      "beat": 117.49822155197143,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.0435631911075182,
+      "pan": 0.22174845819667222,
+      "seed": 1268949488
+    },
+    {
+      "instrument": "tek",
+      "beat": 119.00037610228617,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05608858803414985,
+      "pan": 0.1761641831445778,
+      "seed": 917403073
+    },
+    {
+      "instrument": "shaker",
+      "beat": 116.00167176421655,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012143933261825987,
+      "pan": 0.41914817851680464,
+      "seed": 89190326
+    },
+    {
+      "instrument": "shaker",
+      "beat": 116.49978961924856,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008725369136644847,
+      "pan": -0.43787135226066526,
+      "seed": 757153657
+    },
+    {
+      "instrument": "shaker",
+      "beat": 116.99985375200967,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011960942386213157,
+      "pan": 0.41847579594063805,
+      "seed": 862913430
+    },
+    {
+      "instrument": "shaker",
+      "beat": 117.49435349683687,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009090678492436714,
+      "pan": -0.4261587901611827,
+      "seed": 1957515474
+    },
+    {
+      "instrument": "shaker",
+      "beat": 118.00011719915587,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.01242289611324264,
+      "pan": 0.37886489054164696,
+      "seed": 550244921
+    },
+    {
+      "instrument": "shaker",
+      "beat": 118.50144199890589,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.009325191171630543,
+      "pan": -0.45715182268916155,
+      "seed": 430414282
+    },
+    {
+      "instrument": "shaker",
+      "beat": 118.99984712971428,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012676596330717625,
+      "pan": 0.4049199671864679,
+      "seed": 1542605842
+    },
+    {
+      "instrument": "shaker",
+      "beat": 119.49959811076096,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008873100861202625,
+      "pan": -0.427753721029753,
+      "seed": 380590226
+    },
+    {
+      "instrument": "oud",
+      "beat": 120.005515912312,
+      "note": 55,
+      "gate_beats": 0.8,
+      "velocity": 0.08950990708660846,
+      "pan": -0.35240896110974557,
+      "seed": 288151595
+    },
+    {
+      "instrument": "oud",
+      "beat": 122.49788698903524,
+      "note": 59,
+      "gate_beats": 0.8,
+      "velocity": 0.09018833526953693,
+      "pan": 0.23666835388132748,
+      "seed": 604059556
+    },
+    {
+      "instrument": "bass",
+      "beat": 120.00454174944525,
+      "note": 43,
+      "gate_beats": 1.75,
+      "velocity": 0.10694917249677795,
+      "pan": -0.049913175804021354,
+      "seed": 1259400957
+    },
+    {
+      "instrument": "doum",
+      "beat": 119.99382066502751,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10035990950729903,
+      "pan": -0.14145683111090307,
+      "seed": 278153819
+    },
+    {
+      "instrument": "tek",
+      "beat": 121.49946058728311,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.04724143779558459,
+      "pan": 0.22048302597052544,
+      "seed": 799354830
+    },
+    {
+      "instrument": "tek",
+      "beat": 123.00294656058871,
+      "note": null,
+      "gate_beats": 0.2,
+      "velocity": 0.05722937878525052,
+      "pan": 0.2008440262019135,
+      "seed": 1075595598
+    },
+    {
+      "instrument": "shaker",
+      "beat": 120.0036235211784,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012639399046383655,
+      "pan": 0.38752405362338926,
+      "seed": 946475191
+    },
+    {
+      "instrument": "shaker",
+      "beat": 120.50210227895771,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008806248356741613,
+      "pan": -0.4580909433577568,
+      "seed": 871371845
+    },
+    {
+      "instrument": "shaker",
+      "beat": 120.99461446672119,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011588971136682178,
+      "pan": 0.40972496723840507,
+      "seed": 1359321548
+    },
+    {
+      "instrument": "shaker",
+      "beat": 121.50450175573965,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008566084910090843,
+      "pan": -0.4593406917142323,
+      "seed": 474272373
+    },
+    {
+      "instrument": "oud",
+      "beat": 124.00286091874167,
+      "note": 48,
+      "gate_beats": 0.8,
+      "velocity": 0.09701513319484269,
+      "pan": -0.30630173127185145,
+      "seed": 283753241
+    },
+    {
+      "instrument": "oud",
+      "beat": 126.49931272336245,
+      "note": 52,
+      "gate_beats": 0.8,
+      "velocity": 0.09555831407962137,
+      "pan": 0.25300992557293195,
+      "seed": 114534119
+    },
+    {
+      "instrument": "bass",
+      "beat": 123.99539008817663,
+      "note": 36,
+      "gate_beats": 1.75,
+      "velocity": 0.10391091518549839,
+      "pan": -0.021067518387496292,
+      "seed": 416289187
+    },
+    {
+      "instrument": "doum",
+      "beat": 123.99618921836709,
+      "note": null,
+      "gate_beats": 0.5,
+      "velocity": 0.10611311424509587,
+      "pan": -0.15139575131956673,
+      "seed": 1675204856
+    },
+    {
+      "instrument": "shaker",
+      "beat": 123.99342669945258,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.011607731378204405,
+      "pan": 0.37754823792839853,
+      "seed": 117005293
+    },
+    {
+      "instrument": "shaker",
+      "beat": 124.50296718706349,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008596270201407926,
+      "pan": -0.4523384298419111,
+      "seed": 1273178806
+    },
+    {
+      "instrument": "shaker",
+      "beat": 124.99742943604886,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.012125930867412872,
+      "pan": 0.42407244459808363,
+      "seed": 1209342892
+    },
+    {
+      "instrument": "shaker",
+      "beat": 125.49394351699748,
+      "note": null,
+      "gate_beats": 0.13,
+      "velocity": 0.008869509716534904,
+      "pan": -0.458090427670112,
+      "seed": 1496949234
+    },
+    {
+      "instrument": "pad",
+      "beat": -0.3,
+      "note": 48,
+      "gate_beats": 13.5,
+      "velocity": 0.023210093260863204,
+      "pan": -0.27701246582853706,
+      "seed": 442218924
+    },
+    {
+      "instrument": "pad",
+      "beat": -0.3,
+      "note": 55,
+      "gate_beats": 13.5,
+      "velocity": 0.02088750830164852,
+      "pan": 0.2632193887882991,
+      "seed": 1028356396
+    },
+    {
+      "instrument": "pad",
+      "beat": 15.7,
+      "note": 48,
+      "gate_beats": 13.5,
+      "velocity": 0.022985682570241077,
+      "pan": -0.27496725735326266,
+      "seed": 991867866
+    },
+    {
+      "instrument": "pad",
+      "beat": 15.7,
+      "note": 55,
+      "gate_beats": 13.5,
+      "velocity": 0.02107110594292897,
+      "pan": 0.2647385986470503,
+      "seed": 286609325
+    },
+    {
+      "instrument": "pad",
+      "beat": 31.7,
+      "note": 48,
+      "gate_beats": 13.5,
+      "velocity": 0.022487077016607144,
+      "pan": -0.2618124800853411,
+      "seed": 1865258300
+    },
+    {
+      "instrument": "pad",
+      "beat": 31.7,
+      "note": 55,
+      "gate_beats": 13.5,
+      "velocity": 0.021556500286204452,
+      "pan": 0.27932672042893686,
+      "seed": 2048406365
+    },
+    {
+      "instrument": "pad",
+      "beat": 47.7,
+      "note": 48,
+      "gate_beats": 13.5,
+      "velocity": 0.022148417871421893,
+      "pan": -0.30336728259858714,
+      "seed": 1946474341
+    },
+    {
+      "instrument": "pad",
+      "beat": 47.7,
+      "note": 55,
+      "gate_beats": 13.5,
+      "velocity": 0.02115426260254837,
+      "pan": 0.2896099558155746,
+      "seed": 1406146766
+    },
+    {
+      "instrument": "pad",
+      "beat": 63.7,
+      "note": 48,
+      "gate_beats": 13.5,
+      "velocity": 0.020785995194439147,
+      "pan": -0.2640101161402816,
+      "seed": 1572124439
+    },
+    {
+      "instrument": "pad",
+      "beat": 63.7,
+      "note": 55,
+      "gate_beats": 13.5,
+      "velocity": 0.02179981718078287,
+      "pan": 0.2957964593399385,
+      "seed": 1410479460
+    },
+    {
+      "instrument": "pad",
+      "beat": 79.7,
+      "note": 48,
+      "gate_beats": 13.5,
+      "velocity": 0.02122175256909356,
+      "pan": -0.2720793350804422,
+      "seed": 249423595
+    },
+    {
+      "instrument": "pad",
+      "beat": 79.7,
+      "note": 55,
+      "gate_beats": 13.5,
+      "velocity": 0.021767104228576882,
+      "pan": 0.30147530606305895,
+      "seed": 1837459885
+    },
+    {
+      "instrument": "pad",
+      "beat": 95.7,
+      "note": 48,
+      "gate_beats": 13.5,
+      "velocity": 0.020858799463386566,
+      "pan": -0.26247849811260804,
+      "seed": 404523463
+    },
+    {
+      "instrument": "pad",
+      "beat": 95.7,
+      "note": 55,
+      "gate_beats": 13.5,
+      "velocity": 0.021798835095212184,
+      "pan": 0.27046759523611963,
+      "seed": 1761607459
+    },
+    {
+      "instrument": "pad",
+      "beat": 111.7,
+      "note": 48,
+      "gate_beats": 13.5,
+      "velocity": 0.022765730886086095,
+      "pan": -0.28394020576809476,
+      "seed": 506230158
+    },
+    {
+      "instrument": "pad",
+      "beat": 111.7,
+      "note": 55,
+      "gate_beats": 13.5,
+      "velocity": 0.02107400065836547,
+      "pan": 0.27340076823321324,
+      "seed": 2078519436
+    },
+    {
+      "instrument": "flute",
+      "beat": -0.0038511551010637136,
+      "note": 60,
+      "gate_beats": 0.86,
+      "velocity": 0.165570028256056,
+      "pan": 0.0577972201690659,
+      "seed": 1236579101
+    },
+    {
+      "instrument": "flute",
+      "beat": 0.9951244415978237,
+      "note": 61,
+      "gate_beats": 0.43,
+      "velocity": 0.1790286602033979,
+      "pan": 0.08666741560585,
+      "seed": 1369943178
+    },
+    {
+      "instrument": "flute",
+      "beat": 1.5062894201168306,
+      "note": 64,
+      "gate_beats": 0.43,
+      "velocity": 0.16245957619868837,
+      "pan": 0.07320314952486934,
+      "seed": 1814285539
+    },
+    {
+      "instrument": "flute",
+      "beat": 1.9980640581448754,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.1705350799606668,
+      "pan": 0.08536974392868737,
+      "seed": 1044388965
+    },
+    {
+      "instrument": "flute",
+      "beat": 3.0040400221243533,
+      "note": 65,
+      "gate_beats": 0.86,
+      "velocity": 0.1752120494440981,
+      "pan": 0.0941348042399652,
+      "seed": 1539957284
+    },
+    {
+      "instrument": "flute",
+      "beat": 3.9990111276865834,
+      "note": 64,
+      "gate_beats": 0.86,
+      "velocity": 0.16658055273432942,
+      "pan": 0.0896759819538347,
+      "seed": 163445373
+    },
+    {
+      "instrument": "flute",
+      "beat": 4.999731280945613,
+      "note": 61,
+      "gate_beats": 0.43,
+      "velocity": 0.16891445054429,
+      "pan": 0.08150723059353787,
+      "seed": 1898373540
+    },
+    {
+      "instrument": "flute",
+      "beat": 5.500660255754341,
+      "note": 60,
+      "gate_beats": 0.43,
+      "velocity": 0.16675322075779705,
+      "pan": 0.08163164735024286,
+      "seed": 329523365
+    },
+    {
+      "instrument": "flute",
+      "beat": 5.994661852165999,
+      "note": 59,
+      "gate_beats": 0.86,
+      "velocity": 0.16046777323886496,
+      "pan": 0.09859110173239369,
+      "seed": 864091126
+    },
+    {
+      "instrument": "flute",
+      "beat": 6.99402102447485,
+      "note": 60,
+      "gate_beats": 0.86,
+      "velocity": 0.1777025805828884,
+      "pan": 0.10067247141350297,
+      "seed": 1098062465
+    },
+    {
+      "instrument": "flute",
+      "beat": 7.994015826459932,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.16481703835471184,
+      "pan": 0.09534119090910398,
+      "seed": 1683261302
+    },
+    {
+      "instrument": "flute",
+      "beat": 9.000063580224438,
+      "note": 68,
+      "gate_beats": 0.43,
+      "velocity": 0.17609586349654102,
+      "pan": 0.0960156679266013,
+      "seed": 578468310
+    },
+    {
+      "instrument": "flute",
+      "beat": 9.496821704965585,
+      "note": 71,
+      "gate_beats": 0.43,
+      "velocity": 0.17986184514577752,
+      "pan": 0.07064968678249693,
+      "seed": 1435165058
+    },
+    {
+      "instrument": "flute",
+      "beat": 10.002382668565085,
+      "note": 72,
+      "gate_beats": 0.86,
+      "velocity": 0.17494874107808064,
+      "pan": 0.07019967272395376,
+      "seed": 1208995650
+    },
+    {
+      "instrument": "flute",
+      "beat": 10.998485355140401,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.17794196372316326,
+      "pan": 0.06796840256046892,
+      "seed": 1336082537
+    },
+    {
+      "instrument": "flute",
+      "beat": 12.003807160387742,
+      "note": 65,
+      "gate_beats": 0.86,
+      "velocity": 0.17613305771758062,
+      "pan": 0.058371924259243174,
+      "seed": 703777042
+    },
+    {
+      "instrument": "flute",
+      "beat": 13.000275956808277,
+      "note": 64,
+      "gate_beats": 0.86,
+      "velocity": 0.16860895766413445,
+      "pan": 0.059408574611903894,
+      "seed": 1209449463
+    },
+    {
+      "instrument": "flute",
+      "beat": 13.99404366615491,
+      "note": 61,
+      "gate_beats": 0.86,
+      "velocity": 0.1764001394242718,
+      "pan": 0.06212055669497814,
+      "seed": 320063493
+    },
+    {
+      "instrument": "flute",
+      "beat": 15.004249287833757,
+      "note": 60,
+      "gate_beats": 0.86,
+      "velocity": 0.16022661716102227,
+      "pan": 0.1008868132106123,
+      "seed": 1118115112
+    },
+    {
+      "instrument": "flute",
+      "beat": 16.99588180884534,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.14887422853548285,
+      "pan": 0.07526577129389966,
+      "seed": 996938120
+    },
+    {
+      "instrument": "flute",
+      "beat": 17.99470464317708,
+      "note": 65,
+      "gate_beats": 0.43,
+      "velocity": 0.14370192625414324,
+      "pan": 0.05550818579746204,
+      "seed": 124750662
+    },
+    {
+      "instrument": "flute",
+      "beat": 18.503650552329017,
+      "note": 64,
+      "gate_beats": 0.43,
+      "velocity": 0.13653196421986982,
+      "pan": 0.05910302348170252,
+      "seed": 1225086324
+    },
+    {
+      "instrument": "flute",
+      "beat": 18.99409294528154,
+      "note": 61,
+      "gate_beats": 0.86,
+      "velocity": 0.14486017832812376,
+      "pan": 0.08207940838340522,
+      "seed": 556970023
+    },
+    {
+      "instrument": "flute",
+      "beat": 19.99365025980218,
+      "note": 60,
+      "gate_beats": 1.29,
+      "velocity": 0.14867790955453034,
+      "pan": 0.09512569414033734,
+      "seed": 900851544
+    },
+    {
+      "instrument": "flute",
+      "beat": 21.994784619853895,
+      "note": 64,
+      "gate_beats": 0.86,
+      "velocity": 0.14526879153631184,
+      "pan": 0.09143487007747886,
+      "seed": 1809297748
+    },
+    {
+      "instrument": "flute",
+      "beat": 22.996875366006734,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.13729514163013892,
+      "pan": 0.1002669380325541,
+      "seed": 110972804
+    },
+    {
+      "instrument": "flute",
+      "beat": 24.005757023111755,
+      "note": 68,
+      "gate_beats": 0.86,
+      "velocity": 0.14306045135493156,
+      "pan": 0.084270794727029,
+      "seed": 218364698
+    },
+    {
+      "instrument": "flute",
+      "beat": 24.996081941583938,
+      "note": 67,
+      "gate_beats": 0.43,
+      "velocity": 0.13672243109760196,
+      "pan": 0.07734594512038262,
+      "seed": 625430908
+    },
+    {
+      "instrument": "flute",
+      "beat": 25.504377591990416,
+      "note": 65,
+      "gate_beats": 0.43,
+      "velocity": 0.14457729058040517,
+      "pan": 0.08485811853976549,
+      "seed": 1862004914
+    },
+    {
+      "instrument": "flute",
+      "beat": 25.99805799284927,
+      "note": 64,
+      "gate_beats": 0.86,
+      "velocity": 0.14244831072847072,
+      "pan": 0.057820213325501864,
+      "seed": 284501099
+    },
+    {
+      "instrument": "flute",
+      "beat": 27.006119560335346,
+      "note": 61,
+      "gate_beats": 0.86,
+      "velocity": 0.13667950015681726,
+      "pan": 0.06442035771051634,
+      "seed": 1706445580
+    },
+    {
+      "instrument": "flute",
+      "beat": 27.993456309154716,
+      "note": 59,
+      "gate_beats": 0.86,
+      "velocity": 0.14580954262826648,
+      "pan": 0.07624451520388671,
+      "seed": 323758603
+    },
+    {
+      "instrument": "flute",
+      "beat": 28.998709522293307,
+      "note": 60,
+      "gate_beats": 1.72,
+      "velocity": 0.15304661900205022,
+      "pan": 0.07021643550571174,
+      "seed": 1457554180
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 31.99849660143153,
+      "note": 60,
+      "gate_beats": 0.86,
+      "velocity": 0.1990068923403724,
+      "pan": -0.12856098051226697,
+      "seed": 1046652200
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 33.00416132382798,
+      "note": 61,
+      "gate_beats": 0.43,
+      "velocity": 0.2015043733860413,
+      "pan": -0.11173739489761472,
+      "seed": 2100816841
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 33.50452548092063,
+      "note": 64,
+      "gate_beats": 0.43,
+      "velocity": 0.20590724532103652,
+      "pan": -0.12285861706070711,
+      "seed": 890141878
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 34.00639745915051,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.20960521431636228,
+      "pan": -0.10957825551413418,
+      "seed": 525621944
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 35.003084672212964,
+      "note": 65,
+      "gate_beats": 0.86,
+      "velocity": 0.21477160451139893,
+      "pan": -0.10643169699274417,
+      "seed": 337091272
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 36.000048056428724,
+      "note": 64,
+      "gate_beats": 0.86,
+      "velocity": 0.20394284745298724,
+      "pan": -0.10196347910500245,
+      "seed": 16185179
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 37.00116524487774,
+      "note": 61,
+      "gate_beats": 0.43,
+      "velocity": 0.21776530709196998,
+      "pan": -0.1340809179416721,
+      "seed": 816593151
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 37.50020701495838,
+      "note": 60,
+      "gate_beats": 0.43,
+      "velocity": 0.21018771971680417,
+      "pan": -0.13756438122417014,
+      "seed": 78678228
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 38.000970818019326,
+      "note": 59,
+      "gate_beats": 0.86,
+      "velocity": 0.21859444094700364,
+      "pan": -0.11985589614976637,
+      "seed": 1170281850
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 38.999011428992084,
+      "note": 60,
+      "gate_beats": 0.86,
+      "velocity": 0.206328727737121,
+      "pan": -0.0971395923405065,
+      "seed": 235234497
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 40.0042139965782,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.21292193832250614,
+      "pan": -0.10664245983067913,
+      "seed": 1130990581
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 40.99784060573845,
+      "note": 68,
+      "gate_beats": 0.43,
+      "velocity": 0.20807276200693114,
+      "pan": -0.10774600578731229,
+      "seed": 2099346617
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 41.49546650675889,
+      "note": 71,
+      "gate_beats": 0.43,
+      "velocity": 0.21560886451304914,
+      "pan": -0.14021536934292742,
+      "seed": 1680211805
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 42.00659279512247,
+      "note": 72,
+      "gate_beats": 0.86,
+      "velocity": 0.20390082573057527,
+      "pan": -0.1440804618015936,
+      "seed": 1810314731
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 43.0042376639317,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.20268825522816525,
+      "pan": -0.14045392553085717,
+      "seed": 1269238208
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 43.99954630322585,
+      "note": 65,
+      "gate_beats": 0.86,
+      "velocity": 0.1993931894037438,
+      "pan": -0.14477669351966826,
+      "seed": 873146386
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 45.00101643897748,
+      "note": 64,
+      "gate_beats": 0.86,
+      "velocity": 0.20401006998834423,
+      "pan": -0.14206953641563239,
+      "seed": 1777120850
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 46.00192427271621,
+      "note": 61,
+      "gate_beats": 0.86,
+      "velocity": 0.21631322464813046,
+      "pan": -0.14305900764177198,
+      "seed": 966328643
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 46.99450459771737,
+      "note": 60,
+      "gate_beats": 0.86,
+      "velocity": 0.21535938080204375,
+      "pan": -0.1406267338708859,
+      "seed": 1200074014
+    },
+    {
+      "instrument": "flute",
+      "beat": 49.003680302255965,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.148122992587095,
+      "pan": 0.19845042505697308,
+      "seed": 1876072716
+    },
+    {
+      "instrument": "flute",
+      "beat": 49.99642123169688,
+      "note": 65,
+      "gate_beats": 0.43,
+      "velocity": 0.140500053074511,
+      "pan": 0.1954191592907952,
+      "seed": 1250809574
+    },
+    {
+      "instrument": "flute",
+      "beat": 50.49587328508623,
+      "note": 64,
+      "gate_beats": 0.43,
+      "velocity": 0.1447860480565588,
+      "pan": 0.17206385160839316,
+      "seed": 201921938
+    },
+    {
+      "instrument": "flute",
+      "beat": 50.99589502936734,
+      "note": 61,
+      "gate_beats": 0.86,
+      "velocity": 0.1343393167051021,
+      "pan": 0.15835766209635774,
+      "seed": 282926194
+    },
+    {
+      "instrument": "flute",
+      "beat": 51.99575912285849,
+      "note": 60,
+      "gate_beats": 1.29,
+      "velocity": 0.14333193192722385,
+      "pan": 0.18244793597147269,
+      "seed": 1722662854
+    },
+    {
+      "instrument": "flute",
+      "beat": 54.001461501080094,
+      "note": 64,
+      "gate_beats": 0.86,
+      "velocity": 0.14178102641340365,
+      "pan": 0.18979967936889236,
+      "seed": 855500813
+    },
+    {
+      "instrument": "flute",
+      "beat": 55.00265944522473,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.13816758253299635,
+      "pan": 0.16088178798773378,
+      "seed": 127983103
+    },
+    {
+      "instrument": "flute",
+      "beat": 55.99846172348954,
+      "note": 68,
+      "gate_beats": 0.86,
+      "velocity": 0.13998635090298225,
+      "pan": 0.17689538779010544,
+      "seed": 402386753
+    },
+    {
+      "instrument": "flute",
+      "beat": 56.993531887104496,
+      "note": 67,
+      "gate_beats": 0.43,
+      "velocity": 0.13909004003148265,
+      "pan": 0.16644716701373982,
+      "seed": 1653706525
+    },
+    {
+      "instrument": "flute",
+      "beat": 57.50455447828686,
+      "note": 65,
+      "gate_beats": 0.43,
+      "velocity": 0.13518796499299635,
+      "pan": 0.17073390702160496,
+      "seed": 1141580963
+    },
+    {
+      "instrument": "flute",
+      "beat": 57.99545192307048,
+      "note": 64,
+      "gate_beats": 0.86,
+      "velocity": 0.14059263306058165,
+      "pan": 0.16702739540872447,
+      "seed": 296571011
+    },
+    {
+      "instrument": "flute",
+      "beat": 58.99552987747958,
+      "note": 61,
+      "gate_beats": 0.86,
+      "velocity": 0.14205237770146514,
+      "pan": 0.18265053667918327,
+      "seed": 668354800
+    },
+    {
+      "instrument": "flute",
+      "beat": 60.004303575265695,
+      "note": 59,
+      "gate_beats": 0.86,
+      "velocity": 0.13965570463396984,
+      "pan": 0.16486833587033722,
+      "seed": 1317911251
+    },
+    {
+      "instrument": "flute",
+      "beat": 60.99908681302212,
+      "note": 60,
+      "gate_beats": 1.72,
+      "velocity": 0.1364479980229591,
+      "pan": 0.18004856843032685,
+      "seed": 1933603436
+    },
+    {
+      "instrument": "flute",
+      "beat": 63.996321147950134,
+      "note": 72,
+      "gate_beats": 0.86,
+      "velocity": 0.10845082008209762,
+      "pan": 0.12651501121741168,
+      "seed": 242416906
+    },
+    {
+      "instrument": "flute",
+      "beat": 64.99384885313347,
+      "note": 73,
+      "gate_beats": 0.43,
+      "velocity": 0.11978338611699692,
+      "pan": 0.10828360997981556,
+      "seed": 1854773808
+    },
+    {
+      "instrument": "flute",
+      "beat": 65.49544602508148,
+      "note": 76,
+      "gate_beats": 0.43,
+      "velocity": 0.11206500853480238,
+      "pan": 0.11613402580710089,
+      "seed": 148199462
+    },
+    {
+      "instrument": "flute",
+      "beat": 66.00664287162327,
+      "note": 79,
+      "gate_beats": 0.86,
+      "velocity": 0.10988414725587727,
+      "pan": 0.14451050181752428,
+      "seed": 901663695
+    },
+    {
+      "instrument": "flute",
+      "beat": 66.99718235889684,
+      "note": 77,
+      "gate_beats": 0.86,
+      "velocity": 0.11603466226535523,
+      "pan": 0.13898976271295818,
+      "seed": 797109750
+    },
+    {
+      "instrument": "flute",
+      "beat": 68.00449590970123,
+      "note": 76,
+      "gate_beats": 0.86,
+      "velocity": 0.11997715702606185,
+      "pan": 0.14050857729500732,
+      "seed": 1733271164
+    },
+    {
+      "instrument": "flute",
+      "beat": 68.99601513665733,
+      "note": 73,
+      "gate_beats": 0.43,
+      "velocity": 0.11778975611926719,
+      "pan": 0.10105517374451718,
+      "seed": 399678721
+    },
+    {
+      "instrument": "flute",
+      "beat": 69.4960921840406,
+      "note": 72,
+      "gate_beats": 0.43,
+      "velocity": 0.11162686746278001,
+      "pan": 0.1346140450380833,
+      "seed": 637077194
+    },
+    {
+      "instrument": "flute",
+      "beat": 69.99457535940982,
+      "note": 71,
+      "gate_beats": 0.86,
+      "velocity": 0.11258122636737367,
+      "pan": 0.1109066909620787,
+      "seed": 46493648
+    },
+    {
+      "instrument": "flute",
+      "beat": 71.00641515891812,
+      "note": 72,
+      "gate_beats": 0.86,
+      "velocity": 0.1148075286055187,
+      "pan": 0.13951597644366964,
+      "seed": 1596103190
+    },
+    {
+      "instrument": "flute",
+      "beat": 72.00271252278675,
+      "note": 79,
+      "gate_beats": 0.86,
+      "velocity": 0.11690188925250099,
+      "pan": 0.14312578046134844,
+      "seed": 1948826039
+    },
+    {
+      "instrument": "flute",
+      "beat": 73.00453178058088,
+      "note": 80,
+      "gate_beats": 0.43,
+      "velocity": 0.12050700651818332,
+      "pan": 0.14114122398574733,
+      "seed": 1259405269
+    },
+    {
+      "instrument": "flute",
+      "beat": 73.50106221627063,
+      "note": 83,
+      "gate_beats": 0.43,
+      "velocity": 0.1110374297644965,
+      "pan": 0.13687103946087598,
+      "seed": 1670776695
+    },
+    {
+      "instrument": "flute",
+      "beat": 73.9987968587936,
+      "note": 84,
+      "gate_beats": 0.86,
+      "velocity": 0.11271609091799135,
+      "pan": 0.11350531527618121,
+      "seed": 362100066
+    },
+    {
+      "instrument": "flute",
+      "beat": 74.99894003391232,
+      "note": 79,
+      "gate_beats": 0.86,
+      "velocity": 0.11050825705689948,
+      "pan": 0.1219591305280532,
+      "seed": 94836910
+    },
+    {
+      "instrument": "flute",
+      "beat": 76.00200266129795,
+      "note": 77,
+      "gate_beats": 0.86,
+      "velocity": 0.10897671389933886,
+      "pan": 0.12135516963879897,
+      "seed": 969491658
+    },
+    {
+      "instrument": "flute",
+      "beat": 77.00311060346566,
+      "note": 76,
+      "gate_beats": 0.86,
+      "velocity": 0.11951017480471758,
+      "pan": 0.10275996171866017,
+      "seed": 1629876093
+    },
+    {
+      "instrument": "flute",
+      "beat": 77.99796943887685,
+      "note": 73,
+      "gate_beats": 0.86,
+      "velocity": 0.1200983575260186,
+      "pan": 0.11391424559817706,
+      "seed": 174431862
+    },
+    {
+      "instrument": "flute",
+      "beat": 78.99984677323125,
+      "note": 72,
+      "gate_beats": 0.86,
+      "velocity": 0.11829309929276488,
+      "pan": 0.1243442748948872,
+      "seed": 891485089
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 80.99700878371517,
+      "note": 79,
+      "gate_beats": 0.86,
+      "velocity": 0.15394544763941664,
+      "pan": -0.15462785294514128,
+      "seed": 747958949
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 81.99854136961841,
+      "note": 77,
+      "gate_beats": 0.43,
+      "velocity": 0.1550968651139898,
+      "pan": -0.16252182326943543,
+      "seed": 52541038
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 82.50657041066854,
+      "note": 76,
+      "gate_beats": 0.43,
+      "velocity": 0.16381201347181212,
+      "pan": -0.17427405804769647,
+      "seed": 852457296
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 83.00481926572225,
+      "note": 73,
+      "gate_beats": 0.86,
+      "velocity": 0.15929266967351546,
+      "pan": -0.16389919474434975,
+      "seed": 60241126
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 84.00252453834638,
+      "note": 72,
+      "gate_beats": 1.29,
+      "velocity": 0.1565614873349175,
+      "pan": -0.16461494228613413,
+      "seed": 1867448540
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 85.99523148836786,
+      "note": 76,
+      "gate_beats": 0.86,
+      "velocity": 0.14839105070219516,
+      "pan": -0.13507597050639675,
+      "seed": 714385934
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 86.99489453067082,
+      "note": 79,
+      "gate_beats": 0.86,
+      "velocity": 0.1520151726417517,
+      "pan": -0.14201947214813126,
+      "seed": 1748844826
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 87.99930325448531,
+      "note": 80,
+      "gate_beats": 0.86,
+      "velocity": 0.15068071749144824,
+      "pan": -0.18148964027609252,
+      "seed": 151441905
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 89.00033936447261,
+      "note": 79,
+      "gate_beats": 0.43,
+      "velocity": 0.16367744507291027,
+      "pan": -0.18147329019359082,
+      "seed": 1295435396
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 89.49706938183161,
+      "note": 77,
+      "gate_beats": 0.43,
+      "velocity": 0.14789201367012134,
+      "pan": -0.17047647683607112,
+      "seed": 265936867
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 89.99608017655895,
+      "note": 76,
+      "gate_beats": 0.86,
+      "velocity": 0.15200626331373604,
+      "pan": -0.13871425987361347,
+      "seed": 1363337333
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 91.0013970053245,
+      "note": 73,
+      "gate_beats": 0.86,
+      "velocity": 0.16263745453499875,
+      "pan": -0.16315595304992117,
+      "seed": 464393813
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 92.00278118822939,
+      "note": 71,
+      "gate_beats": 0.86,
+      "velocity": 0.16106306694308223,
+      "pan": -0.17539602917503547,
+      "seed": 1225679158
+    },
+    {
+      "instrument": "lute_lead",
+      "beat": 93.00397106398583,
+      "note": 72,
+      "gate_beats": 1.72,
+      "velocity": 0.14598202666801957,
+      "pan": -0.15813192291574196,
+      "seed": 1409868140
+    },
+    {
+      "instrument": "flute",
+      "beat": 96.00286738948343,
+      "note": 60,
+      "gate_beats": 0.86,
+      "velocity": 0.1631775207490987,
+      "pan": 0.08070638636249008,
+      "seed": 1245010646
+    },
+    {
+      "instrument": "flute",
+      "beat": 96.99478347799383,
+      "note": 61,
+      "gate_beats": 0.43,
+      "velocity": 0.15239984582625918,
+      "pan": 0.09328298147191266,
+      "seed": 203651533
+    },
+    {
+      "instrument": "flute",
+      "beat": 97.50655037093661,
+      "note": 64,
+      "gate_beats": 0.43,
+      "velocity": 0.16140209362164576,
+      "pan": 0.08899213987426545,
+      "seed": 1378455788
+    },
+    {
+      "instrument": "flute",
+      "beat": 97.99938775974532,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.16320612975169632,
+      "pan": 0.06767721768994575,
+      "seed": 514398124
+    },
+    {
+      "instrument": "flute",
+      "beat": 99.00272099965265,
+      "note": 65,
+      "gate_beats": 0.86,
+      "velocity": 0.1555807739385642,
+      "pan": 0.08543903180986806,
+      "seed": 958315256
+    },
+    {
+      "instrument": "flute",
+      "beat": 99.99952836256531,
+      "note": 64,
+      "gate_beats": 0.86,
+      "velocity": 0.15182344324010852,
+      "pan": 0.09640214020339796,
+      "seed": 203247772
+    },
+    {
+      "instrument": "flute",
+      "beat": 101.00474407300379,
+      "note": 61,
+      "gate_beats": 0.43,
+      "velocity": 0.15486075533800805,
+      "pan": 0.06365264774810481,
+      "seed": 1484359881
+    },
+    {
+      "instrument": "flute",
+      "beat": 101.49715671380105,
+      "note": 60,
+      "gate_beats": 0.43,
+      "velocity": 0.1531999053788738,
+      "pan": 0.08850947805196238,
+      "seed": 1399659125
+    },
+    {
+      "instrument": "flute",
+      "beat": 102.00519390243488,
+      "note": 59,
+      "gate_beats": 0.86,
+      "velocity": 0.16594372359308085,
+      "pan": 0.08235482266659869,
+      "seed": 682910768
+    },
+    {
+      "instrument": "flute",
+      "beat": 103.00424081929354,
+      "note": 60,
+      "gate_beats": 0.86,
+      "velocity": 0.15424996329947896,
+      "pan": 0.07992213237790399,
+      "seed": 1413893562
+    },
+    {
+      "instrument": "flute",
+      "beat": 103.99491377962978,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.15538811742386147,
+      "pan": 0.08323386627980298,
+      "seed": 1629703206
+    },
+    {
+      "instrument": "flute",
+      "beat": 105.00118594660378,
+      "note": 68,
+      "gate_beats": 0.43,
+      "velocity": 0.1629855380165201,
+      "pan": 0.10181326536779664,
+      "seed": 777835830
+    },
+    {
+      "instrument": "flute",
+      "beat": 105.49658276193954,
+      "note": 71,
+      "gate_beats": 0.43,
+      "velocity": 0.16331889797119162,
+      "pan": 0.07319505306911517,
+      "seed": 1599636794
+    },
+    {
+      "instrument": "flute",
+      "beat": 105.99967385540452,
+      "note": 72,
+      "gate_beats": 0.86,
+      "velocity": 0.16482003482738755,
+      "pan": 0.06352762931867717,
+      "seed": 12836212
+    },
+    {
+      "instrument": "flute",
+      "beat": 106.99940460700053,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.15252245190952549,
+      "pan": 0.07973154418870196,
+      "seed": 1586143849
+    },
+    {
+      "instrument": "flute",
+      "beat": 107.99925324275459,
+      "note": 65,
+      "gate_beats": 0.86,
+      "velocity": 0.1663325151359762,
+      "pan": 0.06190914588121339,
+      "seed": 1177127145
+    },
+    {
+      "instrument": "flute",
+      "beat": 109.00336008172049,
+      "note": 64,
+      "gate_beats": 0.86,
+      "velocity": 0.15590802364152875,
+      "pan": 0.06865459212533177,
+      "seed": 426957020
+    },
+    {
+      "instrument": "flute",
+      "beat": 109.99502356796349,
+      "note": 61,
+      "gate_beats": 0.86,
+      "velocity": 0.15836929667819097,
+      "pan": 0.06158653931415098,
+      "seed": 720463181
+    },
+    {
+      "instrument": "flute",
+      "beat": 111.0062411392871,
+      "note": 60,
+      "gate_beats": 0.86,
+      "velocity": 0.15118592634152248,
+      "pan": 0.09745014766341181,
+      "seed": 1668439606
+    },
+    {
+      "instrument": "flute",
+      "beat": 112.99362111270021,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.12959745232756986,
+      "pan": 0.08290525050138839,
+      "seed": 150414467
+    },
+    {
+      "instrument": "flute",
+      "beat": 113.99787027256487,
+      "note": 65,
+      "gate_beats": 0.43,
+      "velocity": 0.13426831754251872,
+      "pan": 0.07733458837284674,
+      "seed": 608564238
+    },
+    {
+      "instrument": "flute",
+      "beat": 114.49859681394541,
+      "note": 64,
+      "gate_beats": 0.43,
+      "velocity": 0.13761659122384637,
+      "pan": 0.09394157759311787,
+      "seed": 1882145909
+    },
+    {
+      "instrument": "flute",
+      "beat": 115.00120978818829,
+      "note": 61,
+      "gate_beats": 0.86,
+      "velocity": 0.1330737812642075,
+      "pan": 0.08057887682880914,
+      "seed": 540352448
+    },
+    {
+      "instrument": "flute",
+      "beat": 116.00095323479177,
+      "note": 60,
+      "gate_beats": 1.29,
+      "velocity": 0.12481145161035934,
+      "pan": 0.0863555207522507,
+      "seed": 466424688
+    },
+    {
+      "instrument": "flute",
+      "beat": 118.00461357061566,
+      "note": 64,
+      "gate_beats": 0.86,
+      "velocity": 0.12397413193168733,
+      "pan": 0.06186765495405476,
+      "seed": 1619746630
+    },
+    {
+      "instrument": "flute",
+      "beat": 118.99606667189299,
+      "note": 67,
+      "gate_beats": 0.86,
+      "velocity": 0.13406802658395353,
+      "pan": 0.08932104793995845,
+      "seed": 1491913929
+    },
+    {
+      "instrument": "flute",
+      "beat": 119.99838031701802,
+      "note": 67,
+      "gate_beats": 1.29,
+      "velocity": 0.13628336580528885,
+      "pan": 0.09044566691277531,
+      "seed": 1387349635
+    },
+    {
+      "instrument": "flute",
+      "beat": 121.50219543062153,
+      "note": 64,
+      "gate_beats": 0.86,
+      "velocity": 0.13754517092763488,
+      "pan": 0.08664327530033136,
+      "seed": 708679790
+    },
+    {
+      "instrument": "flute",
+      "beat": 124.00124465308326,
+      "note": 61,
+      "gate_beats": 0.86,
+      "velocity": 0.12488194877774954,
+      "pan": 0.08388935665632719,
+      "seed": 742793023
+    },
+    {
+      "instrument": "flute",
+      "beat": 125.00087561468845,
+      "note": 59,
+      "gate_beats": 0.86,
+      "velocity": 0.13480161300466798,
+      "pan": 0.08680219608844764,
+      "seed": 827014768
+    }
+  ]
+}

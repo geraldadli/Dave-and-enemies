@@ -1,0 +1,44 @@
+{
+  "asset_id": "snd_levelup",
+  "purpose": "Level increases",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 1.3,
+  "actual_duration_seconds": 1.3,
+  "variation_count": 1,
+  "files": [
+    {
+      "file": "snd_levelup.wav",
+      "path": "audio/sfx/snd_levelup.wav",
+      "sha256": "764a4de25eff861cc6537edd0eeefa4acd69fe5a559619a87ac0bdea368d5a5d",
+      "bytes": 114704,
+      "frames": 57330,
+      "duration_seconds": 1.3,
+      "seed": 3873671913,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.96473,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.04029,
+        "dc_offset": 5.32314287894645e-10,
+        "onset_ms_at_minus60_relative": 0.227,
+        "trailing_ms_below_minus60_relative": 1.451
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_levelup: Level increases. Compose a compact original C5-E5-G5-C6 plucked figure with a warm breathy shimmer and soft hand-drum tap. Uplifting but modest, no triumphant orchestra or borrowed game jingle. Deliver 1 distinct take, each 1.3 seconds long including decay. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 0.0,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

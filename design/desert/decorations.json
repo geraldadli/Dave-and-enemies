@@ -1,0 +1,1087 @@
+{
+  "rm_d01_arrival": [
+    {
+      "id": "rm_d01_arrival:deco1",
+      "prop": "ruin_block",
+      "asset_id": "spr_ruin_block",
+      "cell": [
+        5,
+        4
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Breached-city rubble on blocked cliff; west is the past."
+    },
+    {
+      "id": "rm_d01_arrival:deco2",
+      "prop": "tree_dead",
+      "asset_id": "spr_tree_dead",
+      "cell": [
+        29,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Bare silhouette on blocked ground points toward the east gap."
+    },
+    {
+      "id": "rm_d01_arrival:deco3",
+      "prop": "pebbles",
+      "asset_id": "spr_pebbles",
+      "cell": [
+        22,
+        16
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    },
+    {
+      "id": "rm_d01_arrival:deco4",
+      "prop": "bush_dead",
+      "asset_id": "spr_bush_dead",
+      "cell": [
+        8,
+        16
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_d02_dune_trail": [
+    {
+      "id": "rm_d02_dune_trail:deco1",
+      "prop": "cactus_tall",
+      "asset_id": "spr_cactus_tall",
+      "cell": [
+        11,
+        5
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "A forked cactus on solid dune top marks the chest loop."
+    },
+    {
+      "id": "rm_d02_dune_trail:deco2",
+      "prop": "pebbles",
+      "asset_id": "spr_pebbles",
+      "cell": [
+        6,
+        5
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    },
+    {
+      "id": "rm_d02_dune_trail:deco3",
+      "prop": "bush_dead",
+      "asset_id": "spr_bush_dead",
+      "cell": [
+        30,
+        20
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_d03_canyon_approach": [
+    {
+      "id": "rm_d03_canyon_approach:deco1",
+      "prop": "skull",
+      "asset_id": "spr_skull",
+      "cell": [
+        24,
+        20
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    },
+    {
+      "id": "rm_d03_canyon_approach:deco2",
+      "prop": "ruin_block",
+      "asset_id": "spr_ruin_block",
+      "cell": [
+        5,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Two incised blocks repeat the notch motif seen in the optional room."
+    }
+  ],
+  "rm_o1_sunken_lookout": [
+    {
+      "id": "rm_o1_sunken_lookout:deco1",
+      "prop": "obelisk",
+      "asset_id": "spr_obelisk",
+      "cell": [
+        27,
+        11
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Half-buried lookout marker on the cliff band; never blocks the stair landing."
+    },
+    {
+      "id": "rm_o1_sunken_lookout:deco2",
+      "prop": "tree_dead",
+      "asset_id": "spr_tree_dead",
+      "cell": [
+        29,
+        17
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Silhouette on the far basin rim."
+    },
+    {
+      "id": "rm_o1_sunken_lookout:deco3",
+      "prop": "pebbles",
+      "asset_id": "spr_pebbles",
+      "cell": [
+        17,
+        17
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_d04_split_cliffs": [
+    {
+      "id": "rm_d04_split_cliffs:deco1",
+      "prop": "boulder",
+      "asset_id": "spr_boulder",
+      "cell": [
+        18,
+        11
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Split central island divides the two visible routes; art sits on solid cells."
+    },
+    {
+      "id": "rm_d04_split_cliffs:deco2",
+      "prop": "cactus_tall",
+      "asset_id": "spr_cactus_tall",
+      "cell": [
+        17,
+        7
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": ""
+    },
+    {
+      "id": "rm_d04_split_cliffs:deco3",
+      "prop": "pebbles",
+      "asset_id": "spr_pebbles",
+      "cell": [
+        5,
+        18
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_d05_dry_wash": [
+    {
+      "id": "rm_d05_dry_wash:deco1",
+      "prop": "tree_desert",
+      "asset_id": "spr_tree_desert",
+      "cell": [
+        18,
+        4
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Dry roots above the wash; green palm silhouette appears beyond the east exit."
+    },
+    {
+      "id": "rm_d05_dry_wash:deco2",
+      "prop": "palm",
+      "asset_id": "spr_palm",
+      "cell": [
+        32,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Distant oasis cue on solid edge rock; decorative only."
+    },
+    {
+      "id": "rm_d05_dry_wash:deco3",
+      "prop": "pebbles",
+      "asset_id": "spr_pebbles",
+      "cell": [
+        14,
+        19
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_d06_oasis_refuge": [
+    {
+      "id": "rm_d06_oasis_refuge:deco1",
+      "prop": "bush",
+      "asset_id": "spr_bush",
+      "cell": [
+        9,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    },
+    {
+      "id": "rm_d06_oasis_refuge:deco2",
+      "prop": "bush",
+      "asset_id": "spr_bush",
+      "cell": [
+        22,
+        9
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    },
+    {
+      "id": "rm_d06_oasis_refuge:deco3",
+      "prop": "ruin_block",
+      "asset_id": "spr_ruin_block",
+      "cell": [
+        26,
+        4
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "A low square of old stone frames the safe star; no new collision."
+    }
+  ],
+  "rm_o2_hidden_spring": [
+    {
+      "id": "rm_o2_hidden_spring:deco1",
+      "prop": "healing_spring",
+      "asset_id": "spr_healing_spring",
+      "cell": [
+        16,
+        8
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Animated spring sits on blocked water; interact from a separate dry bank trigger."
+    },
+    {
+      "id": "rm_o2_hidden_spring:deco2",
+      "prop": "palm",
+      "asset_id": "spr_palm",
+      "cell": [
+        3,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Nonblocking silhouette beyond the trail; base is drawn on perimeter rock."
+    }
+  ],
+  "rm_d07_ruined_caravan": [
+    {
+      "id": "rm_d07_ruined_caravan:deco1",
+      "prop": "ruin_block",
+      "asset_id": "spr_ruin_block",
+      "cell": [
+        21,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Caravan stone cargo spilled into the north rim."
+    },
+    {
+      "id": "rm_d07_ruined_caravan:deco2",
+      "prop": "pebbles",
+      "asset_id": "spr_pebbles",
+      "cell": [
+        6,
+        18
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_d08_cactus_flats": [
+    {
+      "id": "rm_d08_cactus_flats:deco1",
+      "prop": "bush_dead",
+      "asset_id": "spr_bush_dead",
+      "cell": [
+        20,
+        20
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    },
+    {
+      "id": "rm_d08_cactus_flats:deco2",
+      "prop": "rock_small",
+      "asset_id": "spr_rock_small",
+      "cell": [
+        20,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Three dark stones distinguish the north cache trail from the east route."
+    }
+  ],
+  "rm_d09_bonefield": [
+    {
+      "id": "rm_d09_bonefield:deco1",
+      "prop": "skull",
+      "asset_id": "spr_skull",
+      "cell": [
+        7,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": "A few skulls, not a carpet; silhouettes contrast with intact ruin columns ahead."
+    },
+    {
+      "id": "rm_d09_bonefield:deco2",
+      "prop": "pebbles",
+      "asset_id": "spr_pebbles",
+      "cell": [
+        18,
+        19
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    },
+    {
+      "id": "rm_d09_bonefield:deco3",
+      "prop": "tree_dead",
+      "asset_id": "spr_tree_dead",
+      "cell": [
+        19,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": ""
+    }
+  ],
+  "rm_o3_bandit_cache": [
+    {
+      "id": "rm_o3_bandit_cache:deco1",
+      "prop": "ruin_block",
+      "asset_id": "spr_ruin_block",
+      "cell": [
+        3,
+        4
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Canvas shelter is implied by cargo on the rock rim; do not invent a new tent asset."
+    }
+  ],
+  "rm_d10_broken_bridge": [
+    {
+      "id": "rm_d10_broken_bridge:deco1",
+      "prop": "ruin_block",
+      "asset_id": "spr_ruin_block",
+      "cell": [
+        13,
+        5
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Broken-span abutment, set away from the intact route."
+    },
+    {
+      "id": "rm_d10_broken_bridge:deco2",
+      "prop": "tree_dead",
+      "asset_id": "spr_tree_dead",
+      "cell": [
+        30,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Far-bank tree is visible across the chasm and anchors orientation."
+    }
+  ],
+  "rm_d11_forgotten_ruins": [
+    {
+      "id": "rm_d11_forgotten_ruins:deco1",
+      "prop": "obelisk",
+      "asset_id": "spr_obelisk",
+      "cell": [
+        9,
+        2
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Two intact inscriptions contrast with the broken city rubble from Arrival."
+    },
+    {
+      "id": "rm_d11_forgotten_ruins:deco2",
+      "prop": "ruin_block",
+      "asset_id": "spr_ruin_block",
+      "cell": [
+        16,
+        7
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": ""
+    },
+    {
+      "id": "rm_d11_forgotten_ruins:deco3",
+      "prop": "bush_dead",
+      "asset_id": "spr_bush_dead",
+      "cell": [
+        6,
+        19
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_d12_great_desert_stairs": [
+    {
+      "id": "rm_d12_great_desert_stairs:deco1",
+      "prop": "pharaoh_statue",
+      "asset_id": "spr_pharaoh_statue",
+      "cell": [
+        32,
+        10
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Statue on the cliff face announces the royal plateau."
+    },
+    {
+      "id": "rm_d12_great_desert_stairs:deco2",
+      "prop": "pebbles",
+      "asset_id": "spr_pebbles",
+      "cell": [
+        4,
+        19
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_o4_buried_cistern": [
+    {
+      "id": "rm_o4_buried_cistern:deco1",
+      "prop": "obelisk",
+      "asset_id": "spr_obelisk",
+      "cell": [
+        5,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Water-measure carving on blocked masonry."
+    },
+    {
+      "id": "rm_o4_buried_cistern:deco2",
+      "prop": "bush",
+      "asset_id": "spr_bush",
+      "cell": [
+        6,
+        15
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_d13_windblown_plateau": [
+    {
+      "id": "rm_d13_windblown_plateau:deco1",
+      "prop": "tree_dead",
+      "asset_id": "spr_tree_dead",
+      "cell": [
+        7,
+        17
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Wind-scoured tree on a blocked island points west with its branches."
+    },
+    {
+      "id": "rm_d13_windblown_plateau:deco2",
+      "prop": "rock_small",
+      "asset_id": "spr_rock_small",
+      "cell": [
+        18,
+        5
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": ""
+    },
+    {
+      "id": "rm_d13_windblown_plateau:deco3",
+      "prop": "pebbles",
+      "asset_id": "spr_pebbles",
+      "cell": [
+        28,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_d14_royal_causeway": [
+    {
+      "id": "rm_d14_royal_causeway:deco1",
+      "prop": "pharaoh_statue",
+      "asset_id": "spr_pharaoh_statue",
+      "cell": [
+        15,
+        4
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Royal marker on a blocked pedestal."
+    },
+    {
+      "id": "rm_d14_royal_causeway:deco2",
+      "prop": "pharaoh_statue",
+      "asset_id": "spr_pharaoh_statue",
+      "cell": [
+        23,
+        4
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Matching far-bank statue frames the causeway."
+    }
+  ],
+  "rm_d15_tomb_approach": [
+    {
+      "id": "rm_d15_tomb_approach:deco1",
+      "prop": "pharaoh_statue",
+      "asset_id": "spr_pharaoh_statue",
+      "cell": [
+        4,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "First intact royal statue; the second has lost its head."
+    },
+    {
+      "id": "rm_d15_tomb_approach:deco2",
+      "prop": "ruin_block",
+      "asset_id": "spr_ruin_block",
+      "cell": [
+        20,
+        2
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Broken companion statue base on solid masonry."
+    },
+    {
+      "id": "rm_d15_tomb_approach:deco3",
+      "prop": "bush_dead",
+      "asset_id": "spr_bush_dead",
+      "cell": [
+        29,
+        19
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_o5_echo_grotto": [
+    {
+      "id": "rm_o5_echo_grotto:deco1",
+      "prop": "ruin_block",
+      "asset_id": "spr_ruin_block",
+      "cell": [
+        7,
+        2
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Ancient blade shrine embedded in the cave roof; no hidden breakable wall."
+    },
+    {
+      "id": "rm_o5_echo_grotto:deco2",
+      "prop": "pebbles",
+      "asset_id": "spr_pebbles",
+      "cell": [
+        6,
+        17
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    },
+    {
+      "id": "rm_o5_echo_grotto:deco3",
+      "prop": "skull",
+      "asset_id": "spr_skull",
+      "cell": [
+        29,
+        16
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_o6_memorial_vault": [
+    {
+      "id": "rm_o6_memorial_vault:deco1",
+      "prop": "obelisk",
+      "asset_id": "spr_obelisk",
+      "cell": [
+        7,
+        2
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Memorial stones echo the city's lost comrades without claiming the Grail is recovered."
+    },
+    {
+      "id": "rm_o6_memorial_vault:deco2",
+      "prop": "pharaoh_statue",
+      "asset_id": "spr_pharaoh_statue",
+      "cell": [
+        27,
+        2
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": ""
+    },
+    {
+      "id": "rm_o6_memorial_vault:deco3",
+      "prop": "pebbles",
+      "asset_id": "spr_pebbles",
+      "cell": [
+        25,
+        18
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ],
+  "rm_d16_pharaohs_gate": [
+    {
+      "id": "rm_d16_pharaohs_gate:deco1",
+      "prop": "pharaoh_statue",
+      "asset_id": "spr_pharaoh_statue",
+      "cell": [
+        25,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Still royal sentinel; no creature or ambush occupies the save room."
+    },
+    {
+      "id": "rm_d16_pharaohs_gate:deco2",
+      "prop": "obelisk",
+      "asset_id": "spr_obelisk",
+      "cell": [
+        11,
+        3
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Inscription faces the last star and the arena entrance."
+    }
+  ],
+  "rm_d17_pharaohs_courtyard": [
+    {
+      "id": "rm_d17_pharaohs_courtyard:deco1",
+      "prop": "pharaoh_statue",
+      "asset_id": "spr_pharaoh_statue",
+      "cell": [
+        10,
+        15
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Statues sit on blocked masonry beneath the fight floor, never inside dodge lanes."
+    },
+    {
+      "id": "rm_d17_pharaohs_courtyard:deco2",
+      "prop": "pharaoh_statue",
+      "asset_id": "spr_pharaoh_statue",
+      "cell": [
+        28,
+        15
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Paired sentinels make this space read as a courtyard rather than another desert room."
+    }
+  ],
+  "rm_d18_dungeon_threshold": [
+    {
+      "id": "rm_d18_dungeon_threshold:deco1",
+      "prop": "dungeon_entrance",
+      "asset_id": "spr_dungeon_entrance",
+      "cell": [
+        30,
+        4
+      ],
+      "collision": false,
+      "offset_px": [
+        32,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": "Dungeon facade drawn so its existing 128-pixel doorway is aligned with x30..31; art origin needs an integration offset, never infer collision from alpha."
+    },
+    {
+      "id": "rm_d18_dungeon_threshold:deco2",
+      "prop": "ruin_block",
+      "asset_id": "spr_ruin_block",
+      "cell": [
+        26,
+        2
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Instances",
+      "depth_policy": "sort_by_ground_point_no_collision",
+      "note": ""
+    },
+    {
+      "id": "rm_d18_dungeon_threshold:deco3",
+      "prop": "bush_dead",
+      "asset_id": "spr_bush_dead",
+      "cell": [
+        9,
+        18
+      ],
+      "collision": false,
+      "offset_px": [
+        0,
+        0
+      ],
+      "layer": "Visual_Assets",
+      "depth_policy": "fixed_flat_decal",
+      "note": ""
+    }
+  ]
+}

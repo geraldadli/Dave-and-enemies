@@ -1,0 +1,50 @@
+{
+  "asset_id": "snd_worm_rumble",
+  "purpose": "Sandworm burrowing movement and warning mound",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 3,
+  "actual_duration_seconds": 3.0,
+  "variation_count": 1,
+  "files": [
+    {
+      "file": "snd_worm_rumble.wav",
+      "path": "audio/sfx/snd_worm_rumble.wav",
+      "sha256": "bd01290fe65bbfc653bfe7796ef5875b3a1117e146b6022de297be7478cce10b",
+      "bytes": 264644,
+      "frames": 132300,
+      "duration_seconds": 3.0,
+      "seed": 765984035,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.98257,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -18.56053,
+        "dc_offset": -2.0990926752645504e-08,
+        "onset_ms_at_minus60_relative": 0.0,
+        "trailing_ms_below_minus60_relative": 0.0,
+        "loop_boundary": {
+          "jump": 0.004486083984375,
+          "ordinary_step_99_9_percentile": 0.049102783203125,
+          "seam_within_ordinary_step_range": true,
+          "design": "Periodic oscillators, modulation and circular noise/filtering; no baked fades or padding."
+        }
+      }
+    }
+  ],
+  "loop_start": 0,
+  "loop_end": 3.0,
+  "loop_start_frame_inclusive": 0,
+  "loop_end_frame_exclusive": 132300,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_worm_rumble: Sandworm burrowing movement and warning mound. Synthesize a dry sandy subterranean grinding rumble, with audible 180-500 Hz grit so it reads on small speakers. Add slow irregular pressure swells, no bass-only effect, explosive eruption or constant tonal note. Warning identity should be clear in the first 150 ms. Deliver 1 distinct take, each 3 seconds long including decay. Make the entire file a seamless repeat with constant ambience or musical continuity at the join; no audible restart, baked fade, extra reverb tail or added silence. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. Exact whole-file cyclic edit; no head/tail fades or padded silence baked into the loop. Wrap reverb/noise decay across seam.",
+  "variant_rms_range_db": 0.0,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

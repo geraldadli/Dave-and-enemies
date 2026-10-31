@@ -1,0 +1,50 @@
+{
+  "asset_id": "snd_magic_travel",
+  "purpose": "Magic orb in flight",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 1.5,
+  "actual_duration_seconds": 1.5,
+  "variation_count": 1,
+  "files": [
+    {
+      "file": "snd_magic_travel.wav",
+      "path": "audio/sfx/snd_magic_travel.wav",
+      "sha256": "6325939c53faecadada0f15dcc9e80d5c0580433cb9d3d9ae7f04ffd00e47f83",
+      "bytes": 132344,
+      "frames": 66150,
+      "duration_seconds": 1.5,
+      "seed": 940891212,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.99442,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -12.08813,
+        "dc_offset": 1.1072137188208617e-08,
+        "onset_ms_at_minus60_relative": 0.0,
+        "trailing_ms_below_minus60_relative": 0.0,
+        "loop_boundary": {
+          "jump": 0.017059326171875,
+          "ordinary_step_99_9_percentile": 0.027888549804687468,
+          "seam_within_ordinary_step_range": true,
+          "design": "Periodic oscillators, modulation and circular noise/filtering; no baked fades or padding."
+        }
+      }
+    }
+  ],
+  "loop_start": 0,
+  "loop_end": 1.5,
+  "loop_start_frame_inclusive": 0,
+  "loop_end_frame_exclusive": 66150,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_magic_travel: Magic orb in flight. Synthesize a quiet hollow fluttering resonance with smooth low-mid movement and a little granular air. No periodic alarm pulses or identifiable melody. Avoid harsh 2-5 kHz noise that masks danger warnings. Deliver 1 distinct take, each 1.5 seconds long including decay. Make the entire file a seamless repeat with constant ambience or musical continuity at the join; no audible restart, baked fade, extra reverb tail or added silence. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. Exact whole-file cyclic edit; no head/tail fades or padded silence baked into the loop. Wrap reverb/noise decay across seam.",
+  "variant_rms_range_db": 0.0,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

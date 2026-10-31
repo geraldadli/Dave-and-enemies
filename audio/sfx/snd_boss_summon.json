@@ -1,0 +1,62 @@
+{
+  "asset_id": "snd_boss_summon",
+  "purpose": "Pharaoh summon gesture",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.9,
+  "actual_duration_seconds": 0.9,
+  "variation_count": 2,
+  "files": [
+    {
+      "file": "snd_boss_summon_1.wav",
+      "path": "audio/sfx/snd_boss_summon_1.wav",
+      "sha256": "9ce8586e52d59759f23693393f6a9c53ec41e09c5fea681056a835e4ebe9945c",
+      "bytes": 79424,
+      "frames": 39690,
+      "duration_seconds": 0.9,
+      "seed": 2042174930,
+      "measurements": {
+        "sample_peak_dbfs": -7.17741,
+        "oversampled_peak_dbfs_4x": -7.17188,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -19.75121,
+        "dc_offset": 1.8453561980347694e-08,
+        "onset_ms_at_minus60_relative": 0.204,
+        "trailing_ms_below_minus60_relative": 0.612
+      }
+    },
+    {
+      "file": "snd_boss_summon_2.wav",
+      "path": "audio/sfx/snd_boss_summon_2.wav",
+      "sha256": "c3577ef98566d110defb60d12eaff008d53e7149c92cf353bd981ab5fddfd9f3",
+      "bytes": 79424,
+      "frames": 39690,
+      "duration_seconds": 0.9,
+      "seed": 869346633,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.98286,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -19.75121,
+        "dc_offset": -5.766738118858655e-08,
+        "onset_ms_at_minus60_relative": 0.227,
+        "trailing_ms_below_minus60_relative": 0.68
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_boss_summon: Pharaoh summon gesture. Create a low hollow staff resonance and dry swirling sand inhalation, then a compact outward pulse. Regal and unnatural without chanting, spoken voice, bat squeaks or unit emergence baked in. Deliver 2 separate distinct takes, each 0.9 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 0.0,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

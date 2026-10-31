@@ -1,0 +1,21 @@
+Use case: stylized-concept.
+
+Asset ID: spr_intro_sky. Purpose: Dusty intro atmosphere. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach art/reference/template_sprite_inspection.png as the authoritative style/density reference. Match the supplied Hero's Trail template reference: elevated top-down three-quarter orthographic adventure view, smooth antialiased illustrated cartoon game art, dark charcoal outlines about 1-2 native pixels wide, broad soft cel shading, light from upper left, restrained highlights and slate or warm brown shadows. Human-sized humanoids have compact chibi proportions with heads about 35-40 percent of body height; creatures keep the specific anatomy described below. These are 64-pixel tiles with roughly 78-pixel-tall human bodies. Preserve native visual density; no coarse pixel grid, realistic rendering, anime redesign, isometric diamond grid, noisy microtexture, text, watermark, labels or checkerboard painted into pixels.
+
+Subject: One restrained dusty warm sky/atmosphere backdrop behind the breached Holy City wall, no new landmark with story significance, no living figure, Grail, text or horizon incompatible with the established view.
+
+Direction: Use the exact single orientation described; do not generate additional views.
+
+Final target: 1280x720 native pixels PER FRAME; All frames fixed 1280x720 canvas, no trimming; origin (0, 0). Keep placement fixed between frames.
+
+Transparency: opaque 8-bit RGBA, alpha 255 throughout, sRGB.
+
+Generate one static asset only, no contact sheet or alternative views.
+
+Playback/state selection: static. contract.
+
+Additional constraints: Opaque full backdrop; optional slow parallax only. Base renderer may use a flat muted backdrop instead.
+
+Inspection before acceptance: Exact 1280x720 with alpha 255 everywhere. Backdrop stays quiet behind wall and live text.

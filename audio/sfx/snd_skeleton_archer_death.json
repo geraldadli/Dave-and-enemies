@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_skeleton_archer_death",
+  "purpose": "Skeleton archer falls",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.75,
+  "actual_duration_seconds": 0.75,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_skeleton_archer_death_1.wav",
+      "path": "audio/sfx/snd_skeleton_archer_death_1.wav",
+      "sha256": "0ca2afcd9cf023d5c218b527973383480d2509340a9b01a4215926ae8ac5e3a5",
+      "bytes": 66194,
+      "frames": 33075,
+      "duration_seconds": 0.75,
+      "seed": 1221298549,
+      "measurements": {
+        "sample_peak_dbfs": -8.34928,
+        "oversampled_peak_dbfs_4x": -8.34376,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -24.89293,
+        "dc_offset": 6.458746693121694e-08,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 1.156
+      }
+    },
+    {
+      "file": "snd_skeleton_archer_death_2.wav",
+      "path": "audio/sfx/snd_skeleton_archer_death_2.wav",
+      "sha256": "dc2310614ba35455b33a077905358fdc532c42d17faf51d3556bde4fcbed80c2",
+      "bytes": 66194,
+      "frames": 33075,
+      "duration_seconds": 0.75,
+      "seed": 3986080105,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.99442,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -24.89294,
+        "dc_offset": -5.5360685941043085e-09,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 1.429
+      }
+    },
+    {
+      "file": "snd_skeleton_archer_death_3.wav",
+      "path": "audio/sfx/snd_skeleton_archer_death_3.wav",
+      "sha256": "4f0deeff6ed5b41de67711efc67699952b9ff33464199304baa024ee0060fc19",
+      "bytes": 66194,
+      "frames": 33075,
+      "duration_seconds": 0.75,
+      "seed": 2972871718,
+      "measurements": {
+        "sample_peak_dbfs": -8.54557,
+        "oversampled_peak_dbfs_4x": -8.52045,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -24.89294,
+        "dc_offset": 3.04483772675737e-08,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 1.315
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_skeleton_archer_death: Skeleton archer falls. Create a light brittle skeletal rattle falling into sand, a soft bow-wood knock and two quiver taps. No bow firing or human voice. Deliver 3 separate distinct takes, each 0.75 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 1e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

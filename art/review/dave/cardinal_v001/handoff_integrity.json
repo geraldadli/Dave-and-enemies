@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-31",
+  "scope": "cardinal art handoff and archive integrity; native frame checks in validation.json",
+  "manifest_assets": 210,
+  "manifest_native_animation_assets": 9,
+  "manifest_native_animation_frames": 80,
+  "prompt_files": 212,
+  "new_animation_frames": 54,
+  "new_base_references": 3,
+  "current_source_images": 11,
+  "archive": "art/exports/dave/dave_cardinal_v001.zip",
+  "archive_members": 133,
+  "archive_bytes": 23022646,
+  "archive_sha256": "b01451c49fc39ad757a9a4eda89323db4cb9eeead28125dc2ba9eb79f7285a79",
+  "archive_crc_verified": true,
+  "game_maker_files_in_archive": false,
+  "verified_engine_ready": false,
+  "errors": []
+}

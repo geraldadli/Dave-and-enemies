@@ -1,0 +1,98 @@
+{
+  "asset_id": "snd_step_stone",
+  "purpose": "Dave foot contact on ruins",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.16,
+  "actual_duration_seconds": 0.16,
+  "variation_count": 4,
+  "files": [
+    {
+      "file": "snd_step_stone_1.wav",
+      "path": "audio/sfx/snd_step_stone_1.wav",
+      "sha256": "bea5b64de67103c4236f77c77cdca41f68b822b19c10828ead719f4d0df4b050",
+      "bytes": 14156,
+      "frames": 7056,
+      "duration_seconds": 0.16,
+      "seed": 398699731,
+      "measurements": {
+        "sample_peak_dbfs": -10.45351,
+        "oversampled_peak_dbfs_4x": -10.43092,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -26.82649,
+        "dc_offset": -1.7300214356575964e-07,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 1.95
+      }
+    },
+    {
+      "file": "snd_step_stone_2.wav",
+      "path": "audio/sfx/snd_step_stone_2.wav",
+      "sha256": "d2b7261d736c3fe1e3a54fa86781042bb8d29d614acb48c9c6b2cdd196fcd627",
+      "bytes": 14156,
+      "frames": 7056,
+      "duration_seconds": 0.16,
+      "seed": 575629282,
+      "measurements": {
+        "sample_peak_dbfs": -10.37701,
+        "oversampled_peak_dbfs_4x": -10.24202,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -26.8265,
+        "dc_offset": -1.0812633972859978e-07,
+        "onset_ms_at_minus60_relative": 0.204,
+        "trailing_ms_below_minus60_relative": 1.224
+      }
+    },
+    {
+      "file": "snd_step_stone_3.wav",
+      "path": "audio/sfx/snd_step_stone_3.wav",
+      "sha256": "9bc9d95a77f187cc04ba77f3a4aee3dd2ee377b975affea88c57ca4c1ae862a6",
+      "bytes": 14156,
+      "frames": 7056,
+      "duration_seconds": 0.16,
+      "seed": 2454569573,
+      "measurements": {
+        "sample_peak_dbfs": -9.00039,
+        "oversampled_peak_dbfs_4x": -8.97253,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -26.82651,
+        "dc_offset": -9.51511789611678e-08,
+        "onset_ms_at_minus60_relative": 0.204,
+        "trailing_ms_below_minus60_relative": 1.497
+      }
+    },
+    {
+      "file": "snd_step_stone_4.wav",
+      "path": "audio/sfx/snd_step_stone_4.wav",
+      "sha256": "c12df51f9b68d494574a3271f4a714254ed8d5ca64f0e7063a6e5239efdfc24f",
+      "bytes": 14156,
+      "frames": 7056,
+      "duration_seconds": 0.16,
+      "seed": 2202215442,
+      "measurements": {
+        "sample_peak_dbfs": -10.00013,
+        "oversampled_peak_dbfs_4x": -9.9946,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -26.82654,
+        "dc_offset": 1.7300214356575964e-08,
+        "onset_ms_at_minus60_relative": 0.204,
+        "trailing_ms_below_minus60_relative": 0.998
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_step_stone: Dave foot contact on ruins. Record a boot on worn dry sandstone, a rounded sole tap with a little grit and no cavern reverb, echo, other footstep or armour jangle. Deliver 4 separate distinct takes, each 0.16 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 5e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_ui_move",
+  "purpose": "Menu or hotbar selection changes",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.055,
+  "actual_duration_seconds": 0.055011337868480725,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_ui_move_1.wav",
+      "path": "audio/sfx/snd_ui_move_1.wav",
+      "sha256": "69506e1c2bb6eeed447b2fce7bd88e5e5ee3a23254545a9799e699fb32e0940d",
+      "bytes": 4896,
+      "frames": 2426,
+      "duration_seconds": 0.055011337868480725,
+      "seed": 3425685216,
+      "measurements": {
+        "sample_peak_dbfs": -16.56377,
+        "oversampled_peak_dbfs_4x": -16.55255,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -29.59525,
+        "dc_offset": -2.5158761850783183e-08,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 0.635
+      }
+    },
+    {
+      "file": "snd_ui_move_2.wav",
+      "path": "audio/sfx/snd_ui_move_2.wav",
+      "sha256": "7428a8ea93d513d74cbb2f585863737eee96d82ec281dd12658f91bb7a09ac22",
+      "bytes": 4896,
+      "frames": 2426,
+      "duration_seconds": 0.055011337868480725,
+      "seed": 3211796971,
+      "measurements": {
+        "sample_peak_dbfs": -16.67152,
+        "oversampled_peak_dbfs_4x": -16.66427,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -29.59522,
+        "dc_offset": -1.383731901793075e-07,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 0.68
+      }
+    },
+    {
+      "file": "snd_ui_move_3.wav",
+      "path": "audio/sfx/snd_ui_move_3.wav",
+      "sha256": "f9aaf889f0879b7cb93f8be31e50fabb214de1f2ee5e34cc9c5a1d342865400c",
+      "bytes": 4896,
+      "frames": 2426,
+      "duration_seconds": 0.055011337868480725,
+      "seed": 2863127852,
+      "measurements": {
+        "sample_peak_dbfs": -15.0001,
+        "oversampled_peak_dbfs_4x": -14.99457,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -29.59527,
+        "dc_offset": -1.2579380925391591e-08,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 0.794
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_ui_move: Menu or hotbar selection changes. Synthesize a very soft dry rounded wooden tick with minimal pitch, no bright beep or ringing tail. It must remain unobtrusive during repeated navigation. Deliver 3 separate distinct takes, each 0.055 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 5e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

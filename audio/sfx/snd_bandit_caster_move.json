@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_bandit_caster_move",
+  "purpose": "Bandit caster foot contact",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.23,
+  "actual_duration_seconds": 0.23,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_bandit_caster_move_1.wav",
+      "path": "audio/sfx/snd_bandit_caster_move_1.wav",
+      "sha256": "56764df8f58908ef83a24b7b36d85699763b35cfb2ac1f13ce43e27f08745fe5",
+      "bytes": 20330,
+      "frames": 10143,
+      "duration_seconds": 0.23,
+      "seed": 4262861995,
+      "measurements": {
+        "sample_peak_dbfs": -9.00039,
+        "oversampled_peak_dbfs_4x": -8.98706,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -26.63565,
+        "dc_offset": -9.627945381050971e-08,
+        "onset_ms_at_minus60_relative": 0.249,
+        "trailing_ms_below_minus60_relative": 0.748
+      }
+    },
+    {
+      "file": "snd_bandit_caster_move_2.wav",
+      "path": "audio/sfx/snd_bandit_caster_move_2.wav",
+      "sha256": "1448e22e7bbb240b82b4c4600a909ac6c2443b088e669d3e8d65ba0fc8abde9e",
+      "bytes": 20330,
+      "frames": 10143,
+      "duration_seconds": 0.23,
+      "seed": 313721722,
+      "measurements": {
+        "sample_peak_dbfs": -9.65018,
+        "oversampled_peak_dbfs_4x": -9.60973,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -26.63566,
+        "dc_offset": 8.123578915261757e-08,
+        "onset_ms_at_minus60_relative": 0.204,
+        "trailing_ms_below_minus60_relative": 0.907
+      }
+    },
+    {
+      "file": "snd_bandit_caster_move_3.wav",
+      "path": "audio/sfx/snd_bandit_caster_move_3.wav",
+      "sha256": "1b5cca586cf444f4826b276d581a9c331cf324bb548e6b8995b77ea5f2bd69eb",
+      "bytes": 20330,
+      "frames": 10143,
+      "duration_seconds": 0.23,
+      "seed": 2960550916,
+      "measurements": {
+        "sample_peak_dbfs": -9.74815,
+        "oversampled_peak_dbfs_4x": -9.74263,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -26.63564,
+        "dc_offset": -7.220959035788228e-08,
+        "onset_ms_at_minus60_relative": 0.227,
+        "trailing_ms_below_minus60_relative": 0.703
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_bandit_caster_move: Bandit caster foot contact. Record one soft robe hem scrape in sand and a tiny wooden staff ferrule tap. Slow and dry, with no magical hum or vocal. Deliver 3 separate distinct takes, each 0.23 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 2e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

@@ -1,0 +1,135 @@
+{
+  "design_version": "desert_scenes_v2",
+  "status": "pass",
+  "checks": 5518,
+  "errors": [],
+  "scenes": {
+    "sc_desert_frontier": {
+      "status": "pass",
+      "dimensions": [
+        128,
+        80
+      ],
+      "walkable_cells": 3733,
+      "reachable_cells": 3733,
+      "three_wide_centres": 2437,
+      "places": [
+        "Buried Palm Garden",
+        "Spring Keeper's Niche",
+        "Wash Survey Camp",
+        "Lost Porters' Camp",
+        "Desert Arrival",
+        "Dune Trail",
+        "Canyon Approach",
+        "Split Cliffs",
+        "Dry Wash",
+        "Oasis Refuge",
+        "Sunken Lookout",
+        "Hidden Spring"
+      ],
+      "circuits": [
+        "Lookout ridge circuit",
+        "Southern wash circuit",
+        "Oasis banks circuit",
+        "Lost Porters' Camp trail",
+        "Wash Survey Camp trail",
+        "Spring Keeper's Niche trail",
+        "Buried Palm Garden trail"
+      ],
+      "scene_transitions": 1
+    },
+    "sc_caravan_basin": {
+      "status": "pass",
+      "dimensions": [
+        144,
+        88
+      ],
+      "walkable_cells": 4597,
+      "reachable_cells": 4597,
+      "three_wide_centres": 3095,
+      "places": [
+        "Well Keeper's Yard",
+        "Broken Span Overlook",
+        "Cactus Shelter",
+        "Stranded Supply Wagon",
+        "Ruined Caravan",
+        "Cactus Flats",
+        "Bonefield",
+        "Broken Bridge",
+        "Forgotten Ruins",
+        "Great Desert Stairs",
+        "Bandit Cache",
+        "Buried Cistern"
+      ],
+      "circuits": [
+        "Northern camp circuit",
+        "Twin crossing circuit",
+        "Cistern rim and catwalk",
+        "Stranded Supply Wagon trail",
+        "Cactus Shelter trail",
+        "Broken Span Overlook trail",
+        "Well Keeper's Yard trail"
+      ],
+      "scene_transitions": 2
+    },
+    "sc_royal_expanse": {
+      "status": "pass",
+      "dimensions": [
+        160,
+        96
+      ],
+      "walkable_cells": 5865,
+      "reachable_cells": 5865,
+      "three_wide_centres": 4107,
+      "places": [
+        "Fallen Archive",
+        "Sunken Offering Garden",
+        "Procession Waystation",
+        "Forgotten Pilgrims' Rest",
+        "Windblown Plateau",
+        "Royal Causeway",
+        "Tomb Approach",
+        "Pharaoh's Gate",
+        "Pharaoh's Courtyard",
+        "Dungeon Threshold",
+        "Echo Grotto",
+        "Memorial Vault",
+        "Sundial Court"
+      ],
+      "circuits": [
+        "Grotto circuit",
+        "Southern worm basin circuit",
+        "Memorial terrace circuit",
+        "Sundial court circuit",
+        "Forgotten Pilgrims' Rest trail",
+        "Procession Waystation trail",
+        "Sunken Offering Garden trail",
+        "Fallen Archive trail"
+      ],
+      "scene_transitions": 1
+    }
+  },
+  "summary": {
+    "scene_resources": 3,
+    "landscape_passes": 2,
+    "internal_place_transitions": 0,
+    "connected_circuits": 22,
+    "checkpoints": 3,
+    "note": "Counts describe this draft; they are not a scope quota or an FFV map count."
+  },
+  "guarantee": "Connected static scene topology, explicit three-tile-wide preferred/circuit routes, conservative prop/chest blockers, safe transitions and boss gate states. No runtime AI, performance, physics or save-code claim.",
+  "required_GameMaker_tests": [
+    "continuous camera and AI across place/chunk boundaries without resets",
+    "far enemy sleeping without losing persistent spawn identity",
+    "mask corner sliding, stairs, bridges, melee arc and knockback space",
+    "ranged LOS and no attacks onto protected arrivals/landings",
+    "both landscape passes, backtracking and held-input debounce",
+    "save-format migration of IDs and checkpoint coordinates",
+    "chest overflow and full snapshot rollback",
+    "boss throat closure after whole mask clears, dialogue skip and retry",
+    "warning visibility and reachable thunder strip at final move speed",
+    "whiteout cleanup and cleared arena loaded inside the same scene",
+    "pending unique reward and ending replay",
+    "large-scene performance with bounded ambient effects"
+  ]
+}

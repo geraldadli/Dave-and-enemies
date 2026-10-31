@@ -1,0 +1,102 @@
+{
+  "room_id": "rm_d14_royal_causeway",
+  "display_name": "Royal Causeway",
+  "size_cells": [
+    40,
+    24
+  ],
+  "terrain": [
+    "########################################",
+    "#................CCCCC.................#",
+    "#................CCCCC.................#",
+    "#.............MMMCCCCCMMM..............#",
+    "#.............MMMCCCCCMMM..............#",
+    "#.............MMMCCCCCMMM..............#",
+    "#................CCCCC.................#",
+    "#................CCCCC.................#",
+    "#................CCCCC.................#",
+    "#................=====.................#",
+    "_________________=====__________________",
+    "_________________=====__________________",
+    "_________________=====__________________",
+    "#................CCCCC.................#",
+    "#................CCCCC.................#",
+    "#................CCCCC.................#",
+    "#................CCCCC.................#",
+    "#................CCCCC.................#",
+    "#................CCCCC.................#",
+    "#................CCCCC.................#",
+    "#................CCCCC.................#",
+    "#................CCCCC.................#",
+    "#................CCCCC.................#",
+    "########################################"
+  ],
+  "exits": [
+    {
+      "id": "west",
+      "side": "W",
+      "rows": [
+        10,
+        12
+      ],
+      "to": "rm_d13_windblown_plateau",
+      "to_exit": "east"
+    },
+    {
+      "id": "east",
+      "side": "E",
+      "rows": [
+        10,
+        12
+      ],
+      "to": "rm_d15_tomb_approach",
+      "to_exit": "west"
+    }
+  ],
+  "objects": [
+    {
+      "type": "enemy",
+      "enemy": "skeleton_warrior",
+      "cell": [
+        10,
+        11
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy": "bandit_caster",
+      "cell": [
+        29,
+        9
+      ]
+    },
+    {
+      "type": "enemy",
+      "enemy": "bandit",
+      "cell": [
+        30,
+        14
+      ]
+    },
+    {
+      "type": "chest",
+      "id": "rm_d14_royal_causeway:c1",
+      "cell": [
+        29,
+        19
+      ],
+      "loot": [
+        [
+          "potion_greater",
+          2
+        ]
+      ]
+    }
+  ],
+  "music": "mus_desert",
+  "weather": {
+    "sandstorm": true,
+    "tumbleweeds": true
+  },
+  "notes": "Authored design v1; batch 5. See gameplay_specs.json and decorations.json. One melee guard, an empty crossing, then a caster-and-bandit combination on a broad landing."
+}

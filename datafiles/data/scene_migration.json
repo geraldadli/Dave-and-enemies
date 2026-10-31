@@ -1,0 +1,613 @@
+{
+  "design_version": "desert_scenes_v2",
+  "chests": {
+    "rm_d01_arrival:c1": {
+      "id": "rm_sc_desert_frontier:c1",
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        14,
+        34
+      ]
+    },
+    "rm_d02_dune_trail:c1": {
+      "id": "rm_sc_desert_frontier:c2",
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        39,
+        26
+      ]
+    },
+    "rm_d03_canyon_approach:c1": {
+      "id": "rm_sc_desert_frontier:c3",
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        43,
+        61
+      ]
+    },
+    "rm_d04_split_cliffs:c1": {
+      "id": "rm_sc_desert_frontier:c4",
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        67,
+        26
+      ]
+    },
+    "rm_d05_dry_wash:c1": {
+      "id": "rm_sc_desert_frontier:c5",
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        93,
+        62
+      ]
+    },
+    "rm_d06_oasis_refuge:c1": {
+      "id": "rm_sc_desert_frontier:c6",
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        117,
+        44
+      ]
+    },
+    "rm_o1_sunken_lookout:c1": {
+      "id": "rm_sc_desert_frontier:c7",
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        45,
+        20
+      ]
+    },
+    "rm_o2_hidden_spring:c1": {
+      "id": "rm_sc_desert_frontier:c8",
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        116,
+        17
+      ]
+    },
+    "rm_d07_ruined_caravan:c1": {
+      "id": "rm_sc_caravan_basin:c1",
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        29,
+        26
+      ]
+    },
+    "rm_d08_cactus_flats:c1": {
+      "id": "rm_sc_caravan_basin:c2",
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        48,
+        70
+      ]
+    },
+    "rm_d09_bonefield:c1": {
+      "id": "rm_sc_caravan_basin:c3",
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        77,
+        51
+      ]
+    },
+    "rm_d10_broken_bridge:c1": {
+      "id": "rm_sc_caravan_basin:c4",
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        98,
+        72
+      ]
+    },
+    "rm_d11_forgotten_ruins:c1": {
+      "id": "rm_sc_caravan_basin:c5",
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        105,
+        53
+      ]
+    },
+    "rm_d12_great_desert_stairs:c1": {
+      "id": "rm_sc_caravan_basin:c6",
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        121,
+        14
+      ]
+    },
+    "rm_o3_bandit_cache:c1": {
+      "id": "rm_sc_caravan_basin:c7",
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        49,
+        17
+      ]
+    },
+    "rm_o4_buried_cistern:c1": {
+      "id": "rm_sc_caravan_basin:c8",
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        71,
+        72
+      ]
+    },
+    "rm_d13_windblown_plateau:c1": {
+      "id": "rm_sc_royal_expanse:c1",
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        39,
+        58
+      ]
+    },
+    "rm_d14_royal_causeway:c1": {
+      "id": "rm_sc_royal_expanse:c2",
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        73,
+        51
+      ]
+    },
+    "rm_d15_tomb_approach:c1": {
+      "id": "rm_sc_royal_expanse:c3",
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        114,
+        48
+      ]
+    },
+    "rm_o5_echo_grotto:c1": {
+      "id": "rm_sc_royal_expanse:c4",
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        39,
+        10
+      ]
+    },
+    "rm_o6_memorial_vault:c1": {
+      "id": "rm_sc_royal_expanse:c5",
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        105,
+        17
+      ]
+    }
+  },
+  "enemy_spawns": {
+    "rm_d02_dune_trail:g1:e1": {
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        28,
+        39
+      ],
+      "preserve_id": true
+    },
+    "rm_d03_canyon_approach:g1:e1": {
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        42,
+        34
+      ],
+      "preserve_id": true
+    },
+    "rm_d03_canyon_approach:g2:e1": {
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        42,
+        53
+      ],
+      "preserve_id": true
+    },
+    "rm_d04_split_cliffs:g1:e1": {
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        65,
+        35
+      ],
+      "preserve_id": true
+    },
+    "rm_d05_dry_wash:g1:e1": {
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        86,
+        61
+      ],
+      "preserve_id": true
+    },
+    "rm_o1_sunken_lookout:g1:e1": {
+      "scene_id": "sc_desert_frontier",
+      "cell": [
+        39,
+        15
+      ],
+      "preserve_id": true
+    },
+    "rm_d07_ruined_caravan:g1:e1": {
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        18,
+        39
+      ],
+      "preserve_id": true
+    },
+    "rm_d07_ruined_caravan:g2:e1": {
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        33,
+        49
+      ],
+      "preserve_id": true
+    },
+    "rm_d08_cactus_flats:g1:e1": {
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        45,
+        62
+      ],
+      "preserve_id": true
+    },
+    "rm_d09_bonefield:g1:e1": {
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        61,
+        39
+      ],
+      "preserve_id": true
+    },
+    "rm_d09_bonefield:g2:e1": {
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        74,
+        38
+      ],
+      "preserve_id": true
+    },
+    "rm_d09_bonefield:g2:e2": {
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        70,
+        44
+      ],
+      "preserve_id": true
+    },
+    "rm_d10_broken_bridge:g1:e1": {
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        98,
+        63
+      ],
+      "preserve_id": true
+    },
+    "rm_d12_great_desert_stairs:g1:e1": {
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        121,
+        49
+      ],
+      "preserve_id": true
+    },
+    "rm_d12_great_desert_stairs:g2:e1": {
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        132,
+        19
+      ],
+      "preserve_id": true
+    },
+    "rm_o3_bandit_cache:g1:e1": {
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        39,
+        21
+      ],
+      "preserve_id": true
+    },
+    "rm_o3_bandit_cache:g1:e2": {
+      "scene_id": "sc_caravan_basin",
+      "cell": [
+        44,
+        18
+      ],
+      "preserve_id": true
+    },
+    "rm_d13_windblown_plateau:g1:e1": {
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        30,
+        52
+      ],
+      "preserve_id": true
+    },
+    "rm_d14_royal_causeway:g1:e1": {
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        47,
+        36
+      ],
+      "preserve_id": true
+    },
+    "rm_d14_royal_causeway:g2:e1": {
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        71,
+        34
+      ],
+      "preserve_id": true
+    },
+    "rm_d14_royal_causeway:g2:e2": {
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        74,
+        40
+      ],
+      "preserve_id": true
+    },
+    "rm_o5_echo_grotto:g1:e1": {
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        28,
+        12
+      ],
+      "preserve_id": true
+    },
+    "rm_o5_echo_grotto:g1:e2": {
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        35,
+        12
+      ],
+      "preserve_id": true
+    },
+    "rm_o5_echo_grotto:g1:e3": {
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        32,
+        18
+      ],
+      "preserve_id": true
+    },
+    "rm_o6_memorial_vault:g1:e1": {
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        95,
+        17
+      ],
+      "preserve_id": true
+    },
+    "rm_d17_pharaohs_courtyard:boss:e1": {
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        132,
+        20
+      ],
+      "preserve_id": true
+    }
+  },
+  "checkpoints": {
+    "rm_d06_oasis_refuge:checkpoint": {
+      "id": "sc_desert_frontier:checkpoint",
+      "scene_id": "sc_desert_frontier",
+      "respawn_cell": [
+        108,
+        42
+      ]
+    },
+    "rm_d11_forgotten_ruins:checkpoint": {
+      "id": "sc_caravan_basin:checkpoint",
+      "scene_id": "sc_caravan_basin",
+      "respawn_cell": [
+        113,
+        41
+      ]
+    },
+    "rm_d16_pharaohs_gate:checkpoint": {
+      "id": "sc_royal_expanse:checkpoint",
+      "scene_id": "sc_royal_expanse",
+      "respawn_cell": [
+        122,
+        38
+      ]
+    }
+  },
+  "unique_rewards": {
+    "rm_d17_pharaohs_courtyard:u1": {
+      "id": "rm_sc_royal_expanse:u1",
+      "scene_id": "sc_royal_expanse",
+      "cell": [
+        134,
+        19
+      ]
+    }
+  },
+  "places": {
+    "rm_d01_arrival": {
+      "scene_id": "sc_desert_frontier",
+      "place_id": "place_arrival",
+      "anchor": [
+        9,
+        40
+      ]
+    },
+    "rm_d02_dune_trail": {
+      "scene_id": "sc_desert_frontier",
+      "place_id": "place_dune_trail",
+      "anchor": [
+        28,
+        40
+      ]
+    },
+    "rm_d03_canyon_approach": {
+      "scene_id": "sc_desert_frontier",
+      "place_id": "place_canyon_approach",
+      "anchor": [
+        45,
+        35
+      ]
+    },
+    "rm_d04_split_cliffs": {
+      "scene_id": "sc_desert_frontier",
+      "place_id": "place_split_cliffs",
+      "anchor": [
+        63,
+        35
+      ]
+    },
+    "rm_d05_dry_wash": {
+      "scene_id": "sc_desert_frontier",
+      "place_id": "place_dry_wash",
+      "anchor": [
+        79,
+        46
+      ]
+    },
+    "rm_d06_oasis_refuge": {
+      "scene_id": "sc_desert_frontier",
+      "place_id": "place_oasis_refuge",
+      "anchor": [
+        108,
+        42
+      ]
+    },
+    "rm_o1_sunken_lookout": {
+      "scene_id": "sc_desert_frontier",
+      "place_id": "place_sunken_lookout",
+      "anchor": [
+        45,
+        19
+      ]
+    },
+    "rm_o2_hidden_spring": {
+      "scene_id": "sc_desert_frontier",
+      "place_id": "place_hidden_spring",
+      "anchor": [
+        108,
+        19
+      ]
+    },
+    "rm_d07_ruined_caravan": {
+      "scene_id": "sc_caravan_basin",
+      "place_id": "place_ruined_caravan",
+      "anchor": [
+        17,
+        43
+      ]
+    },
+    "rm_d08_cactus_flats": {
+      "scene_id": "sc_caravan_basin",
+      "place_id": "place_cactus_flats",
+      "anchor": [
+        42,
+        49
+      ]
+    },
+    "rm_d09_bonefield": {
+      "scene_id": "sc_caravan_basin",
+      "place_id": "place_bonefield",
+      "anchor": [
+        67,
+        41
+      ]
+    },
+    "rm_d10_broken_bridge": {
+      "scene_id": "sc_caravan_basin",
+      "place_id": "place_broken_bridge",
+      "anchor": [
+        87,
+        46
+      ]
+    },
+    "rm_d11_forgotten_ruins": {
+      "scene_id": "sc_caravan_basin",
+      "place_id": "place_forgotten_ruins",
+      "anchor": [
+        113,
+        41
+      ]
+    },
+    "rm_d12_great_desert_stairs": {
+      "scene_id": "sc_caravan_basin",
+      "place_id": "place_great_desert_stairs",
+      "anchor": [
+        129,
+        30
+      ]
+    },
+    "rm_o3_bandit_cache": {
+      "scene_id": "sc_caravan_basin",
+      "place_id": "place_bandit_cache",
+      "anchor": [
+        42,
+        20
+      ]
+    },
+    "rm_o4_buried_cistern": {
+      "scene_id": "sc_caravan_basin",
+      "place_id": "place_buried_cistern",
+      "anchor": [
+        67,
+        70
+      ]
+    },
+    "rm_d13_windblown_plateau": {
+      "scene_id": "sc_royal_expanse",
+      "place_id": "place_windblown_plateau",
+      "anchor": [
+        25,
+        28
+      ]
+    },
+    "rm_d14_royal_causeway": {
+      "scene_id": "sc_royal_expanse",
+      "place_id": "place_royal_causeway",
+      "anchor": [
+        57,
+        37
+      ]
+    },
+    "rm_d15_tomb_approach": {
+      "scene_id": "sc_royal_expanse",
+      "place_id": "place_tomb_approach",
+      "anchor": [
+        96,
+        37
+      ]
+    },
+    "rm_d16_pharaohs_gate": {
+      "scene_id": "sc_royal_expanse",
+      "place_id": "place_pharaohs_gate",
+      "anchor": [
+        122,
+        38
+      ]
+    },
+    "rm_d17_pharaohs_courtyard": {
+      "scene_id": "sc_royal_expanse",
+      "place_id": "place_pharaohs_courtyard",
+      "anchor": [
+        132,
+        20
+      ]
+    },
+    "rm_d18_dungeon_threshold": {
+      "scene_id": "sc_royal_expanse",
+      "place_id": "place_dungeon_threshold",
+      "anchor": [
+        154,
+        19
+      ]
+    },
+    "rm_o5_echo_grotto": {
+      "scene_id": "sc_royal_expanse",
+      "place_id": "place_echo_grotto",
+      "anchor": [
+        32,
+        16
+      ]
+    },
+    "rm_o6_memorial_vault": {
+      "scene_id": "sc_royal_expanse",
+      "place_id": "place_memorial_vault",
+      "anchor": [
+        101,
+        20
+      ]
+    }
+  }
+}

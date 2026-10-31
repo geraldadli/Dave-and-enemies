@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_worm_emerge",
+  "purpose": "Sandworm eruption",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 1.1,
+  "actual_duration_seconds": 1.1,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_worm_emerge_1.wav",
+      "path": "audio/sfx/snd_worm_emerge_1.wav",
+      "sha256": "bc239a6d53476dc7329a02562d208b1c9d449d05e2f4aebb53b907227dfafe73",
+      "bytes": 97064,
+      "frames": 48510,
+      "duration_seconds": 1.1,
+      "seed": 3037115413,
+      "measurements": {
+        "sample_peak_dbfs": -7.50261,
+        "oversampled_peak_dbfs_4x": -7.49708,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -25.91624,
+        "dc_offset": 3.397133000927644e-08,
+        "onset_ms_at_minus60_relative": 0.295,
+        "trailing_ms_below_minus60_relative": 1.202
+      }
+    },
+    {
+      "file": "snd_worm_emerge_2.wav",
+      "path": "audio/sfx/snd_worm_emerge_2.wav",
+      "sha256": "b18cb2c8855fb580aad3b88189460629bfa1c3ed03e4867b454193bf3d3f89eb",
+      "bytes": 97064,
+      "frames": 48510,
+      "duration_seconds": 1.1,
+      "seed": 924374879,
+      "measurements": {
+        "sample_peak_dbfs": -7.14658,
+        "oversampled_peak_dbfs_4x": -7.1324,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -25.91626,
+        "dc_offset": -8.367012761544012e-08,
+        "onset_ms_at_minus60_relative": 0.317,
+        "trailing_ms_below_minus60_relative": 1.088
+      }
+    },
+    {
+      "file": "snd_worm_emerge_3.wav",
+      "path": "audio/sfx/snd_worm_emerge_3.wav",
+      "sha256": "55d1b49c20dbf3ce24b6efd1d93ba5ffc987a7fdb1ba2a278142a2c175650cbb",
+      "bytes": 97064,
+      "frames": 48510,
+      "duration_seconds": 1.1,
+      "seed": 3289053381,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.90605,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -25.91625,
+        "dc_offset": 1.2581974077509791e-09,
+        "onset_ms_at_minus60_relative": 0.249,
+        "trailing_ms_below_minus60_relative": 1.179
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_worm_emerge: Sandworm eruption. Create a large dry sand burst with a rounded earth thump and falling grit. Weight must remain audible above 120 Hz; no cinematic sub-only boom, metal, rock avalanche or voice. Deliver 3 separate distinct takes, each 1.1 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 2e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

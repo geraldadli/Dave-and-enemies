@@ -1,0 +1,2 @@
+/// Dave.
+player_setup();

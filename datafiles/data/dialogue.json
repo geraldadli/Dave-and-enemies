@@ -1,0 +1,209 @@
+{
+  "intro": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "The Holy City had fallen.",
+        "mood": "neutral"
+      },
+      {
+        "speaker": "narrator",
+        "text": "Dave alone had survived the siege.",
+        "mood": "neutral"
+      },
+      {
+        "speaker": "narrator",
+        "text": "The enemy had taken the original Holy Grail.",
+        "mood": "neutral"
+      },
+      {
+        "speaker": "dave",
+        "text": "I could not save you.",
+        "mood": "solemn"
+      },
+      {
+        "speaker": "dave",
+        "text": "I will return the Holy Grail to the Holy Sanctuary.",
+        "mood": "determined"
+      },
+      {
+        "speaker": "dave",
+        "text": "I swear it. I will reunite our people and bring them home.",
+        "mood": "determined"
+      },
+      {
+        "speaker": "narrator",
+        "text": "Beyond the broken walls, the desert waited.",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "boss_intro": {
+    "lines": [
+      {
+        "speaker": "dave",
+        "text": "Step aside.",
+        "mood": "neutral"
+      },
+      {
+        "speaker": "pharaoh",
+        "text": "You shall not pass. This desert will be your grave.",
+        "mood": "menace"
+      }
+    ]
+  },
+  "ending": {
+    "lines": [
+      {
+        "speaker": "dave",
+        "text": "My vow still stands.",
+        "mood": "determined"
+      }
+    ]
+  },
+  "objective_quest": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Return the Holy Grail to the Holy Sanctuary. Reunite the people of the Holy City.",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "objective_desert": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Travel east through the desert.",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "objective_pharaoh": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Defeat the Undead Pharaoh.",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "objective_dungeon": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Enter the dungeon.",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "checkpoint_prompt": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Interact with the star to save.",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "checkpoint_choose": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Choose a save slot.",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "checkpoint_overwrite": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Replace this slot with your current journey?",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "checkpoint_saved": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Journey saved. Health restored.",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "checkpoint_failed": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Could not save. Try again.",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "checkpoint_restored": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Journey restored.",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "ui_reveal": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Reveal",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "ui_advance": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Advance",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "ui_skip": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Hold to skip",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "ui_ending_title": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "To Be Continued",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "ui_return_menu": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "Return to Main Menu",
+        "mood": "neutral"
+      }
+    ]
+  },
+  "ui_boss_name": {
+    "lines": [
+      {
+        "speaker": "narrator",
+        "text": "The Undead Pharaoh",
+        "mood": "neutral"
+      }
+    ]
+  }
+}
+

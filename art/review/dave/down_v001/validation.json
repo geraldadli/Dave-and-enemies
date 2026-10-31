@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-31",
+  "scope": "native art exports only; no GameMaker execution or integration",
+  "exported_animation_frames": 26,
+  "base_reference_frames": 1,
+  "errors": [],
+  "assets": [
+    {
+      "asset_id": "spr_dave_idle_down",
+      "frame_count": 8,
+      "canvas_px": [
+        96,
+        96
+      ],
+      "origin_px": [
+        48,
+        88
+      ],
+      "strip_px": [
+        768,
+        96
+      ],
+      "fps": 10,
+      "game_ticks_per_frame": null,
+      "loop": "loop",
+      "visual_inspection": {
+        "identity_and_right_hand": "all native frames and painted sources inspected; sword anatomical right throughout",
+        "costume": "silver plate, ivory tabard, golden-brown hair, brown garments, two shoulder cape attachments retained; normal occlusion during attacks",
+        "lighting": "upper-left highlight convention preserved; no mirrored figures",
+        "ground": "fixed native origin and canvases; locomotion knee/foot projection varies through stride",
+        "adjacent_premultiplied_rgba_mean_absolute_difference": [
+          12.794,
+          9.412,
+          4.789,
+          14.801,
+          12.498,
+          5.792,
+          4.82,
+          16.523
+        ],
+        "loop_seam": "f7/f0 subtle silhouette settling remains; seam difference 16.523 versus largest internal 14.801",
+        "remaining_engine_check": "Claude: preview native speed, transition alignment, footstep events and active hitbox timing in GameMaker"
+      }
+    },
+    {
+      "asset_id": "spr_dave_walk_down",
+      "frame_count": 10,
+      "canvas_px": [
+        96,
+        96
+      ],
+      "origin_px": [
+        48,
+        88
+      ],
+      "strip_px": [
+        960,
+        96
+      ],
+      "fps": 20,
+      "game_ticks_per_frame": null,
+      "loop": "loop",
+      "visual_inspection": {
+        "identity_and_right_hand": "all native frames and painted sources inspected; sword anatomical right throughout",
+        "costume": "silver plate, ivory tabard, golden-brown hair, brown garments, two shoulder cape attachments retained; normal occlusion during attacks",
+        "lighting": "upper-left highlight convention preserved; no mirrored figures",
+        "ground": "fixed native origin and canvases; locomotion knee/foot projection varies through stride",
+        "adjacent_premultiplied_rgba_mean_absolute_difference": [
+          16.993,
+          14.445,
+          10.971,
+          21.273,
+          14.401,
+          22.023,
+          9.822,
+          9.457,
+          23.152,
+          14.287
+        ],
+        "loop_seam": "f9/f0 passing-to-push-off continuity inspected; no duplicate end pose",
+        "remaining_engine_check": "Claude: preview native speed, transition alignment, footstep events and active hitbox timing in GameMaker",
+        "contacts": "f2 anatomical right foot/viewer left; f7 anatomical left foot/viewer right, corrected and inspected"
+      }
+    },
+    {
+      "asset_id": "spr_dave_attack_down",
+      "frame_count": 8,
+      "canvas_px": [
+        128,
+        128
+      ],
+      "origin_px": [
+        64,
+        112
+      ],
+      "strip_px": [
+        1024,
+        128
+      ],
+      "fps": null,
+      "game_ticks_per_frame": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "loop": "once",
+      "visual_inspection": {
+        "identity_and_right_hand": "all native frames and painted sources inspected; sword anatomical right throughout",
+        "costume": "silver plate, ivory tabard, golden-brown hair, brown garments, two shoulder cape attachments retained; normal occlusion during attacks",
+        "lighting": "upper-left highlight convention preserved; no mirrored figures",
+        "ground": "fixed native origin and canvases; locomotion knee/foot projection varies through stride",
+        "adjacent_premultiplied_rgba_mean_absolute_difference": [
+          19.056,
+          20.705,
+          13.085,
+          15.43,
+          14.487,
+          16.93,
+          17.506,
+          16.385
+        ],
+        "loop_seam": "not a loop; f7 returns to exact checked base registration",
+        "remaining_engine_check": "Claude: preview native speed, transition alignment, footstep events and active hitbox timing in GameMaker",
+        "poses": "f0-1 anticipation, f2-4 active, f3 contact, f5-7 recovery; shortened inconsistent blades; final pose reuses base"
+      }
+    }
+  ],
+  "verified_engine_ready": false,
+  "source_prompts": "art/source/dave/down_batch_v001/*.prompt.txt",
+  "optional_art_polish": [
+    "Minor generated outline/face variation between poses.",
+    "Idle f7-to-f0 has a small visible silhouette settle; no perfect seamless-loop claim."
+  ]
+}

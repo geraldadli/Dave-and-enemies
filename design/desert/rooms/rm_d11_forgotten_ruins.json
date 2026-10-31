@@ -1,0 +1,85 @@
+{
+  "room_id": "rm_d11_forgotten_ruins",
+  "display_name": "Forgotten Ruins",
+  "size_cells": [
+    36,
+    24
+  ],
+  "terrain": [
+    "####################################",
+    "#MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#..............MM..................#",
+    "#..............MM..................#",
+    "#..............MM..................#",
+    "#..............MM..................#",
+    "#..............MM..................#",
+    "#..............MM......______......#",
+    "____________________________________",
+    "____________________________________",
+    "____________________________________",
+    "#..............MM......______......#",
+    "#..............MM..................#",
+    "#..............MM..................#",
+    "#..............MM..................#",
+    "#..............MM..................#",
+    "#..............MM..................#",
+    "#..............MM..................#",
+    "#..................................#",
+    "#..................................#",
+    "#..................................#",
+    "####################################"
+  ],
+  "exits": [
+    {
+      "id": "west",
+      "side": "W",
+      "rows": [
+        10,
+        12
+      ],
+      "to": "rm_d10_broken_bridge",
+      "to_exit": "east"
+    },
+    {
+      "id": "east",
+      "side": "E",
+      "rows": [
+        10,
+        12
+      ],
+      "to": "rm_d12_great_desert_stairs",
+      "to_exit": "west"
+    }
+  ],
+  "objects": [
+    {
+      "type": "checkpoint",
+      "cell": [
+        25,
+        11
+      ]
+    },
+    {
+      "type": "chest",
+      "id": "rm_d11_forgotten_ruins:c1",
+      "cell": [
+        28,
+        18
+      ],
+      "loot": [
+        [
+          "potion_health",
+          2
+        ]
+      ]
+    }
+  ],
+  "music": "mus_desert",
+  "weather": {
+    "sandstorm": false,
+    "tumbleweeds": false
+  },
+  "notes": "Authored design v1; batch 4. See gameplay_specs.json and decorations.json. A silent ruined courtyard restores safety and establishes the second checkpoint."
+}

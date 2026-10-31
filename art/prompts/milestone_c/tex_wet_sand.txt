@@ -1,0 +1,21 @@
+Use case: stylized-concept.
+
+Asset ID: tex_wet_sand. Purpose: Seamless terrain material. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach the original template floor/wall images for material density, broad shading and restrained contrast. Render an orthographic flat material sample, no perspective or vignette. Smooth illustrated game texture, not coarse pixel art.
+
+Subject: Darkened damp warm ochre sand, same grain scale as the light desert sand, no shore edge.
+
+Direction: Use the exact single orientation described; do not generate additional views.
+
+Final target: 256x256 native pixels PER FRAME; Material origin top-left (0,0); no camera perspective or directional lighting gradient.
+
+Transparency: opaque RGBA, alpha 255 throughout.
+
+Generate one static asset only, no contact sheet or alternative views.
+
+Playback/state selection: static. contract.
+
+Additional constraints: Repeat on all four edges; no visible central landmark, border or lighting vignette. This is a material texture, not a 47-tile autotile sheet. Engineering creates the blends.
+
+Inspection before acceptance: Check exact final dimensions and alpha 255 everywhere. Inspect a 3x3 repeat and a half-width/half-height offset for seams; repair visible breaks before acceptance. Compare grain and motif scale against the 64-pixel template tiles. Test blending with adjacent terrain in a room preview; do not claim seamlessness from a prompt alone.

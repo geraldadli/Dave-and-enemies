@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_sword_hit",
+  "purpose": "Successful damage from Dave's sword",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.22,
+  "actual_duration_seconds": 0.22,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_sword_hit_1.wav",
+      "path": "audio/sfx/snd_sword_hit_1.wav",
+      "sha256": "e762202fc85fce821e8a1f089b86434546743ab00e6b0c5d468e6a11d1cc9e90",
+      "bytes": 19448,
+      "frames": 9702,
+      "duration_seconds": 0.22,
+      "seed": 1814210123,
+      "measurements": {
+        "sample_peak_dbfs": -4.45458,
+        "oversampled_peak_dbfs_4x": -4.44905,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -22.11833,
+        "dc_offset": -1.2267424725572046e-07,
+        "onset_ms_at_minus60_relative": 0.249,
+        "trailing_ms_below_minus60_relative": 1.95
+      }
+    },
+    {
+      "file": "snd_sword_hit_2.wav",
+      "path": "audio/sfx/snd_sword_hit_2.wav",
+      "sha256": "5286a601a4fb62bddb32e761f538fcff9d8e1c4b97874398b4d2a4447187130b",
+      "bytes": 19448,
+      "frames": 9702,
+      "duration_seconds": 0.22,
+      "seed": 2307522029,
+      "measurements": {
+        "sample_peak_dbfs": -4.47008,
+        "oversampled_peak_dbfs_4x": -4.27119,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -22.11836,
+        "dc_offset": 1.6042016948824984e-07,
+        "onset_ms_at_minus60_relative": 0.227,
+        "trailing_ms_below_minus60_relative": 3.243
+      }
+    },
+    {
+      "file": "snd_sword_hit_3.wav",
+      "path": "audio/sfx/snd_sword_hit_3.wav",
+      "sha256": "5d87ff4db084672dfd962836be164f447413d31fab8baad5fe690fd9745c9f60",
+      "bytes": 19448,
+      "frames": 9702,
+      "duration_seconds": 0.22,
+      "seed": 2749550543,
+      "measurements": {
+        "sample_peak_dbfs": -2.99999,
+        "oversampled_peak_dbfs_4x": -2.9831,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -22.11836,
+        "dc_offset": 7.549184446505876e-08,
+        "onset_ms_at_minus60_relative": 0.295,
+        "trailing_ms_below_minus60_relative": 1.95
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_sword_hit: Successful damage from Dave's sword. Create a readable cartoon sword impact: crisp dry metal tick, short woody body thump and a tight gritty edge. No wet gore, long ring, whoosh or vocal. It must read in 50 ms and remain pleasant under repetition. Deliver 3 separate distinct takes, each 0.22 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 3e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

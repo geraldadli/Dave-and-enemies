@@ -1,0 +1,34 @@
+﻿asset_id,category,source_size,origin,scaling_or_slice,states,priority,delivery_status,notes
+spr_ui_panel,panel,96x96,"0,0",24 all sides,1,P0,supplied prototype,Opaque panel; transparent rounded corners; no labels
+spr_ui_hp_frame,border,320x32,"0,0",8 all sides,1,P0,supplied prototype,Dave bar native; boss destination 512x32; preserve caps
+spr_ui_hp_fill,bar,320x32,"0,0",none,1,P0,supplied prototype,Tint red/purple; clip to destination track; contains no numbers
+spr_ui_slot,slot border,72x72,"0,0",none,1,P0,supplied prototype,Shared by 8 main and 32 extra; icon/key/count drawn separately
+spr_ui_slot_selected,selection overlay,72x72,"0,0",none,1,P0,supplied prototype,Transparent center; gold outline/corners/selected marker
+spr_ui_button,button,64x64,"0,0",16 all sides,3 normal hover pressed,P1,supplied prototype,Individual _00/_01/_02 frames; final default height 48; labels separate
+spr_ui_save_card,save card,760x120,"0,0",none; native destination,3 normal hover pressed,P1,supplied prototype,"Never bake location, slot number, metadata, or Selected label"
+spr_ui_save_card_empty,empty save card,760x120,"0,0",none; native destination,3 normal hover pressed,P1,supplied prototype,Empty/invalid text remains editable; disabled state via code
+spr_portrait_dave,portrait,512x512,"0,0",draw at 208x208,1 neutral; determined optional,P0,art request; not delivered,"Facing right; paladin armor, red cape, long golden-brown hair; bust; 16 px safe source padding"
+spr_portrait_pharaoh,portrait,512x512,"0,0",draw at 208x208,1 menace; rage optional,P0,art request; not delivered,"Facing right; undead ruler, regal headdress; bust; consistent top-left light; 16 px safe padding"
+spr_icon_potion_health,item icon,64x64,"0,0",draw at 48x48,1,P0,art request; not delivered,Red potion; 3 px padding; no baked stack quantity
+spr_icon_longsword,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_icon_bandit_scimitar,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_icon_sunsteel_blade,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_icon_worn_tabard,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_icon_iron_tunic,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_icon_paladin_mail,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_icon_wanderer_tunic,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_icon_gold_coins,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_icon_desert_rose,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_icon_golden_scarab,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_icon_ancient_coin,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_icon_pharaoh_ankh,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_icon_potion_greater,item icon,64x64,"0,0",draw at 48x48,1,P1,art request; not delivered,"Contract B9 identifier; centered, 3 px source padding; no text"
+spr_ending_bg,background,1280x720,"0,0",native GUI plane,1,P2,art request; not delivered,"Low contrast arch/ruin; no title, labels, or recovered Grail"
+NotoSans-Regular.ttf,font,"pixel sizes 18,23,28",font metrics,font; never image-scale,Regular,P0,supplied static TTF,OFL.txt included; derived from official variable font wght400 wdth100
+NotoSans-Bold.ttf,font,"pixel sizes 28,46",font metrics,font; never image-scale,Bold,P0,supplied static TTF,"Same family, wght700 wdth100; headings and major titles"
+code:portrait_border,drawn border,208x208,GUI top-left,2 px inset,normal,P0,specified; no separate asset ID,Reuse panel edge colors; no baked name
+code:focus_ring,drawn border,component rectangle,GUI top-left,2 px ring + 4 px ticks,focused,P0,specified; no separate asset ID,Gold with corners; distinct from selected bottom marker
+code:close,drawn control,40x40,GUI top-left,fixed,normal hover pressed disabled,P0,specified; no separate asset ID,"Editable X, 18 px; no sprite necessary"
+code:empty_slot,empty indicator,12x2,slot center,fixed,empty,P0,specified; no separate asset ID,Muted horizontal dash; does not count as an item
+code:equipment_badge,drawn indicator,22x24,"slot local 47,2",fixed,equipped,P1,specified; no separate asset ID,"Editable E at 18 px; outline and text, no new storage"
+code:slider,drawn control,352x20 track;24x32 thumb,GUI top-left,fixed,normal focus drag disabled,P1,specified; no separate asset ID,"Tinted fill, readable percentage separate"

@@ -1,0 +1,96 @@
+{
+  "room_id": "rm_d10_broken_bridge",
+  "display_name": "Broken Bridge",
+  "size_cells": [
+    36,
+    24
+  ],
+  "terrain": [
+    "##########___#######################",
+    "#.........___...CCCCC..............#",
+    "#.........___...CCCCC..............#",
+    "#.........___...CCCCC..............#",
+    "#.........___MM.CCCCC..............#",
+    "#.........,,MMM.xxxxx..............#",
+    "#.........,,MMM.xxxxx..............#",
+    "#.........,,,...xxxxx..............#",
+    "#.........,,,...CCCCC..............#",
+    "#.........,,,...CCCCC..............#",
+    "_____,,,,,,,,,..CCCCC...,,,,,,,_____",
+    "_____,,,,,,,,,..CCCCC...,,,,,,,_____",
+    "_____,,,,,,,,,..CCCCC...,,,,,,,_____",
+    "#..........,,,..CCCCC...,,,........#",
+    "#..........,,,,,=====,,,,,,........#",
+    "#..........,,,,,=====,,,,,,........#",
+    "#..........,,,,,=====,,,,,,........#",
+    "#...............CCCCC..............#",
+    "#...............CCCCC..............#",
+    "#...............CCCCC..............#",
+    "#...............CCCCC..............#",
+    "#...............CCCCC..............#",
+    "#...............CCCCC..............#",
+    "####################################"
+  ],
+  "exits": [
+    {
+      "id": "west",
+      "side": "W",
+      "rows": [
+        10,
+        12
+      ],
+      "to": "rm_d09_bonefield",
+      "to_exit": "east"
+    },
+    {
+      "id": "east",
+      "side": "E",
+      "rows": [
+        10,
+        12
+      ],
+      "to": "rm_d11_forgotten_ruins",
+      "to_exit": "west"
+    },
+    {
+      "id": "north",
+      "side": "N",
+      "cols": [
+        10,
+        12
+      ],
+      "to": "rm_o4_buried_cistern",
+      "to_exit": "south"
+    }
+  ],
+  "objects": [
+    {
+      "type": "enemy",
+      "enemy": "bat",
+      "cell": [
+        28,
+        18
+      ]
+    },
+    {
+      "type": "chest",
+      "id": "rm_d10_broken_bridge:c1",
+      "cell": [
+        32,
+        19
+      ],
+      "loot": [
+        [
+          "potion_greater",
+          1
+        ]
+      ]
+    }
+  ],
+  "music": "mus_desert",
+  "weather": {
+    "sandstorm": true,
+    "tumbleweeds": true
+  },
+  "notes": "Authored design v1; batch 4. See gameplay_specs.json and decorations.json. Pause combat pressure: read a broken upper span, then use an intact lower bridge."
+}

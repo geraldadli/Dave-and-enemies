@@ -1,0 +1,9721 @@
+{
+  "sc_desert_frontier": {
+    "scene_id": "sc_desert_frontier",
+    "room_id": "rm_sc_desert_frontier",
+    "purpose": "A broad first landscape: orient east, choose dune and canyon routes, climb a lookout loop, then recognize the oasis from multiple approaches.",
+    "size_cells": [
+      128,
+      80
+    ],
+    "places": [
+      {
+        "place_id": "place_palm_garden",
+        "name": "Buried Palm Garden",
+        "rect": [
+          106,
+          48,
+          113,
+          54
+        ],
+        "anchor": [
+          109,
+          52
+        ],
+        "legacy_design_id": null,
+        "experience": "A close, recognizable little destination with an optional persistent supply cache.",
+        "transition": false
+      },
+      {
+        "place_id": "place_spring_keeper",
+        "name": "Spring Keeper's Niche",
+        "rect": [
+          102,
+          20,
+          109,
+          26
+        ],
+        "anchor": [
+          105,
+          24
+        ],
+        "legacy_design_id": null,
+        "experience": "A close, recognizable little destination with an optional persistent supply cache.",
+        "transition": false
+      },
+      {
+        "place_id": "place_survey_cache",
+        "name": "Wash Survey Camp",
+        "rect": [
+          75,
+          48,
+          82,
+          54
+        ],
+        "anchor": [
+          78,
+          52
+        ],
+        "legacy_design_id": null,
+        "experience": "A close, recognizable little destination with an optional persistent supply cache.",
+        "transition": false
+      },
+      {
+        "place_id": "place_lost_porters",
+        "name": "Lost Porters' Camp",
+        "rect": [
+          18,
+          43,
+          25,
+          49
+        ],
+        "anchor": [
+          21,
+          47
+        ],
+        "legacy_design_id": null,
+        "experience": "A close, recognizable little destination with an optional persistent supply cache.",
+        "transition": false
+      },
+      {
+        "place_id": "place_arrival",
+        "name": "Desert Arrival",
+        "rect": [
+          3,
+          29,
+          20,
+          53
+        ],
+        "anchor": [
+          9,
+          40
+        ],
+        "legacy_design_id": "rm_d01_arrival",
+        "experience": "Breached-city stone gives way to open sand; no enemies around the first chest.",
+        "transition": false
+      },
+      {
+        "place_id": "place_dune_trail",
+        "name": "Dune Trail",
+        "rect": [
+          21,
+          25,
+          36,
+          47
+        ],
+        "anchor": [
+          28,
+          40
+        ],
+        "legacy_design_id": "rm_d02_dune_trail",
+        "experience": "A first slow enemy on the main trail; dunes and the northern shelf invite a wider scan.",
+        "transition": false
+      },
+      {
+        "place_id": "place_canyon_approach",
+        "name": "Canyon Approach",
+        "rect": [
+          37,
+          28,
+          54,
+          43
+        ],
+        "anchor": [
+          45,
+          35
+        ],
+        "legacy_design_id": "rm_d03_canyon_approach",
+        "experience": "Read a broad canyon notch, the upper lookout return and a southern bypass.",
+        "transition": false
+      },
+      {
+        "place_id": "place_split_cliffs",
+        "name": "Split Cliffs",
+        "rect": [
+          55,
+          26,
+          74,
+          42
+        ],
+        "anchor": [
+          63,
+          35
+        ],
+        "legacy_design_id": "rm_d04_split_cliffs",
+        "experience": "Two separated cliff islands frame crossing paths without enclosing another small area.",
+        "transition": false
+      },
+      {
+        "place_id": "place_dry_wash",
+        "name": "Dry Wash",
+        "rect": [
+          69,
+          43,
+          96,
+          68
+        ],
+        "anchor": [
+          79,
+          46
+        ],
+        "legacy_design_id": "rm_d05_dry_wash",
+        "experience": "A quiet dry riverbed winds toward green; an elective python pocket lies farther south.",
+        "transition": false
+      },
+      {
+        "place_id": "place_oasis_refuge",
+        "name": "Oasis Refuge",
+        "rect": [
+          94,
+          23,
+          122,
+          51
+        ],
+        "anchor": [
+          108,
+          42
+        ],
+        "legacy_design_id": "rm_d06_oasis_refuge",
+        "experience": "A visible lake, palms, connected banks and safe star anchor the whole eastern basin.",
+        "transition": false
+      },
+      {
+        "place_id": "place_sunken_lookout",
+        "name": "Sunken Lookout",
+        "rect": [
+          26,
+          8,
+          63,
+          23
+        ],
+        "anchor": [
+          45,
+          19
+        ],
+        "legacy_design_id": "rm_o1_sunken_lookout",
+        "experience": "Sunken Lookout becomes a two-stair shelf loop, with armor seen near the ledge and a separate way down.",
+        "transition": false
+      },
+      {
+        "place_id": "place_hidden_spring",
+        "name": "Hidden Spring",
+        "rect": [
+          99,
+          10,
+          119,
+          22
+        ],
+        "anchor": [
+          108,
+          19
+        ],
+        "legacy_design_id": "rm_o2_hidden_spring",
+        "experience": "Hidden Spring sits on the northern oasis-bank circuit; no loading door or dead-end branch.",
+        "transition": false
+      }
+    ],
+    "primary_route": [
+      [
+        7,
+        40
+      ],
+      [
+        28,
+        40
+      ],
+      [
+        43,
+        40
+      ],
+      [
+        43,
+        35
+      ],
+      [
+        61,
+        35
+      ],
+      [
+        75,
+        35
+      ],
+      [
+        75,
+        46
+      ],
+      [
+        96,
+        46
+      ],
+      [
+        96,
+        42
+      ],
+      [
+        108,
+        42
+      ],
+      [
+        118,
+        42
+      ],
+      [
+        118,
+        40
+      ],
+      [
+        125,
+        40
+      ]
+    ],
+    "exploration_loops": [
+      {
+        "name": "Lookout ridge circuit",
+        "waypoints": [
+          [
+            28,
+            40
+          ],
+          [
+            24,
+            40
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            34,
+            25
+          ],
+          [
+            34,
+            20
+          ],
+          [
+            34,
+            16
+          ],
+          [
+            56,
+            16
+          ],
+          [
+            56,
+            25
+          ],
+          [
+            61,
+            25
+          ],
+          [
+            61,
+            35
+          ]
+        ],
+        "purpose": "Leave the dune trail, climb west, claim shelf treasure, descend east and rejoin beyond the canyon approach.",
+        "scene_transition": false
+      },
+      {
+        "name": "Southern wash circuit",
+        "waypoints": [
+          [
+            28,
+            40
+          ],
+          [
+            28,
+            57
+          ],
+          [
+            43,
+            57
+          ],
+          [
+            43,
+            53
+          ],
+          [
+            43,
+            57
+          ],
+          [
+            72,
+            57
+          ],
+          [
+            72,
+            46
+          ],
+          [
+            96,
+            46
+          ]
+        ],
+        "purpose": "A longer open-ground route passes the canyon's south end and reveals a coin pocket and python detour.",
+        "scene_transition": false
+      },
+      {
+        "name": "Oasis banks circuit",
+        "waypoints": [
+          [
+            96,
+            42
+          ],
+          [
+            95,
+            42
+          ],
+          [
+            95,
+            20
+          ],
+          [
+            117,
+            20
+          ],
+          [
+            117,
+            42
+          ],
+          [
+            108,
+            42
+          ]
+        ],
+        "purpose": "Approach the oasis from either bank, discover the spring and return to a recognizable save landmark.",
+        "scene_transition": false
+      },
+      {
+        "name": "Lost Porters' Camp trail",
+        "waypoints": [
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            48
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            24,
+            40
+          ]
+        ],
+        "purpose": "Find lost porters' camp and its supplies; return by another approach.",
+        "scene_transition": false
+      },
+      {
+        "name": "Wash Survey Camp trail",
+        "waypoints": [
+          [
+            75,
+            46
+          ],
+          [
+            75,
+            53
+          ],
+          [
+            82,
+            53
+          ],
+          [
+            82,
+            46
+          ]
+        ],
+        "purpose": "Find wash survey camp and its supplies; return by another approach.",
+        "scene_transition": false
+      },
+      {
+        "name": "Spring Keeper's Niche trail",
+        "waypoints": [
+          [
+            101,
+            20
+          ],
+          [
+            101,
+            24
+          ],
+          [
+            109,
+            24
+          ],
+          [
+            109,
+            20
+          ]
+        ],
+        "purpose": "Find spring keeper's niche and its supplies; return by another approach.",
+        "scene_transition": false
+      },
+      {
+        "name": "Buried Palm Garden trail",
+        "waypoints": [
+          [
+            96,
+            46
+          ],
+          [
+            104,
+            46
+          ],
+          [
+            104,
+            53
+          ],
+          [
+            115,
+            53
+          ],
+          [
+            115,
+            42
+          ]
+        ],
+        "purpose": "Find buried palm garden and its supplies; return by another approach.",
+        "scene_transition": false
+      }
+    ],
+    "encounters": [
+      {
+        "id": "rm_d02_dune_trail:g1",
+        "combat_rect": [
+          23,
+          34,
+          33,
+          44
+        ],
+        "leash_rect": [
+          23,
+          34,
+          33,
+          44
+        ],
+        "enemies": [
+          {
+            "id": "rm_d02_dune_trail:g1:e1",
+            "enemy": "undead",
+            "cell": [
+              28,
+              39
+            ]
+          }
+        ],
+        "purpose": "First undead windup lesson; wide sand around every side.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d03_canyon_approach:g1",
+        "combat_rect": [
+          38,
+          30,
+          46,
+          38
+        ],
+        "leash_rect": [
+          38,
+          30,
+          46,
+          38
+        ],
+        "enemies": [
+          {
+            "id": "rm_d03_canyon_approach:g1:e1",
+            "enemy": "undead",
+            "cell": [
+              42,
+              34
+            ]
+          }
+        ],
+        "purpose": "A familiar attacker near the canyon's west approach.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d03_canyon_approach:g2",
+        "combat_rect": [
+          38,
+          49,
+          46,
+          57
+        ],
+        "leash_rect": [
+          38,
+          49,
+          46,
+          57
+        ],
+        "enemies": [
+          {
+            "id": "rm_d03_canyon_approach:g2:e1",
+            "enemy": "undead",
+            "cell": [
+              42,
+              53
+            ]
+          }
+        ],
+        "purpose": "Elective duel on the southern return route; does not seal a passage.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d04_split_cliffs:g1",
+        "combat_rect": [
+          60,
+          31,
+          70,
+          39
+        ],
+        "leash_rect": [
+          60,
+          31,
+          70,
+          39
+        ],
+        "enemies": [
+          {
+            "id": "rm_d04_split_cliffs:g1:e1",
+            "enemy": "skeleton_warrior",
+            "cell": [
+              65,
+              35
+            ]
+          }
+        ],
+        "purpose": "First skeleton warrior in a broad, uncluttered crossing.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d05_dry_wash:g1",
+        "combat_rect": [
+          81,
+          56,
+          91,
+          66
+        ],
+        "leash_rect": [
+          81,
+          56,
+          91,
+          66
+        ],
+        "enemies": [
+          {
+            "id": "rm_d05_dry_wash:g1:e1",
+            "enemy": "python",
+            "cell": [
+              86,
+              61
+            ]
+          }
+        ],
+        "purpose": "Python telegraph in a southern wash pocket; main oasis approach remains quiet.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_o1_sunken_lookout:g1",
+        "combat_rect": [
+          35,
+          11,
+          43,
+          19
+        ],
+        "leash_rect": [
+          35,
+          11,
+          43,
+          19
+        ],
+        "enemies": [
+          {
+            "id": "rm_o1_sunken_lookout:g1:e1",
+            "enemy": "undead",
+            "cell": [
+              39,
+              15
+            ]
+          }
+        ],
+        "purpose": "Optional shelf duel before the armor; two stairs allow a different return.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      }
+    ],
+    "chests": [
+      {
+        "id": "rm_sc_desert_frontier:c1",
+        "cell": [
+          14,
+          34
+        ],
+        "loot": [
+          [
+            "potion_health",
+            1
+          ]
+        ],
+        "legacy_id": "rm_d01_arrival:c1",
+        "interaction_cell": [
+          14,
+          35
+        ],
+        "approach_cell": [
+          14,
+          36
+        ],
+        "intention": "A visible, unguarded first potion; learn interaction before danger.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_desert_frontier:c2",
+        "cell": [
+          39,
+          26
+        ],
+        "loot": [
+          [
+            "potion_health",
+            2
+          ]
+        ],
+        "legacy_id": "rm_d02_dune_trail:c1",
+        "interaction_cell": [
+          39,
+          27
+        ],
+        "approach_cell": [
+          39,
+          28
+        ],
+        "intention": "Supplies after first combat; visible from the eastward path, reached around the dune.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_desert_frontier:c3",
+        "cell": [
+          43,
+          61
+        ],
+        "loot": [
+          [
+            "gold_coins",
+            20
+          ]
+        ],
+        "legacy_id": "rm_d03_canyon_approach:c1",
+        "interaction_cell": [
+          43,
+          62
+        ],
+        "approach_cell": [
+          43,
+          63
+        ],
+        "intention": "A small southern pocket pays for looking away from the dark path.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_desert_frontier:c4",
+        "cell": [
+          67,
+          26
+        ],
+        "loot": [
+          [
+            "ancient_coin",
+            1
+          ]
+        ],
+        "legacy_id": "rm_d04_split_cliffs:c1",
+        "interaction_cell": [
+          67,
+          27
+        ],
+        "approach_cell": [
+          67,
+          28
+        ],
+        "intention": "Upper-lane souvenir; neither lane is mandatory for the other.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_desert_frontier:c5",
+        "cell": [
+          93,
+          62
+        ],
+        "loot": [
+          [
+            "potion_health",
+            2
+          ]
+        ],
+        "legacy_id": "rm_d05_dry_wash:c1",
+        "interaction_cell": [
+          93,
+          63
+        ],
+        "approach_cell": [
+          93,
+          64
+        ],
+        "intention": "Tempt a deliberate step into the wash pocket; not required before the healing checkpoint.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_desert_frontier:c6",
+        "cell": [
+          117,
+          44
+        ],
+        "loot": [
+          [
+            "potion_health",
+            2
+          ]
+        ],
+        "legacy_id": "rm_d06_oasis_refuge:c1",
+        "interaction_cell": [
+          117,
+          45
+        ],
+        "approach_cell": [
+          117,
+          46
+        ],
+        "intention": "An unguarded emergency reserve beside the refuge; never required to activate the star.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_desert_frontier:c7",
+        "cell": [
+          45,
+          20
+        ],
+        "loot": [
+          [
+            "wanderer_tunic",
+            1
+          ],
+          [
+            "potion_health",
+            1
+          ]
+        ],
+        "legacy_id": "rm_o1_sunken_lookout:c1",
+        "interaction_cell": [
+          45,
+          19
+        ],
+        "approach_cell": [
+          45,
+          18
+        ],
+        "intention": "First optional armor and a potion. From the lower basin near [11,13], the chest is six cells east and four north, within the 1280 by 720 view; the west stairs provide access. Interact from its north side.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_desert_frontier:c8",
+        "cell": [
+          116,
+          17
+        ],
+        "loot": [
+          [
+            "desert_rose",
+            1
+          ]
+        ],
+        "legacy_id": "rm_o2_hidden_spring:c1",
+        "interaction_cell": [
+          116,
+          18
+        ],
+        "approach_cell": [
+          116,
+          19
+        ],
+        "intention": "A small collectible at the far side of a visible shoreline loop.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_desert_frontier:c9",
+        "cell": [
+          21,
+          45
+        ],
+        "loot": [
+          [
+            "potion_health",
+            1
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          21,
+          46
+        ],
+        "approach_cell": [
+          21,
+          47
+        ],
+        "intention": "Optional discovery at Lost Porters' Camp; no equipment or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_desert_frontier:c10",
+        "cell": [
+          78,
+          50
+        ],
+        "loot": [
+          [
+            "gold_coins",
+            6
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          78,
+          51
+        ],
+        "approach_cell": [
+          78,
+          52
+        ],
+        "intention": "Optional discovery at Wash Survey Camp; no equipment or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_desert_frontier:c11",
+        "cell": [
+          105,
+          22
+        ],
+        "loot": [
+          [
+            "desert_rose",
+            1
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          105,
+          23
+        ],
+        "approach_cell": [
+          105,
+          24
+        ],
+        "intention": "Optional discovery at Spring Keeper's Niche; no equipment or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_desert_frontier:c12",
+        "cell": [
+          109,
+          50
+        ],
+        "loot": [
+          [
+            "ancient_coin",
+            1
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          109,
+          51
+        ],
+        "approach_cell": [
+          109,
+          52
+        ],
+        "intention": "Optional discovery at Buried Palm Garden; no equipment or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      }
+    ],
+    "checkpoints": [
+      {
+        "id": "sc_desert_frontier:checkpoint",
+        "cell": [
+          108,
+          42
+        ],
+        "respawn_cell": [
+          108,
+          42
+        ],
+        "safe_rect": [
+          107,
+          41,
+          109,
+          43
+        ],
+        "quiet_rect": [
+          99,
+          37,
+          117,
+          48
+        ],
+        "behavior": "E opens exactly 3 save slots; heal on successful save; snapshot all state together."
+      }
+    ],
+    "solid_props": [
+      {
+        "prop": "cactus_small",
+        "cell": [
+          17,
+          49
+        ],
+        "footprint_px": [
+          16,
+          12
+        ],
+        "blocked_rect": [
+          17,
+          49,
+          17,
+          49
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "obelisk",
+        "cell": [
+          45,
+          28
+        ],
+        "footprint_px": [
+          40,
+          28
+        ],
+        "blocked_rect": [
+          45,
+          28,
+          45,
+          28
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          93,
+          33
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          93,
+          33,
+          93,
+          33
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          119,
+          30
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          119,
+          30,
+          119,
+          30
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "wagon_wreck",
+        "cell": [
+          16,
+          43
+        ],
+        "footprint_px": [
+          160,
+          40
+        ],
+        "blocked_rect": [
+          15,
+          43,
+          17,
+          43
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "water_barrel",
+        "cell": [
+          17,
+          46
+        ],
+        "footprint_px": [
+          38,
+          20
+        ],
+        "blocked_rect": [
+          17,
+          46,
+          17,
+          46
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          26,
+          46
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          26,
+          46,
+          26,
+          46
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          26,
+          48
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          26,
+          48,
+          26,
+          48
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          80,
+          50
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          80,
+          50,
+          80,
+          50
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "water_barrel",
+        "cell": [
+          74,
+          56
+        ],
+        "footprint_px": [
+          38,
+          20
+        ],
+        "blocked_rect": [
+          74,
+          56,
+          74,
+          56
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          112,
+          25
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          112,
+          25,
+          112,
+          25
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          111,
+          18
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          111,
+          18,
+          111,
+          18
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          112,
+          51
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          112,
+          51,
+          112,
+          51
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "water_barrel",
+        "cell": [
+          112,
+          49
+        ],
+        "footprint_px": [
+          38,
+          20
+        ],
+        "blocked_rect": [
+          112,
+          49,
+          112,
+          49
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          113,
+          47
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          113,
+          47,
+          113,
+          47
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          8,
+          37
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          8,
+          37,
+          8,
+          37
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          9,
+          34
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          9,
+          34,
+          9,
+          34
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          25,
+          23
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          25,
+          23,
+          25,
+          23
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          28,
+          30
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          28,
+          30,
+          28,
+          30
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          46,
+          14
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          46,
+          14,
+          46,
+          14
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          50,
+          19
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          50,
+          19,
+          50,
+          19
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "cactus_tall",
+        "cell": [
+          33,
+          49
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          33,
+          49,
+          33,
+          49
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "cactus_small",
+        "cell": [
+          32,
+          52
+        ],
+        "footprint_px": [
+          16,
+          12
+        ],
+        "blocked_rect": [
+          32,
+          52,
+          32,
+          52
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          45,
+          46
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          45,
+          46,
+          45,
+          46
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          41,
+          43
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          41,
+          43,
+          41,
+          43
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          58,
+          32
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          58,
+          32,
+          58,
+          32
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          55,
+          31
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          55,
+          31,
+          55,
+          31
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          61,
+          52
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          61,
+          52,
+          61,
+          52
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          64,
+          53
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          64,
+          53,
+          64,
+          53
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          81,
+          44
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          81,
+          44,
+          81,
+          44
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "water_barrel",
+        "cell": [
+          78,
+          41
+        ],
+        "footprint_px": [
+          38,
+          20
+        ],
+        "blocked_rect": [
+          78,
+          41,
+          78,
+          41
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          95,
+          58
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          95,
+          58,
+          95,
+          58
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          88,
+          55
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          88,
+          55,
+          88,
+          55
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          91,
+          23
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          91,
+          23,
+          91,
+          23
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "water_barrel",
+        "cell": [
+          99,
+          24
+        ],
+        "footprint_px": [
+          38,
+          20
+        ],
+        "blocked_rect": [
+          99,
+          24,
+          99,
+          24
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          114,
+          35
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          114,
+          35,
+          114,
+          35
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "water_barrel",
+        "cell": [
+          110,
+          38
+        ],
+        "footprint_px": [
+          38,
+          20
+        ],
+        "blocked_rect": [
+          110,
+          38,
+          110,
+          38
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          37,
+          21
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          37,
+          21,
+          37,
+          21
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          122,
+          46
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          122,
+          46,
+          122,
+          46
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          119,
+          49
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          119,
+          49,
+          119,
+          49
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          114,
+          12
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          114,
+          12,
+          114,
+          12
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          118,
+          12
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          118,
+          12,
+          118,
+          12
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          15,
+          45
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          15,
+          45,
+          15,
+          45
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          21,
+          51
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          21,
+          51,
+          21,
+          51
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          84,
+          50
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          84,
+          50,
+          84,
+          50
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          78,
+          56
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          78,
+          56,
+          78,
+          56
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          103,
+          17
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          103,
+          17,
+          103,
+          17
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          101,
+          18
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          101,
+          18,
+          101,
+          18
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          111,
+          45
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          111,
+          45,
+          111,
+          45
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          109,
+          56
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          109,
+          56,
+          109,
+          56
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          28,
+          33
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          28,
+          33,
+          28,
+          33
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          22,
+          38
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          22,
+          38,
+          22,
+          38
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          37,
+          32
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          37,
+          32,
+          37,
+          32
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          40,
+          48
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          40,
+          48,
+          40,
+          48
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          44,
+          48
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          44,
+          48,
+          44,
+          48
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          64,
+          30
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          64,
+          30,
+          64,
+          30
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          86,
+          55
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          86,
+          55,
+          86,
+          55
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          80,
+          61
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          80,
+          61,
+          80,
+          61
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          37,
+          10
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          37,
+          10,
+          37,
+          10
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          41,
+          10
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          41,
+          10,
+          41,
+          10
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          101,
+          39
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          101,
+          39,
+          101,
+          39
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          120,
+          38
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          120,
+          38,
+          120,
+          38
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          103,
+          40
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          103,
+          40,
+          103,
+          40
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "water_barrel",
+        "cell": [
+          99,
+          40
+        ],
+        "footprint_px": [
+          38,
+          20
+        ],
+        "blocked_rect": [
+          99,
+          40,
+          99,
+          40
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          97,
+          40
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          97,
+          40,
+          97,
+          40
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          73,
+          33
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          73,
+          33,
+          73,
+          33
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          93,
+          40
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          93,
+          40,
+          93,
+          40
+        ],
+        "anchor": "cell ground centre"
+      }
+    ],
+    "structures": [
+      {
+        "kind": "stairs",
+        "rect": [
+          32,
+          22,
+          36,
+          23
+        ],
+        "note": "Five-wide west ascent to lookout shelf; north/south landings stay empty."
+      },
+      {
+        "kind": "stairs",
+        "rect": [
+          54,
+          22,
+          58,
+          23
+        ],
+        "note": "Five-wide east descent returns to the canyon's far approach; forms a continuous exploration loop."
+      }
+    ],
+    "scripts": [
+      {
+        "id": "desert_arrival",
+        "trigger_rect": [
+          5,
+          38,
+          11,
+          42
+        ],
+        "event": "chapter_start",
+        "once_flag": "desert_arrival_seen",
+        "note": "Intro ends at [7,40] facing east; initial death fallback is a complete snapshot here."
+      },
+      {
+        "id": "hidden_spring_heal",
+        "trigger_rect": [
+          105,
+          18,
+          109,
+          20
+        ],
+        "event": "interact_heal",
+        "once_flag": null,
+        "note": "E on the bank heals without loot, XP or saving. At full HP do nothing."
+      }
+    ],
+    "arrivals": [
+      {
+        "exit_id": "east",
+        "cell": [
+          125,
+          40
+        ],
+        "pixel": [
+          8032,
+          2592
+        ],
+        "safe_rect": [
+          124,
+          39,
+          126,
+          41
+        ],
+        "facing": 4
+      }
+    ],
+    "transitions": [
+      {
+        "exit_id": "east",
+        "to_scene_id": "sc_caravan_basin",
+        "to_room_id": "rm_sc_caravan_basin",
+        "to_exit": "west",
+        "destination_arrival_cell": [
+          2,
+          40
+        ],
+        "destination_arrival_pixel": [
+          160,
+          2592
+        ],
+        "condition": "always"
+      }
+    ],
+    "initial_spawn": [
+      7,
+      40
+    ],
+    "elevation_notes": [
+      "Lookout shelf z1: [29,10..60,21], fully bounded by solid rock except two five-wide stairs. Basin z0. No free cliff crossing, jumping or one-way drops."
+    ],
+    "batches": [
+      {
+        "name": "Opening expanse",
+        "places": [
+          "place_arrival",
+          "place_dune_trail",
+          "place_canyon_approach",
+          "place_sunken_lookout"
+        ],
+        "build": "Block the broad basin, first combat and the full two-stair lookout circuit together. Do not make separate scenes for these places."
+      },
+      {
+        "name": "Canyon and wash expansion",
+        "places": [
+          "place_split_cliffs",
+          "place_dry_wash"
+        ],
+        "build": "Add the canyon notch, southern bypass, cliff islands and elective python pocket."
+      },
+      {
+        "name": "Oasis expansion",
+        "places": [
+          "place_oasis_refuge",
+          "place_hidden_spring"
+        ],
+        "build": "Extend into both lake banks, the northern spring circuit, checkpoint and east scene transition."
+      }
+    ],
+    "boss": null,
+    "additional_asset_ids": [],
+    "weather": {
+      "default": "Occasional cosmetic east-to-west wind/tumbleweeds only, never movement or collision effects.",
+      "suppress_rects": [
+        [
+          99,
+          37,
+          117,
+          48
+        ],
+        [
+          99,
+          10,
+          119,
+          22
+        ]
+      ]
+    },
+    "discoveries": [
+      {
+        "id": "sc_desert_frontier:lost_porters",
+        "name": "Lost Porters' Camp",
+        "cell": [
+          21,
+          45
+        ],
+        "theme": "supplies",
+        "chest_id": "rm_sc_desert_frontier:c9",
+        "rect": [
+          18,
+          43,
+          25,
+          49
+        ],
+        "route": [
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            48
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            24,
+            40
+          ]
+        ],
+        "approach": [
+          21,
+          47
+        ],
+        "reward": [
+          [
+            "potion_health",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "sc_desert_frontier:survey_cache",
+        "name": "Wash Survey Camp",
+        "cell": [
+          78,
+          50
+        ],
+        "theme": "survey",
+        "chest_id": "rm_sc_desert_frontier:c10",
+        "rect": [
+          75,
+          48,
+          82,
+          54
+        ],
+        "route": [
+          [
+            75,
+            46
+          ],
+          [
+            75,
+            53
+          ],
+          [
+            82,
+            53
+          ],
+          [
+            82,
+            46
+          ]
+        ],
+        "approach": [
+          78,
+          52
+        ],
+        "reward": [
+          [
+            "gold_coins",
+            6
+          ]
+        ]
+      },
+      {
+        "id": "sc_desert_frontier:spring_keeper",
+        "name": "Spring Keeper's Niche",
+        "cell": [
+          105,
+          22
+        ],
+        "theme": "garden",
+        "chest_id": "rm_sc_desert_frontier:c11",
+        "rect": [
+          102,
+          20,
+          109,
+          26
+        ],
+        "route": [
+          [
+            101,
+            20
+          ],
+          [
+            101,
+            24
+          ],
+          [
+            109,
+            24
+          ],
+          [
+            109,
+            20
+          ]
+        ],
+        "approach": [
+          105,
+          24
+        ],
+        "reward": [
+          [
+            "desert_rose",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "sc_desert_frontier:palm_garden",
+        "name": "Buried Palm Garden",
+        "cell": [
+          109,
+          50
+        ],
+        "theme": "garden",
+        "chest_id": "rm_sc_desert_frontier:c12",
+        "rect": [
+          106,
+          48,
+          113,
+          54
+        ],
+        "route": [
+          [
+            96,
+            46
+          ],
+          [
+            104,
+            46
+          ],
+          [
+            104,
+            53
+          ],
+          [
+            115,
+            53
+          ],
+          [
+            115,
+            42
+          ]
+        ],
+        "approach": [
+          109,
+          52
+        ],
+        "reward": [
+          [
+            "ancient_coin",
+            1
+          ]
+        ]
+      }
+    ],
+    "discovery_dressing": {
+      "sc_desert_frontier:lost_porters": 6,
+      "sc_desert_frontier:survey_cache": 5,
+      "sc_desert_frontier:spring_keeper": 5,
+      "sc_desert_frontier:palm_garden": 6
+    },
+    "layout_focus": {
+      "revision": "discovery_routes_v2",
+      "original_walkable_cells": 6578,
+      "walkable_cells": 3814,
+      "principle": "Continuous landscapes with framed routes, short scenic pockets and distinct material/prop stories. Traversable cameras see persistent scenery; the central boss arena keeps deliberate open warning floor.",
+      "camera_coverage_cells": [
+        19,
+        11
+      ],
+      "camera_minimum_details": 4,
+      "camera_minimum_landmarks": 2,
+      "camera_combat_minimum_details": 2,
+      "beats": [
+        {
+          "name": "Breached city baggage",
+          "theme": "rubble",
+          "cell": [
+            12,
+            37
+          ]
+        },
+        {
+          "name": "Lookout foothill cairns",
+          "theme": "rubble",
+          "cell": [
+            25,
+            27
+          ]
+        },
+        {
+          "name": "Watchman's abandoned perch",
+          "theme": "rubble",
+          "cell": [
+            46,
+            18
+          ]
+        },
+        {
+          "name": "Sheltered cactus bend",
+          "theme": "cactus",
+          "cell": [
+            29,
+            49
+          ]
+        },
+        {
+          "name": "Canyon windbreak",
+          "theme": "dry",
+          "cell": [
+            45,
+            42
+          ]
+        },
+        {
+          "name": "Split-cliff trail marker",
+          "theme": "rubble",
+          "cell": [
+            58,
+            28
+          ]
+        },
+        {
+          "name": "Washed-out stone bed",
+          "theme": "dry",
+          "cell": [
+            61,
+            56
+          ]
+        },
+        {
+          "name": "First green in the wash",
+          "theme": "oasis",
+          "cell": [
+            77,
+            45
+          ]
+        },
+        {
+          "name": "Shed snake bones",
+          "theme": "bones",
+          "cell": [
+            91,
+            58
+          ]
+        },
+        {
+          "name": "Spring-bank palms",
+          "theme": "oasis",
+          "cell": [
+            95,
+            23
+          ]
+        },
+        {
+          "name": "Lakeside resting place",
+          "theme": "oasis",
+          "cell": [
+            114,
+            39
+          ]
+        },
+        {
+          "name": "Hidden spring cairns",
+          "theme": "oasis",
+          "cell": [
+            119,
+            21
+          ]
+        }
+      ],
+      "nearby_coverage_cells": [
+        11,
+        7
+      ],
+      "nearby_minimum_details": 3,
+      "nearby_minimum_landmarks": 1,
+      "protected": "Three-wide routes, full combat pads, chest approaches, save/arrival reserves, bridge/stair landings, boss gates and warning floor."
+    },
+    "required_asset_ids": [
+      "mus_desert",
+      "snd_checkpoint",
+      "snd_chest_open",
+      "snd_pickup",
+      "snd_save",
+      "snd_snake_hiss",
+      "snd_snake_lunge",
+      "snd_step_sand",
+      "snd_sword_hit",
+      "snd_sword_swing",
+      "snd_wind_loop",
+      "spr_boulder",
+      "spr_bush",
+      "spr_bush_dead",
+      "spr_cactus_small",
+      "spr_cactus_tall",
+      "spr_checkpoint_star",
+      "spr_chest_desert",
+      "spr_column_broken",
+      "spr_column_fallen",
+      "spr_dave_attack_down",
+      "spr_dave_attack_down_side",
+      "spr_dave_attack_side",
+      "spr_dave_attack_up",
+      "spr_dave_attack_up_side",
+      "spr_dave_idle_down",
+      "spr_dave_idle_down_side",
+      "spr_dave_idle_side",
+      "spr_dave_idle_up",
+      "spr_dave_idle_up_side",
+      "spr_dave_walk_down",
+      "spr_dave_walk_down_side",
+      "spr_dave_walk_side",
+      "spr_dave_walk_up",
+      "spr_dave_walk_up_side",
+      "spr_fx_hit",
+      "spr_fx_slash",
+      "spr_fx_sparkle",
+      "spr_healing_spring",
+      "spr_icon_ancient_coin",
+      "spr_icon_desert_rose",
+      "spr_icon_gold_coins",
+      "spr_icon_potion_health",
+      "spr_icon_wanderer_tunic",
+      "spr_loose_rocks",
+      "spr_mask_dave",
+      "spr_mask_medium",
+      "spr_mask_python",
+      "spr_obelisk",
+      "spr_palm",
+      "spr_pebbles",
+      "spr_python_coil",
+      "spr_python_defeat",
+      "spr_python_hurt",
+      "spr_python_lunge_down",
+      "spr_python_lunge_side",
+      "spr_python_lunge_up",
+      "spr_python_slither_down",
+      "spr_python_slither_side",
+      "spr_python_slither_up",
+      "spr_ruin_block",
+      "spr_skeleton_warrior_attack_down",
+      "spr_skeleton_warrior_attack_side",
+      "spr_skeleton_warrior_attack_up",
+      "spr_skeleton_warrior_defeat",
+      "spr_skeleton_warrior_hurt_down",
+      "spr_skeleton_warrior_idle_down",
+      "spr_skeleton_warrior_walk_down",
+      "spr_skeleton_warrior_walk_side",
+      "spr_skeleton_warrior_walk_up",
+      "spr_skull",
+      "spr_supply_barrel",
+      "spr_tree_dead",
+      "spr_tree_desert",
+      "spr_tumbleweed",
+      "spr_undead_attack_down",
+      "spr_undead_attack_side",
+      "spr_undead_attack_up",
+      "spr_undead_defeat",
+      "spr_undead_hurt_down",
+      "spr_undead_idle_down",
+      "spr_undead_rise",
+      "spr_undead_walk_down",
+      "spr_undead_walk_side",
+      "spr_undead_walk_up",
+      "spr_wagon_wreck",
+      "spr_water_barrel",
+      "tex_cliff_face",
+      "tex_grass",
+      "tex_masonry_face",
+      "tex_masonry_top",
+      "tex_paving",
+      "tex_rock_top",
+      "tex_sand_dark",
+      "tex_sand_light",
+      "tex_water",
+      "tex_wet_sand",
+      "ts_stairs"
+    ]
+  },
+  "sc_caravan_basin": {
+    "scene_id": "sc_caravan_basin",
+    "room_id": "rm_sc_caravan_basin",
+    "purpose": "An expansive travel basin: caravan wreck, cactus routes and bonefield lead to two usable chasm crossings, quiet ruins and a panoramic ascent.",
+    "size_cells": [
+      144,
+      88
+    ],
+    "places": [
+      {
+        "place_id": "place_well_keeper",
+        "name": "Well Keeper's Yard",
+        "rect": [
+          112,
+          57,
+          119,
+          63
+        ],
+        "anchor": [
+          115,
+          61
+        ],
+        "legacy_design_id": null,
+        "experience": "A close, recognizable little destination with an optional persistent supply cache.",
+        "transition": false
+      },
+      {
+        "place_id": "place_bridge_watch",
+        "name": "Broken Span Overlook",
+        "rect": [
+          71,
+          27,
+          78,
+          33
+        ],
+        "anchor": [
+          74,
+          31
+        ],
+        "legacy_design_id": null,
+        "experience": "A close, recognizable little destination with an optional persistent supply cache.",
+        "transition": false
+      },
+      {
+        "place_id": "place_grove_cache",
+        "name": "Cactus Shelter",
+        "rect": [
+          44,
+          49,
+          51,
+          55
+        ],
+        "anchor": [
+          47,
+          53
+        ],
+        "legacy_design_id": null,
+        "experience": "A close, recognizable little destination with an optional persistent supply cache.",
+        "transition": false
+      },
+      {
+        "place_id": "place_spilled_supplies",
+        "name": "Stranded Supply Wagon",
+        "rect": [
+          13,
+          47,
+          20,
+          53
+        ],
+        "anchor": [
+          16,
+          51
+        ],
+        "legacy_design_id": null,
+        "experience": "A close, recognizable little destination with an optional persistent supply cache.",
+        "transition": false
+      },
+      {
+        "place_id": "place_ruined_caravan",
+        "name": "Ruined Caravan",
+        "rect": [
+          6,
+          27,
+          33,
+          50
+        ],
+        "anchor": [
+          17,
+          43
+        ],
+        "legacy_design_id": "rm_d07_ruined_caravan",
+        "experience": "Wreck and scattered cargo can be approached from the trail or northern loop.",
+        "transition": false
+      },
+      {
+        "place_id": "place_cactus_flats",
+        "name": "Cactus Flats",
+        "rect": [
+          30,
+          39,
+          54,
+          71
+        ],
+        "anchor": [
+          42,
+          49
+        ],
+        "legacy_design_id": "rm_d08_cactus_flats",
+        "experience": "Loose cactus groves frame wide paths; the cache lies north, the python hollow south.",
+        "transition": false
+      },
+      {
+        "place_id": "place_bonefield",
+        "name": "Bonefield",
+        "rect": [
+          55,
+          31,
+          81,
+          57
+        ],
+        "anchor": [
+          67,
+          41
+        ],
+        "legacy_design_id": "rm_d09_bonefield",
+        "experience": "Melee and archer groups occupy separate open pockets around a visible eastward route.",
+        "transition": false
+      },
+      {
+        "place_id": "place_broken_bridge",
+        "name": "Broken Bridge",
+        "rect": [
+          80,
+          23,
+          95,
+          72
+        ],
+        "anchor": [
+          87,
+          46
+        ],
+        "legacy_design_id": "rm_d10_broken_bridge",
+        "experience": "The broken span points south toward a usable bridge; farther south another crossing rewards exploration.",
+        "transition": false
+      },
+      {
+        "place_id": "place_forgotten_ruins",
+        "name": "Forgotten Ruins",
+        "rect": [
+          103,
+          27,
+          123,
+          55
+        ],
+        "anchor": [
+          113,
+          41
+        ],
+        "legacy_design_id": "rm_d11_forgotten_ruins",
+        "experience": "Quiet open ruins and a save star provide an eastern anchor reached from either bridge.",
+        "transition": false
+      },
+      {
+        "place_id": "place_great_desert_stairs",
+        "name": "Great Desert Stairs",
+        "rect": [
+          115,
+          9,
+          142,
+          54
+        ],
+        "anchor": [
+          129,
+          30
+        ],
+        "legacy_design_id": "rm_d12_great_desert_stairs",
+        "experience": "Broad ascent to a walkable upper shelf; looking back west rewards treasure hunting.",
+        "transition": false
+      },
+      {
+        "place_id": "place_bandit_cache",
+        "name": "Bandit Cache",
+        "rect": [
+          29,
+          10,
+          59,
+          29
+        ],
+        "anchor": [
+          42,
+          20
+        ],
+        "legacy_design_id": "rm_o3_bandit_cache",
+        "experience": "Bandit Cache is a northern camp reached by a loop, with two routes back into the basin.",
+        "transition": false
+      },
+      {
+        "place_id": "place_buried_cistern",
+        "name": "Buried Cistern",
+        "rect": [
+          56,
+          56,
+          80,
+          78
+        ],
+        "anchor": [
+          67,
+          70
+        ],
+        "legacy_design_id": "rm_o4_buried_cistern",
+        "experience": "Buried Cistern is an exposed flooded foundation on the southern bridge circuit, continuously outdoors.",
+        "transition": false
+      }
+    ],
+    "primary_route": [
+      [
+        2,
+        40
+      ],
+      [
+        17,
+        40
+      ],
+      [
+        17,
+        43
+      ],
+      [
+        42,
+        43
+      ],
+      [
+        42,
+        49
+      ],
+      [
+        52,
+        49
+      ],
+      [
+        52,
+        41
+      ],
+      [
+        78,
+        41
+      ],
+      [
+        78,
+        46
+      ],
+      [
+        96,
+        46
+      ],
+      [
+        113,
+        46
+      ],
+      [
+        113,
+        41
+      ],
+      [
+        128,
+        41
+      ],
+      [
+        128,
+        33
+      ],
+      [
+        128,
+        20
+      ],
+      [
+        141,
+        20
+      ]
+    ],
+    "exploration_loops": [
+      {
+        "name": "Northern camp circuit",
+        "waypoints": [
+          [
+            25,
+            43
+          ],
+          [
+            25,
+            22
+          ],
+          [
+            42,
+            22
+          ],
+          [
+            42,
+            30
+          ],
+          [
+            62,
+            30
+          ],
+          [
+            62,
+            41
+          ]
+        ],
+        "purpose": "Detour past the bandit camp, then return on the bonefield's west approach.",
+        "scene_transition": false
+      },
+      {
+        "name": "Twin crossing circuit",
+        "waypoints": [
+          [
+            52,
+            49
+          ],
+          [
+            54,
+            49
+          ],
+          [
+            54,
+            74
+          ],
+          [
+            78,
+            74
+          ],
+          [
+            78,
+            67
+          ],
+          [
+            99,
+            67
+          ],
+          [
+            109,
+            67
+          ],
+          [
+            109,
+            46
+          ],
+          [
+            113,
+            46
+          ]
+        ],
+        "purpose": "Use the southern bridge and eastern bank to return via the main bridge; permanent geography, no switch or loading.",
+        "scene_transition": false
+      },
+      {
+        "name": "Cistern rim and catwalk",
+        "waypoints": [
+          [
+            66,
+            74
+          ],
+          [
+            67,
+            74
+          ],
+          [
+            67,
+            60
+          ],
+          [
+            76,
+            60
+          ],
+          [
+            76,
+            67
+          ],
+          [
+            78,
+            67
+          ]
+        ],
+        "purpose": "Cross the water by catwalk or follow the outer paving; reconnect with the southern basin route.",
+        "scene_transition": false
+      },
+      {
+        "name": "Stranded Supply Wagon trail",
+        "waypoints": [
+          [
+            10,
+            40
+          ],
+          [
+            10,
+            52
+          ],
+          [
+            22,
+            52
+          ],
+          [
+            22,
+            43
+          ]
+        ],
+        "purpose": "Find stranded supply wagon and its supplies; return by another approach.",
+        "scene_transition": false
+      },
+      {
+        "name": "Cactus Shelter trail",
+        "waypoints": [
+          [
+            42,
+            49
+          ],
+          [
+            42,
+            54
+          ],
+          [
+            52,
+            54
+          ],
+          [
+            52,
+            49
+          ]
+        ],
+        "purpose": "Find cactus shelter and its supplies; return by another approach.",
+        "scene_transition": false
+      },
+      {
+        "name": "Broken Span Overlook trail",
+        "waypoints": [
+          [
+            62,
+            30
+          ],
+          [
+            62,
+            27
+          ],
+          [
+            80,
+            27
+          ],
+          [
+            80,
+            41
+          ],
+          [
+            78,
+            41
+          ]
+        ],
+        "purpose": "Find broken span overlook and its supplies; return by another approach.",
+        "scene_transition": false
+      },
+      {
+        "name": "Well Keeper's Yard trail",
+        "waypoints": [
+          [
+            109,
+            54
+          ],
+          [
+            118,
+            54
+          ],
+          [
+            118,
+            62
+          ],
+          [
+            109,
+            62
+          ]
+        ],
+        "purpose": "Find well keeper's yard and its supplies; return by another approach.",
+        "scene_transition": false
+      }
+    ],
+    "encounters": [
+      {
+        "id": "rm_d07_ruined_caravan:g1",
+        "combat_rect": [
+          13,
+          34,
+          23,
+          44
+        ],
+        "leash_rect": [
+          13,
+          34,
+          23,
+          44
+        ],
+        "enemies": [
+          {
+            "id": "rm_d07_ruined_caravan:g1:e1",
+            "enemy": "bandit",
+            "cell": [
+              18,
+              39
+            ]
+          }
+        ],
+        "purpose": "First bandit in a clear clearing beside the wreck.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d07_ruined_caravan:g2",
+        "combat_rect": [
+          28,
+          44,
+          38,
+          54
+        ],
+        "leash_rect": [
+          28,
+          44,
+          38,
+          54
+        ],
+        "enemies": [
+          {
+            "id": "rm_d07_ruined_caravan:g2:e1",
+            "enemy": "bandit",
+            "cell": [
+              33,
+              49
+            ]
+          }
+        ],
+        "purpose": "A second fast attacker near the cactus trail; groups stay separated.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d08_cactus_flats:g1",
+        "combat_rect": [
+          40,
+          57,
+          50,
+          67
+        ],
+        "leash_rect": [
+          40,
+          57,
+          50,
+          67
+        ],
+        "enemies": [
+          {
+            "id": "rm_d08_cactus_flats:g1:e1",
+            "enemy": "python",
+            "cell": [
+              45,
+              62
+            ]
+          }
+        ],
+        "purpose": "Elective python pocket on the south side of the grove.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d09_bonefield:g1",
+        "combat_rect": [
+          56,
+          34,
+          66,
+          44
+        ],
+        "leash_rect": [
+          56,
+          34,
+          66,
+          44
+        ],
+        "enemies": [
+          {
+            "id": "rm_d09_bonefield:g1:e1",
+            "enemy": "skeleton_warrior",
+            "cell": [
+              61,
+              39
+            ]
+          }
+        ],
+        "purpose": "Known warrior before the archer pocket.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d09_bonefield:g2",
+        "combat_rect": [
+          69,
+          33,
+          79,
+          45
+        ],
+        "leash_rect": [
+          69,
+          33,
+          79,
+          45
+        ],
+        "enemies": [
+          {
+            "id": "rm_d09_bonefield:g2:e1",
+            "enemy": "skeleton_archer",
+            "cell": [
+              74,
+              38
+            ]
+          },
+          {
+            "id": "rm_d09_bonefield:g2:e2",
+            "enemy": "skeleton_warrior",
+            "cell": [
+              70,
+              44
+            ]
+          }
+        ],
+        "purpose": "An archer and warrior combine with broad flanking ground; no bridge combat.",
+        "max_active": 2,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d10_broken_bridge:g1",
+        "combat_rect": [
+          94,
+          59,
+          104,
+          69
+        ],
+        "leash_rect": [
+          94,
+          59,
+          104,
+          69
+        ],
+        "enemies": [
+          {
+            "id": "rm_d10_broken_bridge:g1:e1",
+            "enemy": "bat",
+            "cell": [
+              98,
+              63
+            ]
+          }
+        ],
+        "purpose": "Optional bat encounter on the far southern bank, outside the crossing landings.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d12_great_desert_stairs:g1",
+        "combat_rect": [
+          117,
+          45,
+          125,
+          53
+        ],
+        "leash_rect": [
+          117,
+          45,
+          125,
+          53
+        ],
+        "enemies": [
+          {
+            "id": "rm_d12_great_desert_stairs:g1:e1",
+            "enemy": "skeleton_warrior",
+            "cell": [
+              121,
+              49
+            ]
+          }
+        ],
+        "purpose": "Elective lower-terrace warrior; the save approach and stairs are calm.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d12_great_desert_stairs:g2",
+        "combat_rect": [
+          125,
+          14,
+          135,
+          24
+        ],
+        "leash_rect": [
+          125,
+          14,
+          135,
+          24
+        ],
+        "enemies": [
+          {
+            "id": "rm_d12_great_desert_stairs:g2:e1",
+            "enemy": "skeleton_archer",
+            "cell": [
+              132,
+              19
+            ]
+          }
+        ],
+        "purpose": "Upper-shelf archer, with a broad landing and routes around its pad.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_o3_bandit_cache:g1",
+        "combat_rect": [
+          36,
+          15,
+          46,
+          25
+        ],
+        "leash_rect": [
+          36,
+          15,
+          46,
+          25
+        ],
+        "enemies": [
+          {
+            "id": "rm_o3_bandit_cache:g1:e1",
+            "enemy": "bandit",
+            "cell": [
+              39,
+              21
+            ]
+          },
+          {
+            "id": "rm_o3_bandit_cache:g1:e2",
+            "enemy": "bandit_caster",
+            "cell": [
+              44,
+              18
+            ]
+          }
+        ],
+        "purpose": "Optional early caster plus fast melee; open camp, no ambush or exit lock.",
+        "max_active": 2,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      }
+    ],
+    "chests": [
+      {
+        "id": "rm_sc_caravan_basin:c1",
+        "cell": [
+          29,
+          26
+        ],
+        "loot": [
+          [
+            "bandit_scimitar",
+            1
+          ]
+        ],
+        "legacy_id": "rm_d07_ruined_caravan:c1",
+        "interaction_cell": [
+          29,
+          27
+        ],
+        "approach_cell": [
+          29,
+          28
+        ],
+        "intention": "A weapon sidegrade in abandoned cargo; no unique movement or key function.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_caravan_basin:c2",
+        "cell": [
+          48,
+          70
+        ],
+        "loot": [
+          [
+            "potion_health",
+            2
+          ]
+        ],
+        "legacy_id": "rm_d08_cactus_flats:c1",
+        "interaction_cell": [
+          48,
+          71
+        ],
+        "approach_cell": [
+          48,
+          72
+        ],
+        "intention": "Recovery for a careful reader of the cactus gaps.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_caravan_basin:c3",
+        "cell": [
+          77,
+          51
+        ],
+        "loot": [
+          [
+            "ancient_coin",
+            2
+          ],
+          [
+            "potion_health",
+            1
+          ]
+        ],
+        "legacy_id": "rm_d09_bonefield:c1",
+        "interaction_cell": [
+          77,
+          52
+        ],
+        "approach_cell": [
+          77,
+          53
+        ],
+        "intention": "A southern recovery loop after the hardest early group; no mandatory kill lock.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_caravan_basin:c4",
+        "cell": [
+          98,
+          72
+        ],
+        "loot": [
+          [
+            "potion_greater",
+            1
+          ]
+        ],
+        "legacy_id": "rm_d10_broken_bridge:c1",
+        "interaction_cell": [
+          98,
+          73
+        ],
+        "approach_cell": [
+          98,
+          74
+        ],
+        "intention": "A safe eastern-bank pocket for players who explore after the crossing.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_caravan_basin:c5",
+        "cell": [
+          105,
+          53
+        ],
+        "loot": [
+          [
+            "potion_health",
+            2
+          ]
+        ],
+        "legacy_id": "rm_d11_forgotten_ruins:c1",
+        "interaction_cell": [
+          105,
+          54
+        ],
+        "approach_cell": [
+          105,
+          55
+        ],
+        "intention": "A safe stock-up before the stairs; tucked behind a broken wall end, never hidden by opaque art.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_caravan_basin:c6",
+        "cell": [
+          121,
+          14
+        ],
+        "loot": [
+          [
+            "ancient_coin",
+            2
+          ]
+        ],
+        "legacy_id": "rm_d12_great_desert_stairs:c1",
+        "interaction_cell": [
+          121,
+          15
+        ],
+        "approach_cell": [
+          121,
+          16
+        ],
+        "intention": "After ascending, the east exit is clear; looking west along the upper shelf finds a worthwhile detour.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_caravan_basin:c7",
+        "cell": [
+          49,
+          17
+        ],
+        "loot": [
+          [
+            "iron_tunic",
+            1
+          ],
+          [
+            "potion_greater",
+            1
+          ]
+        ],
+        "legacy_id": "rm_o3_bandit_cache:c1",
+        "interaction_cell": [
+          49,
+          18
+        ],
+        "approach_cell": [
+          49,
+          19
+        ],
+        "intention": "Clear optional equipment improvement; never part of the chapter's required power budget.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_caravan_basin:c8",
+        "cell": [
+          71,
+          72
+        ],
+        "loot": [
+          [
+            "golden_scarab",
+            1
+          ],
+          [
+            "potion_greater",
+            1
+          ]
+        ],
+        "legacy_id": "rm_o4_buried_cistern:c1",
+        "interaction_cell": [
+          71,
+          73
+        ],
+        "approach_cell": [
+          71,
+          74
+        ],
+        "intention": "A valuable plus recovery reached by either the outer rim or the central catwalk.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_caravan_basin:c9",
+        "cell": [
+          16,
+          49
+        ],
+        "loot": [
+          [
+            "potion_health",
+            1
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          16,
+          50
+        ],
+        "approach_cell": [
+          16,
+          51
+        ],
+        "intention": "Optional discovery at Stranded Supply Wagon; no equipment or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_caravan_basin:c10",
+        "cell": [
+          47,
+          51
+        ],
+        "loot": [
+          [
+            "gold_coins",
+            8
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          47,
+          52
+        ],
+        "approach_cell": [
+          47,
+          53
+        ],
+        "intention": "Optional discovery at Cactus Shelter; no equipment or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_caravan_basin:c11",
+        "cell": [
+          74,
+          29
+        ],
+        "loot": [
+          [
+            "desert_rose",
+            1
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          74,
+          30
+        ],
+        "approach_cell": [
+          74,
+          31
+        ],
+        "intention": "Optional discovery at Broken Span Overlook; no equipment or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_caravan_basin:c12",
+        "cell": [
+          115,
+          59
+        ],
+        "loot": [
+          [
+            "potion_health",
+            1
+          ],
+          [
+            "gold_coins",
+            3
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          115,
+          60
+        ],
+        "approach_cell": [
+          115,
+          61
+        ],
+        "intention": "Optional discovery at Well Keeper's Yard; no equipment or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      }
+    ],
+    "checkpoints": [
+      {
+        "id": "sc_caravan_basin:checkpoint",
+        "cell": [
+          113,
+          41
+        ],
+        "respawn_cell": [
+          113,
+          41
+        ],
+        "safe_rect": [
+          112,
+          40,
+          114,
+          42
+        ],
+        "quiet_rect": [
+          103,
+          33,
+          119,
+          44
+        ],
+        "behavior": "E opens exactly 3 save slots; heal on successful save; snapshot all state together."
+      }
+    ],
+    "solid_props": [
+      {
+        "prop": "wagon_wreck",
+        "cell": [
+          22,
+          31
+        ],
+        "footprint_px": [
+          160,
+          40
+        ],
+        "blocked_rect": [
+          21,
+          31,
+          23,
+          31
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "cactus_tall",
+        "cell": [
+          35,
+          40
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          35,
+          40,
+          35,
+          40
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "cactus_tall",
+        "cell": [
+          48,
+          37
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          48,
+          37,
+          48,
+          37
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "cactus_tall",
+        "cell": [
+          39,
+          55
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          39,
+          55,
+          39,
+          55
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "cactus_tall",
+        "cell": [
+          51,
+          69
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          51,
+          69,
+          51,
+          69
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "cactus_tall",
+        "cell": [
+          16,
+          56
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          16,
+          56,
+          16,
+          56
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "wagon_wreck",
+        "cell": [
+          13,
+          48
+        ],
+        "footprint_px": [
+          160,
+          40
+        ],
+        "blocked_rect": [
+          12,
+          48,
+          14,
+          48
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "water_barrel",
+        "cell": [
+          13,
+          50
+        ],
+        "footprint_px": [
+          38,
+          20
+        ],
+        "blocked_rect": [
+          13,
+          50,
+          13,
+          50
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          19,
+          49
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          19,
+          49,
+          19,
+          49
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "cactus_small",
+        "cell": [
+          50,
+          52
+        ],
+        "footprint_px": [
+          16,
+          12
+        ],
+        "blocked_rect": [
+          50,
+          52,
+          50,
+          52
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          45,
+          52
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          45,
+          52,
+          45,
+          52
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          70,
+          30
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          70,
+          30,
+          70,
+          30
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          77,
+          31
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          77,
+          31,
+          77,
+          31
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          70,
+          32
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          70,
+          32,
+          70,
+          32
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "water_barrel",
+        "cell": [
+          68,
+          34
+        ],
+        "footprint_px": [
+          38,
+          20
+        ],
+        "blocked_rect": [
+          68,
+          34,
+          68,
+          34
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "wagon_wreck",
+        "cell": [
+          112,
+          57
+        ],
+        "footprint_px": [
+          160,
+          40
+        ],
+        "blocked_rect": [
+          111,
+          57,
+          113,
+          57
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "water_barrel",
+        "cell": [
+          112,
+          60
+        ],
+        "footprint_px": [
+          38,
+          20
+        ],
+        "blocked_rect": [
+          112,
+          60,
+          112,
+          60
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          120,
+          59
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          120,
+          59,
+          120,
+          59
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          120,
+          61
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          120,
+          61,
+          120,
+          61
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          8,
+          43
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          8,
+          43,
+          8,
+          43
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          23,
+          26
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          23,
+          26,
+          23,
+          26
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "cactus_tall",
+        "cell": [
+          33,
+          20
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          33,
+          20,
+          33,
+          20
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "cactus_small",
+        "cell": [
+          30,
+          16
+        ],
+        "footprint_px": [
+          16,
+          12
+        ],
+        "blocked_rect": [
+          30,
+          16,
+          30,
+          16
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "wagon_wreck",
+        "cell": [
+          48,
+          25
+        ],
+        "footprint_px": [
+          160,
+          40
+        ],
+        "blocked_rect": [
+          47,
+          25,
+          49,
+          25
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "cactus_tall",
+        "cell": [
+          39,
+          51
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          39,
+          51,
+          39,
+          51
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "cactus_small",
+        "cell": [
+          40,
+          48
+        ],
+        "footprint_px": [
+          16,
+          12
+        ],
+        "blocked_rect": [
+          40,
+          48,
+          40,
+          48
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          45,
+          70
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          45,
+          70,
+          45,
+          70
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          46,
+          72
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          46,
+          72,
+          46,
+          72
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          58,
+          49
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          58,
+          49,
+          58,
+          49
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          61,
+          48
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          61,
+          48,
+          61,
+          48
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          76,
+          25
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          76,
+          25,
+          76,
+          25
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          80,
+          25
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          80,
+          25,
+          80,
+          25
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          82,
+          53
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          82,
+          53,
+          82,
+          53
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          57,
+          69
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          57,
+          69,
+          57,
+          69
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "water_barrel",
+        "cell": [
+          60,
+          70
+        ],
+        "footprint_px": [
+          38,
+          20
+        ],
+        "blocked_rect": [
+          60,
+          70,
+          60,
+          70
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          74,
+          68
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          74,
+          68,
+          74,
+          68
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          72,
+          69
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          72,
+          69,
+          72,
+          69
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          99,
+          56
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          99,
+          56,
+          99,
+          56
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          95,
+          53
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          95,
+          53,
+          95,
+          53
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          105,
+          62
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          105,
+          62,
+          105,
+          62
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          106,
+          65
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          106,
+          65,
+          106,
+          65
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          123,
+          35
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          123,
+          35,
+          123,
+          35
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          126,
+          36
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          126,
+          36,
+          126,
+          36
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          119,
+          25
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          119,
+          25,
+          119,
+          25
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          124,
+          21
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          124,
+          21,
+          124,
+          21
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          135,
+          11
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          135,
+          11,
+          135,
+          11
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          93,
+          70
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          93,
+          70,
+          93,
+          70
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          101,
+          49
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          101,
+          49,
+          101,
+          49
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          103,
+          58
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          103,
+          58,
+          103,
+          58
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          69,
+          77
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          69,
+          77,
+          69,
+          77
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          73,
+          77
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          73,
+          77,
+          73,
+          77
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          20,
+          46
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          20,
+          46,
+          20,
+          46
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          14,
+          55
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          14,
+          55,
+          14,
+          55
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          45,
+          46
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          45,
+          46,
+          45,
+          46
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          49,
+          46
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          49,
+          46,
+          49,
+          46
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          72,
+          24
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          72,
+          24,
+          72,
+          24
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          70,
+          25
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          70,
+          25,
+          70,
+          25
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          120,
+          57
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          120,
+          57,
+          120,
+          57
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          115,
+          65
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          115,
+          65,
+          115,
+          65
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          18,
+          33
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          18,
+          33,
+          18,
+          33
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          12,
+          38
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          12,
+          38,
+          12,
+          38
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          27,
+          47
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          27,
+          47,
+          27,
+          47
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          51,
+          62
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          51,
+          62,
+          51,
+          62
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          54,
+          39
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          54,
+          39,
+          54,
+          39
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          67,
+          39
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          67,
+          39,
+          67,
+          39
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          83,
+          39
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          83,
+          39,
+          83,
+          39
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          68,
+          37
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          68,
+          37,
+          68,
+          37
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          99,
+          58
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          99,
+          58,
+          99,
+          58
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          93,
+          64
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          93,
+          64,
+          93,
+          64
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          119,
+          44
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          119,
+          44,
+          119,
+          44
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          130,
+          13
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          130,
+          13,
+          130,
+          13
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          124,
+          19
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          124,
+          19,
+          124,
+          19
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          41,
+          14
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          41,
+          14,
+          41,
+          14
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          35,
+          20
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          35,
+          20,
+          35,
+          20
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          109,
+          42
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          109,
+          42,
+          109,
+          42
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          58,
+          65
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          58,
+          65,
+          58,
+          65
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          110,
+          37
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          110,
+          37,
+          110,
+          37
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          74,
+          66
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          74,
+          66,
+          74,
+          66
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          114,
+          38
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          114,
+          38,
+          114,
+          38
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          136,
+          17
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          136,
+          17,
+          136,
+          17
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "wagon_wreck",
+        "cell": [
+          34,
+          25
+        ],
+        "footprint_px": [
+          160,
+          40
+        ],
+        "blocked_rect": [
+          33,
+          25,
+          35,
+          25
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "wagon_wreck",
+        "cell": [
+          65,
+          33
+        ],
+        "footprint_px": [
+          160,
+          40
+        ],
+        "blocked_rect": [
+          64,
+          33,
+          66,
+          33
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "wagon_wreck",
+        "cell": [
+          75,
+          48
+        ],
+        "footprint_px": [
+          160,
+          40
+        ],
+        "blocked_rect": [
+          74,
+          48,
+          76,
+          48
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          111,
+          49
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          111,
+          49,
+          111,
+          49
+        ],
+        "anchor": "cell ground centre"
+      }
+    ],
+    "structures": [
+      {
+        "kind": "broken_bridge",
+        "rect": [
+          84,
+          26,
+          89,
+          30
+        ],
+        "note": "Broken northern span is fully blocked; no repair, jump or key objective."
+      },
+      {
+        "kind": "bridge_ew",
+        "rect": [
+          84,
+          44,
+          89,
+          48
+        ],
+        "note": "Five-wide main crossing; clear three-cell banks at both ends."
+      },
+      {
+        "kind": "bridge_ew",
+        "rect": [
+          84,
+          65,
+          89,
+          69
+        ],
+        "note": "Five-wide southern crossing makes a permanent regional loop, not a transition."
+      },
+      {
+        "kind": "bridge_ns",
+        "rect": [
+          66,
+          62,
+          68,
+          68
+        ],
+        "note": "Three-wide cistern catwalk; both banks and the outer paving form a smaller loop within the basin."
+      },
+      {
+        "kind": "stairs",
+        "rect": [
+          126,
+          30,
+          132,
+          31
+        ],
+        "note": "Seven-wide Great Desert Stairs; upper shelf connects directly to the next scene at the same elevation."
+      }
+    ],
+    "scripts": [],
+    "arrivals": [
+      {
+        "exit_id": "west",
+        "cell": [
+          2,
+          40
+        ],
+        "pixel": [
+          160,
+          2592
+        ],
+        "safe_rect": [
+          1,
+          39,
+          3,
+          41
+        ],
+        "facing": 0
+      },
+      {
+        "exit_id": "east",
+        "cell": [
+          141,
+          20
+        ],
+        "pixel": [
+          9056,
+          1312
+        ],
+        "safe_rect": [
+          140,
+          19,
+          142,
+          21
+        ],
+        "facing": 4
+      }
+    ],
+    "transitions": [
+      {
+        "exit_id": "west",
+        "to_scene_id": "sc_desert_frontier",
+        "to_room_id": "rm_sc_desert_frontier",
+        "to_exit": "east",
+        "destination_arrival_cell": [
+          125,
+          40
+        ],
+        "destination_arrival_pixel": [
+          8032,
+          2592
+        ],
+        "condition": "always"
+      },
+      {
+        "exit_id": "east",
+        "to_scene_id": "sc_royal_expanse",
+        "to_room_id": "rm_sc_royal_expanse",
+        "to_exit": "west",
+        "destination_arrival_cell": [
+          2,
+          20
+        ],
+        "destination_arrival_pixel": [
+          160,
+          1312
+        ],
+        "condition": "always"
+      }
+    ],
+    "initial_spawn": null,
+    "elevation_notes": [
+      "Great Stairs upper shelf z1: [117,11..142,29], bounded on west/north/south; only stairs and east scene pass connect it. Rest of basin z0. Cistern is a flat flooded foundation, not an overlapping lower floor."
+    ],
+    "batches": [
+      {
+        "name": "Caravan and grove",
+        "places": [
+          "place_ruined_caravan",
+          "place_cactus_flats",
+          "place_bandit_cache"
+        ],
+        "build": "Lay out shared travel floor, distinct combat pockets and the northern camp circuit."
+      },
+      {
+        "name": "Bridge basin expansion",
+        "places": [
+          "place_bonefield",
+          "place_broken_bridge",
+          "place_buried_cistern"
+        ],
+        "build": "Add both intact bridges, broken landmark, southern return and cistern rim/catwalk."
+      },
+      {
+        "name": "Ruins and ascent",
+        "places": [
+          "place_forgotten_ruins",
+          "place_great_desert_stairs"
+        ],
+        "build": "Complete quiet ruins, checkpoint, broad climb, upper treasure and east transition."
+      }
+    ],
+    "boss": null,
+    "additional_asset_ids": [],
+    "weather": {
+      "default": "Occasional cosmetic east-to-west wind/tumbleweeds only, never movement or collision effects.",
+      "suppress_rects": [
+        [
+          103,
+          33,
+          119,
+          44
+        ],
+        [
+          57,
+          57,
+          79,
+          77
+        ]
+      ]
+    },
+    "discoveries": [
+      {
+        "id": "sc_caravan_basin:spilled_supplies",
+        "name": "Stranded Supply Wagon",
+        "cell": [
+          16,
+          49
+        ],
+        "theme": "supplies",
+        "chest_id": "rm_sc_caravan_basin:c9",
+        "rect": [
+          13,
+          47,
+          20,
+          53
+        ],
+        "route": [
+          [
+            10,
+            40
+          ],
+          [
+            10,
+            52
+          ],
+          [
+            22,
+            52
+          ],
+          [
+            22,
+            43
+          ]
+        ],
+        "approach": [
+          16,
+          51
+        ],
+        "reward": [
+          [
+            "potion_health",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "sc_caravan_basin:grove_cache",
+        "name": "Cactus Shelter",
+        "cell": [
+          47,
+          51
+        ],
+        "theme": "shelter",
+        "chest_id": "rm_sc_caravan_basin:c10",
+        "rect": [
+          44,
+          49,
+          51,
+          55
+        ],
+        "route": [
+          [
+            42,
+            49
+          ],
+          [
+            42,
+            54
+          ],
+          [
+            52,
+            54
+          ],
+          [
+            52,
+            49
+          ]
+        ],
+        "approach": [
+          47,
+          53
+        ],
+        "reward": [
+          [
+            "gold_coins",
+            8
+          ]
+        ]
+      },
+      {
+        "id": "sc_caravan_basin:bridge_watch",
+        "name": "Broken Span Overlook",
+        "cell": [
+          74,
+          29
+        ],
+        "theme": "survey",
+        "chest_id": "rm_sc_caravan_basin:c11",
+        "rect": [
+          71,
+          27,
+          78,
+          33
+        ],
+        "route": [
+          [
+            62,
+            30
+          ],
+          [
+            62,
+            27
+          ],
+          [
+            80,
+            27
+          ],
+          [
+            80,
+            41
+          ],
+          [
+            78,
+            41
+          ]
+        ],
+        "approach": [
+          74,
+          31
+        ],
+        "reward": [
+          [
+            "desert_rose",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "sc_caravan_basin:well_keeper",
+        "name": "Well Keeper's Yard",
+        "cell": [
+          115,
+          59
+        ],
+        "theme": "supplies",
+        "chest_id": "rm_sc_caravan_basin:c12",
+        "rect": [
+          112,
+          57,
+          119,
+          63
+        ],
+        "route": [
+          [
+            109,
+            54
+          ],
+          [
+            118,
+            54
+          ],
+          [
+            118,
+            62
+          ],
+          [
+            109,
+            62
+          ]
+        ],
+        "approach": [
+          115,
+          61
+        ],
+        "reward": [
+          [
+            "potion_health",
+            1
+          ],
+          [
+            "gold_coins",
+            3
+          ]
+        ]
+      }
+    ],
+    "discovery_dressing": {
+      "sc_caravan_basin:spilled_supplies": 5,
+      "sc_caravan_basin:grove_cache": 5,
+      "sc_caravan_basin:bridge_watch": 7,
+      "sc_caravan_basin:well_keeper": 6
+    },
+    "layout_focus": {
+      "revision": "discovery_routes_v2",
+      "original_walkable_cells": 8327,
+      "walkable_cells": 4707,
+      "principle": "Continuous landscapes with framed routes, short scenic pockets and distinct material/prop stories. Traversable cameras see persistent scenery; the central boss arena keeps deliberate open warning floor.",
+      "camera_coverage_cells": [
+        19,
+        11
+      ],
+      "camera_minimum_details": 4,
+      "camera_minimum_landmarks": 2,
+      "camera_combat_minimum_details": 2,
+      "beats": [
+        {
+          "name": "Spilled caravan cargo",
+          "theme": "caravan",
+          "cell": [
+            11,
+            46
+          ]
+        },
+        {
+          "name": "Broken axle pull-off",
+          "theme": "caravan",
+          "cell": [
+            26,
+            29
+          ]
+        },
+        {
+          "name": "Camp approach windbreak",
+          "theme": "cactus",
+          "cell": [
+            29,
+            20
+          ]
+        },
+        {
+          "name": "Bandit lookout remains",
+          "theme": "caravan",
+          "cell": [
+            48,
+            29
+          ]
+        },
+        {
+          "name": "Cactus grove fork",
+          "theme": "cactus",
+          "cell": [
+            43,
+            51
+          ]
+        },
+        {
+          "name": "Snake-skin hollow",
+          "theme": "bones",
+          "cell": [
+            49,
+            69
+          ]
+        },
+        {
+          "name": "Bonefield waystones",
+          "theme": "bones",
+          "cell": [
+            58,
+            45
+          ]
+        },
+        {
+          "name": "Last warning before the broken span",
+          "theme": "bones",
+          "cell": [
+            77,
+            29
+          ]
+        },
+        {
+          "name": "Bridge builder's abandoned yard",
+          "theme": "caravan",
+          "cell": [
+            78,
+            54
+          ]
+        },
+        {
+          "name": "Cistern waterline",
+          "theme": "oasis",
+          "cell": [
+            57,
+            73
+          ]
+        },
+        {
+          "name": "Cistern keeper's niche",
+          "theme": "rubble",
+          "cell": [
+            75,
+            72
+          ]
+        },
+        {
+          "name": "Far-bank stone cairns",
+          "theme": "rubble",
+          "cell": [
+            99,
+            52
+          ]
+        },
+        {
+          "name": "Southern bridge watch",
+          "theme": "rubble",
+          "cell": [
+            109,
+            62
+          ]
+        },
+        {
+          "name": "Ruined arcade",
+          "theme": "royal",
+          "cell": [
+            123,
+            39
+          ]
+        },
+        {
+          "name": "Stair-foot votive stones",
+          "theme": "royal",
+          "cell": [
+            123,
+            25
+          ]
+        },
+        {
+          "name": "Upper-terrace lookout",
+          "theme": "royal",
+          "cell": [
+            138,
+            14
+          ]
+        }
+      ],
+      "nearby_coverage_cells": [
+        11,
+        7
+      ],
+      "nearby_minimum_details": 3,
+      "nearby_minimum_landmarks": 1,
+      "protected": "Three-wide routes, full combat pads, chest approaches, save/arrival reserves, bridge/stair landings, boss gates and warning floor."
+    },
+    "required_asset_ids": [
+      "mus_desert",
+      "snd_arrow_hit",
+      "snd_bat_screech",
+      "snd_bow_release",
+      "snd_cast_charge",
+      "snd_checkpoint",
+      "snd_chest_open",
+      "snd_magic_hit",
+      "snd_magic_travel",
+      "snd_pickup",
+      "snd_save",
+      "snd_snake_hiss",
+      "snd_snake_lunge",
+      "snd_step_sand",
+      "snd_sword_hit",
+      "snd_sword_swing",
+      "snd_wind_loop",
+      "spr_arrow",
+      "spr_bandit_attack_down",
+      "spr_bandit_attack_side",
+      "spr_bandit_attack_up",
+      "spr_bandit_caster_attack_down",
+      "spr_bandit_caster_attack_side",
+      "spr_bandit_caster_attack_up",
+      "spr_bandit_caster_defeat",
+      "spr_bandit_caster_hurt_down",
+      "spr_bandit_caster_idle_down",
+      "spr_bandit_caster_walk_down",
+      "spr_bandit_caster_walk_side",
+      "spr_bandit_caster_walk_up",
+      "spr_bandit_defeat",
+      "spr_bandit_hurt_down",
+      "spr_bandit_idle_down",
+      "spr_bandit_walk_down",
+      "spr_bandit_walk_side",
+      "spr_bandit_walk_up",
+      "spr_bat_defeat",
+      "spr_bat_dive",
+      "spr_bat_fly",
+      "spr_bush",
+      "spr_bush_dead",
+      "spr_cactus_small",
+      "spr_cactus_tall",
+      "spr_checkpoint_star",
+      "spr_chest_desert",
+      "spr_column_broken",
+      "spr_column_fallen",
+      "spr_column_whole",
+      "spr_dave_attack_down",
+      "spr_dave_attack_down_side",
+      "spr_dave_attack_side",
+      "spr_dave_attack_up",
+      "spr_dave_attack_up_side",
+      "spr_dave_idle_down",
+      "spr_dave_idle_down_side",
+      "spr_dave_idle_side",
+      "spr_dave_idle_up",
+      "spr_dave_idle_up_side",
+      "spr_dave_walk_down",
+      "spr_dave_walk_down_side",
+      "spr_dave_walk_side",
+      "spr_dave_walk_up",
+      "spr_dave_walk_up_side",
+      "spr_fx_arrow_hit",
+      "spr_fx_hit",
+      "spr_fx_magic_hit",
+      "spr_fx_magic_launch",
+      "spr_fx_slash",
+      "spr_fx_sparkle",
+      "spr_icon_ancient_coin",
+      "spr_icon_bandit_scimitar",
+      "spr_icon_desert_rose",
+      "spr_icon_gold_coins",
+      "spr_icon_golden_scarab",
+      "spr_icon_iron_tunic",
+      "spr_icon_potion_greater",
+      "spr_icon_potion_health",
+      "spr_loose_rocks",
+      "spr_magic_orb",
+      "spr_mask_bat",
+      "spr_mask_dave",
+      "spr_mask_medium",
+      "spr_mask_python",
+      "spr_obelisk",
+      "spr_palm",
+      "spr_pebbles",
+      "spr_pharaoh_statue",
+      "spr_python_coil",
+      "spr_python_defeat",
+      "spr_python_hurt",
+      "spr_python_lunge_down",
+      "spr_python_lunge_side",
+      "spr_python_lunge_up",
+      "spr_python_slither_down",
+      "spr_python_slither_side",
+      "spr_python_slither_up",
+      "spr_rock_small",
+      "spr_ruin_block",
+      "spr_skeleton_archer_attack_down",
+      "spr_skeleton_archer_attack_side",
+      "spr_skeleton_archer_attack_up",
+      "spr_skeleton_archer_defeat",
+      "spr_skeleton_archer_hurt_down",
+      "spr_skeleton_archer_idle_down",
+      "spr_skeleton_archer_walk_down",
+      "spr_skeleton_archer_walk_side",
+      "spr_skeleton_archer_walk_up",
+      "spr_skeleton_warrior_attack_down",
+      "spr_skeleton_warrior_attack_side",
+      "spr_skeleton_warrior_attack_up",
+      "spr_skeleton_warrior_defeat",
+      "spr_skeleton_warrior_hurt_down",
+      "spr_skeleton_warrior_idle_down",
+      "spr_skeleton_warrior_walk_down",
+      "spr_skeleton_warrior_walk_side",
+      "spr_skeleton_warrior_walk_up",
+      "spr_skull",
+      "spr_supply_barrel",
+      "spr_tree_dead",
+      "spr_tumbleweed",
+      "spr_wagon_wreck",
+      "spr_water_barrel",
+      "tex_chasm_void",
+      "tex_chasm_wall",
+      "tex_cliff_face",
+      "tex_grass",
+      "tex_masonry_face",
+      "tex_masonry_top",
+      "tex_paving",
+      "tex_rock_top",
+      "tex_sand_dark",
+      "tex_sand_light",
+      "tex_water",
+      "tex_wet_sand",
+      "ts_bridge",
+      "ts_stairs"
+    ]
+  },
+  "sc_royal_expanse": {
+    "scene_id": "sc_royal_expanse",
+    "room_id": "rm_sc_royal_expanse",
+    "purpose": "A high, wind-scoured landscape opens into a royal approach: optional grotto and memorial loops precede the final save, an in-scene boss courtyard and the dungeon exterior.",
+    "size_cells": [
+      160,
+      96
+    ],
+    "places": [
+      {
+        "place_id": "place_archive_cache",
+        "name": "Fallen Archive",
+        "rect": [
+          135,
+          64,
+          142,
+          70
+        ],
+        "anchor": [
+          138,
+          68
+        ],
+        "legacy_design_id": null,
+        "experience": "A close, recognizable little destination with an optional persistent supply cache.",
+        "transition": false
+      },
+      {
+        "place_id": "place_sunken_garden",
+        "name": "Sunken Offering Garden",
+        "rect": [
+          96,
+          48,
+          103,
+          54
+        ],
+        "anchor": [
+          99,
+          52
+        ],
+        "legacy_design_id": null,
+        "experience": "A close, recognizable little destination with an optional persistent supply cache.",
+        "transition": false
+      },
+      {
+        "place_id": "place_procession_cache",
+        "name": "Procession Waystation",
+        "rect": [
+          68,
+          26,
+          75,
+          32
+        ],
+        "anchor": [
+          71,
+          30
+        ],
+        "legacy_design_id": null,
+        "experience": "A close, recognizable little destination with an optional persistent supply cache.",
+        "transition": false
+      },
+      {
+        "place_id": "place_pilgrim_camp",
+        "name": "Forgotten Pilgrims' Rest",
+        "rect": [
+          13,
+          34,
+          20,
+          40
+        ],
+        "anchor": [
+          16,
+          38
+        ],
+        "legacy_design_id": null,
+        "experience": "A close, recognizable little destination with an optional persistent supply cache.",
+        "transition": false
+      },
+      {
+        "place_id": "place_windblown_plateau",
+        "name": "Windblown Plateau",
+        "rect": [
+          5,
+          25,
+          51,
+          62
+        ],
+        "anchor": [
+          25,
+          28
+        ],
+        "legacy_design_id": "rm_d13_windblown_plateau",
+        "experience": "Wide horizon on the same high level as the incoming pass; an elective worm basin lies south.",
+        "transition": false
+      },
+      {
+        "place_id": "place_royal_causeway",
+        "name": "Royal Causeway",
+        "rect": [
+          41,
+          29,
+          79,
+          53
+        ],
+        "anchor": [
+          57,
+          37
+        ],
+        "legacy_design_id": "rm_d14_royal_causeway",
+        "experience": "A royal bridge, a guard before it and a caster pocket after it; no combat on the span.",
+        "transition": false
+      },
+      {
+        "place_id": "place_tomb_approach",
+        "name": "Tomb Approach",
+        "rect": [
+          81,
+          31,
+          114,
+          53
+        ],
+        "anchor": [
+          96,
+          37
+        ],
+        "legacy_design_id": "rm_d15_tomb_approach",
+        "experience": "Quiet ceremonial ground with a northern memorial circuit and guaranteed consumables.",
+        "transition": false
+      },
+      {
+        "place_id": "place_pharaohs_gate",
+        "name": "Pharaoh's Gate",
+        "rect": [
+          115,
+          35,
+          133,
+          47
+        ],
+        "anchor": [
+          122,
+          38
+        ],
+        "legacy_design_id": "rm_d16_pharaohs_gate",
+        "experience": "Final yellow star, seven tiles south of the boss gate with no fight or transition between them.",
+        "transition": false
+      },
+      {
+        "place_id": "place_pharaohs_courtyard",
+        "name": "Pharaoh's Courtyard",
+        "rect": [
+          116,
+          8,
+          149,
+          34
+        ],
+        "anchor": [
+          132,
+          20
+        ],
+        "legacy_design_id": "rm_d17_pharaohs_courtyard",
+        "experience": "A visibly distinct paved courtyard inside this scene, physically gated for combat.",
+        "transition": false
+      },
+      {
+        "place_id": "place_dungeon_threshold",
+        "name": "Dungeon Threshold",
+        "rect": [
+          150,
+          9,
+          157,
+          27
+        ],
+        "anchor": [
+          154,
+          19
+        ],
+        "legacy_design_id": "rm_d18_dungeon_threshold",
+        "experience": "A quiet dungeon exterior physically reachable only through the cleared courtyard; the doorway ends Chapter I.",
+        "transition": false
+      },
+      {
+        "place_id": "place_echo_grotto",
+        "name": "Echo Grotto",
+        "rect": [
+          17,
+          5,
+          45,
+          24
+        ],
+        "anchor": [
+          32,
+          16
+        ],
+        "legacy_design_id": "rm_o5_echo_grotto",
+        "experience": "Echo Grotto is an open rock recess with south and east access; no interior load or opaque roof.",
+        "transition": false
+      },
+      {
+        "place_id": "place_memorial_vault",
+        "name": "Memorial Vault",
+        "rect": [
+          87,
+          10,
+          114,
+          28
+        ],
+        "anchor": [
+          101,
+          20
+        ],
+        "legacy_design_id": "rm_o6_memorial_vault",
+        "experience": "Memorial Vault is a roofless upper terrace with two stairs, a guardian and premium optional armor.",
+        "transition": false
+      },
+      {
+        "place_id": "place_sundial_court",
+        "name": "Sundial Court",
+        "rect": [
+          83,
+          53,
+          136,
+          80
+        ],
+        "anchor": [
+          110,
+          68
+        ],
+        "legacy_design_id": null,
+        "experience": "A new quiet southern destination: an obelisk sundial, four broad openings, visible valuable treasure and different approaches back to the royal forecourt. No key, puzzle lock or new scene.",
+        "transition": false
+      }
+    ],
+    "primary_route": [
+      [
+        2,
+        20
+      ],
+      [
+        12,
+        20
+      ],
+      [
+        12,
+        28
+      ],
+      [
+        25,
+        28
+      ],
+      [
+        47,
+        28
+      ],
+      [
+        47,
+        37
+      ],
+      [
+        66,
+        37
+      ],
+      [
+        96,
+        37
+      ],
+      [
+        110,
+        37
+      ],
+      [
+        110,
+        39
+      ],
+      [
+        122,
+        39
+      ],
+      [
+        122,
+        38
+      ],
+      [
+        122,
+        26
+      ],
+      [
+        132,
+        26
+      ],
+      [
+        132,
+        20
+      ],
+      [
+        145,
+        20
+      ],
+      [
+        154,
+        20
+      ],
+      [
+        154,
+        14
+      ]
+    ],
+    "exploration_loops": [
+      {
+        "name": "Grotto circuit",
+        "waypoints": [
+          [
+            12,
+            28
+          ],
+          [
+            24,
+            28
+          ],
+          [
+            24,
+            22
+          ],
+          [
+            24,
+            16
+          ],
+          [
+            40,
+            16
+          ],
+          [
+            47,
+            16
+          ],
+          [
+            47,
+            28
+          ]
+        ],
+        "purpose": "Enter from the south, search the rock recess and return through the east opening to the plateau.",
+        "scene_transition": false
+      },
+      {
+        "name": "Southern worm basin circuit",
+        "waypoints": [
+          [
+            25,
+            28
+          ],
+          [
+            21,
+            28
+          ],
+          [
+            21,
+            63
+          ],
+          [
+            45,
+            63
+          ],
+          [
+            45,
+            45
+          ],
+          [
+            47,
+            45
+          ],
+          [
+            47,
+            37
+          ]
+        ],
+        "purpose": "Take a broad southern sweep; the worm remains elective and cannot emerge on the causeway approach.",
+        "scene_transition": false
+      },
+      {
+        "name": "Memorial terrace circuit",
+        "waypoints": [
+          [
+            82,
+            37
+          ],
+          [
+            84,
+            37
+          ],
+          [
+            84,
+            30
+          ],
+          [
+            94,
+            30
+          ],
+          [
+            94,
+            24
+          ],
+          [
+            94,
+            22
+          ],
+          [
+            107,
+            22
+          ],
+          [
+            107,
+            30
+          ],
+          [
+            110,
+            30
+          ],
+          [
+            110,
+            37
+          ]
+        ],
+        "purpose": "Climb one stair and descend the other, then return to the tomb approach before the final star.",
+        "scene_transition": false
+      },
+      {
+        "name": "Sundial court circuit",
+        "waypoints": [
+          [
+            96,
+            37
+          ],
+          [
+            84,
+            37
+          ],
+          [
+            84,
+            54
+          ],
+          [
+            84,
+            67
+          ],
+          [
+            97,
+            67
+          ],
+          [
+            97,
+            73
+          ],
+          [
+            122,
+            73
+          ],
+          [
+            122,
+            67
+          ],
+          [
+            134,
+            67
+          ],
+          [
+            134,
+            54
+          ],
+          [
+            110,
+            54
+          ],
+          [
+            110,
+            39
+          ]
+        ],
+        "purpose": "Explore the quiet southern court, pass its sundial and valuable cache, then return from another side toward the final star. Its north opening gives a shorter direct approach as well.",
+        "scene_transition": false
+      },
+      {
+        "name": "Forgotten Pilgrims' Rest trail",
+        "waypoints": [
+          [
+            12,
+            28
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            21,
+            39
+          ],
+          [
+            21,
+            28
+          ]
+        ],
+        "purpose": "Find forgotten pilgrims' rest and its supplies; return by another approach.",
+        "scene_transition": false
+      },
+      {
+        "name": "Procession Waystation trail",
+        "waypoints": [
+          [
+            66,
+            37
+          ],
+          [
+            62,
+            37
+          ],
+          [
+            62,
+            26
+          ],
+          [
+            79,
+            26
+          ],
+          [
+            79,
+            37
+          ],
+          [
+            82,
+            37
+          ]
+        ],
+        "purpose": "Find procession waystation and its supplies; return by another approach.",
+        "scene_transition": false
+      },
+      {
+        "name": "Sunken Offering Garden trail",
+        "waypoints": [
+          [
+            84,
+            45
+          ],
+          [
+            94,
+            45
+          ],
+          [
+            94,
+            53
+          ],
+          [
+            110,
+            53
+          ]
+        ],
+        "purpose": "Find sunken offering garden and its supplies; return by another approach.",
+        "scene_transition": false
+      },
+      {
+        "name": "Fallen Archive trail",
+        "waypoints": [
+          [
+            134,
+            58
+          ],
+          [
+            142,
+            58
+          ],
+          [
+            142,
+            69
+          ],
+          [
+            134,
+            69
+          ],
+          [
+            134,
+            67
+          ]
+        ],
+        "purpose": "Find fallen archive and its supplies; return by another approach.",
+        "scene_transition": false
+      }
+    ],
+    "encounters": [
+      {
+        "id": "rm_d13_windblown_plateau:g1",
+        "combat_rect": [
+          24,
+          46,
+          36,
+          58
+        ],
+        "leash_rect": [
+          24,
+          46,
+          36,
+          58
+        ],
+        "enemies": [
+          {
+            "id": "rm_d13_windblown_plateau:g1:e1",
+            "enemy": "sandworm",
+            "cell": [
+              30,
+              52
+            ]
+          }
+        ],
+        "purpose": "Elective worm emergence basin, with a broad escape ring and a reward beyond it.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d14_royal_causeway:g1",
+        "combat_rect": [
+          42,
+          31,
+          50,
+          41
+        ],
+        "leash_rect": [
+          42,
+          31,
+          50,
+          41
+        ],
+        "enemies": [
+          {
+            "id": "rm_d14_royal_causeway:g1:e1",
+            "enemy": "skeleton_warrior",
+            "cell": [
+              47,
+              36
+            ]
+          }
+        ],
+        "purpose": "One known melee guard, kept away from bridge landings.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d14_royal_causeway:g2",
+        "combat_rect": [
+          65,
+          31,
+          77,
+          43
+        ],
+        "leash_rect": [
+          65,
+          31,
+          77,
+          43
+        ],
+        "enemies": [
+          {
+            "id": "rm_d14_royal_causeway:g2:e1",
+            "enemy": "bandit_caster",
+            "cell": [
+              71,
+              34
+            ]
+          },
+          {
+            "id": "rm_d14_royal_causeway:g2:e2",
+            "enemy": "bandit",
+            "cell": [
+              74,
+              40
+            ]
+          }
+        ],
+        "purpose": "Caster and bandit combine on a broad far-bank pad; never fire onto the bridge.",
+        "max_active": 2,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_o5_echo_grotto:g1",
+        "combat_rect": [
+          25,
+          9,
+          37,
+          21
+        ],
+        "leash_rect": [
+          25,
+          9,
+          37,
+          21
+        ],
+        "enemies": [
+          {
+            "id": "rm_o5_echo_grotto:g1:e1",
+            "enemy": "bat",
+            "cell": [
+              28,
+              12
+            ]
+          },
+          {
+            "id": "rm_o5_echo_grotto:g1:e2",
+            "enemy": "bat",
+            "cell": [
+              35,
+              12
+            ]
+          },
+          {
+            "id": "rm_o5_echo_grotto:g1:e3",
+            "enemy": "python",
+            "cell": [
+              32,
+              18
+            ]
+          }
+        ],
+        "purpose": "Optional bat pair plus telegraphed lunge; both grotto exits remain open.",
+        "max_active": 3,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_o6_memorial_vault:g1",
+        "combat_rect": [
+          90,
+          12,
+          98,
+          20
+        ],
+        "leash_rect": [
+          90,
+          12,
+          98,
+          20
+        ],
+        "enemies": [
+          {
+            "id": "rm_o6_memorial_vault:g1:e1",
+            "enemy": "skeleton_warrior",
+            "cell": [
+              95,
+              17
+            ]
+          }
+        ],
+        "purpose": "One memorial guardian, separated from stairs and the armor's approach.",
+        "max_active": 1,
+        "clear_required": false,
+        "activation": "Player enters pad; no fighting across protected arrival/checkpoint/bridge/stair zones."
+      },
+      {
+        "id": "rm_d17_pharaohs_courtyard:boss",
+        "combat_rect": [
+          123,
+          12,
+          143,
+          24
+        ],
+        "leash_rect": [
+          123,
+          12,
+          143,
+          24
+        ],
+        "enemies": [
+          {
+            "id": "rm_d17_pharaohs_courtyard:boss:e1",
+            "enemy": "pharaoh",
+            "cell": [
+              132,
+              20
+            ]
+          }
+        ],
+        "purpose": "Uncluttered arena for laser movement, committed thunder warnings and capped summons.",
+        "max_active": 1,
+        "clear_required": true,
+        "activation": "boss_intro_complete"
+      }
+    ],
+    "chests": [
+      {
+        "id": "rm_sc_royal_expanse:c1",
+        "cell": [
+          39,
+          58
+        ],
+        "loot": [
+          [
+            "desert_rose",
+            1
+          ],
+          [
+            "potion_greater",
+            1
+          ]
+        ],
+        "legacy_id": "rm_d13_windblown_plateau:c1",
+        "interaction_cell": [
+          39,
+          59
+        ],
+        "approach_cell": [
+          39,
+          60
+        ],
+        "intention": "A visible reward beyond the elective basin; no worm kill flag gates it.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_royal_expanse:c2",
+        "cell": [
+          73,
+          51
+        ],
+        "loot": [
+          [
+            "potion_greater",
+            2
+          ]
+        ],
+        "legacy_id": "rm_d14_royal_causeway:c1",
+        "interaction_cell": [
+          73,
+          52
+        ],
+        "approach_cell": [
+          73,
+          53
+        ],
+        "intention": "Restock after the last dense required-route group.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_royal_expanse:c3",
+        "cell": [
+          114,
+          48
+        ],
+        "loot": [
+          [
+            "potion_greater",
+            2
+          ]
+        ],
+        "legacy_id": "rm_d15_tomb_approach:c1",
+        "interaction_cell": [
+          114,
+          49
+        ],
+        "approach_cell": [
+          114,
+          50
+        ],
+        "intention": "Guaranteed pre-boss consumables on a short, enemy-free side pocket.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_royal_expanse:c4",
+        "cell": [
+          39,
+          10
+        ],
+        "loot": [
+          [
+            "sunsteel_blade",
+            1
+          ]
+        ],
+        "legacy_id": "rm_o5_echo_grotto:c1",
+        "interaction_cell": [
+          39,
+          11
+        ],
+        "approach_cell": [
+          39,
+          12
+        ],
+        "intention": "A strong optional weapon, never assumed by Pharaoh health tuning.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_royal_expanse:c5",
+        "cell": [
+          105,
+          17
+        ],
+        "loot": [
+          [
+            "paladin_mail",
+            1
+          ],
+          [
+            "potion_greater",
+            1
+          ]
+        ],
+        "legacy_id": "rm_o6_memorial_vault:c1",
+        "interaction_cell": [
+          105,
+          18
+        ],
+        "approach_cell": [
+          105,
+          19
+        ],
+        "intention": "Premium optional armor, earned by taking the memorial detour; never a key or required boss defense tier.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_royal_expanse:c6",
+        "cell": [
+          119,
+          64
+        ],
+        "loot": [
+          [
+            "ancient_coin",
+            2
+          ],
+          [
+            "golden_scarab",
+            1
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          119,
+          65
+        ],
+        "approach_cell": [
+          119,
+          66
+        ],
+        "intention": "Reward the wider southern landscape with collectibles; no power or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_royal_expanse:c7",
+        "cell": [
+          16,
+          36
+        ],
+        "loot": [
+          [
+            "potion_greater",
+            1
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          16,
+          37
+        ],
+        "approach_cell": [
+          16,
+          38
+        ],
+        "intention": "Optional discovery at Forgotten Pilgrims' Rest; no equipment or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_royal_expanse:c8",
+        "cell": [
+          71,
+          28
+        ],
+        "loot": [
+          [
+            "ancient_coin",
+            2
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          71,
+          29
+        ],
+        "approach_cell": [
+          71,
+          30
+        ],
+        "intention": "Optional discovery at Procession Waystation; no equipment or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_royal_expanse:c9",
+        "cell": [
+          99,
+          50
+        ],
+        "loot": [
+          [
+            "desert_rose",
+            1
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          99,
+          51
+        ],
+        "approach_cell": [
+          99,
+          52
+        ],
+        "intention": "Optional discovery at Sunken Offering Garden; no equipment or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      },
+      {
+        "id": "rm_sc_royal_expanse:c10",
+        "cell": [
+          138,
+          66
+        ],
+        "loot": [
+          [
+            "golden_scarab",
+            1
+          ]
+        ],
+        "legacy_id": null,
+        "interaction_cell": [
+          138,
+          67
+        ],
+        "approach_cell": [
+          138,
+          68
+        ],
+        "intention": "Optional discovery at Fallen Archive; no equipment or progression requirement.",
+        "locked": false,
+        "footprint_px": [
+          48,
+          20
+        ]
+      }
+    ],
+    "checkpoints": [
+      {
+        "id": "sc_royal_expanse:checkpoint",
+        "cell": [
+          122,
+          38
+        ],
+        "respawn_cell": [
+          122,
+          38
+        ],
+        "safe_rect": [
+          121,
+          37,
+          123,
+          39
+        ],
+        "quiet_rect": [
+          115,
+          35,
+          133,
+          45
+        ],
+        "behavior": "E opens exactly 3 save slots; heal on successful save; snapshot all state together."
+      }
+    ],
+    "solid_props": [
+      {
+        "prop": "pharaoh_statue",
+        "cell": [
+          118,
+          37
+        ],
+        "footprint_px": [
+          48,
+          28
+        ],
+        "blocked_rect": [
+          118,
+          37,
+          118,
+          37
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "pharaoh_statue",
+        "cell": [
+          126,
+          37
+        ],
+        "footprint_px": [
+          48,
+          28
+        ],
+        "blocked_rect": [
+          126,
+          37,
+          126,
+          37
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "obelisk",
+        "cell": [
+          110,
+          67
+        ],
+        "footprint_px": [
+          40,
+          28
+        ],
+        "blocked_rect": [
+          110,
+          67,
+          110,
+          67
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          14,
+          35
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          14,
+          35,
+          14,
+          35
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          19,
+          35
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          19,
+          35,
+          19,
+          35
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "water_barrel",
+        "cell": [
+          14,
+          37
+        ],
+        "footprint_px": [
+          38,
+          20
+        ],
+        "blocked_rect": [
+          14,
+          37,
+          14,
+          37
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          19,
+          37
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          19,
+          37,
+          19,
+          37
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          67,
+          29
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          67,
+          29,
+          67,
+          29
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          74,
+          29
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          74,
+          29,
+          74,
+          29
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          76,
+          30
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          76,
+          30,
+          76,
+          30
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "palm",
+        "cell": [
+          102,
+          51
+        ],
+        "footprint_px": [
+          24,
+          14
+        ],
+        "blocked_rect": [
+          102,
+          51,
+          102,
+          51
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          103,
+          47
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          103,
+          47,
+          103,
+          47
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          136,
+          65
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          136,
+          65,
+          136,
+          65
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          140,
+          66
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          140,
+          66,
+          140,
+          66
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          6,
+          27
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          6,
+          27,
+          6,
+          27
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          7,
+          30
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          7,
+          30,
+          7,
+          30
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          17,
+          33
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          17,
+          33,
+          17,
+          33
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          25,
+          34
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          25,
+          34,
+          25,
+          34
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          39,
+          26
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          39,
+          26,
+          39,
+          26
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          51,
+          25
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          51,
+          25,
+          51,
+          25
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          50,
+          22
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          50,
+          22,
+          50,
+          22
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          16,
+          45
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          16,
+          45,
+          16,
+          45
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          19,
+          49
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          19,
+          49,
+          19,
+          49
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          34,
+          61
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          34,
+          61,
+          34,
+          61
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          37,
+          66
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          37,
+          66,
+          37,
+          66
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          52,
+          47
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          52,
+          47,
+          52,
+          47
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          47,
+          51
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          47,
+          51,
+          47,
+          51
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          65,
+          49
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          65,
+          49,
+          65,
+          49
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          61,
+          44
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          61,
+          44,
+          61,
+          44
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          81,
+          35
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          81,
+          35,
+          81,
+          35
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          83,
+          28
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          83,
+          28,
+          83,
+          28
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          100,
+          48
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          100,
+          48,
+          100,
+          48
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          104,
+          43
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          104,
+          43,
+          104,
+          43
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          89,
+          54
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          89,
+          54,
+          89,
+          54
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          88,
+          57
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          88,
+          57,
+          88,
+          57
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          99,
+          70
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          99,
+          70,
+          99,
+          70
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          92,
+          73
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          92,
+          73,
+          92,
+          73
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          124,
+          71
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          124,
+          71,
+          124,
+          71
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          117,
+          68
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          117,
+          68,
+          117,
+          68
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          129,
+          57
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          129,
+          57,
+          129,
+          57
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          136,
+          54
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          136,
+          54,
+          136,
+          54
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          126,
+          48
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          126,
+          48,
+          126,
+          48
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          130,
+          45
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          130,
+          45,
+          130,
+          45
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          151,
+          24
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          151,
+          24,
+          151,
+          24
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          157,
+          21
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          157,
+          21,
+          157,
+          21
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          37,
+          53
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          37,
+          53,
+          37,
+          53
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          41,
+          53
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          41,
+          53,
+          41,
+          53
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          112,
+          43
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          112,
+          43,
+          112,
+          43
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          116,
+          43
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          116,
+          43,
+          116,
+          43
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          103,
+          12
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          103,
+          12,
+          103,
+          12
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          107,
+          12
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          107,
+          12,
+          107,
+          12
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          14,
+          31
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          14,
+          31,
+          14,
+          31
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          17,
+          31
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          17,
+          31,
+          17,
+          31
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          69,
+          23
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          69,
+          23,
+          69,
+          23
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          73,
+          23
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          73,
+          23,
+          73,
+          23
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          104,
+          51
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          104,
+          51,
+          104,
+          51
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          99,
+          56
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          99,
+          56,
+          99,
+          56
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          140,
+          61
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          140,
+          61,
+          140,
+          61
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "ruin_block",
+        "cell": [
+          137,
+          61
+        ],
+        "footprint_px": [
+          48,
+          24
+        ],
+        "blocked_rect": [
+          137,
+          61,
+          137,
+          61
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          30,
+          45
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          30,
+          45,
+          30,
+          45
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          37,
+          51
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          37,
+          51,
+          37,
+          51
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          41,
+          34
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          41,
+          34,
+          41,
+          34
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          79,
+          41
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          79,
+          41,
+          79,
+          41
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          64,
+          35
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          64,
+          35,
+          64,
+          35
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          31,
+          8
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          31,
+          8,
+          31,
+          8
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_fallen",
+        "cell": [
+          24,
+          14
+        ],
+        "footprint_px": [
+          36,
+          20
+        ],
+        "blocked_rect": [
+          24,
+          14,
+          24,
+          14
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          104,
+          61
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          104,
+          61,
+          104,
+          61
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          89,
+          35
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          89,
+          35,
+          89,
+          35
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          113,
+          36
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          113,
+          36,
+          113,
+          36
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          105,
+          41
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          105,
+          41,
+          105,
+          41
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          7,
+          24
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          7,
+          24,
+          7,
+          24
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          107,
+          68
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          107,
+          68,
+          107,
+          68
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          113,
+          34
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          113,
+          34,
+          113,
+          34
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          90,
+          65
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          90,
+          65,
+          90,
+          65
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          25,
+          61
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          25,
+          61,
+          25,
+          61
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          108,
+          70
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          108,
+          70,
+          108,
+          70
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          98,
+          61
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          98,
+          61,
+          98,
+          61
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          64,
+          29
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          64,
+          29,
+          64,
+          29
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          101,
+          65
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          101,
+          65,
+          101,
+          65
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          38,
+          19
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          38,
+          19,
+          38,
+          19
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          152,
+          17
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          152,
+          17,
+          152,
+          17
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          120,
+          42
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          120,
+          42,
+          120,
+          42
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "tree_dead",
+        "cell": [
+          107,
+          51
+        ],
+        "footprint_px": [
+          24,
+          16
+        ],
+        "blocked_rect": [
+          107,
+          51,
+          107,
+          51
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          49,
+          16
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          49,
+          16,
+          49,
+          16
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          99,
+          20
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          99,
+          20,
+          99,
+          20
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          106,
+          33
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          106,
+          33,
+          106,
+          33
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          51,
+          40
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          51,
+          40,
+          51,
+          40
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          64,
+          33
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          64,
+          33,
+          64,
+          33
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          82,
+          40
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          82,
+          40,
+          82,
+          40
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "supply_barrel",
+        "cell": [
+          42,
+          45
+        ],
+        "footprint_px": [
+          28,
+          16
+        ],
+        "blocked_rect": [
+          42,
+          45,
+          42,
+          45
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_broken",
+        "cell": [
+          92,
+          48
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          92,
+          48,
+          92,
+          48
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          130,
+          64
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          130,
+          64,
+          130,
+          64
+        ],
+        "anchor": "cell ground centre"
+      },
+      {
+        "prop": "column_whole",
+        "cell": [
+          136,
+          67
+        ],
+        "footprint_px": [
+          28,
+          18
+        ],
+        "blocked_rect": [
+          136,
+          67,
+          136,
+          67
+        ],
+        "anchor": "cell ground centre"
+      }
+    ],
+    "structures": [
+      {
+        "kind": "bridge_ew",
+        "rect": [
+          55,
+          34,
+          60,
+          40
+        ],
+        "note": "Seven-wide Royal Causeway, with clear banks; the visible bridge is a geographical passage, not a scene transition."
+      },
+      {
+        "kind": "stairs",
+        "rect": [
+          92,
+          26,
+          96,
+          27
+        ],
+        "note": "West memorial ascent, five wide; all landings clear."
+      },
+      {
+        "kind": "stairs",
+        "rect": [
+          105,
+          26,
+          109,
+          27
+        ],
+        "note": "East memorial descent completes a pre-boss exploration loop."
+      }
+    ],
+    "scripts": [
+      {
+        "id": "boss_entry",
+        "trigger_rect": [
+          121,
+          28,
+          123,
+          28
+        ],
+        "event": "boss_intro",
+        "once_flag": "boss_intro_seen",
+        "note": "Continuously test occupied throat while idle; after full mask clears north of row29 top (pixel y1856), pause damage, walk to [122,26], close gate, frame dialogue. Intro-seen never suppresses encounter initialization after failure."
+      },
+      {
+        "id": "pharaoh_defeat",
+        "trigger_rect": null,
+        "event": "boss_hp_zero",
+        "once_flag": "boss_pharaoh_defeated",
+        "note": "Disable all damage immediately. Disintegrate; slow whiteout; remove every summon, projectile and hazard; fade back; open both barriers and atomically commit defeated flag plus pending unique reward. No scene load; no Grail reward."
+      },
+      {
+        "id": "dungeon_threshold",
+        "trigger_rect": [
+          153,
+          12,
+          154,
+          12
+        ],
+        "event": "chapter_ending",
+        "once_flag": "chapter_desert_complete",
+        "note": "Require boss_pharaoh_defeated. Enter the doorway to show To Be Continued in rm_ending; no dungeon interior. Completed saves may replay the ending."
+      }
+    ],
+    "arrivals": [
+      {
+        "exit_id": "west",
+        "cell": [
+          2,
+          20
+        ],
+        "pixel": [
+          160,
+          1312
+        ],
+        "safe_rect": [
+          1,
+          19,
+          3,
+          21
+        ],
+        "facing": 0
+      }
+    ],
+    "transitions": [
+      {
+        "exit_id": "west",
+        "to_scene_id": "sc_caravan_basin",
+        "to_room_id": "rm_sc_caravan_basin",
+        "to_exit": "east",
+        "destination_arrival_cell": [
+          141,
+          20
+        ],
+        "destination_arrival_pixel": [
+          9056,
+          1312
+        ],
+        "condition": "always"
+      }
+    ],
+    "initial_spawn": null,
+    "elevation_notes": [
+      "Incoming plateau, causeway and royal forecourt are continuous base level z1 after the previous scene's stairs. Memorial terrace z2 is bounded by masonry and connects through its two stairs. Courtyard floor is flat at z1; sand inset is not a raised dais."
+    ],
+    "batches": [
+      {
+        "name": "Plateau expansion",
+        "places": [
+          "place_windblown_plateau",
+          "place_echo_grotto",
+          "place_royal_causeway"
+        ],
+        "build": "Create the broad plateau, two elective loops, causeway and separated combat pockets."
+      },
+      {
+        "name": "Royal forecourt expansion",
+        "places": [
+          "place_tomb_approach",
+          "place_memorial_vault",
+          "place_sundial_court",
+          "place_pharaohs_gate"
+        ],
+        "build": "Add the quiet forecourt, two-stair memorial circuit, new southern Sundial Court loop and final star immediately south of the gate."
+      },
+      {
+        "name": "Courtyard and ending",
+        "places": [
+          "place_pharaohs_courtyard",
+          "place_dungeon_threshold"
+        ],
+        "build": "Build the in-scene arena enclosure, unavoidable entry trigger, two stateful barriers and ending exterior."
+      }
+    ],
+    "boss": {
+      "entrance_gate_rect": [
+        121,
+        31,
+        123,
+        31
+      ],
+      "east_seal_rect": [
+        148,
+        17,
+        149,
+        21
+      ],
+      "entry_trigger_rect": [
+        121,
+        28,
+        123,
+        28
+      ],
+      "safe_intro_dave_cell": [
+        122,
+        26
+      ],
+      "pharaoh_cell": [
+        132,
+        20
+      ],
+      "intro_camera_target_pixel": [
+        8160,
+        1456
+      ],
+      "teleport_cells": [
+        [
+          132,
+          20
+        ],
+        [
+          138,
+          16
+        ],
+        [
+          127,
+          17
+        ]
+      ],
+      "bat_spawn_cells": [
+        [
+          127,
+          14
+        ],
+        [
+          142,
+          22
+        ]
+      ],
+      "undead_spawn_cells": [
+        [
+          126,
+          22
+        ],
+        [
+          140,
+          13
+        ]
+      ],
+      "caps": {
+        "bats": 2,
+        "undead": 2
+      },
+      "reward": {
+        "id": "rm_sc_royal_expanse:u1",
+        "cell": [
+          134,
+          19
+        ],
+        "loot": [
+          [
+            "pharaoh_ankh",
+            1
+          ]
+        ],
+        "pending_if_full": true
+      },
+      "states": {
+        "idle": "Entrance open; east seal closed; boss idle; no encounter damage.",
+        "dialogue": "Gate closed; east seal closed; all damage paused; play boss_intro.",
+        "combat": "Both barriers closed; boss theme and capped summon scheduling active.",
+        "defeat": "Stop every damage source; disintegration and slow whiteout; remove all threats.",
+        "cleared": "Both barriers open; boss/summons/hazards/projectiles absent; pending reward may remain."
+      },
+      "entry_rule": "Continuously test occupied throat while idle; after full mask clears north of row29 top (pixel y1856), pause damage, walk to [122,26], close gate, frame dialogue. Intro-seen never suppresses encounter initialization after failure.",
+      "thunder_rule": "Initial warning >=1.0 s; committed targets never move. Preserve a connected unmarked strip >=3 cells wide reachable at actual move speed; no offscreen damage or complete coverage.",
+      "summon_rule": "Attempt capped bats per complete cycle. Use authored points >=3 cells from Dave and safe strip; postpone if no legal point.",
+      "camera_rule": "Keep 1280x720. Frame both actors for intro, blend to follow before combat; attacking actors and warnings must be visible. No laser/thunder combination may close every escape.",
+      "music_by_state": {
+        "idle": "mus_desert",
+        "dialogue": "duck exploration music",
+        "combat": "mus_pharaoh",
+        "defeat": "stop loop, then resolution after whiteout",
+        "cleared": "mus_desert"
+      },
+      "health_tuning": "3-5 minute initial target with main-route equipment; optional sword/armor and grinding not assumed."
+    },
+    "additional_asset_ids": [
+      "spr_gate_arena",
+      "spr_door_sealed",
+      "spr_dungeon_entrance",
+      "spr_ending_bg",
+      "spr_portrait_dave",
+      "spr_portrait_pharaoh",
+      "mus_pharaoh",
+      "mus_ending",
+      "spr_laser_beam",
+      "spr_laser_aim",
+      "spr_fx_laser_charge",
+      "spr_thunder_marker",
+      "spr_thunder_exclaim",
+      "spr_lightning_bolt",
+      "spr_fx_thunder_impact",
+      "spr_summon_crack",
+      "spr_fx_sand_burst",
+      "snd_gate_slam",
+      "snd_boss_summon",
+      "snd_laser_charge",
+      "snd_laser_fire",
+      "snd_thunder_warn",
+      "snd_thunder_strike",
+      "snd_boss_hurt",
+      "snd_disintegrate",
+      "snd_boss_death",
+      "snd_undead_rise"
+    ],
+    "weather": {
+      "default": "Occasional cosmetic east-to-west wind/tumbleweeds only, never movement or collision effects.",
+      "suppress_rects": [
+        [
+          115,
+          35,
+          133,
+          45
+        ],
+        [
+          121,
+          28,
+          123,
+          28
+        ],
+        [
+          118,
+          10,
+          149,
+          34
+        ],
+        [
+          150,
+          9,
+          157,
+          27
+        ],
+        [
+          17,
+          5,
+          45,
+          24
+        ],
+        [
+          87,
+          10,
+          114,
+          28
+        ]
+      ]
+    },
+    "discoveries": [
+      {
+        "id": "sc_royal_expanse:pilgrim_camp",
+        "name": "Forgotten Pilgrims' Rest",
+        "cell": [
+          16,
+          36
+        ],
+        "theme": "shrine",
+        "chest_id": "rm_sc_royal_expanse:c7",
+        "rect": [
+          13,
+          34,
+          20,
+          40
+        ],
+        "route": [
+          [
+            12,
+            28
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            21,
+            39
+          ],
+          [
+            21,
+            28
+          ]
+        ],
+        "approach": [
+          16,
+          38
+        ],
+        "reward": [
+          [
+            "potion_greater",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "sc_royal_expanse:procession_cache",
+        "name": "Procession Waystation",
+        "cell": [
+          71,
+          28
+        ],
+        "theme": "shrine",
+        "chest_id": "rm_sc_royal_expanse:c8",
+        "rect": [
+          68,
+          26,
+          75,
+          32
+        ],
+        "route": [
+          [
+            66,
+            37
+          ],
+          [
+            62,
+            37
+          ],
+          [
+            62,
+            26
+          ],
+          [
+            79,
+            26
+          ],
+          [
+            79,
+            37
+          ],
+          [
+            82,
+            37
+          ]
+        ],
+        "approach": [
+          71,
+          30
+        ],
+        "reward": [
+          [
+            "ancient_coin",
+            2
+          ]
+        ]
+      },
+      {
+        "id": "sc_royal_expanse:sunken_garden",
+        "name": "Sunken Offering Garden",
+        "cell": [
+          99,
+          50
+        ],
+        "theme": "garden",
+        "chest_id": "rm_sc_royal_expanse:c9",
+        "rect": [
+          96,
+          48,
+          103,
+          54
+        ],
+        "route": [
+          [
+            84,
+            45
+          ],
+          [
+            94,
+            45
+          ],
+          [
+            94,
+            53
+          ],
+          [
+            110,
+            53
+          ]
+        ],
+        "approach": [
+          99,
+          52
+        ],
+        "reward": [
+          [
+            "desert_rose",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "sc_royal_expanse:archive_cache",
+        "name": "Fallen Archive",
+        "cell": [
+          138,
+          66
+        ],
+        "theme": "archive",
+        "chest_id": "rm_sc_royal_expanse:c10",
+        "rect": [
+          135,
+          64,
+          142,
+          70
+        ],
+        "route": [
+          [
+            134,
+            58
+          ],
+          [
+            142,
+            58
+          ],
+          [
+            142,
+            69
+          ],
+          [
+            134,
+            69
+          ],
+          [
+            134,
+            67
+          ]
+        ],
+        "approach": [
+          138,
+          68
+        ],
+        "reward": [
+          [
+            "golden_scarab",
+            1
+          ]
+        ]
+      }
+    ],
+    "discovery_dressing": {
+      "sc_royal_expanse:pilgrim_camp": 6,
+      "sc_royal_expanse:procession_cache": 5,
+      "sc_royal_expanse:sunken_garden": 6,
+      "sc_royal_expanse:archive_cache": 4
+    },
+    "layout_focus": {
+      "revision": "discovery_routes_v2",
+      "original_walkable_cells": 10034,
+      "walkable_cells": 5968,
+      "principle": "Continuous landscapes with framed routes, short scenic pockets and distinct material/prop stories. Traversable cameras see persistent scenery; the central boss arena keeps deliberate open warning floor.",
+      "camera_coverage_cells": [
+        19,
+        11
+      ],
+      "camera_minimum_details": 4,
+      "camera_minimum_landmarks": 2,
+      "camera_combat_minimum_details": 2,
+      "beats": [
+        {
+          "name": "Plateau windbreak",
+          "theme": "dry",
+          "cell": [
+            10,
+            27
+          ]
+        },
+        {
+          "name": "Grotto approach bones",
+          "theme": "bones",
+          "cell": [
+            21,
+            33
+          ]
+        },
+        {
+          "name": "Echo shrine offerings",
+          "theme": "rubble",
+          "cell": [
+            40,
+            22
+          ]
+        },
+        {
+          "name": "Causeway warning cairns",
+          "theme": "royal",
+          "cell": [
+            47,
+            25
+          ]
+        },
+        {
+          "name": "Burrowed trail edge",
+          "theme": "bones",
+          "cell": [
+            20,
+            45
+          ]
+        },
+        {
+          "name": "Worm hunter's remains",
+          "theme": "bones",
+          "cell": [
+            38,
+            62
+          ]
+        },
+        {
+          "name": "Southern return marker",
+          "theme": "dry",
+          "cell": [
+            48,
+            47
+          ]
+        },
+        {
+          "name": "Broken royal procession",
+          "theme": "royal",
+          "cell": [
+            65,
+            45
+          ]
+        },
+        {
+          "name": "Memorial stair approach",
+          "theme": "royal",
+          "cell": [
+            80,
+            31
+          ]
+        },
+        {
+          "name": "Memorial offerings",
+          "theme": "royal",
+          "cell": [
+            103,
+            23
+          ]
+        },
+        {
+          "name": "Forecourt garden remains",
+          "theme": "dry",
+          "cell": [
+            100,
+            44
+          ]
+        },
+        {
+          "name": "Sunken court approach",
+          "theme": "rubble",
+          "cell": [
+            85,
+            54
+          ]
+        },
+        {
+          "name": "Sundial west cloister",
+          "theme": "royal",
+          "cell": [
+            95,
+            70
+          ]
+        },
+        {
+          "name": "Sundial east cloister",
+          "theme": "royal",
+          "cell": [
+            120,
+            71
+          ]
+        },
+        {
+          "name": "Processional road return",
+          "theme": "royal",
+          "cell": [
+            133,
+            57
+          ]
+        },
+        {
+          "name": "Last refuge votive stones",
+          "theme": "royal",
+          "cell": [
+            126,
+            44
+          ]
+        },
+        {
+          "name": "Courtyard wall sentinels",
+          "theme": "royal",
+          "cell": [
+            145,
+            26
+          ]
+        },
+        {
+          "name": "Sealed threshold rubble",
+          "theme": "royal",
+          "cell": [
+            155,
+            24
+          ]
+        }
+      ],
+      "nearby_coverage_cells": [
+        11,
+        7
+      ],
+      "nearby_minimum_details": 3,
+      "nearby_minimum_landmarks": 1,
+      "protected": "Three-wide routes, full combat pads, chest approaches, save/arrival reserves, bridge/stair landings, boss gates and warning floor."
+    },
+    "required_asset_ids": [
+      "mus_desert",
+      "mus_ending",
+      "mus_pharaoh",
+      "snd_bat_screech",
+      "snd_boss_death",
+      "snd_boss_hurt",
+      "snd_boss_summon",
+      "snd_cast_charge",
+      "snd_checkpoint",
+      "snd_chest_open",
+      "snd_disintegrate",
+      "snd_gate_slam",
+      "snd_laser_charge",
+      "snd_laser_fire",
+      "snd_magic_hit",
+      "snd_magic_travel",
+      "snd_pickup",
+      "snd_save",
+      "snd_snake_hiss",
+      "snd_snake_lunge",
+      "snd_step_sand",
+      "snd_sword_hit",
+      "snd_sword_swing",
+      "snd_thunder_strike",
+      "snd_thunder_warn",
+      "snd_undead_rise",
+      "snd_wind_loop",
+      "snd_worm_bite",
+      "snd_worm_emerge",
+      "snd_worm_rumble",
+      "spr_bandit_attack_down",
+      "spr_bandit_attack_side",
+      "spr_bandit_attack_up",
+      "spr_bandit_caster_attack_down",
+      "spr_bandit_caster_attack_side",
+      "spr_bandit_caster_attack_up",
+      "spr_bandit_caster_defeat",
+      "spr_bandit_caster_hurt_down",
+      "spr_bandit_caster_idle_down",
+      "spr_bandit_caster_walk_down",
+      "spr_bandit_caster_walk_side",
+      "spr_bandit_caster_walk_up",
+      "spr_bandit_defeat",
+      "spr_bandit_hurt_down",
+      "spr_bandit_idle_down",
+      "spr_bandit_walk_down",
+      "spr_bandit_walk_side",
+      "spr_bandit_walk_up",
+      "spr_bat_defeat",
+      "spr_bat_dive",
+      "spr_bat_fly",
+      "spr_bush",
+      "spr_bush_dead",
+      "spr_checkpoint_star",
+      "spr_chest_desert",
+      "spr_column_broken",
+      "spr_column_fallen",
+      "spr_column_whole",
+      "spr_dave_attack_down",
+      "spr_dave_attack_down_side",
+      "spr_dave_attack_side",
+      "spr_dave_attack_up",
+      "spr_dave_attack_up_side",
+      "spr_dave_idle_down",
+      "spr_dave_idle_down_side",
+      "spr_dave_idle_side",
+      "spr_dave_idle_up",
+      "spr_dave_idle_up_side",
+      "spr_dave_walk_down",
+      "spr_dave_walk_down_side",
+      "spr_dave_walk_side",
+      "spr_dave_walk_up",
+      "spr_dave_walk_up_side",
+      "spr_door_sealed",
+      "spr_dungeon_entrance",
+      "spr_ending_bg",
+      "spr_fx_hit",
+      "spr_fx_laser_charge",
+      "spr_fx_magic_hit",
+      "spr_fx_magic_launch",
+      "spr_fx_sand_burst",
+      "spr_fx_slash",
+      "spr_fx_sparkle",
+      "spr_fx_thunder_impact",
+      "spr_gate_arena",
+      "spr_icon_ancient_coin",
+      "spr_icon_desert_rose",
+      "spr_icon_golden_scarab",
+      "spr_icon_paladin_mail",
+      "spr_icon_pharaoh_ankh",
+      "spr_icon_potion_greater",
+      "spr_icon_sunsteel_blade",
+      "spr_laser_aim",
+      "spr_laser_beam",
+      "spr_lightning_bolt",
+      "spr_loose_rocks",
+      "spr_magic_orb",
+      "spr_mask_bat",
+      "spr_mask_dave",
+      "spr_mask_medium",
+      "spr_mask_pharaoh",
+      "spr_mask_python",
+      "spr_mask_sandworm",
+      "spr_obelisk",
+      "spr_palm",
+      "spr_pebbles",
+      "spr_pharaoh_death",
+      "spr_pharaoh_hurt",
+      "spr_pharaoh_idle",
+      "spr_pharaoh_laser_charge",
+      "spr_pharaoh_laser_fire",
+      "spr_pharaoh_statue",
+      "spr_pharaoh_summon",
+      "spr_pharaoh_teleport_in",
+      "spr_pharaoh_teleport_out",
+      "spr_pharaoh_thunder_cast",
+      "spr_portrait_dave",
+      "spr_portrait_pharaoh",
+      "spr_python_coil",
+      "spr_python_defeat",
+      "spr_python_hurt",
+      "spr_python_lunge_down",
+      "spr_python_lunge_side",
+      "spr_python_lunge_up",
+      "spr_python_slither_down",
+      "spr_python_slither_side",
+      "spr_python_slither_up",
+      "spr_rock_small",
+      "spr_ruin_block",
+      "spr_sandworm_attack",
+      "spr_sandworm_burrow",
+      "spr_sandworm_defeat",
+      "spr_sandworm_emerge",
+      "spr_sandworm_hurt",
+      "spr_sandworm_idle_up",
+      "spr_sandworm_mound",
+      "spr_skeleton_warrior_attack_down",
+      "spr_skeleton_warrior_attack_side",
+      "spr_skeleton_warrior_attack_up",
+      "spr_skeleton_warrior_defeat",
+      "spr_skeleton_warrior_hurt_down",
+      "spr_skeleton_warrior_idle_down",
+      "spr_skeleton_warrior_walk_down",
+      "spr_skeleton_warrior_walk_side",
+      "spr_skeleton_warrior_walk_up",
+      "spr_skull",
+      "spr_summon_crack",
+      "spr_supply_barrel",
+      "spr_thunder_exclaim",
+      "spr_thunder_marker",
+      "spr_tree_dead",
+      "spr_tumbleweed",
+      "spr_undead_attack_down",
+      "spr_undead_attack_side",
+      "spr_undead_attack_up",
+      "spr_undead_defeat",
+      "spr_undead_hurt_down",
+      "spr_undead_idle_down",
+      "spr_undead_rise",
+      "spr_undead_walk_down",
+      "spr_undead_walk_side",
+      "spr_undead_walk_up",
+      "spr_water_barrel",
+      "tex_chasm_void",
+      "tex_chasm_wall",
+      "tex_cliff_face",
+      "tex_grass",
+      "tex_masonry_face",
+      "tex_masonry_top",
+      "tex_paving",
+      "tex_rock_top",
+      "tex_sand_dark",
+      "tex_sand_light",
+      "ts_bridge",
+      "ts_stairs"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+Use case: stylized-concept.
+
+Asset ID: spr_palm_01. Purpose: Desert prop: palm_01. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach art/reference/template_sprite_inspection.png as the authoritative style/density reference. Match the supplied Hero's Trail template reference: elevated top-down three-quarter orthographic adventure view, smooth antialiased illustrated cartoon game art, dark charcoal outlines about 1-2 native pixels wide, broad soft cel shading, light from upper left, restrained highlights and slate or warm brown shadows. Human-sized humanoids have compact chibi proportions with heads about 35-40 percent of body height; creatures keep the specific anatomy described below. These are 64-pixel tiles with roughly 78-pixel-tall human bodies. Preserve native visual density; no coarse pixel grid, realistic rendering, anime redesign, isometric diamond grid, noisy microtexture, text, watermark, labels or checkerboard painted into pixels.
+
+Subject: A slightly leaning date palm, warm segmented brown trunk and broad sage-olive fronds, no tiny leaf noise.
+
+Direction: Use the exact single orientation described; do not generate additional views.
+
+Final target: 128x192 native pixels PER FRAME; All frames fixed 128x192 canvas, no trimming; origin (64, 182). Keep placement fixed between frames.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate one static asset only, no contact sheet or alternative views.
+
+Playback/state selection: static. contract.
+
+Collision footprint reference (not painted into art): 24x14 pixels at the base.
+
+Additional constraints: The requested prop key maps to this proposed sprite ID; engineering confirms registration. All C4 origins and footprints except explicitly requested sizes/footprints are proposed. No baked ground shadow. 
+
+Transparent outer canvas, no ground plane or baked ground shadow. Preserve solid interiors, clean straight alpha and no clipped silhouette. Source artwork is not an engine-ready export until measured and inspected.
+
+Inspection before acceptance: Match silhouette and colour at native scale on sand and ruins. Verify base/trunk anchor and proposed footprint overlay. No background, shadow rectangle or clipped branches. Distinct variants keep material palette and light direction consistent.

@@ -1,0 +1,93 @@
+{
+  "design_version": "desert_scenes_v2",
+  "status": "current integrated scene layout; GameMaker playtest pending",
+  "supersedes": "desert_v1: scene-based world design replaces the 24-small-map structure, not just its terminology.",
+  "scope": {
+    "principle": "Expand explorable landscapes around landmarks, internal loops and rewards. No target number of scenes, places, branches or FFV maps.",
+    "partition_rationale": "Three initial scenes follow distinct landscapes and meaningful travel passes. Dimensions are authored starting extents, expandable after exploration playtests.",
+    "ffv_region": null,
+    "ffv_version": null
+  },
+  "scene_order": [
+    "sc_desert_frontier",
+    "sc_caravan_basin",
+    "sc_royal_expanse"
+  ],
+  "scene_files": {
+    "sc_desert_frontier": "scenes/rm_sc_desert_frontier.json",
+    "sc_caravan_basin": "scenes/rm_sc_caravan_basin.json",
+    "sc_royal_expanse": "scenes/rm_sc_royal_expanse.json"
+  },
+  "world_origins_cells": {
+    "sc_desert_frontier": [
+      0,
+      0
+    ],
+    "sc_caravan_basin": [
+      128,
+      0
+    ],
+    "sc_royal_expanse": [
+      272,
+      0
+    ]
+  },
+  "terminology": {
+    "scene": "A large continuous explorable landscape; only explicit scene-border exits load another scene.",
+    "place": "Named landmark/district/pocket within a scene; crossing its bounds never loads, fades, teleports, resets enemies or closes a door.",
+    "technical_mapping": "Keep room_id and rm_ keys only where Claude's GameMaker format requires them. Player/design language is scene and place.",
+    "batch": "An implementation expansion of one scene. Batch boundaries are not player-facing borders or transitions."
+  },
+  "coordinates": {
+    "tile_pixels": 64,
+    "cell": "[column,row], zero-based, x east, y south; ground point at [64*x+32,64*y+32]",
+    "rect": "[x1,y1,x2,y2] inclusive",
+    "terrain_walkable": ".,;_^=|",
+    "terrain_blocked": "#M~Cx",
+    "arrival": "W x2; E width-3; opening midpoint; clear 3x3 reserve.",
+    "view_pixels": [
+      1280,
+      720
+    ]
+  },
+  "transition_rules": "Only the two landscape passes change scenes. Border openings are five cells wide, clear for five cells inside; actors stay out of their corridors. Trigger on deliberate outward crossing, pause damage during load, clear projectiles and debounce until Dave leaves the destination corridor and releases outward intent. Returning uses the matching destination arrival, never the previous arbitrary position.",
+  "exploration_rules": "Preferred eastward landmark order is preserved for wayfinding, not an invisible checklist. Players may roam, approach a landmark from another side, take longer routes, return by a different path and backtrack between scenes. Only Pharaoh gates the dungeon exterior; optional gear and grinding never gate progress.",
+  "fixed_across_revisits": "World outline, landforms, routes, bridges/stairs, scene connections, checkpoint cells, enemy initial positions/IDs, chest loot/IDs, authored landmarks, arena barriers and threshold trigger. Internal exploration never respawns enemies or rerolls loot.",
+  "procedural_rules": "No runtime topology generation. Seeded material/decal variation and bounded E-to-W ambient wind only, outside paths, combat pads, reserves and important silhouettes. No random solid cactus/rock placement. At most two nearby visible tumbleweeds; expire within ten seconds and remove on scene leave. Suppress weather at refuges, memorial/grotto, gate, arena and threshold.",
+  "open_world_implementation": "Camera scrolls continuously across every place. Claude may chunk rendering/AI internally; chunk boundaries never cause scene transitions, fades, enemy resets or save boundaries. Sleep distant AI without deleting persistent spawn state; activate authored encounter pockets near the player. Use contract tile layers, foot masks and base-only prop collision.",
+  "migration": "V1 files are superseded references. New core JSON retains Claude's exact keys; all exits remain E/W rows, so no cols schema extension is needed. Old chest IDs map explicitly to new scene-prefixed IDs in scene_migration.json; enemy spawn IDs remain stable. Save-format migration must remap checkpoint positions and reward claims atomically, or label old saves incompatible. Never silently load old local coordinates into a new scene.",
+  "provisional_contract_overrides": "The user's scene-world directive replaces the provisional rm_d01..rm_d18 plus rm_o1..rm_o6 resource scheme in PROJECT_CONTRACT section 8 and the x24 layouts request in ASSET_REQUESTS C5. Retain tile size, core JSON keys, combat masks, art formats and layers. New resource IDs are incoming scene-content proposals for Claude's integration, not an edited engineering contract.",
+  "persistence": "Keep three manual save stars. Snapshot scene ID/checkpoint cell, inventory, stats/XP, ordinary defeated-spawn IDs, chest remaining/claimed counts, pending unique reward, flags and cosmetic seed together. Death rolls back that snapshot as a unit. Pharaoh uses boss_pharaoh_defeated, not ordinary spawn-death state. Active encounter and projectiles reset on an undefeated checkpoint load; a defeated save recreates a cleared courtyard inside Royal Expanse.",
+  "initial": {
+    "scene_id": "sc_desert_frontier",
+    "cell": [
+      7,
+      40
+    ],
+    "facing": 0,
+    "checkpoint_fallback": "Initial complete snapshot until first manual save."
+  },
+  "ending": {
+    "scene_id": "sc_royal_expanse",
+    "trigger_rect": [
+      153,
+      12,
+      154,
+      12
+    ],
+    "requires": "boss_pharaoh_defeated",
+    "flag": "chapter_desert_complete",
+    "ui": "rm_ending",
+    "text": "To Be Continued",
+    "dungeon_interior": false
+  },
+  "active_files": [
+    "scene_manifest.json",
+    "scene_gameplay_specs.json",
+    "scene_decorations.json",
+    "scene_asset_manifest.json",
+    "scene_migration.json",
+    "scene_validation_report.json"
+  ],
+  "sources": "Original brief and user's confirmed route, PROJECT_CONTRACT and ASSET_REQUESTS, local template references; current user steering replaces room-count planning with larger explorable scenes. FFV remains qualitative exploration inspiration, with no selected region/version or asserted map count."
+}

@@ -1,0 +1,84 @@
+{
+  "source": "art/source/dave/cardinal_batch_v001/dave_base_left_source_v001.png",
+  "reference": "art/source/dave/down_batch_v001/dave_base_down_v002_clean_v001.png",
+  "canvas_px": [
+    96,
+    96
+  ],
+  "origin_px": [
+    48,
+    88
+  ],
+  "direction": "left",
+  "world_facing": "west/left",
+  "scale": 0.0835117773019272,
+  "source_frames": [
+    {
+      "component_label": 1,
+      "box": [
+        116,
+        152,
+        1144,
+        1096
+      ],
+      "anchor": [
+        496,
+        939
+      ],
+      "scale": 0.0835117773019272
+    }
+  ],
+  "fps": null,
+  "loop": "static",
+  "review_durations_ms": [
+    1000
+  ],
+  "handedness": "far anatomical-right arm holds sword, near anatomical-left arm empty",
+  "naming_status": "authored left view per user instruction; registration by Claude replaces whole-sprite mirroring for west",
+  "notes": "Independent left view, not mirrored. Crown157, near sole1091;78px body. Upper-left lighting retained.",
+  "asset_id": "dave_base_left_reference",
+  "source_sha256": "a436ea5d22544235449039dd040482c33e46fe5e43d0a749da998926a8e18962",
+  "frame_count": 1,
+  "delivery": "individual PNG frames and horizontal strip; 8-bit RGBA sRGB straight alpha",
+  "source_frames_are_measured": true,
+  "inspection": {
+    "frames": [
+      {
+        "canvas_px": [
+          96,
+          96
+        ],
+        "alpha_bounds": [
+          7,
+          10,
+          92,
+          88
+        ],
+        "solid_bounds": [
+          7,
+          10,
+          92,
+          88
+        ],
+        "border_alpha_max": 0,
+        "transparent_pixels": 5830,
+        "opaque_pixels": 3095,
+        "cleanup": {
+          "discarded_nonzero_pixels": 0,
+          "substantial_components": 1,
+          "alpha_gain": 1.007905138339921
+        },
+        "painted_source": "art/source/dave/cardinal_batch_v001/dave_base_left_source_v001.png"
+      }
+    ],
+    "mechanical_checks_passed": true,
+    "visual_checks": {
+      "body_height_px": 78,
+      "appearance_and_hand": "Anatomical right far shoulder/arm holds sword; near foreground left arm remains empty. Independent drawing, no whole-sprite mirror.",
+      "engine_preview_checked": false
+    },
+    "engine_preview_checked": false
+  },
+  "verified_engine_ready": false,
+  "status": "native_facing_reference_accepted_for_this_art_batch"
+}

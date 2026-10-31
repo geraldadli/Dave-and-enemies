@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_worm_bite",
+  "purpose": "Sandworm melee bite",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.42,
+  "actual_duration_seconds": 0.42,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_worm_bite_1.wav",
+      "path": "audio/sfx/snd_worm_bite_1.wav",
+      "sha256": "bcd062e8f600195ba67fe0bf6f40778fa5b5a287250826f38877870e64d0fe84",
+      "bytes": 37088,
+      "frames": 18522,
+      "duration_seconds": 0.42,
+      "seed": 2359687321,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.91467,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.59771,
+        "dc_offset": 1.449922727027319e-07,
+        "onset_ms_at_minus60_relative": 0.204,
+        "trailing_ms_below_minus60_relative": 0.998
+      }
+    },
+    {
+      "file": "snd_worm_bite_2.wav",
+      "path": "audio/sfx/snd_worm_bite_2.wav",
+      "sha256": "62382fc811dc82068f46f8464499217b1231a94c0a8b5c8e97b16a05bf44b2b7",
+      "bytes": 37088,
+      "frames": 18522,
+      "duration_seconds": 0.42,
+      "seed": 3227008350,
+      "measurements": {
+        "sample_peak_dbfs": -6.51975,
+        "oversampled_peak_dbfs_4x": -6.51052,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.5977,
+        "dc_offset": -1.1039184398957996e-07,
+        "onset_ms_at_minus60_relative": 0.204,
+        "trailing_ms_below_minus60_relative": 1.156
+      }
+    },
+    {
+      "file": "snd_worm_bite_3.wav",
+      "path": "audio/sfx/snd_worm_bite_3.wav",
+      "sha256": "974406a0f98854388d9182fabdcdce21020b4e1f339cf984bc1e0188a6d016aa",
+      "bytes": 37088,
+      "frames": 18522,
+      "duration_seconds": 0.42,
+      "seed": 1134884590,
+      "measurements": {
+        "sample_peak_dbfs": -6.01954,
+        "oversampled_peak_dbfs_4x": -6.01401,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.5977,
+        "dc_offset": 1.4828755162779397e-08,
+        "onset_ms_at_minus60_relative": 0.227,
+        "trailing_ms_below_minus60_relative": 0.839
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_worm_bite: Sandworm melee bite. Create a broad muscular air thrust, dry jaw clap and short sandy body scrape. Powerful but cartoon-safe; no wet crunch, scream or contact hit baked in. Deliver 3 separate distinct takes, each 0.42 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 1e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

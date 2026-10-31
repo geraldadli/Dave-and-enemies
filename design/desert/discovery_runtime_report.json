@@ -1,0 +1,54 @@
+{
+  "status": "pass",
+  "captured_views": 12,
+  "discoveries_triggered": 12,
+  "new_caches_claimed": [
+    "rm_sc_desert_frontier:c9",
+    "rm_sc_desert_frontier:c10",
+    "rm_sc_desert_frontier:c11",
+    "rm_sc_desert_frontier:c12",
+    "rm_sc_caravan_basin:c9",
+    "rm_sc_caravan_basin:c10",
+    "rm_sc_caravan_basin:c11",
+    "rm_sc_caravan_basin:c12",
+    "rm_sc_royal_expanse:c7",
+    "rm_sc_royal_expanse:c8",
+    "rm_sc_royal_expanse:c9",
+    "rm_sc_royal_expanse:c10"
+  ],
+  "repeated_interaction_grants_duplicate_loot": false,
+  "final_inventory": {
+    "longsword": 1,
+    "worn_tabard": 1,
+    "potion_health": 5,
+    "gold_coins": 17,
+    "desert_rose": 3,
+    "ancient_coin": 3,
+    "potion_greater": 1,
+    "golden_scarab": 1
+  },
+  "route_checks": {
+    "clear_palm": [
+      97,
+      32
+    ],
+    "clear_bridge": [
+      93,
+      46
+    ],
+    "clear_catwalk": [
+      67,
+      60
+    ],
+    "clear_stairs": [
+      128,
+      27
+    ]
+  },
+  "registered_resources": 478,
+  "user_saves_written": false,
+  "fatal_runtime_errors": [],
+  "audio_warnings": [],
+  "evidence": "previews/exploration_runtime/",
+  "limits": "Scripted native cache interactions, camera views and representative movement routes; does not assess combat balance or long-session performance."
+}

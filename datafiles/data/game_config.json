@@ -1,0 +1,17 @@
+{
+ "scene_rooms": ["rm_sc_desert_frontier", "rm_sc_caravan_basin", "rm_sc_royal_expanse"],
+ "initial": {"room": "rm_sc_desert_frontier", "cell": [7, 40], "facing": "side"},
+ "starting_loadout": [
+  {"id": "longsword", "n": 1, "equip": true},
+  {"id": "worn_tabard", "n": 1, "equip": true},
+  {"id": "potion_health", "n": 2}
+ ],
+ "base_hp": 100,
+ "hp_per_level": 6,
+ "xp_base": 30,
+ "xp_exponent": 1.5,
+ "unarmed_damage": 4,
+ "dave_attack_ticks": [3, 3, 3, 3, 3, 4, 4, 4],
+ "dave_attack_active": [2, 4],
+ "text_cps": 24
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="120" viewBox="0 0 760 120">
+<defs><style>@font-face{font-family:NotoUI;src:url(../fonts/NotoSans-Regular.ttf)}@font-face{font-family:NotoUI;src:url(../fonts/NotoSans-Bold.ttf);font-weight:700}text{font-family:NotoUI,"Noto Sans",sans-serif}</style></defs>
+<rect x="0" y="0" width="759" height="119" rx="12" fill="#171B27" stroke="#747F95" stroke-width="2"/>
+<polyline points="8,117 752,117" fill="none" stroke="#101521" stroke-width="3"/>
+</svg>

@@ -1,0 +1,192 @@
+{
+  "status": "ALL_SIX_MUSIC_WAVS_GENERATED_TECHNICALLY_VALIDATED",
+  "music_file_count": 6,
+  "new_story_cue_count": 4,
+  "format": "Stereo signed PCM16 WAV, 44100 Hz",
+  "target_integrated_lufs": -16,
+  "peak_ceiling_dbfs": -1,
+  "files": [
+    {
+      "id": "mus_desert",
+      "file": "mus_desert.wav",
+      "duration_seconds": 96.0,
+      "frames": 4233600,
+      "sha256": "8178d174bf01466be5095300d6a442fe6dbd092068cdbb6fb680c83594983c4e",
+      "measurements": {
+        "integrated_lufs": -16.0,
+        "true_peak_dbtp": -2.11,
+        "loudness_range_lu": 3.8,
+        "meter": "FFmpeg loudnorm input measurements (EBU R128/BS.1770)",
+        "sample_peak_dbfs": -2.11067,
+        "rms_dbfs": -18.25626,
+        "dc_offset_per_channel": [
+          2.547e-07,
+          6.43e-08
+        ],
+        "stereo_correlation": 0.93333,
+        "loop_boundary": {
+          "jump_per_channel": [
+            0.009185791015625,
+            0.004302978515625
+          ],
+          "ordinary_step_99_9_percentile_per_channel": [
+            0.070343017578125,
+            0.05645751953125
+          ],
+          "seam_within_ordinary_step_range": true,
+          "tail_policy": "All notes, delays, filters and reverb wrap circularly; no file fades or padding."
+        }
+      }
+    },
+    {
+      "id": "mus_pharaoh",
+      "file": "mus_pharaoh.wav",
+      "duration_seconds": 90.0,
+      "frames": 3969000,
+      "sha256": "e9a10cfbc26aaff75696c6e5a4fb30c18dfdad9ed55325a5fddd3be60bd649ca",
+      "measurements": {
+        "integrated_lufs": -16.0,
+        "true_peak_dbtp": -2.15,
+        "loudness_range_lu": 3.4,
+        "meter": "FFmpeg loudnorm input measurements (EBU R128/BS.1770)",
+        "sample_peak_dbfs": -2.16832,
+        "rms_dbfs": -17.59584,
+        "dc_offset_per_channel": [
+          -3e-10,
+          2.1e-09
+        ],
+        "stereo_correlation": 0.96641,
+        "loop_boundary": {
+          "jump_per_channel": [
+            0.003143310546875,
+            0.009674072265625
+          ],
+          "ordinary_step_99_9_percentile_per_channel": [
+            0.043975830078125,
+            0.040771484375
+          ],
+          "seam_within_ordinary_step_range": true,
+          "tail_policy": "All notes, delays, filters and reverb wrap circularly; no file fades or padding."
+        }
+      }
+    },
+    {
+      "id": "mus_intro",
+      "file": "mus_intro.wav",
+      "duration_seconds": 54,
+      "frames": 2381400,
+      "sha256": "6239cfa3f4999dea1639f5d2db9e89677eda13d413c1bbb879bb12a5619266af",
+      "measurements": {
+        "integrated_lufs": -16.01,
+        "true_peak_dbtp": -4.6,
+        "loudness_range_lu": 14.3,
+        "meter": "FFmpeg loudnorm input measurements (EBU R128/BS.1770)",
+        "sample_peak_dbfs": -4.61812824001936,
+        "dc_offset_per_channel": [
+          5.241324201362644e-09,
+          -1.4096470957210045e-09
+        ],
+        "last_100ms_rms_dbfs": -77.77447573100727,
+        "first_100ms_rms_dbfs": -20.677926175249574,
+        "final_sample_abs_max": 0.0,
+        "terminal_quantized_silence_ms": 31.201814058956916,
+        "stereo_correlation": 0.9484874374047353,
+        "non_looping_tail": {
+          "fade_from_seconds": 52,
+          "all_decay_inside_file": true,
+          "no_wrapped_reverb_or_echo": true,
+          "natural_end_check": "PASS"
+        }
+      }
+    },
+    {
+      "id": "mus_boss_defeat",
+      "file": "mus_boss_defeat.wav",
+      "duration_seconds": 6,
+      "frames": 264600,
+      "sha256": "5667ba7db4ffd8e119e6c1f356545cbf74018b8fa3bed4e4e9b47e49a89b07f0",
+      "measurements": {
+        "integrated_lufs": -16.01,
+        "true_peak_dbtp": -3.81,
+        "loudness_range_lu": 11.9,
+        "meter": "FFmpeg loudnorm input measurements (EBU R128/BS.1770)",
+        "sample_peak_dbfs": -3.8081317511202757,
+        "dc_offset_per_channel": [
+          -2.4335634861583524e-08,
+          -1.7300214356575965e-09
+        ],
+        "last_100ms_rms_dbfs": -81.31568319117665,
+        "first_100ms_rms_dbfs": -17.979836088334096,
+        "final_sample_abs_max": 0.0,
+        "terminal_quantized_silence_ms": 30.70294784580499,
+        "stereo_correlation": 0.9569924838403013,
+        "non_looping_tail": {
+          "fade_from_seconds": 4,
+          "all_decay_inside_file": true,
+          "no_wrapped_reverb_or_echo": true,
+          "natural_end_check": "PASS"
+        }
+      }
+    },
+    {
+      "id": "mus_ending",
+      "file": "mus_ending.wav",
+      "duration_seconds": 10,
+      "frames": 441000,
+      "sha256": "e34c0a055ef7266689ccddcddb84676ef4843f1b3b6970c18eff2c2a5329d8f8",
+      "measurements": {
+        "integrated_lufs": -16.05,
+        "true_peak_dbtp": -3.06,
+        "loudness_range_lu": 12.2,
+        "meter": "FFmpeg loudnorm input measurements (EBU R128/BS.1770)",
+        "sample_peak_dbfs": -3.068024344900065,
+        "dc_offset_per_channel": [
+          -3.94444887329932e-09,
+          -6.64328231292517e-09
+        ],
+        "last_100ms_rms_dbfs": -79.93441751280417,
+        "first_100ms_rms_dbfs": -14.564741112447098,
+        "final_sample_abs_max": 0.0,
+        "terminal_quantized_silence_ms": 29.183673469387756,
+        "stereo_correlation": 0.9505596710122219,
+        "non_looping_tail": {
+          "fade_from_seconds": 8,
+          "all_decay_inside_file": true,
+          "no_wrapped_reverb_or_echo": true,
+          "natural_end_check": "PASS"
+        }
+      }
+    },
+    {
+      "id": "mus_gameover",
+      "file": "mus_gameover.wav",
+      "duration_seconds": 4.5,
+      "frames": 198450,
+      "sha256": "96f2c387a157e73d014f7fc000ae15bd7899d1f8da04bfc0561c8e9abc884846",
+      "measurements": {
+        "integrated_lufs": -16.0,
+        "true_peak_dbtp": -3.87,
+        "loudness_range_lu": 3.0,
+        "meter": "FFmpeg loudnorm input measurements (EBU R128/BS.1770)",
+        "sample_peak_dbfs": -3.8981803007027436,
+        "dc_offset_per_channel": [
+          -7.07386542579995e-09,
+          -6.151187326782565e-10
+        ],
+        "last_100ms_rms_dbfs": -61.78642826298801,
+        "first_100ms_rms_dbfs": -27.266016422689123,
+        "final_sample_abs_max": 0.0,
+        "terminal_quantized_silence_ms": 10.566893424036282,
+        "stereo_correlation": 0.9216630530895995,
+        "non_looping_tail": {
+          "fade_from_seconds": 3.3,
+          "all_decay_inside_file": true,
+          "no_wrapped_reverb_or_echo": true,
+          "natural_end_check": "PASS"
+        }
+      }
+    }
+  ],
+  "human_listening_review": "Pending",
+  "game_integration": "Not performed; Claude owns playback, mixing, fades and triggers."
+}

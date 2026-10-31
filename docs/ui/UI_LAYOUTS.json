@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "canvas": [
+      1280,
+      720
+    ],
+    "safe_margin": 24,
+    "coordinate_system": "top-left logical GUI px; rectangles x,y,w,h",
+    "contract": "docs/PROJECT_CONTRACT.md",
+    "date": "2026-10-31",
+    "kind": "design specification, not runtime schema"
+  },
+  "colors": {
+    "ink": "#171B27",
+    "raised": "#242A39",
+    "well": "#101521",
+    "edge": "#747F95",
+    "gold": "#EAC477",
+    "text": "#F6EBDD",
+    "muted": "#B9C3D3",
+    "disabled": "#929DAF",
+    "health": "#C14F5C",
+    "boss": "#A663C1",
+    "xp": "#6FB8C9",
+    "error": "#FFAC9F",
+    "success": "#A5D6A0",
+    "sand": "#D8BB87",
+    "path": "#B79567",
+    "rock": "#82695D"
+  },
+  "fonts": {
+    "family": "Noto Sans",
+    "meta": {
+      "px": 18,
+      "line": 24,
+      "weight": 400
+    },
+    "body": {
+      "px": 23,
+      "line": 30,
+      "weight": 400
+    },
+    "heading": {
+      "px": 28,
+      "line": 36,
+      "weight": 700
+    },
+    "dialogue": {
+      "px": 28,
+      "line": 36,
+      "weight": 400
+    },
+    "title": {
+      "px": 46,
+      "line": 58,
+      "weight": 700
+    }
+  },
+  "sources": {
+    "spr_ui_panel": {
+      "size": [
+        96,
+        96
+      ],
+      "nine_slice": [
+        24,
+        24,
+        24,
+        24
+      ]
+    },
+    "spr_ui_button": {
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": [
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    "spr_ui_hp_frame": {
+      "size": [
+        320,
+        32
+      ],
+      "nine_slice": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    "spr_ui_hp_fill": {
+      "size": [
+        320,
+        32
+      ]
+    },
+    "spr_ui_slot": {
+      "size": [
+        72,
+        72
+      ]
+    },
+    "spr_ui_slot_selected": {
+      "size": [
+        72,
+        72
+      ]
+    },
+    "spr_ui_save_card": {
+      "size": [
+        760,
+        120
+      ]
+    },
+    "spr_ui_save_card_empty": {
+      "size": [
+        760,
+        120
+      ]
+    },
+    "spr_portrait_dave": {
+      "size": [
+        512,
+        512
+      ],
+      "delivered": false
+    },
+    "spr_portrait_pharaoh": {
+      "size": [
+        512,
+        512
+      ],
+      "delivered": false
+    }
+  },
+  "rects": {
+    "ui.hp.group": [
+      24,
+      24,
+      320,
+      56
+    ],
+    "ui.hp.frame": [
+      24,
+      48,
+      320,
+      32
+    ],
+    "ui.hp.fill": [
+      32,
+      56,
+      304,
+      16
+    ],
+    "ui.boss.group": [
+      384,
+      24,
+      512,
+      64
+    ],
+    "ui.boss.frame": [
+      384,
+      56,
+      512,
+      32
+    ],
+    "ui.boss.fill": [
+      392,
+      64,
+      496,
+      16
+    ],
+    "ui.hotbar": [
+      324,
+      624,
+      632,
+      72
+    ],
+    "ui.feedback": [
+      384,
+      568,
+      512,
+      40
+    ],
+    "ui.inventory.panel": [
+      56,
+      40,
+      1168,
+      560
+    ],
+    "ui.inventory.grid": [
+      80,
+      152,
+      632,
+      312
+    ],
+    "ui.inventory.close": [
+      1160,
+      56,
+      40,
+      40
+    ],
+    "ui.inventory.xp": [
+      752,
+      104,
+      376,
+      16
+    ],
+    "ui.inventory.weapon": [
+      752,
+      160,
+      216,
+      96
+    ],
+    "ui.inventory.armor": [
+      984,
+      160,
+      216,
+      96
+    ],
+    "ui.inventory.detail": [
+      752,
+      280,
+      448,
+      296
+    ],
+    "ui.inventory.description": [
+      776,
+      400,
+      400,
+      114
+    ],
+    "ui.inventory.primary": [
+      776,
+      528,
+      192,
+      40
+    ],
+    "ui.inventory.move": [
+      984,
+      528,
+      192,
+      40
+    ],
+    "ui.inventory.status": [
+      80,
+      492,
+      632,
+      60
+    ],
+    "ui.dialogue.panel": [
+      24,
+      440,
+      1232,
+      256
+    ],
+    "ui.dialogue.portrait": [
+      48,
+      464,
+      208,
+      208
+    ],
+    "ui.dialogue.text": [
+      280,
+      512,
+      928,
+      80
+    ],
+    "ui.dialogue.narration": [
+      48,
+      496,
+      1160,
+      108
+    ],
+    "ui.save.panel": [
+      208,
+      72,
+      864,
+      600
+    ],
+    "ui.save.tab_save": [
+      752,
+      112,
+      132,
+      36
+    ],
+    "ui.save.tab_load": [
+      896,
+      112,
+      132,
+      36
+    ],
+    "ui.save.back": [
+      232,
+      608,
+      160,
+      40
+    ],
+    "ui.save.primary": [
+      888,
+      608,
+      160,
+      40
+    ],
+    "ui.confirm.panel": [
+      384,
+      216,
+      512,
+      288
+    ],
+    "ui.confirm.cancel": [
+      408,
+      432,
+      216,
+      48
+    ],
+    "ui.confirm.accept": [
+      648,
+      432,
+      224,
+      48
+    ],
+    "ui.pause.panel": [
+      440,
+      88,
+      400,
+      544
+    ],
+    "ui.settings.panel": [
+      208,
+      72,
+      864,
+      600
+    ],
+    "ui.settings.back": [
+      888,
+      608,
+      160,
+      40
+    ],
+    "ui.ending.main_menu": [
+      448,
+      432,
+      384,
+      56
+    ]
+  },
+  "repeated": {
+    "hotbar": {
+      "count": 8,
+      "start": [
+        324,
+        624
+      ],
+      "cell": [
+        72,
+        72
+      ],
+      "pitch": [
+        80,
+        0
+      ],
+      "item_indices": [
+        0,
+        7
+      ]
+    },
+    "storage": {
+      "rows": 4,
+      "columns": 8,
+      "start": [
+        80,
+        152
+      ],
+      "cell": [
+        72,
+        72
+      ],
+      "pitch": [
+        80,
+        80
+      ],
+      "item_indices": [
+        8,
+        39
+      ]
+    },
+    "save_cards": {
+      "count": 3,
+      "start": [
+        260,
+        192
+      ],
+      "cell": [
+        760,
+        120
+      ],
+      "pitch": [
+        0,
+        128
+      ]
+    },
+    "pause_buttons": {
+      "count": 6,
+      "start": [
+        464,
+        200
+      ],
+      "cell": [
+        352,
+        48
+      ],
+      "pitch": [
+        0,
+        60
+      ]
+    },
+    "game_over_buttons": {
+      "count": 3,
+      "start": [
+        384,
+        328
+      ],
+      "cell": [
+        512,
+        56
+      ],
+      "pitch": [
+        0,
+        72
+      ]
+    },
+    "settings_rows": {
+      "count": 6,
+      "start": [
+        232,
+        188
+      ],
+      "cell": [
+        816,
+        48
+      ],
+      "pitch": [
+        0,
+        64
+      ]
+    }
+  },
+  "state_notes": {
+    "inventory": "32 extra + same 8 main slots, world paused",
+    "dialogue": "hotbar hidden and input disabled",
+    "normal_gameplay": "HP and 8 slots only",
+    "boss_combat": "adds boss health only"
+  }
+}

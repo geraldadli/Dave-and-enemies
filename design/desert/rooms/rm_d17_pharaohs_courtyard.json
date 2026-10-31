@@ -1,0 +1,72 @@
+{
+  "room_id": "rm_d17_pharaohs_courtyard",
+  "display_name": "Pharaoh's Courtyard",
+  "size_cells": [
+    40,
+    24
+  ],
+  "terrain": [
+    "########################################",
+    "#______________________________________#",
+    "#______________________________________#",
+    "#______________________________________#",
+    "#___________________...........________#",
+    "#___________________...........________#",
+    "#___________________...........________#",
+    "#___________________..........._________",
+    "#___________________..........._________",
+    "#___________________..........._________",
+    "#___________________...........________#",
+    "#______________________________________#",
+    "#MMM___MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#MMM___MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#MMM___MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#MMM___MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "_________MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "_________MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "_________MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#________MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#________MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#________MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#________MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "########################################"
+  ],
+  "exits": [
+    {
+      "id": "west",
+      "side": "W",
+      "rows": [
+        16,
+        18
+      ],
+      "to": "rm_d16_pharaohs_gate",
+      "to_exit": "east"
+    },
+    {
+      "id": "east",
+      "side": "E",
+      "rows": [
+        7,
+        9
+      ],
+      "to": "rm_d18_dungeon_threshold",
+      "to_exit": "west"
+    }
+  ],
+  "objects": [
+    {
+      "type": "enemy",
+      "enemy": "pharaoh",
+      "cell": [
+        17,
+        6
+      ]
+    }
+  ],
+  "music": "mus_desert",
+  "weather": {
+    "sandstorm": false,
+    "tumbleweeds": false
+  },
+  "notes": "Authored design v1; batch 6. See gameplay_specs.json and decorations.json. A distinct paved royal arena with a bent entry vestibule supports the Pharaoh's complete encounter."
+}

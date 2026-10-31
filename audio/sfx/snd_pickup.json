@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_pickup",
+  "purpose": "Potion, equipment or valuable enters inventory",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.32,
+  "actual_duration_seconds": 0.32,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_pickup_1.wav",
+      "path": "audio/sfx/snd_pickup_1.wav",
+      "sha256": "9455c043e91bcffaa3d09a6fe220d3130277414c59bcb3dfd4991f21bf8f0021",
+      "bytes": 28268,
+      "frames": 14112,
+      "duration_seconds": 0.32,
+      "seed": 1696515242,
+      "measurements": {
+        "sample_peak_dbfs": -6.25923,
+        "oversampled_peak_dbfs_4x": -6.2376,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.63205,
+        "dc_offset": 6.487580383715986e-09,
+        "onset_ms_at_minus60_relative": 0.204,
+        "trailing_ms_below_minus60_relative": 1.542
+      }
+    },
+    {
+      "file": "snd_pickup_2.wav",
+      "path": "audio/sfx/snd_pickup_2.wav",
+      "sha256": "786c944a8f1d5a117061cec131ae94dd3a9ae0f7a10ee98f751ee9e9c300469c",
+      "bytes": 28268,
+      "frames": 14112,
+      "duration_seconds": 0.32,
+      "seed": 2000067251,
+      "measurements": {
+        "sample_peak_dbfs": -6.08125,
+        "oversampled_peak_dbfs_4x": -6.04972,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.63203,
+        "dc_offset": 2.0544004548433958e-07,
+        "onset_ms_at_minus60_relative": 0.204,
+        "trailing_ms_below_minus60_relative": 0.952
+      }
+    },
+    {
+      "file": "snd_pickup_3.wav",
+      "path": "audio/sfx/snd_pickup_3.wav",
+      "sha256": "355909a924bb4299ab350e4d9d82736bbb1ed599c64069ac5af97a8e2c5f8f4e",
+      "bytes": 28268,
+      "frames": 14112,
+      "duration_seconds": 0.32,
+      "seed": 2369252457,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.98016,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -20.63204,
+        "dc_offset": -1.7300214356575964e-08,
+        "onset_ms_at_minus60_relative": 0.204,
+        "trailing_ms_below_minus60_relative": 1.315
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_pickup: Potion, equipment or valuable enters inventory. Synthesize one small rounded ceramic-pluck and warm upward shimmer, compact and neutral enough for varied items. No coin shower, famous pickup melody or extra rewards. Deliver 3 separate distinct takes, each 0.32 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 2e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_magic_hit",
+  "purpose": "Magic orb impact",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.48,
+  "actual_duration_seconds": 0.48,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_magic_hit_1.wav",
+      "path": "audio/sfx/snd_magic_hit_1.wav",
+      "sha256": "f47451c478839df09efbe13b137dd025b5d8d1be6ebe68743843db3fc7d7edcd",
+      "bytes": 42380,
+      "frames": 21168,
+      "duration_seconds": 0.48,
+      "seed": 3970861694,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.99442,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.94096,
+        "dc_offset": -3.460042871315193e-08,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 0.975
+      }
+    },
+    {
+      "file": "snd_magic_hit_2.wav",
+      "path": "audio/sfx/snd_magic_hit_2.wav",
+      "sha256": "4f05150e956589cde84f721bc3c69d86a23c316804c0a18c965578994e5fc1d7",
+      "bytes": 42380,
+      "frames": 21168,
+      "duration_seconds": 0.48,
+      "seed": 3354638159,
+      "measurements": {
+        "sample_peak_dbfs": -7.38396,
+        "oversampled_peak_dbfs_4x": -7.35199,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.94101,
+        "dc_offset": 3.17170596537226e-08,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 1.224
+      }
+    },
+    {
+      "file": "snd_magic_hit_3.wav",
+      "path": "audio/sfx/snd_magic_hit_3.wav",
+      "sha256": "5a7cd9c151d5372f800bba2104191ec8ccfe68b31d2af201e7305197e06e2ae7",
+      "bytes": 42380,
+      "frames": 21168,
+      "duration_seconds": 0.48,
+      "seed": 720814199,
+      "measurements": {
+        "sample_peak_dbfs": -6.44706,
+        "oversampled_peak_dbfs_4x": -6.38709,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.94099,
+        "dc_offset": 1.4416845297146637e-08,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 1.497
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_magic_hit: Magic orb impact. Synthesize a compact hollow glassy pop, warm low body and a short breathy spark scatter. No real breaking glass, sword metal, thunder or voice. Tail should decay quickly during crowded combat. Deliver 3 separate distinct takes, each 0.48 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 5e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

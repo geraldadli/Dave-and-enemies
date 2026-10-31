@@ -1,0 +1,23 @@
+Use case: stylized-concept.
+
+Asset ID: ts_bridge. Purpose: Bridge modular source sheet. Game: Dave's & Enemies, Chapter I Desert.
+
+Reference roles: attach art/reference/template_sprite_inspection.png as the authoritative style/density reference. Match the supplied Hero's Trail template reference: elevated top-down three-quarter orthographic adventure view, smooth antialiased illustrated cartoon game art, dark charcoal outlines about 1-2 native pixels wide, broad soft cel shading, light from upper left, restrained highlights and slate or warm brown shadows. Human-sized humanoids have compact chibi proportions with heads about 35-40 percent of body height; creatures keep the specific anatomy described below. These are 64-pixel tiles with roughly 78-pixel-tall human bodies. Preserve native visual density; no coarse pixel grid, realistic rendering, anime redesign, isometric diamond grid, noisy microtexture, text, watermark, labels or checkerboard painted into pixels.
+
+Subject: Weathered warm wooden desert footbridges with muted brown ropes, broad readable planks and upper-left highlights. Elevated adventure camera. Fully transparent gaps between pieces.
+
+Direction: Use the exact single orientation described; do not generate additional views.
+
+Final target: 448x128 native pixels PER FRAME; All frames fixed 448x128 canvas, no trimming; origin (0, 0). Keep placement fixed between frames.
+
+Transparency: 8-bit RGBA, sRGB, straight alpha, transparent outside artwork.
+
+Generate one static asset only, no contact sheet or alternative views.
+
+Playback/state selection: static. contract.
+
+Additional constraints: Proposed 7-column by 2-row 64px grid, row-major cells 0..13: 0 transparent; 1 E-W top rope; 2 E-W bottom rope; 3 E-W both; 4 E-W no rope; 5 N-S left rope; 6 N-S right rope; 7 N-S both; 8 N-S none; 9 broken E-W left end; 10 broken E-W right end; 11 left post 32x64 centred in cell; 12 right post 32x64 centred in cell; 13 transparent. E-W planks join on left/right, N-S on top/bottom. Side ropes never block entrances. Final atlas dimensions/layout are proposed because C3 gives no total canvas.
+
+Transparent outer canvas, no ground plane or baked ground shadow. Preserve solid interiors, clean straight alpha and no clipped silhouette. Source artwork is not an engine-ready export until measured and inspected.
+
+Inspection before acceptance: Verify each cell boundary and transparent reserved cells. Test three-cell E-W and N-S runs for plank, rope and light continuity. Broken ends expose a clear nonwalkable gap. Post artworks are exactly 32x64 inside their 64x64 cells; no adjacent-cell bleed.

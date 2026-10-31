@@ -1,0 +1,191 @@
+{
+  "asset_id": "mus_boss_defeat",
+  "duration_seconds": 6,
+  "loop": false,
+  "tempo": "Free timing against storyboard seconds",
+  "tuning": "A4=440 Hz; C4=MIDI 60",
+  "pitch_collection": [
+    "C",
+    "Db",
+    "E",
+    "F",
+    "G",
+    "Ab",
+    "B"
+  ],
+  "seed": 606319,
+  "markers": [
+    [
+      0,
+      "Muted low C-G, leaving room for separate boss death SFX"
+    ],
+    [
+      0.22,
+      "Dissolving C-Db-G-E Pharaoh motif fragment"
+    ],
+    [
+      2,
+      "Soft C-E-G release"
+    ],
+    [
+      4,
+      "Final two seconds of fading open-fifth resonance"
+    ]
+  ],
+  "end_fade_from_seconds": 4,
+  "events": [
+    {
+      "instrument": "bass",
+      "start_seconds": 0,
+      "note": 36,
+      "gate_seconds": 0.65,
+      "velocity": 0.0558872381414777,
+      "pan": -0.041355186728855894,
+      "seed": 2028378684
+    },
+    {
+      "instrument": "oud",
+      "start_seconds": 0,
+      "note": 43,
+      "gate_seconds": 0.5,
+      "velocity": 0.031223317324968143,
+      "pan": 0.0836226740394133,
+      "seed": 754162558
+    },
+    {
+      "instrument": "bow_lead",
+      "start_seconds": 0.22,
+      "note": 48,
+      "gate_seconds": 0.32,
+      "velocity": 0.050977629991782174,
+      "pan": -0.12066483474536577,
+      "seed": 33731991
+    },
+    {
+      "instrument": "bow_lead",
+      "start_seconds": 0.7,
+      "note": 49,
+      "gate_seconds": 0.26,
+      "velocity": 0.053237127098947686,
+      "pan": -0.12308524105664531,
+      "seed": 778376681
+    },
+    {
+      "instrument": "bow_lead",
+      "start_seconds": 1.08,
+      "note": 55,
+      "gate_seconds": 0.3,
+      "velocity": 0.05199863098614081,
+      "pan": -0.12938524440876364,
+      "seed": 1019245923
+    },
+    {
+      "instrument": "bow_lead",
+      "start_seconds": 1.5,
+      "note": 52,
+      "gate_seconds": 0.35,
+      "velocity": 0.051204805649435824,
+      "pan": -0.11574652421076145,
+      "seed": 27056230
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 0.22,
+      "note": 48,
+      "gate_seconds": 0.3,
+      "velocity": 0.046327779962459105,
+      "pan": 0.13292031500852958,
+      "seed": 334539887
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 0.7,
+      "note": 49,
+      "gate_seconds": 0.25,
+      "velocity": 0.04570234554291073,
+      "pan": 0.10654167528262598,
+      "seed": 1136455950
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 1.08,
+      "note": 55,
+      "gate_seconds": 0.3,
+      "velocity": 0.043727394500688216,
+      "pan": 0.13028603628518168,
+      "seed": 2007593813
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 1.5,
+      "note": 52,
+      "gate_seconds": 0.35,
+      "velocity": 0.04618157853359462,
+      "pan": 0.12129369397161718,
+      "seed": 1982164956
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 2.0,
+      "note": 60,
+      "gate_seconds": 0.8,
+      "velocity": 0.054171067644770914,
+      "pan": -0.23410136815036806,
+      "seed": 1044023988
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 2.045,
+      "note": 64,
+      "gate_seconds": 0.8,
+      "velocity": 0.05626031823210496,
+      "pan": -0.0008841479466402888,
+      "seed": 1105551099
+    },
+    {
+      "instrument": "lute_lead",
+      "start_seconds": 2.09,
+      "note": 67,
+      "gate_seconds": 0.8,
+      "velocity": 0.05497309360457088,
+      "pan": 0.2399089112712777,
+      "seed": 778817056
+    },
+    {
+      "instrument": "pad",
+      "start_seconds": 2.15,
+      "note": 60,
+      "gate_seconds": 3.8,
+      "velocity": 0.017662727700807856,
+      "pan": -0.29825138841689036,
+      "seed": 192870704
+    },
+    {
+      "instrument": "pad",
+      "start_seconds": 2.15,
+      "note": 67,
+      "gate_seconds": 3.8,
+      "velocity": 0.013907481958428546,
+      "pan": 0.2986621074605319,
+      "seed": 1238893898
+    },
+    {
+      "instrument": "flute",
+      "start_seconds": 2.65,
+      "note": 72,
+      "gate_seconds": 0.75,
+      "velocity": 0.024410492951437227,
+      "pan": 0.10854669936871673,
+      "seed": 1693201273
+    },
+    {
+      "instrument": "flute",
+      "start_seconds": 2.72,
+      "note": 79,
+      "gate_seconds": 0.75,
+      "velocity": 0.025379725664724295,
+      "pan": 0.10644603774279623,
+      "seed": 84285779
+    }
+  ]
+}

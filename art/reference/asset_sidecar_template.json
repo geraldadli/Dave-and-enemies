@@ -1,0 +1,32 @@
+{
+  "asset_id": null,
+  "status": "template_not_an_engine_asset",
+  "canvas_px": [null, null],
+  "origin_px": [null, null],
+  "direction": null,
+  "frame_count": null,
+  "fps": null,
+  "game_ticks_per_frame": null,
+  "loop": null,
+  "pose_ranges": {
+    "anticipation": null,
+    "active": null,
+    "recovery": null
+  },
+  "release_frame": null,
+  "release_offset_px": null,
+  "rod_tip_offsets_px": null,
+  "reference_file": null,
+  "inspection": {
+    "dimensions_checked": false,
+    "alpha_checked": false,
+    "alignment_checked": false,
+    "frame_order_checked": false,
+    "timing_checked": false,
+    "loop_seam_checked": false,
+    "spatial_repeat_checked": false,
+    "native_room_preview_checked": false,
+    "outstanding_work": []
+  },
+  "verified_engine_ready": false
+}

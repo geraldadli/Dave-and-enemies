@@ -1,0 +1,83 @@
+{
+  "asset_id": "mus_intro",
+  "purpose": "Opening siege aftermath and Dave's vow",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "file": "mus_intro.wav",
+  "sha256": "6239cfa3f4999dea1639f5d2db9e89677eda13d413c1bbb879bb12a5619266af",
+  "bytes": 9525644,
+  "channels": 2,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 54,
+  "frames": 2381400,
+  "loop": false,
+  "loop_start": null,
+  "loop_end": null,
+  "generation": "Original seeded Python composition, additive instrument synthesis and linear room/delay rendering; no samples, vocals, dialogue, weather or battle SFX.",
+  "source": "tools/render_chapter_cues.py",
+  "source_sha256": "a9dbeb326b1e70022eadd218346d54efedaf68364299f82f8885f9acfb2fce24",
+  "instrument_source": "tools/render_chapter_music.py",
+  "seed": 540631,
+  "score_file": "mus_intro.score.json",
+  "event_count": 107,
+  "markers": [
+    [
+      0,
+      "Breached city and fallen comrades: quiet C-G bed, isolated plucks"
+    ],
+    [
+      13,
+      "Thin the melody under the stolen-Grail text"
+    ],
+    [
+      20,
+      "Quiet breath-flute lament"
+    ],
+    [
+      27,
+      "Dave's vow: adventure motif enters"
+    ],
+    [
+      35,
+      "Broaden restrained resolve"
+    ],
+    [
+      43,
+      "Eastward walk: measured pulse"
+    ],
+    [
+      52,
+      "Fade open C-G resonance to silence by 54 seconds"
+    ]
+  ],
+  "soft_peak_shaping_passes": 0,
+  "measurements": {
+    "integrated_lufs": -16.01,
+    "true_peak_dbtp": -4.6,
+    "loudness_range_lu": 14.3,
+    "meter": "FFmpeg loudnorm input measurements (EBU R128/BS.1770)",
+    "sample_peak_dbfs": -4.61812824001936,
+    "dc_offset_per_channel": [
+      5.241324201362644e-09,
+      -1.4096470957210045e-09
+    ],
+    "last_100ms_rms_dbfs": -77.77447573100727,
+    "first_100ms_rms_dbfs": -20.677926175249574,
+    "final_sample_abs_max": 0.0,
+    "terminal_quantized_silence_ms": 31.201814058956916,
+    "stereo_correlation": 0.9484874374047353,
+    "non_looping_tail": {
+      "fade_from_seconds": 52,
+      "all_decay_inside_file": true,
+      "no_wrapped_reverb_or_echo": true,
+      "natural_end_check": "PASS"
+    }
+  },
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset mus_intro: Opening siege aftermath and Dave's vow. Compose a 54-second non-looping atmosphere score, following the narrative storyboard. At 0-13 s use a quiet C-G bowed drone and a few widely separated muted string plucks for the breached city wall and fallen comrades. At 13-20 s thin the melody under the stolen-Grail text; at 20-27 s give a spare breath-flute lament using C, Db, E, F, G, Ab, B, without a march. At 27-35 s introduce C4, Db4, E4, G4 from the exploration motif softly beneath Dave's vow. At 35-43 s let E above C and a gentle hand-drum heartbeat broaden his resolve. At 43-52 s give the eastward walk a measured forward pulse. At 52-54 s fade an open C-G sustain completely inside the file. Respect fallen comrades without horror gore, battle action or a triumphant recovery of the Grail. Leave space under text. Do not bake in wind, masonry, cloth or text blips; they are separate cues. Preserve space beneath the storyboard's text windows. Deliver 1 distinct take, each 54 seconds long including decay. This is a complete non-looping score cue; keep its natural ending within the file and do not append another cue or silent padding. No vocals, speech, lyrics, quoted melodies, stock tracks, combat effects or weather baked into the music. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, stereo, peak no higher than -1 dBFS. Master to -16 LUFS integrated, tolerance +/-1 LU; retain transient headroom. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "trigger": "Start the 54-second opening storyboard once at t=0 when the ruined city is first shown.",
+  "stop": "Natural end; on skip fade score and intro ambience over 300 ms before entering exploration. If storyboard timing changes, re-edit this cue; do not stretch indefinitely.",
+  "playback_gain_baked_in": false,
+  "auditory_review": "Pending human listening review; objective audio checks passed.",
+  "game_integration": "Not imported; Claude owns playback, fades, mixing and triggers."
+}

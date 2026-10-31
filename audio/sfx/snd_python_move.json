@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_python_move",
+  "purpose": "Python slither",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.35,
+  "actual_duration_seconds": 0.35,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_python_move_1.wav",
+      "path": "audio/sfx/snd_python_move_1.wav",
+      "sha256": "0eb92583bbf221783c9415a68809f7a881621ff0e80af5e4477d9ed99d7e8131",
+      "bytes": 30914,
+      "frames": 15435,
+      "duration_seconds": 0.35,
+      "seed": 1244803134,
+      "measurements": {
+        "sample_peak_dbfs": -10.59777,
+        "oversampled_peak_dbfs_4x": -10.48018,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -27.93907,
+        "dc_offset": -1.2060720865727242e-07,
+        "onset_ms_at_minus60_relative": 0.454,
+        "trailing_ms_below_minus60_relative": 0.862
+      }
+    },
+    {
+      "file": "snd_python_move_2.wav",
+      "path": "audio/sfx/snd_python_move_2.wav",
+      "sha256": "238b45ea6e3b7d469d95015f4663c4482628d766319ff534ffc7789e94ba78c9",
+      "bytes": 30914,
+      "frames": 15435,
+      "duration_seconds": 0.35,
+      "seed": 3491661231,
+      "measurements": {
+        "sample_peak_dbfs": -10.92721,
+        "oversampled_peak_dbfs_4x": -10.70164,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -27.93906,
+        "dc_offset": -1.3444738014253321e-07,
+        "onset_ms_at_minus60_relative": 0.34,
+        "trailing_ms_below_minus60_relative": 0.839
+      }
+    },
+    {
+      "file": "snd_python_move_3.wav",
+      "path": "audio/sfx/snd_python_move_3.wav",
+      "sha256": "1ff8f7cc3cd89120c2384dbb6361339946d5869c8628ae0929f81f58217fa7d7",
+      "bytes": 30914,
+      "frames": 15435,
+      "duration_seconds": 0.35,
+      "seed": 1685726857,
+      "measurements": {
+        "sample_peak_dbfs": -8.99965,
+        "oversampled_peak_dbfs_4x": -8.96696,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -27.9391,
+        "dc_offset": -1.9178523343861353e-07,
+        "onset_ms_at_minus60_relative": 0.385,
+        "trailing_ms_below_minus60_relative": 1.156
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_python_move: Python slither. Record a short broad dry scale friction across sand with tiny gritty ticks. Smooth and grounded, no hiss, rattlesnake rattle or continuous dramatic drone. Deliver 3 separate distinct takes, each 0.35 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 4e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

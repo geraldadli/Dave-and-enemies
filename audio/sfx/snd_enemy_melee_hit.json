@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_enemy_melee_hit",
+  "purpose": "Confirmed enemy melee contact",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.18,
+  "actual_duration_seconds": 0.18,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_enemy_melee_hit_1.wav",
+      "path": "audio/sfx/snd_enemy_melee_hit_1.wav",
+      "sha256": "de596741db04f9d5e5a14067905f1ff04a7de3c34dee2d7d85b8d2ed448f7c97",
+      "bytes": 15920,
+      "frames": 7938,
+      "duration_seconds": 0.18,
+      "seed": 1901319681,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.96517,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -22.77332,
+        "dc_offset": 2.1529155643738976e-07,
+        "onset_ms_at_minus60_relative": 0.363,
+        "trailing_ms_below_minus60_relative": 1.474
+      }
+    },
+    {
+      "file": "snd_enemy_melee_hit_2.wav",
+      "path": "audio/sfx/snd_enemy_melee_hit_2.wav",
+      "sha256": "b078952cc2cfda26aa5ee8bb865e28fc22467f84db5320084ad83b171ff987c4",
+      "bytes": 15920,
+      "frames": 7938,
+      "duration_seconds": 0.18,
+      "seed": 3225211868,
+      "measurements": {
+        "sample_peak_dbfs": -6.43204,
+        "oversampled_peak_dbfs_4x": -6.3943,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -22.77329,
+        "dc_offset": -2.22980540595868e-07,
+        "onset_ms_at_minus60_relative": 0.249,
+        "trailing_ms_below_minus60_relative": 2.086
+      }
+    },
+    {
+      "file": "snd_enemy_melee_hit_3.wav",
+      "path": "audio/sfx/snd_enemy_melee_hit_3.wav",
+      "sha256": "2377c7c6700aeda6675ffd27e934a4ca0db0812ddb52a06dfef3044f1ea39f04",
+      "bytes": 15920,
+      "frames": 7938,
+      "duration_seconds": 0.18,
+      "seed": 3873043251,
+      "measurements": {
+        "sample_peak_dbfs": -6.60836,
+        "oversampled_peak_dbfs_4x": -6.54882,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -22.7733,
+        "dc_offset": 0.0,
+        "onset_ms_at_minus60_relative": 0.272,
+        "trailing_ms_below_minus60_relative": 1.406
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_enemy_melee_hit: Confirmed enemy melee contact. Create a short dry padded body knock with a little leather scrape, clear but less metallic than Dave's sword impact. No voice, wet gore, sword swing or second strike. Deliver 3 separate distinct takes, each 0.18 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 3e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

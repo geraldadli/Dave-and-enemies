@@ -1,0 +1,24 @@
+{
+  "upstream": "https://github.com/google/fonts/tree/main/ofl/notosans",
+  "license": "OFL.txt",
+  "instances": [
+    {
+      "file": "NotoSans-Regular.ttf",
+      "family": "Noto Sans",
+      "style": "Regular",
+      "weight": 400,
+      "variable": false,
+      "required_glyphs_missing": [],
+      "sha256": "ecad1e8f64c9f9fc48cb6dc35406fcc626d14490fc44f6c2c04d3b7cdeae5b26"
+    },
+    {
+      "file": "NotoSans-Bold.ttf",
+      "family": "Noto Sans",
+      "style": "Bold",
+      "weight": 700,
+      "variable": false,
+      "required_glyphs_missing": [],
+      "sha256": "aca10093e290d1a687e46de438e7c96903466339d17faeb386652716f8f30c16"
+    }
+  ]
+}

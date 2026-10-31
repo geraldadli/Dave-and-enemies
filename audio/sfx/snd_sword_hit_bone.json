@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_sword_hit_bone",
+  "purpose": "Optional material accent on skeletal targets",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.18,
+  "actual_duration_seconds": 0.18,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_sword_hit_bone_1.wav",
+      "path": "audio/sfx/snd_sword_hit_bone_1.wav",
+      "sha256": "64c532f49bfb34841b1347e20bfcdf8b9973df726ee3f5e4e98a8c4b5db53e47",
+      "bytes": 15920,
+      "frames": 7938,
+      "duration_seconds": 0.18,
+      "seed": 1789415966,
+      "measurements": {
+        "sample_peak_dbfs": -7.42187,
+        "oversampled_peak_dbfs_4x": -7.34793,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.60809,
+        "dc_offset": 1.11490270297934e-07,
+        "onset_ms_at_minus60_relative": 0.159,
+        "trailing_ms_below_minus60_relative": 1.361
+      }
+    },
+    {
+      "file": "snd_sword_hit_bone_2.wav",
+      "path": "audio/sfx/snd_sword_hit_bone_2.wav",
+      "sha256": "64636ab1dbc89d0176addc7cce2aa5cf3a62eb383a69ee86207de8c5b1821020",
+      "bytes": 15920,
+      "frames": 7938,
+      "duration_seconds": 0.18,
+      "seed": 3679313131,
+      "measurements": {
+        "sample_peak_dbfs": -6.76115,
+        "oversampled_peak_dbfs_4x": -6.75563,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.60808,
+        "dc_offset": -1.9222460396195515e-07,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 1.134
+      }
+    },
+    {
+      "file": "snd_sword_hit_bone_3.wav",
+      "path": "audio/sfx/snd_sword_hit_bone_3.wav",
+      "sha256": "85d57261b1580104be0ae4a584324d343238d4afe0589847d58b9197758cf513",
+      "bytes": 15920,
+      "frames": 7938,
+      "duration_seconds": 0.18,
+      "seed": 673001926,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.92874,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.6081,
+        "dc_offset": 8.073433366402116e-08,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 1.27
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_sword_hit_bone: Optional material accent on skeletal targets. Record brittle small bone-like ceramic and wooden clicks, a dry chip snap and brief hollow rattle; no glass sparkle or gore. Make this a subtle overlay rather than a second full impact. Deliver 3 separate distinct takes, each 0.18 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 2e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

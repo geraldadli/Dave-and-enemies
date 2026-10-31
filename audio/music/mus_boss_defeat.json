@@ -1,0 +1,71 @@
+{
+  "asset_id": "mus_boss_defeat",
+  "purpose": "Pharaoh defeat and whiteout musical cue",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "file": "mus_boss_defeat.wav",
+  "sha256": "5667ba7db4ffd8e119e6c1f356545cbf74018b8fa3bed4e4e9b47e49a89b07f0",
+  "bytes": 1058444,
+  "channels": 2,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 6,
+  "frames": 264600,
+  "loop": false,
+  "loop_start": null,
+  "loop_end": null,
+  "generation": "Original seeded Python composition, additive instrument synthesis and linear room/delay rendering; no samples, vocals, dialogue, weather or battle SFX.",
+  "source": "tools/render_chapter_cues.py",
+  "source_sha256": "a9dbeb326b1e70022eadd218346d54efedaf68364299f82f8885f9acfb2fce24",
+  "instrument_source": "tools/render_chapter_music.py",
+  "seed": 606319,
+  "score_file": "mus_boss_defeat.score.json",
+  "event_count": 17,
+  "markers": [
+    [
+      0,
+      "Muted low C-G, leaving room for separate boss death SFX"
+    ],
+    [
+      0.22,
+      "Dissolving C-Db-G-E Pharaoh motif fragment"
+    ],
+    [
+      2,
+      "Soft C-E-G release"
+    ],
+    [
+      4,
+      "Final two seconds of fading open-fifth resonance"
+    ]
+  ],
+  "soft_peak_shaping_passes": 0,
+  "measurements": {
+    "integrated_lufs": -16.01,
+    "true_peak_dbtp": -3.81,
+    "loudness_range_lu": 11.9,
+    "meter": "FFmpeg loudnorm input measurements (EBU R128/BS.1770)",
+    "sample_peak_dbfs": -3.8081317511202757,
+    "dc_offset_per_channel": [
+      -2.4335634861583524e-08,
+      -1.7300214356575965e-09
+    ],
+    "last_100ms_rms_dbfs": -81.31568319117665,
+    "first_100ms_rms_dbfs": -17.979836088334096,
+    "final_sample_abs_max": 0.0,
+    "terminal_quantized_silence_ms": 30.70294784580499,
+    "stereo_correlation": 0.9569924838403013,
+    "non_looping_tail": {
+      "fade_from_seconds": 4,
+      "all_decay_inside_file": true,
+      "no_wrapped_reverb_or_echo": true,
+      "natural_end_check": "PASS"
+    }
+  },
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset mus_boss_defeat: Pharaoh defeat and whiteout musical cue. Compose a 6-second non-looping release from the Pharaoh battle: muted low C-G strike, a fragment C3-Db3-G3-E3 dissolving into a soft C-E-G voicing, then an airy open fifth. Let impact energy fall rather than build, leaving the final two seconds as fading resonance. This signals survival and the arena clearing, not the Holy Grail recovered. Leave 150-800 Hz space for the separate death blast and disintegration. Do not embed an explosion, enemy voices or wind. Deliver 1 distinct take, each 6 seconds long including decay. This is a complete non-looping score cue; keep its natural ending within the file and do not append another cue or silent padding. No vocals, speech, lyrics, quoted melodies, stock tracks, combat effects or weather baked into the music. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, stereo, peak no higher than -1 dBFS. Master to -16 LUFS integrated, tolerance +/-1 LU; retain transient headroom. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "trigger": "250 ms after confirmed Pharaoh defeat, following the boss music fade, during the slow whiteout sequence.",
+  "stop": "Play once and let tail finish. On load, skip or scene abort fade out over 200 ms; do not replay from saved boss-defeated state.",
+  "playback_gain_baked_in": false,
+  "auditory_review": "Pending human listening review; objective audio checks passed.",
+  "game_integration": "Not imported; Claude owns playback, fades, mixing and triggers."
+}

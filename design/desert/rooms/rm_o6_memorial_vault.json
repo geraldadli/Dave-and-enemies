@@ -1,0 +1,78 @@
+{
+  "room_id": "rm_o6_memorial_vault",
+  "display_name": "Memorial Vault",
+  "size_cells": [
+    32,
+    22
+  ],
+  "terrain": [
+    "################################",
+    "#MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#",
+    "#..__________________________..#",
+    "#..__________________________..#",
+    "#..__________________________..#",
+    "#..__________________________..#",
+    "#..__________________________..#",
+    "#..__________________________..#",
+    "#MMMMMMMMMMMMM^^^^^MMMMMMMMMMMM#",
+    "#MMMMMMMMMMMMM^^^^^MMMMMMMMMMMM#",
+    "#..............___.............#",
+    "#..............___.............#",
+    "#..............___.............#",
+    "#.........________.............#",
+    "#.........________.............#",
+    "#.........________.............#",
+    "#.........___..................#",
+    "#.........___..................#",
+    "#.........___..................#",
+    "##########___###################"
+  ],
+  "exits": [
+    {
+      "id": "south",
+      "side": "S",
+      "cols": [
+        10,
+        12
+      ],
+      "to": "rm_d15_tomb_approach",
+      "to_exit": "north"
+    }
+  ],
+  "objects": [
+    {
+      "type": "enemy",
+      "enemy": "skeleton_warrior",
+      "cell": [
+        7,
+        16
+      ]
+    },
+    {
+      "type": "chest",
+      "id": "rm_o6_memorial_vault:c1",
+      "cell": [
+        25,
+        5
+      ],
+      "loot": [
+        [
+          "paladin_mail",
+          1
+        ],
+        [
+          "potion_greater",
+          1
+        ]
+      ]
+    }
+  ],
+  "music": "mus_desert",
+  "weather": {
+    "sandstorm": false,
+    "tumbleweeds": false
+  },
+  "notes": "Authored design v1; batch 6. See gameplay_specs.json and decorations.json. A final optional terrace duel leads to premium armor, then a quiet return to the star."
+}

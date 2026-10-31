@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_bow_release",
+  "purpose": "Skeleton archer releases arrow",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.24,
+  "actual_duration_seconds": 0.24,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_bow_release_1.wav",
+      "path": "audio/sfx/snd_bow_release_1.wav",
+      "sha256": "f68c6736733758d4550bef52b891ac03216bce422a554e978a0d903a7b5d6bd3",
+      "bytes": 21212,
+      "frames": 10584,
+      "duration_seconds": 0.24,
+      "seed": 533996752,
+      "measurements": {
+        "sample_peak_dbfs": -6.40873,
+        "oversampled_peak_dbfs_4x": -6.38956,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.92573,
+        "dc_offset": -3.460042871315193e-08,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 1.633
+      }
+    },
+    {
+      "file": "snd_bow_release_2.wav",
+      "path": "audio/sfx/snd_bow_release_2.wav",
+      "sha256": "c0034e3448a6b74b487ca94f55681a9ea9e2797fd455e7ab2457cf127f244ff7",
+      "bytes": 21212,
+      "frames": 10584,
+      "duration_seconds": 0.24,
+      "seed": 2543997400,
+      "measurements": {
+        "sample_peak_dbfs": -5.99995,
+        "oversampled_peak_dbfs_4x": -5.99442,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.92575,
+        "dc_offset": -4.613390495086924e-08,
+        "onset_ms_at_minus60_relative": 0.249,
+        "trailing_ms_below_minus60_relative": 1.61
+      }
+    },
+    {
+      "file": "snd_bow_release_3.wav",
+      "path": "audio/sfx/snd_bow_release_3.wav",
+      "sha256": "069b9bf927756895bc390cbf7b489bf4b5115dfd4dedcfef6f07f3d2996bb720",
+      "bytes": 21212,
+      "frames": 10584,
+      "duration_seconds": 0.24,
+      "seed": 2660751101,
+      "measurements": {
+        "sample_peak_dbfs": -6.16493,
+        "oversampled_peak_dbfs_4x": -6.13508,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -23.92574,
+        "dc_offset": -4.613390495086924e-08,
+        "onset_ms_at_minus60_relative": 0.249,
+        "trailing_ms_below_minus60_relative": 1.519
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_bow_release: Skeleton archer releases arrow. Record a compact natural bowstring snap and short resonant wood twang, no cartoon boing. No arrow impact, swish or extra shot. Deliver 3 separate distinct takes, each 0.24 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 2e-05,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

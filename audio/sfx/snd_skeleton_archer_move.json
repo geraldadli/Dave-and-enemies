@@ -1,0 +1,80 @@
+{
+  "asset_id": "snd_skeleton_archer_move",
+  "purpose": "Skeleton archer foot contact",
+  "status": "GENERATED_TECHNICALLY_VALIDATED",
+  "channels": 1,
+  "sample_rate_hz": 44100,
+  "bits_per_sample": 16,
+  "encoding": "PCM signed 16-bit little-endian WAV",
+  "duration_seconds": 0.18,
+  "actual_duration_seconds": 0.18,
+  "variation_count": 3,
+  "files": [
+    {
+      "file": "snd_skeleton_archer_move_1.wav",
+      "path": "audio/sfx/snd_skeleton_archer_move_1.wav",
+      "sha256": "3760bf79e7461de6fc2d06ad78e865e3c6b7962d0dbdaaec3fb8996cfd6bab13",
+      "bytes": 15920,
+      "frames": 7938,
+      "duration_seconds": 0.18,
+      "seed": 2655872346,
+      "measurements": {
+        "sample_peak_dbfs": -9.00039,
+        "oversampled_peak_dbfs_4x": -8.84225,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -27.24038,
+        "dc_offset": 1.5377968316956412e-07,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 1.315
+      }
+    },
+    {
+      "file": "snd_skeleton_archer_move_2.wav",
+      "path": "audio/sfx/snd_skeleton_archer_move_2.wav",
+      "sha256": "075bdf5875aa6ec43ffa0f209749fff74da7ace2807c758b3222a9c0981b60cf",
+      "bytes": 15920,
+      "frames": 7938,
+      "duration_seconds": 0.18,
+      "seed": 1884296543,
+      "measurements": {
+        "sample_peak_dbfs": -10.74722,
+        "oversampled_peak_dbfs_4x": -10.74169,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -27.24033,
+        "dc_offset": 1.0380128613945578e-07,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 0.771
+      }
+    },
+    {
+      "file": "snd_skeleton_archer_move_3.wav",
+      "path": "audio/sfx/snd_skeleton_archer_move_3.wav",
+      "sha256": "2088b6f5463ffa69fec8c8c4bc08b8c092359194141418f93d14cef830ff4f81",
+      "bytes": 15920,
+      "frames": 7938,
+      "duration_seconds": 0.18,
+      "seed": 2450577645,
+      "measurements": {
+        "sample_peak_dbfs": -11.00214,
+        "oversampled_peak_dbfs_4x": -10.99661,
+        "peak_measurement": "SciPy 4x polyphase oversampling; not an integrated LUFS target",
+        "rms_dbfs": -27.24028,
+        "dc_offset": -6.920085742630386e-08,
+        "onset_ms_at_minus60_relative": 0.181,
+        "trailing_ms_below_minus60_relative": 0.975
+      }
+    }
+  ],
+  "loop_start": null,
+  "loop_end": null,
+  "loop_start_frame_inclusive": null,
+  "loop_end_frame_exclusive": null,
+  "source": "tools/render_chapter_sfx.py",
+  "source_sha256": "d7c912f0627229fcbeb235df9ec9747a944a030c26dba144c972aba51b7e84ac",
+  "generation": "Original seeded Python physical-inspired, granular, modal, filtered-noise and formant synthesis; no recordings, extracted samples, cloned voices, words or speech API.",
+  "generation_or_recording_prompt": "Produce original audio for Dave's & Enemies, a smooth cartoon desert action adventure. Asset snd_skeleton_archer_move: Skeleton archer foot contact. Record a light dry bony toe tap in sand with a tiny leather quiver tick. One delicate contact with less weight than the warrior, no arrow release. Deliver 3 separate distinct takes, each 0.18 seconds long including decay. Keep variants matched in perceived loudness and function; vary performance and texture rather than large pitch changes. This is a single event, not a loop; do not add a second event or a montage. No intelligible words, dialogue sentences, music, background ambience or unrelated actions. Use original recordings or synthesis; do not sample reference games, copy recognizable character voices, or imitate a named performer. Export WAV, signed PCM 16-bit, 44.1 kHz, mono, peak no higher than -1 dBFS. Judge short sounds by peak and perceived loudness; do not force an integrated LUFS target. No leading dead air; preserve designed decay and 2-5 ms click-free edge envelopes.",
+  "variant_rms_range_db": 0.0001,
+  "playback_gain_baked_in": false,
+  "auditory_review": "Human listening review pending; objective validation passed.",
+  "game_integration": "Not imported; Claude owns playback, looping, mixing and event triggers."
+}

@@ -1,0 +1,423 @@
+{
+ "dave": [
+  {
+   "asset": "spr_dave_idle_down",
+   "source": "art/exports/dave/down_v001/spr_dave_idle_down",
+   "frames": 8,
+   "canvas": [
+    96,
+    96
+   ],
+   "origin": [
+    48,
+    88
+   ],
+   "fps": 10,
+   "ticks": null,
+   "step_frames": null,
+   "errors": [],
+   "delivery_status": "native_export_inspected_pending_Claude_engine_acceptance",
+   "verified_engine_ready_in_delivery": false
+  },
+  {
+   "asset": "spr_dave_walk_down",
+   "source": "art/exports/dave/down_v001/spr_dave_walk_down",
+   "frames": 10,
+   "canvas": [
+    96,
+    96
+   ],
+   "origin": [
+    48,
+    88
+   ],
+   "fps": 20,
+   "ticks": null,
+   "step_frames": null,
+   "errors": [],
+   "delivery_status": "native_export_inspected_pending_Claude_engine_acceptance",
+   "verified_engine_ready_in_delivery": false
+  },
+  {
+   "asset": "spr_dave_attack_down",
+   "source": "art/exports/dave/down_v001/spr_dave_attack_down",
+   "frames": 8,
+   "canvas": [
+    128,
+    128
+   ],
+   "origin": [
+    64,
+    112
+   ],
+   "fps": null,
+   "ticks": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4
+   ],
+   "step_frames": null,
+   "errors": [],
+   "delivery_status": "native_export_inspected_pending_Claude_engine_acceptance",
+   "verified_engine_ready_in_delivery": false
+  },
+  {
+   "asset": "spr_dave_walk_side",
+   "source": "art/exports/dave/cardinal_v001/spr_dave_walk_side",
+   "frames": 10,
+   "canvas": [
+    96,
+    96
+   ],
+   "origin": [
+    48,
+    88
+   ],
+   "fps": 20,
+   "ticks": null,
+   "step_frames": null,
+   "errors": [],
+   "delivery_status": "native_export_inspected_pending_Claude_engine_acceptance",
+   "verified_engine_ready_in_delivery": false
+  },
+  {
+   "asset": "spr_dave_attack_side",
+   "source": "art/exports/dave/cardinal_v001/spr_dave_attack_side",
+   "frames": 8,
+   "canvas": [
+    128,
+    128
+   ],
+   "origin": [
+    64,
+    112
+   ],
+   "fps": null,
+   "ticks": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4
+   ],
+   "step_frames": null,
+   "errors": [],
+   "delivery_status": "native_export_inspected_pending_Claude_engine_acceptance",
+   "verified_engine_ready_in_delivery": false
+  },
+  {
+   "asset": "spr_dave_walk_left",
+   "source": "art/exports/dave/cardinal_v001/spr_dave_walk_left",
+   "frames": 10,
+   "canvas": [
+    96,
+    96
+   ],
+   "origin": [
+    48,
+    88
+   ],
+   "fps": 20,
+   "ticks": null,
+   "step_frames": null,
+   "errors": [],
+   "delivery_status": "native_export_inspected_pending_Claude_engine_acceptance",
+   "verified_engine_ready_in_delivery": false
+  },
+  {
+   "asset": "spr_dave_attack_left",
+   "source": "art/exports/dave/cardinal_v001/spr_dave_attack_left",
+   "frames": 8,
+   "canvas": [
+    128,
+    128
+   ],
+   "origin": [
+    64,
+    112
+   ],
+   "fps": null,
+   "ticks": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4
+   ],
+   "step_frames": null,
+   "errors": [],
+   "delivery_status": "native_export_inspected_pending_Claude_engine_acceptance",
+   "verified_engine_ready_in_delivery": false
+  },
+  {
+   "asset": "spr_dave_walk_up",
+   "source": "art/exports/dave/cardinal_v001/spr_dave_walk_up",
+   "frames": 10,
+   "canvas": [
+    96,
+    96
+   ],
+   "origin": [
+    48,
+    88
+   ],
+   "fps": 20,
+   "ticks": null,
+   "step_frames": null,
+   "errors": [],
+   "delivery_status": "native_export_inspected_pending_Claude_engine_acceptance",
+   "verified_engine_ready_in_delivery": false
+  },
+  {
+   "asset": "spr_dave_attack_up",
+   "source": "art/exports/dave/cardinal_v001/spr_dave_attack_up",
+   "frames": 8,
+   "canvas": [
+    128,
+    128
+   ],
+   "origin": [
+    64,
+    112
+   ],
+   "fps": null,
+   "ticks": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4
+   ],
+   "step_frames": null,
+   "errors": [],
+   "delivery_status": "native_export_inspected_pending_Claude_engine_acceptance",
+   "verified_engine_ready_in_delivery": false
+  },
+  {
+   "asset": "spr_dave_base_down",
+   "source": "art/exports/dave/down_v001/dave_base_down_reference",
+   "frames": 1,
+   "canvas": [
+    96,
+    96
+   ],
+   "origin": [
+    48,
+    88
+   ],
+   "use": "idle fallback for this facing (reference base, not an animation)",
+   "errors": []
+  },
+  {
+   "asset": "spr_dave_base_side",
+   "source": "art/exports/dave/cardinal_v001/dave_base_side_reference",
+   "frames": 1,
+   "canvas": [
+    96,
+    96
+   ],
+   "origin": [
+    48,
+    88
+   ],
+   "use": "idle fallback for this facing (reference base, not an animation)",
+   "errors": []
+  },
+  {
+   "asset": "spr_dave_base_left",
+   "source": "art/exports/dave/cardinal_v001/dave_base_left_reference",
+   "frames": 1,
+   "canvas": [
+    96,
+    96
+   ],
+   "origin": [
+    48,
+    88
+   ],
+   "use": "idle fallback for this facing (reference base, not an animation)",
+   "errors": []
+  },
+  {
+   "asset": "spr_dave_base_up",
+   "source": "art/exports/dave/cardinal_v001/dave_base_up_reference",
+   "frames": 1,
+   "canvas": [
+    96,
+    96
+   ],
+   "origin": [
+    48,
+    88
+   ],
+   "use": "idle fallback for this facing (reference base, not an animation)",
+   "errors": []
+  }
+ ],
+ "ui": [
+  {
+   "asset": "spr_ui_panel",
+   "frames": 1,
+   "size": [
+    96,
+    96
+   ],
+   "errors": [],
+   "status": "supplied prototype frame kit (not production-final)"
+  },
+  {
+   "asset": "spr_ui_hp_frame",
+   "frames": 1,
+   "size": [
+    320,
+    32
+   ],
+   "errors": [],
+   "status": "supplied prototype frame kit (not production-final)"
+  },
+  {
+   "asset": "spr_ui_hp_fill",
+   "frames": 1,
+   "size": [
+    320,
+    32
+   ],
+   "errors": [],
+   "status": "supplied prototype frame kit (not production-final)"
+  },
+  {
+   "asset": "spr_ui_slot",
+   "frames": 1,
+   "size": [
+    72,
+    72
+   ],
+   "errors": [],
+   "status": "supplied prototype frame kit (not production-final)"
+  },
+  {
+   "asset": "spr_ui_slot_selected",
+   "frames": 1,
+   "size": [
+    72,
+    72
+   ],
+   "errors": [],
+   "status": "supplied prototype frame kit (not production-final)"
+  },
+  {
+   "asset": "spr_ui_button",
+   "frames": 3,
+   "size": [
+    64,
+    64
+   ],
+   "errors": [],
+   "status": "supplied prototype frame kit (not production-final)"
+  },
+  {
+   "asset": "spr_ui_save_card",
+   "frames": 3,
+   "size": [
+    760,
+    120
+   ],
+   "errors": [],
+   "status": "supplied prototype frame kit (not production-final)"
+  },
+  {
+   "asset": "spr_ui_save_card_empty",
+   "frames": 3,
+   "size": [
+    760,
+    120
+   ],
+   "errors": [],
+   "status": "supplied prototype frame kit (not production-final)"
+  }
+ ],
+ "fonts": [
+  {
+   "resource": "fnt_ui_meta",
+   "file": "docs/ui/fonts/NotoSans-Regular.ttf",
+   "pixel_em": 18,
+   "line_box": 24,
+   "cell_height": 26,
+   "ascent": 20,
+   "glyph_count": 102,
+   "method": "pre-rendered from supplied static TTF with FreeType at exact pixel em"
+  },
+  {
+   "resource": "fnt_ui_body",
+   "file": "docs/ui/fonts/NotoSans-Regular.ttf",
+   "pixel_em": 23,
+   "line_box": 30,
+   "cell_height": 32,
+   "ascent": 25,
+   "glyph_count": 102,
+   "method": "pre-rendered from supplied static TTF with FreeType at exact pixel em"
+  },
+  {
+   "resource": "fnt_ui_heading",
+   "file": "docs/ui/fonts/NotoSans-Bold.ttf",
+   "pixel_em": 28,
+   "line_box": 36,
+   "cell_height": 39,
+   "ascent": 30,
+   "glyph_count": 102,
+   "method": "pre-rendered from supplied static TTF with FreeType at exact pixel em"
+  },
+  {
+   "resource": "fnt_ui_dialogue",
+   "file": "docs/ui/fonts/NotoSans-Regular.ttf",
+   "pixel_em": 28,
+   "line_box": 36,
+   "cell_height": 39,
+   "ascent": 30,
+   "glyph_count": 102,
+   "method": "pre-rendered from supplied static TTF with FreeType at exact pixel em"
+  },
+  {
+   "resource": "fnt_ui_title",
+   "file": "docs/ui/fonts/NotoSans-Bold.ttf",
+   "pixel_em": 46,
+   "line_box": 58,
+   "cell_height": 64,
+   "ascent": 50,
+   "glyph_count": 102,
+   "method": "pre-rendered from supplied static TTF with FreeType at exact pixel em"
+  }
+ ],
+ "audio": {
+  "production_files": 213,
+  "passed": 213,
+  "stable_ids": 98,
+  "music": 6,
+  "sfx": 195,
+  "voice": 12,
+  "excluded": [
+   "audio/previews/*.wav (review reels)",
+   "audio/*.zip (convenience bundles)",
+   "audio/music/*.score.json",
+   "template sounds/*"
+  ],
+  "collision_renames": {
+   "snd_player_defeated": "snd_player_defeated_1"
+  },
+  "errors": []
+ }
+}
